@@ -1,0 +1,162 @@
+[
+  {
+    "module": "EinsteinOriginalCurvatureResponse",
+    "name": "original_curvature_general_response_has_unique_einstein_form",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\EinsteinOriginalCurvatureResponse.lean",
+    "sha256": "898c45edb24977642fc1efb74bea9f6f7761d15db8dcfed7d2fe4253172a9c91",
+    "line": 78,
+    "text": "theorem original_curvature_general_response_has_unique_einstein_form\n    (E : MetricFieldResponse) (natural : RegularLorentzResponseNatural E)\n    (locality : RegularLorentzTwoJetLocal E) (original : OriginalCurvatureFirstResponse E)\n    (symmetric : ∀ g p,C2LorentzMetricAt g p → ∀ i j,E g p i j=E g p j i)\n    (general_closure : GeneralNormalMetricResponseClosure E)\n    (active : FullLorentzEnvelopeResponseActive E) :\n    ∃! ac : ℝ × ℝ,ac.1≠0 ∧ CoordinateEinsteinResponseForm E ac.1 ac.2 :=\n  regular_general_envelope_unique_einstein_response E\n    (original_curvature_response_derives_regular_core E natural locality original symmetric)\n    general_closure active\n\n#print axioms original_smooth_normalized_is_c2\n#print axioms originalNormalizedCurvature\n#print axioms original_normalized_curvature_add\n#print axioms original_normalized_curvature_smul\n#print axioms OriginalCurvatureFirstResponse\n#print axioms original_curvature_first_response_derives_metric_affinity\n#print axioms original_curvature_response_derives_regular_core\n#print axioms original_curvature_general_response_has_unique_einstein_form\nend\nend AASCSemanticExhaustion"
+  },
+  {
+    "module": "OriginalEHGeometricNaturality",
+    "name": "eh_original_geometric_response_regular_natural",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\e30-original-lorentz-domain-20261018\\OriginalEHGeometricNaturality.lean",
+    "sha256": "c1f7d8973c59f56688a61f1bf82471709fe49a8f21f3a273c8b8ca39e17e5f9d",
+    "line": 49,
+    "text": "theorem eh_original_geometric_response_regular_natural (κ Λ : ℝ) (hk : κ ≠ 0) :\n    RegularLorentzResponseNatural (originalEHGeometricResponse κ Λ) := by\n  intro F p B regularF derivative g domain\n  obtain ⟨D,frame⟩ := domain.2.2\n  exact eh_original_geometric_tensor_natural κ Λ hk g domain.1 F p domain.2.1\n    (native_lorentz_frame_determinant_negative g (F p) D frame)\n    (regularF.of_le (by norm_num)) B derivative"
+  },
+  {
+    "module": "OriginalEHGeometricNaturality",
+    "name": "eh_original_geometric_response_twojet_local",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\e30-original-lorentz-domain-20261018\\OriginalEHGeometricNaturality.lean",
+    "sha256": "c1f7d8973c59f56688a61f1bf82471709fe49a8f21f3a273c8b8ca39e17e5f9d",
+    "line": 57,
+    "text": "theorem eh_original_geometric_response_twojet_local (κ Λ : ℝ) (hk : κ ≠ 0) :\n    RegularLorentzTwoJetLocal (originalEHGeometricResponse κ Λ) := by\n  intro g h p dg dh equal\n  obtain ⟨B,frameG⟩ := dg.2.2\n  obtain ⟨D,frameH⟩ := dh.2.2\n  have ng := native_lorentz_frame_determinant_negative g p B frameG\n  have nh := native_lorentz_frame_determinant_negative h p D frameH\n  have curv := c2_general_curvature_twojet_congr g h p dg.1 dh.1 dg.2.1 dh.2.1\n    (ne_of_lt ng) (ne_of_lt nh) equal\n  have ricci : coordinateRicci g p = coordinateRicci h p := by\n    unfold coordinateRicci\n    rw [equal.1,curv]\n  rw [eh_original_geometric_tensor_identified κ Λ hk g p ng,\n    eh_original_geometric_tensor_identified κ Λ hk h p nh]\n  simp only [coordinateScalarCurvature,equal.1,ricci]"
+  },
+  {
+    "module": "OriginalEHGeometricNaturality",
+    "name": "eh_original_geometric_response_symmetric",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\e30-original-lorentz-domain-20261018\\OriginalEHGeometricNaturality.lean",
+    "sha256": "c1f7d8973c59f56688a61f1bf82471709fe49a8f21f3a273c8b8ca39e17e5f9d",
+    "line": 73,
+    "text": "theorem eh_original_geometric_response_symmetric (κ Λ : ℝ) (hk : κ ≠ 0)\n    (g : MetricField) (p : CoordinatePoint) (domain : C2LorentzMetricAt g p) :\n    ∀ a b, originalEHGeometricResponse κ Λ g p a b = originalEHGeometricResponse κ Λ g p b a := by\n  obtain ⟨B,frame⟩ := domain.2.2\n  rw [eh_original_geometric_tensor_identified κ Λ hk g p\n    (native_lorentz_frame_determinant_negative g p B frame)]\n  intro a b\n  change -(1/κ) * (_ - _ * g p a b + Λ * g p a b) =\n    -(1/κ) * (_ - _ * g p b a + Λ * g p b a)\n  rw [coordinate_ricci_symmetric_on_regular_lorentz g p domain a b,domain.1 p a b]\n\nend\nend AASCSemanticExhaustion"
+  },
+  {
+    "module": "OriginalEHGeometricCore",
+    "name": "eh_original_geometric_curvature_first_response",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\e30-original-lorentz-domain-20261018\\OriginalEHGeometricCore.lean",
+    "sha256": "98702973a489b24877b9b97846a7d0ecdb1c22c173ba1d3d53cac8e22ee1d78e",
+    "line": 26,
+    "text": "theorem eh_original_geometric_curvature_first_response (κ Λ : ℝ) (hk : κ ≠ 0) :\n    OriginalCurvatureFirstResponse (originalEHGeometricResponse κ Λ) := by\n  have normal (g : MetricField) (hg : NormalizedSmoothMetricGerm g) :\n      originalEHGeometricResponse κ Λ g 0 =\n        -(1/κ) • actualEinsteinResponse g 0 + (-(1/κ)*Λ) • metric := by\n    rw [eh_original_geometric_tensor_as_actual κ Λ hk g 0\n      (eh_normalized_metric_determinant_negative g (original_smooth_normalized_is_c2 g hg)),hg.2.2.1]\n  have flatGerm : NormalizedSmoothMetricGerm flatMetricField := by\n    rw [← hessianMetricPolynomial_flat]\n    exact hessianMetricPolynomial_normalized 0\n  have flat : originalEHGeometricResponse κ Λ flatMetricField 0 = (-(1/κ)*Λ) • metric := by\n    rw [normal flatMetricField flatGerm,actual_einstein_flat_baseline_zero,smul_zero,zero_add]\n  constructor\n  · intro g h k hg hh hkg curvature\n    rw [normal k hkg,normal g hg,normal h hh,flat,\n      actual_einstein_original_curvature_first_response.1 g h k hg hh hkg curvature,\n      actual_einstein_flat_baseline_zero]\n    module\n  · intro r g k hg hkg curvature\n    rw [normal k hkg,normal g hg,flat,\n      actual_einstein_original_curvature_first_response.2 r g k hg hkg curvature,\n      actual_einstein_flat_baseline_zero]\n    module"
+  },
+  {
+    "module": "OriginalEHGeometricCore",
+    "name": "eh_original_geometric_general_closure",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\e30-original-lorentz-domain-20261018\\OriginalEHGeometricCore.lean",
+    "sha256": "98702973a489b24877b9b97846a7d0ecdb1c22c173ba1d3d53cac8e22ee1d78e",
+    "line": 58,
+    "text": "theorem eh_original_geometric_general_closure (κ Λ : ℝ) (hk : κ ≠ 0) :\n    GeneralNormalMetricResponseClosure (originalEHGeometricResponse κ Λ) := by\n  intro g germ\n  have cg : ContinuousAt g 0 := continuousAt_pi.mpr (fun a => continuousAt_pi.mpr\n    (fun b => (germ.2.1 a b).continuousAt))\n  have near : ∀ᶠ p in 𝓝 0, (g p).det < 0 :=\n    (((continuous_id : Continuous (fun M : Tensor2 => M)).matrix_det).continuousAt.comp cg).eventually\n      (eventually_lt_nhds (eh_normalized_metric_determinant_negative g (c3_normalized_metric_c2 g germ)))\n  have equal : originalEHGeometricResponse κ Λ g =ᶠ[𝓝 0]\n      -(1/κ) • actualEinsteinResponse g + (-(1/κ)*Λ) • g := by\n    filter_upwards [near] with p hp\n    exact eh_original_geometric_tensor_as_actual κ Λ hk g p hp\n  rw [coordinate_divergence_germ_congruence g _ _ equal]\n  change coordinateDivergenceLinear g\n    (-(1/κ) • (ricciTensorGerm g germ - (1/2:ℝ) • scalarMetricTensorGerm g germ) +\n      (-(1/κ)*Λ) • metricTensorGerm g germ) = 0\n  rw [map_add,map_smul,map_sub,map_smul,map_smul,c3_normal_divergence_ricci_germ,\n    c3_normal_divergence_scalar_metric_germ,c3_normal_divergence_metric_germ]\n  module"
+  },
+  {
+    "module": "OriginalEHGeometricCore",
+    "name": "eh_original_geometric_full_envelope_active",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\e30-original-lorentz-domain-20261018\\OriginalEHGeometricCore.lean",
+    "sha256": "98702973a489b24877b9b97846a7d0ecdb1c22c173ba1d3d53cac8e22ee1d78e",
+    "line": 78,
+    "text": "theorem eh_original_geometric_full_envelope_active (κ Λ : ℝ) (hk : κ ≠ 0) :\n    FullLorentzEnvelopeResponseActive (originalEHGeometricResponse κ Λ) := by\n  rintro ⟨c,pure⟩\n  apply actual_einstein_full_envelope_active\n  refine ⟨-κ*c-Λ,?_⟩\n  intro g p B sg hg frame\n  have h := pure g p B sg hg frame\n  rw [eh_original_geometric_tensor_as_actual κ Λ hk g p\n    (native_lorentz_frame_determinant_negative g p B frame)] at h\n  ext i j\n  have component := congrArg (fun M : Tensor2 => M i j) h\n  change -(1/κ) * actualEinsteinResponse g p i j + (-(1/κ)*Λ) * g p i j = c * g p i j at component\n  change actualEinsteinResponse g p i j = (-κ*c-Λ) * g p i j\n  field_simp [hk] at component\n  nlinarith"
+  },
+  {
+    "module": "OriginalEHGeometricCore",
+    "name": "eh_original_geometric_response_unique_coefficients",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\e30-original-lorentz-domain-20261018\\OriginalEHGeometricCore.lean",
+    "sha256": "98702973a489b24877b9b97846a7d0ecdb1c22c173ba1d3d53cac8e22ee1d78e",
+    "line": 94,
+    "text": "theorem eh_original_geometric_response_unique_coefficients (κ Λ : ℝ) (hk : κ ≠ 0) :\n    ∃! ac : ℝ × ℝ, ac.1 ≠ 0 ∧ CoordinateEinsteinResponseForm (originalEHGeometricResponse κ Λ) ac.1 ac.2 :=\n  regular_general_envelope_unique_einstein_response _\n    (eh_original_geometric_response_regular_core κ Λ hk)\n    (eh_original_geometric_general_closure κ Λ hk)\n    (eh_original_geometric_full_envelope_active κ Λ hk)"
+  },
+  {
+    "module": "OriginalEHPreparedAttachment",
+    "name": "original_eh_prepared_first_variation",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\original-prepared-eh-attachment-20261018\\OriginalEHPreparedAttachment.lean",
+    "sha256": "d3c4ff538301fb1a18c165a56e758d4a3a468ab1ec3d47e2cb7e53d841f6f6af",
+    "line": 119,
+    "text": "theorem original_eh_prepared_first_variation (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (x : OriginalEHPreparedUse s Ω A) :\n    EHOriginalFirstVariationProperty κ Λ (originalEHPreparedMetric s Ω A x)\n      (originalEHPreparedFirstVariation s Ω A κ Λ coupling x) :=\n  eh_original_first_variation_hasDerivAt κ Λ coupling _ _ _ _"
+  },
+  {
+    "module": "OriginalEHPreparedAttachment",
+    "name": "original_eh_prepared_euler_half_pairing",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\original-prepared-eh-attachment-20261018\\OriginalEHPreparedAttachment.lean",
+    "sha256": "d3c4ff538301fb1a18c165a56e758d4a3a468ab1ec3d47e2cb7e53d841f6f6af",
+    "line": 125,
+    "text": "theorem original_eh_prepared_euler_half_pairing (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (x : OriginalEHPreparedUse s Ω A) (K : MetricSourceProbe Ω) :\n    (1/2:ℝ) * metricSourcePairing (originalEHPreparedEulerSource s Ω A κ Λ coupling x) K =\n      originalEHPreparedFirstVariation s Ω A κ Λ coupling x K :=\n  constructed_metric_source_represents _ K"
+  },
+  {
+    "module": "OriginalEHPreparedAttachment",
+    "name": "original_eh_prepared_euler_same_metric_density",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\original-prepared-eh-attachment-20261018\\OriginalEHPreparedAttachment.lean",
+    "sha256": "d3c4ff538301fb1a18c165a56e758d4a3a468ab1ec3d47e2cb7e53d841f6f6af",
+    "line": 131,
+    "text": "theorem original_eh_prepared_euler_same_metric_density (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (x : OriginalEHPreparedUse s Ω A) (i : Fin 10) (φ : ScalarSourceProbe Ω) :\n    originalEHPreparedEulerSource s Ω A κ Λ coupling x i φ =\n      ∫ p, sourceDensityCoordinates\n        (raisedSourceTensorDensity (originalEHPreparedMetric s Ω A x)\n          (originalEHGeometricResponse κ Λ (originalEHPreparedMetric s Ω A x))) i p * φ p :=\n  eh_original_geometric_tensor_represents_action_source κ Λ coupling _ _ _ _ i φ\n\nend\nend AASCKleinGordon"
+  },
+  {
+    "module": "OriginalEHOriginalActVariation",
+    "name": "original_eh_actual_act_curve_admitted",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\original-prepared-eh-attachment-20261018\\OriginalEHOriginalActVariation.lean",
+    "sha256": "387d9f3e3ba055c42f1304daf4ab59070b7c471ab9cffb8bc24bf0b3f020ac11",
+    "line": 26,
+    "text": "theorem original_eh_actual_act_curve_admitted (H : MetricSourceProbe Ω)\n    (inside : H ∈ wickOriginalMetricNeighborhood Ω) (K : MetricSourceProbe Ω) :\n    ∀ᶠ t : ℝ in 𝓝 0, H+t•K ∈ wickOriginalMetricNeighborhood Ω := by\n  have continuousCurve : Continuous (fun t : ℝ => H+t•K) :=\n    continuous_const.add (continuous_id.smul continuous_const)\n  have atZero : H+(0:ℝ)•K ∈ wickOriginalMetricNeighborhood Ω := by simpa using inside\n  exact continuousCurve.continuousAt ((wick_original_metric_neighborhood_open Ω).mem_nhds atZero)"
+  },
+  {
+    "module": "OriginalEHOriginalActVariation",
+    "name": "original_eh_actual_act_hasDerivAt",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\original-prepared-eh-attachment-20261018\\OriginalEHOriginalActVariation.lean",
+    "sha256": "387d9f3e3ba055c42f1304daf4ab59070b7c471ab9cffb8bc24bf0b3f020ac11",
+    "line": 56,
+    "text": "theorem original_eh_actual_act_hasDerivAt (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (H : MetricSourceProbe Ω) (inside : H ∈ wickOriginalMetricNeighborhood Ω)\n    (K : MetricSourceProbe Ω) :\n    HasDerivAt (fun t : ℝ => originalEHRelativeAction κ Λ wickNativeFlatMetric (H+t•K))\n      ((originalEHFirstVariation κ Λ coupling (originalEHActMetric H)\n        (original_eh_act_metric_symmetric H) (original_eh_act_metric_smooth H)\n        (fun p _ => original_eh_act_metric_negative H inside p)) K) 0 := by\n  have variation := eh_original_first_variation_hasDerivAt κ Λ coupling (originalEHActMetric H)\n    (original_eh_act_metric_symmetric H) (original_eh_act_metric_smooth H)\n    (fun p (_ : p ∈ Ω) => original_eh_act_metric_negative H inside p) K\n  apply (variation.add_const (originalEHRelativeAction κ Λ wickNativeFlatMetric H)).congr_of_eventuallyEq\n  filter_upwards [original_eh_actual_act_curve_admitted H inside K] with t ht\n  rw [original_eh_action_cocycle κ Λ coupling H (t•K) inside ht]\n  ring\n\nvariable {a : Parameters} (s : ℝ) (Ω : Opens CoordinatePoint) (A : KGFamilyObject a)"
+  },
+  {
+    "module": "OriginalEHOriginalActVariation",
+    "name": "original_eh_prepared_actual_readout_derivative",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\original-prepared-eh-attachment-20261018\\OriginalEHOriginalActVariation.lean",
+    "sha256": "387d9f3e3ba055c42f1304daf4ab59070b7c471ab9cffb8bc24bf0b3f020ac11",
+    "line": 104,
+    "text": "theorem original_eh_prepared_actual_readout_derivative (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (x : OriginalEHPreparedUse s Ω A) (K : MetricSourceProbe Ω) :\n    HasDerivAt (fun t : ℝ => originalEHRelativeAction κ Λ wickNativeFlatMetric\n      ((originalEHPreparedAct s Ω A x).val+t•K))\n      ((1/2:ℝ)*metricSourcePairing (originalEHPreparedEulerSource s Ω A κ Λ coupling x) K) 0 := by\n  rw [original_eh_prepared_euler_half_pairing]\n  exact original_eh_actual_act_hasDerivAt κ Λ coupling _ (originalEHPreparedAct s Ω A x).property K"
+  },
+  {
+    "module": "OriginalRestrictedResponseDescent",
+    "name": "restricted_original_response_comparison_exact",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\original-restricted-source-comparison-20261018\\OriginalRestrictedResponseDescent.lean",
+    "sha256": "7437335507a912e9fad29e5fa03ad006438dbe6e6d571d4ad35141ccf1bc8874",
+    "line": 65,
+    "text": "theorem restricted_original_response_comparison_exact (h k : RestrictedRawHistory a Ω) :\n    RestrictedRawProgramSame a s Ω h k ↔\n      restrictedRawHistoryReceive a s Ω h = restrictedRawHistoryReceive a s Ω k := by\n  have left := restricted_raw_history_run_matches a s Ω h\n  have right := restricted_raw_history_run_matches a s Ω k\n  unfold RestrictedRawProgramSame\n  rw [restricted_raw_state_comparison_exact]\n  rw [left.1, right.1, left.2.1, right.2.1, left.2.2, right.2.2]\n  exact (prepared_history_receive_eq_iff a s Ω _ _).symm"
+  },
+  {
+    "module": "OriginalRestrictedResponseDescent",
+    "name": "restricted_original_response_receive_bijective",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\original-restricted-source-comparison-20261018\\OriginalRestrictedResponseDescent.lean",
+    "sha256": "7437335507a912e9fad29e5fa03ad006438dbe6e6d571d4ad35141ccf1bc8874",
+    "line": 180,
+    "text": "theorem restricted_original_response_receive_bijective :\n    Function.Bijective (restrictedOriginalResponseReceive a s Ω) := by\n  constructor\n  · intro x y same\n    induction x using Quotient.inductionOn with\n    | _ h =>\n      induction y using Quotient.inductionOn with\n      | _ k =>\n        exact Quotient.sound ((restricted_original_response_comparison_exact a s Ω h k).mpr same)\n  · intro q\n    obtain ⟨h, same⟩ := restricted_raw_history_receive_surjective a s Ω q\n    exact ⟨Quotient.mk _ h, same⟩"
+  },
+  {
+    "module": "OriginalRestrictedResponseDescent",
+    "name": "restricted_original_response_continuation_square",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\original-restricted-source-comparison-20261018\\OriginalRestrictedResponseDescent.lean",
+    "sha256": "7437335507a912e9fad29e5fa03ad006438dbe6e6d571d4ad35141ccf1bc8874",
+    "line": 198,
+    "text": "theorem restricted_original_response_continuation_square (ops : List (PreparedHistoryOperation a Ω))\n    (q : RestrictedOriginalResponse a s Ω) :\n    restrictedOriginalResponseReceive a s Ω (restrictedOriginalResponseContinue a s Ω ops q) =\n      preparedHistoryContinue a s Ω ops (restrictedOriginalResponseReceive a s Ω q) := by\n  induction q using Quotient.inductionOn with\n  | _ h => rfl\n\nend\nend AASCKleinGordon"
+  },
+  {
+    "module": "KGOriginalCorePoissonAttachment",
+    "name": "kg_original_core_poisson_extensions_descend",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\kg-common-joint-aer-20261018\\KGOriginalCorePoissonAttachment.lean",
+    "sha256": "e1de9966a8a92fb60a2498ebab72a323ded6c483f0287e5e5513e725df87c830",
+    "line": 180,
+    "text": "theorem kg_original_core_poisson_extensions_descend (a : Parameters)\n    (u : fockCoreDomain a) (hu : ‖u‖=1) (ℓ η : KGAERRepresentableCovector u)\n    (F F' : KGAERRepresentableExtension u hu ℓ.functional)\n    (G G' : KGAERRepresentableExtension u hu η.functional) :\n    KGAERRepresentableAmbientBracket u hu ℓ.functional η.functional F G=\n        KGAERRepresentableBracket u ℓ η ∧\n      KGAERRepresentableAmbientBracket u hu ℓ.functional η.functional F' G'=\n        KGAERRepresentableBracket u ℓ η :=\n  ⟨KGAERRepresentable_bracket_value u hu ℓ η F G,\n    KGAERRepresentable_bracket_value u hu ℓ η F' G'⟩"
+  },
+  {
+    "module": "KGNRFreeReceivingAssembly",
+    "name": "kg_nr_free_receiving_ssq1",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\separate-projections-nr-ssq1-20261018\\KGNRFreeReceivingAssembly.lean",
+    "sha256": "d9a71147bf539e2622476ba80059f3c94829ead7a320a8e8eb608638239ae489",
+    "line": 15,
+    "text": "theorem kg_nr_free_receiving_ssq1\n    (a : Parameters) (s : ℝ) (Ω : Opens CoordinatePoint) :\n    KGNRReceivingQS a s Ω ∧\n    SameScopeQuantumSpatial1 a\n      (kgNRSpatialKinetic a)\n      (0 : KGSpatialSpace → ℝ) :=\n  ⟨kg_nr_receiving_qs_constructed a s Ω,kg_nr_free_ssq1 a⟩"
+  },
+  {
+    "module": "KGNRFreeReceivingAssembly",
+    "name": "kg_nr_free_receiving_exact_graph",
+    "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\separate-projections-nr-ssq1-20261018\\KGNRFreeReceivingAssembly.lean",
+    "sha256": "d9a71147bf539e2622476ba80059f3c94829ead7a320a8e8eb608638239ae489",
+    "line": 23,
+    "text": "theorem kg_nr_free_receiving_exact_graph (a : Parameters) :\n    GlobalCharge.ExactGenerator (Translation.coefficient a.hbar)\n      (kgNRSpatialFreeFlow a) (kgNRSpatialKinetic a) ∧\n    (∀ f g : KGNRSpatialHilbert,(f,g) ∈ (kgNRSpatialKinetic a).graph ↔\n      ∀ test : 𝓢(KGSpatialSpace,ℂ),\n        (g : KGSpatialDistribution) test =\n          (f : KGSpatialDistribution) (kgNRSpatialTestResponse a test)) ∧\n    (∀ f : KGNRSpatialHilbert,f ∈ (kgNRPotentialOperator (0 : KGSpatialSpace → ℝ)).domain) ∧\n    (kgNRPrincipalCoefficient a = -(a.hbar^2/(2*a.mass)) ∧ kgNRPrincipalCoefficient a < 0) :=\n  ⟨kg_nr_spatial_exact_generator a,kg_nr_spatial_kinetic_test_graph a,\n    kg_nr_zero_potential_domain, rfl,kg_nr_principal_coefficient_negative a⟩\n\nend AASCKleinGordon"
+  }
+]

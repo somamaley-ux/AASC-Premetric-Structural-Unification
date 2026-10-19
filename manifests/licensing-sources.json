@@ -1,0 +1,634 @@
+[
+  {
+    "module": "AMetricMetricUseRestrictions",
+    "path": "licensing/src/AMetricMetricUseRestrictions.lean",
+    "sha256": "165bd92b5b8941aa5e0007df0a9414abdf3a9cb741d2e55f69025f7b5f3ec230",
+    "bytes": 8794,
+    "imports": [
+      "KernelReference.ObjecthoodNecessity",
+      "KernelReference.DependentConservation",
+      "KernelReference.EqualityPatterns",
+      "Mathlib.GroupTheory.GroupAction.Defs",
+      "Mathlib.Tactic"
+    ]
+  },
+  {
+    "module": "KernelReference.ObjecthoodNecessity",
+    "path": "licensing/src/KernelReference/ObjecthoodNecessity.lean",
+    "sha256": "a04b7d6532a708c9419156b46dc5a3f612b47ca58e062af267f34747a7ba6ceb",
+    "bytes": 8040,
+    "imports": [
+      "KernelReference.IncidenceNecessity",
+      "KernelReference.NecessityRealization",
+      "KernelReference.Authorization"
+    ]
+  },
+  {
+    "module": "KernelReference.IncidenceNecessity",
+    "path": "licensing/src/KernelReference/IncidenceNecessity.lean",
+    "sha256": "818be60bbc395d1d3f62814692978b01a6afaf427a60a2c03b95b11bd5fb7d00",
+    "bytes": 16634,
+    "imports": [
+      "KernelReference.Foundation",
+      "Mathlib.Logic.ExistsUnique"
+    ]
+  },
+  {
+    "module": "KernelReference.Foundation",
+    "path": "licensing/src/KernelReference/Foundation.lean",
+    "sha256": "9dd56f579176f0b5f53cc09f9194bfb5bea73989ba740c1d94fe8b853df62571",
+    "bytes": 18355,
+    "imports": [
+      "AASC.Core.DeterminateObjecthood",
+      "AASC.Instances.KernelPaper.Manuscript"
+    ]
+  },
+  {
+    "module": "AASC.Core.DeterminateObjecthood",
+    "path": "licensing/src/AASC/Core/DeterminateObjecthood.lean",
+    "sha256": "1fcb4c97cfa807514a4e5b2046d16cdbae972c7162eff438c872ee503c238468",
+    "bytes": 7519,
+    "imports": [
+      "AASC.Core.EndpointUse",
+      "AASC.Core.Irreversibility"
+    ]
+  },
+  {
+    "module": "AASC.Core.EndpointUse",
+    "path": "licensing/src/AASC/Core/EndpointUse.lean",
+    "sha256": "eadb58f7af89e621445f15513c82670326267ce3f3de8e5915ad1bb6720339c9",
+    "bytes": 7264,
+    "imports": [
+      "AASC.Core.Continuation",
+      "AASC.Core.KernelNecessity"
+    ]
+  },
+  {
+    "module": "AASC.Core.Continuation",
+    "path": "licensing/src/AASC/Core/Continuation.lean",
+    "sha256": "ffe6f87ac0da859258ec14b6dc18b2b5bc9e3202bce19d58a72548bbfa7dc683",
+    "bytes": 5164,
+    "imports": [
+      "AASC.Core.Standing"
+    ]
+  },
+  {
+    "module": "AASC.Core.Standing",
+    "path": "licensing/src/AASC/Core/Standing.lean",
+    "sha256": "43826cfeb5a2f89edcc293eb1381668f81abd12bda6058d8af0871d446773a66",
+    "bytes": 2069,
+    "imports": [
+      "AASC.Core.Reference"
+    ]
+  },
+  {
+    "module": "AASC.Core.Reference",
+    "path": "licensing/src/AASC/Core/Reference.lean",
+    "sha256": "c355992cc3d6f1bf8b2775a337b5a76191d0592e7146183de3021612fe6e8b82",
+    "bytes": 4272,
+    "imports": [
+      "AASC.Core.Kernel"
+    ]
+  },
+  {
+    "module": "AASC.Core.Kernel",
+    "path": "licensing/src/AASC/Core/Kernel.lean",
+    "sha256": "bcb518e7ba58658dbc708740094dd47b8e4fe72efaa825d1853c3d593d780d45",
+    "bytes": 3135,
+    "imports": [
+      "AASC.Core.Incidence"
+    ]
+  },
+  {
+    "module": "AASC.Core.Incidence",
+    "path": "licensing/src/AASC/Core/Incidence.lean",
+    "sha256": "5941adead9a0e7cd9c3d9e8361e166c887fdf0ad65cdaadb8206674a2c498ea7",
+    "bytes": 1614,
+    "imports": []
+  },
+  {
+    "module": "AASC.Core.KernelNecessity",
+    "path": "licensing/src/AASC/Core/KernelNecessity.lean",
+    "sha256": "b0296353e2e91a31a150345adafb7449c015e19626589aea4fbc25795eefe86d",
+    "bytes": 3271,
+    "imports": [
+      "AASC.Core.Reference"
+    ]
+  },
+  {
+    "module": "AASC.Core.Irreversibility",
+    "path": "licensing/src/AASC/Core/Irreversibility.lean",
+    "sha256": "3779c22be2d5f8c3445b27a2fa94347a6d4d55906c651e2be64d55b8544c78fa",
+    "bytes": 1085,
+    "imports": [
+      "AASC.Core.SameScope"
+    ]
+  },
+  {
+    "module": "AASC.Core.SameScope",
+    "path": "licensing/src/AASC/Core/SameScope.lean",
+    "sha256": "4affafe11a77ef8643f2434e1589098c5a04dd851b651aba1c3745784e31cfec",
+    "bytes": 2921,
+    "imports": [
+      "AASC.Core.Continuation"
+    ]
+  },
+  {
+    "module": "AASC.Instances.KernelPaper.Manuscript",
+    "path": "licensing/src/AASC/Instances/KernelPaper/Manuscript.lean",
+    "sha256": "fad657fba7f537d38d1a5700e277b2372c4494723029f9954faa4bb9e5de6d89",
+    "bytes": 25775,
+    "imports": [
+      "AASC.Core.TargetAdequacy",
+      "AASC.Core.BoundaryClosure",
+      "AASC.Core.SameDomainRoutes",
+      "AASC.Core.ExhaustionStrength",
+      "AASC.Core.AmetricIdentityBoundary",
+      "AASC.Instances.KernelPaper.Witness",
+      "AASC.Instances.KernelPaper.RoleOccupancyClosure"
+    ]
+  },
+  {
+    "module": "AASC.Core.TargetAdequacy",
+    "path": "licensing/src/AASC/Core/TargetAdequacy.lean",
+    "sha256": "a60c74e45394ebcbdfbf6b157da689af9c5778739676dce213282b23908e2c48",
+    "bytes": 11987,
+    "imports": [
+      "AASC.Core.DeterminateObjecthood"
+    ]
+  },
+  {
+    "module": "AASC.Core.BoundaryClosure",
+    "path": "licensing/src/AASC/Core/BoundaryClosure.lean",
+    "sha256": "72ea11a8a3ced5fa26e50a29cb8c565d91509efd8b503b4b92b1b9a5e78fbd96",
+    "bytes": 14155,
+    "imports": []
+  },
+  {
+    "module": "AASC.Core.SameDomainRoutes",
+    "path": "licensing/src/AASC/Core/SameDomainRoutes.lean",
+    "sha256": "60c6c72e9a526360bf28acc1560243c774f5fc6dbf9f2dce1ae9f3730def6244",
+    "bytes": 2260,
+    "imports": [
+      "AASC.Core.BoundaryClosure"
+    ]
+  },
+  {
+    "module": "AASC.Core.ExhaustionStrength",
+    "path": "licensing/src/AASC/Core/ExhaustionStrength.lean",
+    "sha256": "4fc54ecf7313b1f5e75a36187bd1e0d6d87b188a27340737a4af1bf4d99c8ca0",
+    "bytes": 2123,
+    "imports": [
+      "AASC.Core.SameDomainRoutes"
+    ]
+  },
+  {
+    "module": "AASC.Core.AmetricIdentityBoundary",
+    "path": "licensing/src/AASC/Core/AmetricIdentityBoundary.lean",
+    "sha256": "95a83b9b9cee824fde45160422e239c8f8623b42ba3660146cd4502722019270",
+    "bytes": 2467,
+    "imports": [
+      "AASC.Core.DeterminateObjecthood"
+    ]
+  },
+  {
+    "module": "AASC.Instances.KernelPaper.Witness",
+    "path": "licensing/src/AASC/Instances/KernelPaper/Witness.lean",
+    "sha256": "097e25b6d335f36e350c7fedc47311d769359a66c91bfb8b3c9029679e59693e",
+    "bytes": 6789,
+    "imports": [
+      "AASC.Instances.KernelPaper.Endpoint",
+      "AASC.Instances.KernelPaper.CurrentLocus"
+    ]
+  },
+  {
+    "module": "AASC.Instances.KernelPaper.Endpoint",
+    "path": "licensing/src/AASC/Instances/KernelPaper/Endpoint.lean",
+    "sha256": "4f3528375208cb762ccccc46860f0da1129f92d5139c8e86316ed58d01e61413",
+    "bytes": 3120,
+    "imports": [
+      "AASC.Instances.KernelPaper.Interaction"
+    ]
+  },
+  {
+    "module": "AASC.Instances.KernelPaper.Interaction",
+    "path": "licensing/src/AASC/Instances/KernelPaper/Interaction.lean",
+    "sha256": "a9a84c26d44466d59589495d3877f612901cbc8a027f5bad5c94ce049ff112a4",
+    "bytes": 10495,
+    "imports": [
+      "AASC.Core.Exhaustion",
+      "AASC.Core.SameScope",
+      "AASC.Instances.KernelPaper.Model"
+    ]
+  },
+  {
+    "module": "AASC.Core.Exhaustion",
+    "path": "licensing/src/AASC/Core/Exhaustion.lean",
+    "sha256": "75786024847af3b664b09336d3698439fdd2a93e655e947c4d04101b7f57fab3",
+    "bytes": 1362,
+    "imports": []
+  },
+  {
+    "module": "AASC.Instances.KernelPaper.Model",
+    "path": "licensing/src/AASC/Instances/KernelPaper/Model.lean",
+    "sha256": "9b651dd199e8636a04b5cff011406a83d900d659e1fa34aed06a0f98bdc3f8d1",
+    "bytes": 5132,
+    "imports": [
+      "AASC.Core.Continuation",
+      "AASC.Core.KernelNecessity"
+    ]
+  },
+  {
+    "module": "AASC.Instances.KernelPaper.CurrentLocus",
+    "path": "licensing/src/AASC/Instances/KernelPaper/CurrentLocus.lean",
+    "sha256": "b234caffe8b95541829cdb5c262e71785774866ae61381a9890ade7deff73ece",
+    "bytes": 4606,
+    "imports": [
+      "AASC.Instances.KernelPaper.Interaction"
+    ]
+  },
+  {
+    "module": "AASC.Instances.KernelPaper.RoleOccupancyClosure",
+    "path": "licensing/src/AASC/Instances/KernelPaper/RoleOccupancyClosure.lean",
+    "sha256": "c1e04d7f06e8bd09f699f7075a820f68582711feb504d61a2684ad2eacfefc79",
+    "bytes": 4589,
+    "imports": [
+      "AASC.Core.RoleOccupancyGeneration",
+      "AASC.Instances.KernelPaper.FixedRoleWitness"
+    ]
+  },
+  {
+    "module": "AASC.Core.RoleOccupancyGeneration",
+    "path": "licensing/src/AASC/Core/RoleOccupancyGeneration.lean",
+    "sha256": "33ed4ac9756b33dd4a7efec9339b01a262b1855a63c8ec59a9659137bcb74551",
+    "bytes": 8452,
+    "imports": [
+      "AASC.Core.RoleOccupancyAction"
+    ]
+  },
+  {
+    "module": "AASC.Core.RoleOccupancyAction",
+    "path": "licensing/src/AASC/Core/RoleOccupancyAction.lean",
+    "sha256": "4b879ea43742efcf31bb3d72a2c6caa4cae7f31166f92cedd41a26ba56730fb9",
+    "bytes": 13811,
+    "imports": [
+      "AASC.Core.RoleOccupancy"
+    ]
+  },
+  {
+    "module": "AASC.Core.RoleOccupancy",
+    "path": "licensing/src/AASC/Core/RoleOccupancy.lean",
+    "sha256": "ab50e00eaffd977d753af239fc3340c63626b20539bc5ee1898c99ade0922e21",
+    "bytes": 6026,
+    "imports": [
+      "AASC.Core.ConstraintClosure"
+    ]
+  },
+  {
+    "module": "AASC.Core.ConstraintClosure",
+    "path": "licensing/src/AASC/Core/ConstraintClosure.lean",
+    "sha256": "98ae02b9c573558512ee2f3f685de7d7bc8456f7cd3c6969ee1b5ea1a5e676c7",
+    "bytes": 10460,
+    "imports": [
+      "AASC.Core.ConstraintResidue"
+    ]
+  },
+  {
+    "module": "AASC.Core.ConstraintResidue",
+    "path": "licensing/src/AASC/Core/ConstraintResidue.lean",
+    "sha256": "44f53e95cb7accf849aa6f489c88d19cbbdadbdde1461d2d8fbd706e60467992",
+    "bytes": 2685,
+    "imports": []
+  },
+  {
+    "module": "AASC.Instances.KernelPaper.FixedRoleWitness",
+    "path": "licensing/src/AASC/Instances/KernelPaper/FixedRoleWitness.lean",
+    "sha256": "46fb529d010a7d91857d9526aa3c64ea54a50bc91dfd83a0e15bc770348142c2",
+    "bytes": 1093,
+    "imports": [
+      "AASC.Instances.KernelPaper.FixedRole"
+    ]
+  },
+  {
+    "module": "AASC.Instances.KernelPaper.FixedRole",
+    "path": "licensing/src/AASC/Instances/KernelPaper/FixedRole.lean",
+    "sha256": "f38bf2cdcd15c527843e34b984d3a2d9c6848e89ad7b98f7d042aa57eb44fda7",
+    "bytes": 3258,
+    "imports": [
+      "AASC.Core.Reference",
+      "AASC.Core.SameScope"
+    ]
+  },
+  {
+    "module": "KernelReference.NecessityRealization",
+    "path": "licensing/src/KernelReference/NecessityRealization.lean",
+    "sha256": "8e923c7954df02dbc083a1206049e7033803b5e387fff1bd92bbbd1fab5637f3",
+    "bytes": 23191,
+    "imports": [
+      "Mathlib.Logic.Equiv.Defs"
+    ]
+  },
+  {
+    "module": "KernelReference.Authorization",
+    "path": "licensing/src/KernelReference/Authorization.lean",
+    "sha256": "70ce7a1d4eff02d60d259bd36a055b19dda927d0e8b81178d2b93e54161bba4e",
+    "bytes": 15022,
+    "imports": [
+      "Mathlib.Data.Fintype.Card",
+      "Mathlib.Data.Fintype.Fin",
+      "Mathlib.Logic.Relation",
+      "Mathlib.Order.WellFounded"
+    ]
+  },
+  {
+    "module": "KernelReference.DependentConservation",
+    "path": "licensing/src/KernelReference/DependentConservation.lean",
+    "sha256": "f37ff06cfbb5810dcc10ea857dec6175b8eaeb371be09ad13a929d8278efb6c0",
+    "bytes": 6924,
+    "imports": [
+      "Init"
+    ]
+  },
+  {
+    "module": "KernelReference.EqualityPatterns",
+    "path": "licensing/src/KernelReference/EqualityPatterns.lean",
+    "sha256": "93c9cfb5ccfe650943ef5e41bf6c657f3407e9e7951cd94bff85e41f3ade1eec",
+    "bytes": 11778,
+    "imports": [
+      "Mathlib.Logic.Equiv.Fintype",
+      "Mathlib.Data.Set.Finite.Basic",
+      "Mathlib.Data.Set.Finite.Range"
+    ]
+  },
+  {
+    "module": "MetricityOriginalUseAssembly",
+    "path": "licensing/src/MetricityOriginalUseAssembly.lean",
+    "sha256": "25a3c93cfc73c3c3c2db84d1f6cbfc44c333fc8c70679314d351c71e444c1882",
+    "bytes": 14588,
+    "imports": [
+      "AMetricMetricUseRestrictions",
+      "MetricityCanonicalLicensingInterface"
+    ]
+  },
+  {
+    "module": "MetricityCanonicalLicensingInterface",
+    "path": "licensing/src/MetricityCanonicalLicensingInterface.lean",
+    "sha256": "7ad148ebe049b111cd88793ccd186e3ecfa593860017416e573969081c4ec432",
+    "bytes": 10097,
+    "imports": [
+      "MetricityOriginalOrderScope",
+      "KernelReference.ContextualQuotient"
+    ]
+  },
+  {
+    "module": "MetricityOriginalOrderScope",
+    "path": "licensing/src/MetricityOriginalOrderScope.lean",
+    "sha256": "50fc862f78a31f9c788bb13f4ec461d2ed5f104962cc94d9088ce8da20231938",
+    "bytes": 5943,
+    "imports": [
+      "KernelReference.IncidenceNecessity",
+      "Mathlib.Tactic"
+    ]
+  },
+  {
+    "module": "KernelReference.ContextualQuotient",
+    "path": "licensing/src/KernelReference/ContextualQuotient.lean",
+    "sha256": "030ebd5a72b72e9a4ccf483f2422584414e33cbad95a398c72de656ef0bcc9dc",
+    "bytes": 13878,
+    "imports": [
+      "Mathlib.Logic.Equiv.Defs"
+    ]
+  },
+  {
+    "module": "MetricityOriginalClockAssembly",
+    "path": "licensing/src/MetricityOriginalClockAssembly.lean",
+    "sha256": "9ab22118af67f689ea2758e5717d016876c4e76b996064cb0c303a0578757dd8",
+    "bytes": 9949,
+    "imports": [
+      "MetricityOriginalUseAssembly",
+      "MetricityOriginalClockLicenseReceipt"
+    ]
+  },
+  {
+    "module": "MetricityOriginalClockLicenseReceipt",
+    "path": "licensing/src/MetricityOriginalClockLicenseReceipt.lean",
+    "sha256": "b64175a35e08c43ec19532cd8a69e2655188db590ce7fbd53aff34b763483a86",
+    "bytes": 4161,
+    "imports": [
+      "MetricityCanonicalLicensingInterface",
+      "SRNativeClockLicensing"
+    ]
+  },
+  {
+    "module": "SRNativeClockLicensing",
+    "path": "licensing/src/SRNativeClockLicensing.lean",
+    "sha256": "8f9a30c350783fa05f3bfd3546b87b00649716745cb9a6b4aab15f2380f7bd6c",
+    "bytes": 5684,
+    "imports": [
+      "SRNativeFiniteReflectionProtocol",
+      "SRConstructedIntervalCalibration"
+    ]
+  },
+  {
+    "module": "SRNativeFiniteReflectionProtocol",
+    "path": "licensing/src/SRNativeFiniteReflectionProtocol.lean",
+    "sha256": "d26ef43db7bf7c6eaad4232a0d00444d439747f32b02724714c9283de8eac60b",
+    "bytes": 7002,
+    "imports": [
+      "SRNativeCoastingClockSource",
+      "SRRaySourceConstructedForm"
+    ]
+  },
+  {
+    "module": "SRNativeCoastingClockSource",
+    "path": "licensing/src/SRNativeCoastingClockSource.lean",
+    "sha256": "f9c483f5fc14f216def3d9e17dfcfc0dc8918f30e8d77ac0f2fcc080591092a8",
+    "bytes": 7012,
+    "imports": [
+      "KernelReference.ContextualQuotient",
+      "Mathlib.Analysis.InnerProductSpace.Basic",
+      "Mathlib.Analysis.SpecialFunctions.Sqrt",
+      "Mathlib.Tactic"
+    ]
+  },
+  {
+    "module": "SRRaySourceConstructedForm",
+    "path": "licensing/src/SRRaySourceConstructedForm.lean",
+    "sha256": "92341bbbbe7dd1d71c33ddbe624448696fa17e76ae2cbaa4886e314c3dbcd178",
+    "bytes": 3614,
+    "imports": [
+      "SROccupiedIsotropicRaySource"
+    ]
+  },
+  {
+    "module": "SROccupiedIsotropicRaySource",
+    "path": "licensing/src/SROccupiedIsotropicRaySource.lean",
+    "sha256": "cf38f04231708b828bdc66977a13499c8513b5d2f801faf9cca1f2d60d7b7e60",
+    "bytes": 7087,
+    "imports": [
+      "SROccupiedRayReach",
+      "SRSourceConeLineage",
+      "Mathlib.Analysis.InnerProductSpace.Projection.Reflection",
+      "Mathlib.Analysis.InnerProductSpace.PiL2"
+    ]
+  },
+  {
+    "module": "SROccupiedRayReach",
+    "path": "licensing/src/SROccupiedRayReach.lean",
+    "sha256": "0e027ed5a666faa32a1ac580137e23383678da7613642e1116682d9dd2420e1b",
+    "bytes": 4799,
+    "imports": [
+      "SourceReachConstruction",
+      "Mathlib.Analysis.Normed.Module.RCLike.Real",
+      "Mathlib.Tactic"
+    ]
+  },
+  {
+    "module": "SourceReachConstruction",
+    "path": "licensing/src/SourceReachConstruction.lean",
+    "sha256": "a3426844c962fc05c71b767f8ad7b666faca6ec0133988e2ee4b7d9560993ade",
+    "bytes": 8109,
+    "imports": [
+      "FiniteRestClockSeparation"
+    ]
+  },
+  {
+    "module": "FiniteRestClockSeparation",
+    "path": "licensing/src/FiniteRestClockSeparation.lean",
+    "sha256": "43f0f92ce84097b3ee1959af43d2ae1ed57f6bb415bcd44593173ff8bf6d68da",
+    "bytes": 4865,
+    "imports": [
+      "CompletedConeClock",
+      "Mathlib.Algebra.BigOperators.Group.Finset.Defs",
+      "Mathlib.Algebra.Module.LinearMap.End"
+    ]
+  },
+  {
+    "module": "CompletedConeClock",
+    "path": "licensing/src/CompletedConeClock.lean",
+    "sha256": "4c3d84f62c84deb0c57d3bc826d86b22d6b0637c5fd72b4ecf38b596e281d5b9",
+    "bytes": 5150,
+    "imports": [
+      "Mathlib.Analysis.Normed.Module.FiniteDimension",
+      "Mathlib.Analysis.Normed.Module.Normalize",
+      "Mathlib.Topology.Order.Compact",
+      "Mathlib.Tactic.Linarith",
+      "Mathlib.Tactic.FieldSimp"
+    ]
+  },
+  {
+    "module": "SRSourceConeLineage",
+    "path": "licensing/src/SRSourceConeLineage.lean",
+    "sha256": "2c48ba6377401dbf1e20d2383d7fe6b82ac94b4751b59d40ecf9050dbe5d0212",
+    "bytes": 8238,
+    "imports": [
+      "SourceReachConstruction",
+      "SRLorentzNondegeneracy",
+      "KernelReference.ContextualQuotient"
+    ]
+  },
+  {
+    "module": "SRLorentzNondegeneracy",
+    "path": "licensing/src/SRLorentzNondegeneracy.lean",
+    "sha256": "b11cba2c6677801e0c357622e5501ad6b3fc2e535fcc547cf4d0635617c5c3ab",
+    "bytes": 3678,
+    "imports": [
+      "SRLorentzConeReconstruction"
+    ]
+  },
+  {
+    "module": "SRLorentzConeReconstruction",
+    "path": "licensing/src/SRLorentzConeReconstruction.lean",
+    "sha256": "2bab3528e4e3d8554ab3726ba2681a3430b4cf9ac5491aad5397e230c273c1a0",
+    "bytes": 6958,
+    "imports": [
+      "SRConeClockBody",
+      "SRSpatialCoordinateIndependence"
+    ]
+  },
+  {
+    "module": "SRConeClockBody",
+    "path": "licensing/src/SRConeClockBody.lean",
+    "sha256": "9ee2445c044a1e97ac0471be89cdad1a1f16ac0d0c326c14a09ad51fd7878bbc",
+    "bytes": 4938,
+    "imports": [
+      "CompletedConeClock",
+      "Mathlib.Tactic"
+    ]
+  },
+  {
+    "module": "SRSpatialCoordinateIndependence",
+    "path": "licensing/src/SRSpatialCoordinateIndependence.lean",
+    "sha256": "95d63eb1140b95c1dfdf32480e7807541947551b0edd12cce215652ee3f7ed16",
+    "bytes": 3665,
+    "imports": [
+      "SRSpatialQuadraticConstruction",
+      "Mathlib.Analysis.Normed.Module.FiniteDimension"
+    ]
+  },
+  {
+    "module": "SRSpatialQuadraticConstruction",
+    "path": "licensing/src/SRSpatialQuadraticConstruction.lean",
+    "sha256": "6c13f1e20b05b713d985d952b1e3caf8f6ae5fedfa2741cc231982c868d50830",
+    "bytes": 5107,
+    "imports": [
+      "SRBodyCovarianceInvariant",
+      "SRIsotropicBodyRadial"
+    ]
+  },
+  {
+    "module": "SRBodyCovarianceInvariant",
+    "path": "licensing/src/SRBodyCovarianceInvariant.lean",
+    "sha256": "e179383dc481bea168500ef7df16048e86709b3b0b8d2269c72be8750518603e",
+    "bytes": 7192,
+    "imports": [
+      "SRBodyCovariancePositive",
+      "Mathlib.LinearAlgebra.Matrix.ToLin"
+    ]
+  },
+  {
+    "module": "SRBodyCovariancePositive",
+    "path": "licensing/src/SRBodyCovariancePositive.lean",
+    "sha256": "baf2d0dd3a09fc9d1402fec48898c32fff30f14caebc5fd93e676055dbf1988a",
+    "bytes": 4766,
+    "imports": [
+      "Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar",
+      "Mathlib.MeasureTheory.Function.LocallyIntegrable",
+      "Mathlib.MeasureTheory.Integral.Bochner.Set",
+      "Mathlib.Analysis.Matrix.PosDef",
+      "Mathlib.Tactic"
+    ]
+  },
+  {
+    "module": "SRIsotropicBodyRadial",
+    "path": "licensing/src/SRIsotropicBodyRadial.lean",
+    "sha256": "ae88bdc4722e0d45d475f8016b24a6f4310d17ae2c3f39225fc4a501c0ed06f0",
+    "bytes": 4175,
+    "imports": [
+      "Mathlib.Analysis.Convex.Gauge",
+      "Mathlib.Analysis.Normed.Module.Convex",
+      "Mathlib.LinearAlgebra.QuadraticForm.Basic",
+      "Mathlib.Analysis.SpecialFunctions.Sqrt",
+      "Mathlib.Tactic"
+    ]
+  },
+  {
+    "module": "SRConstructedIntervalCalibration",
+    "path": "licensing/src/SRConstructedIntervalCalibration.lean",
+    "sha256": "a9e330ba4d171a1d3dc4fda526a7c34afa7daf4660624520a4705fec287af235",
+    "bytes": 3122,
+    "imports": [
+      "Mathlib.Data.Real.Embedding",
+      "Mathlib.Tactic"
+    ]
+  },
+  {
+    "module": "MetricityLicensingSemanticChecks",
+    "path": "licensing/src/MetricityLicensingSemanticChecks.lean",
+    "sha256": "9b401f4e10058319c1f7069b48a4d4045c9d753007db806790fd99ebf06d805f",
+    "bytes": 4962,
+    "imports": [
+      "MetricityOriginalClockAssembly"
+    ]
+  }
+]

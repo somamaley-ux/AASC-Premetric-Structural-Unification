@@ -1,0 +1,28 @@
+{
+  "package_manifest_sha256": "e64ba63ff7d63f27dddc5d3160cb750a5401c307af3f78bc4044d7cc83c54c7b",
+  "original_inventory_sha256": "120454b4d13ffc1d509ebdc2748021a22ada5cb09017eebbc477ff6b064a03a6",
+  "prior_failure_log_sha256": "f36d010e975811a758441d5e68a1a688826b60d491a19e4c09f89593e04ab6eb",
+  "change": "Rename one audit local variable matches to rootCandidates at three uses; no mathematical source change",
+  "files": [
+    {
+      "path": "BundleInventory.lean",
+      "bytes": 54438,
+      "sha256": "eebd7acf860047039a13304315ee66536a2518feada832831184175061e209e7"
+    },
+    {
+      "path": "EXACT_DIFF.patch",
+      "bytes": 867,
+      "sha256": "6b4255515501ced0808ce02ecfb4518c7883b3c73784538eb0f4526416f7bbf3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1781,
+      "sha256": "5a53395e9be3f06126aa8bf473c25988fc9582770170c59fb57d49081dfd8ed8"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 16081,
+      "sha256": "65d3c4085d1a1bc44924bbc671b52d5f5b257304735e2af18039edede931a9be"
+    }
+  ]
+}

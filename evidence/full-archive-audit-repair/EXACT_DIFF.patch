@@ -1,0 +1,16 @@
+--- original/BundleInventory.lean
++++ corrected/BundleInventory.lean
+@@ -814,10 +814,10 @@
+   liftIO <| IO.println ("IMPORTED_MODULES|" ++ (toJson moduleNames).compress)
+   liftIO do (← IO.getStdout).flush
+   for (modName, shortName) in requested do
+-    let matches := candidates.filter fun (m,n) =>
++    let rootCandidates := candidates.filter fun (m,n) =>
+       m == modName && (n.toString == shortName || n.toString.endsWith ("." ++ shortName))
+-    unless matches.size == 1 do throwError "Ambiguous/missing root {modName}:{shortName}"
+-    let name := matches[0]!.2
++    unless rootCandidates.size == 1 do throwError "Ambiguous/missing root {modName}:{shortName}"
++    let name := rootCandidates[0]!.2
+     liftIO <| IO.println ("AUDITING_ROOT|" ++ name.toString)
+     liftIO do (← IO.getStdout).flush
+     let axioms ← collectAxioms name

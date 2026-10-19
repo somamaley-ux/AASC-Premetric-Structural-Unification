@@ -1,0 +1,60 @@
+{
+  "selected_route": "Direct general response envelope on the independently action-derived original EH response",
+  "consumer": "AASCSemanticExhaustion.original_curvature_general_response_has_unique_einstein_form",
+  "response": "originalEHGeometricResponse kappa Lambda; constructed by lowering the computed original first-variation density, not supplied as an Einstein expression",
+  "inputs": [
+    {
+      "hypothesis": "RegularLorentzResponseNatural E",
+      "discharge": "eh_original_geometric_response_regular_natural"
+    },
+    {
+      "hypothesis": "RegularLorentzTwoJetLocal E",
+      "discharge": "eh_original_geometric_response_twojet_local"
+    },
+    {
+      "hypothesis": "OriginalCurvatureFirstResponse E",
+      "discharge": "eh_original_geometric_curvature_first_response"
+    },
+    {
+      "hypothesis": "Symmetry on C2LorentzMetricAt",
+      "discharge": "eh_original_geometric_response_symmetric"
+    },
+    {
+      "hypothesis": "GeneralNormalMetricResponseClosure E",
+      "discharge": "eh_original_geometric_general_closure"
+    },
+    {
+      "hypothesis": "FullLorentzEnvelopeResponseActive E",
+      "discharge": "eh_original_geometric_full_envelope_active"
+    }
+  ],
+  "new_missing_dependency_implemented": "Actual raw current H+tK action observations commute with the retained response equivalence and existing LF first variation; exact public Kernel source-profile descent is represented by the same E on the actual current metric",
+  "frozen_inputs": [
+    "Original a,s,Omega and declared preparation/program restriction",
+    "Existing admitted actual metric operand from computed history",
+    "Frozen kappa,Lambda with kappa nonzero"
+  ],
+  "not_consumed_by_selected_classifier": [
+    "AER-P or full Gravity AER instance",
+    "Minimal raw event storage",
+    "Two-parameter action differentiability",
+    "Hadamard or arbitrary-curve regularity",
+    "Particular rich matched scalar member",
+    "Quantum backreaction or full interior reunion"
+  ],
+  "AER_retained_result": {
+    "theorem": "kg_original_core_poisson_extensions_descend",
+    "scope": "Actual pointwise representable covectors and extensions on the original unit core; no full algebraic-dual surjectivity or full Gravity AER-P conclusion",
+    "status": "Accepted existing result retained; not a new analytic input to the selected classifier"
+  },
+  "Schrodinger_retained_results": [
+    "kg_nr_free_receiving_ssq1",
+    "kg_nr_free_receiving_exact_graph"
+  ],
+  "Schrodinger_scope": "Accepted declared free scalar receiving family, exact generator/domain and action/inertial normalization; not general paper-level SSQ1 exhaustion or a coupled metric-selected scalar evolution",
+  "remaining_scope": "This original compact-neighborhood EH source restriction does not establish every original SameScopeMetric1 candidate, full original Gravity AER or full architecture coverage. No such enlargement is inferred from bounded response coverage.",
+  "uniqueness_scope": "Response equation-form coefficients at frozen anchors only; no preferred downstream projection or unique metric/spacetime solution",
+  "dependency_direction": "Kernel and downstream Kernel-faithful machinery; constraint first",
+  "source_signatures_are": "Retained source excerpts with accepted audit provenance; no fresh replay of those dependency modules",
+  "accompanying_source_connection_obligation": "All compact-test representation by same current metric/source; proved from original_eh_prepared_euler_same_metric_density and new exact source-profile receipt. This is not a seventh classifier hypothesis."
+}

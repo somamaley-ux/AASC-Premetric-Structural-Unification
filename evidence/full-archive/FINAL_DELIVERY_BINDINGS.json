@@ -1,0 +1,18 @@
+{
+  "archive": "\\\\?\\C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\combined-private-replay-20261018\\kernel-downstream-bounded-replay-private-20261018.zip",
+  "archive_sha256": "608d4913908dd1911c7778be989d6c36c0069def8508d462edecb4812552f76e",
+  "archive_bytes": 2794959803,
+  "archive_members": 112334,
+  "package_manifest_sha256": "e64ba63ff7d63f27dddc5d3160cb750a5401c307af3f78bc4044d7cc83c54c7b",
+  "replay_receipt_sha256": "6ddfc5994d929a42563a6e85d227263fa123d752646fd2da34a88b0121940612",
+  "review_sha256": "89056b89b5810479bec130e0661b79eef20c0ae0ab2ae58ee550aac4282487ed",
+  "delivery_manifest_sha256": "10feabff58df043c1061dec6ca6aef8047ea030d25b26ede1598c9cc94d74255",
+  "audit_repair_manifest_sha256": "4da0c9b5d34334c34f24a903b7764283091bfc2351f0adf5f876b45fcfee2a2a",
+  "audit_repair_driver_sha256": "65d3c4085d1a1bc44924bbc671b52d5f5b257304735e2af18039edede931a9be",
+  "original_runner_passed": false,
+  "verified_project_build_resumed": true,
+  "preserved_files": 2558,
+  "all_archive_members_stream_hashed": true,
+  "public_release": false,
+  "external_upload": false
+}

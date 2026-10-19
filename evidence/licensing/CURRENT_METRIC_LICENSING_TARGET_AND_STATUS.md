@@ -1,0 +1,19 @@
+# Current Metricity licensing target and checked status
+
+15 October 2026. **The manuscript's canonical licensing assembly is implemented and passes the fresh audit.** This is the authoritative status for the current Metricity task. Earlier raw-metric/Einstein construction notes remain historical records of their own results.
+
+The checked endpoint is `AASCMetricityOriginalAssembly.kernel_ametric_canonical_metric_licensing`: actual original incidence supplies the public Kernel; the relevant AMetric information, grounding, eligible-selector, equality-pattern and fixed-qualification restrictions are derived; equations (4)–(7) construct the safe-use licensing relation; all five properties (L1)–(L5) are proved. Original task interpretation, answer determinacy, complete descriptor meaning and promised-use semantics remain explicit original inputs. No licensing-property, safety, agreement or minimality theorem is assumed as a task field.
+
+The constructed relation's **licensing-interface role is established**. An extra physical placement map is not a missing obligation for that role. The earlier contrary characterization is withdrawn, as confirmed by the independent source review. No firstness of the full Lorentz representation is required.
+
+`MetricityOriginalClockAssembly.lean` receives the previously occupied clock, retains all real marked records and redescriptions, and proves a positive canonical license and all five properties. Its supplied duration descriptor must denote the actual complete clock contract; a sector label alone is insufficient. The source metric/action/finite-dimensional model assumptions remain unchanged. This immediate original task adds no arbitrary physical-future promise.
+
+Fresh verification rebuilt **64 local modules** into the isolated `licensing-complete-assembly/build` directory. The environment check inspected **2606 project constants**, including private/generated declarations; **885 exact transitive axiom reports** cover public dependency theorems and every explicit new declaration, including **67 new declarations**. Only `propext`, `Classical.choice`, and `Quot.sound` occur. No custom axiom, `sorry`, `admit`, unsafe or opaque project declaration passes. These counts are declaration reports, not independent physical theorem counts.
+
+The toolchain is Lean 4.28.0, commit `7e01a1bf5c70fc6167d49c345d3bf80596e9a79b`; Mathlib pin `8f9d9cff6bd728b17a24e163c9402775d9e6a365`. Mathlib and the toolchain use the existing verified cache; they were not rebuilt, downloaded or installed. Reproduction uses `audit_complete_metric_licensing.py`, with the exact original files and pins recorded in its receipt.
+
+**Meaning of minimal:** canonical complete-content classification and the greatest original safe region are encoded. Existence of a locally minimal metric-supporting interface in Definition 5.2's original dependency order remains the manuscript's separate reserved assertion. It has not been proved or silently discharged, and it is not a gap in the licensing theorem. No unique spacetime, unconditional metric generator or general continuum-limit solution is claimed.
+
+The strongest fully encoded wording is: “I have a local, machine-checked Lean 4 formalization of the canonical L-metric licensing construction for explicitly interpreted original-use tasks, deriving its five preservation and qualification properties and incorporating Kernel/AMetric restrictions, with an occupied clock realization.” The new assembly is local; the public Kernel archive does not by itself publish these extensions.
+
+See [semantic mapping](LICENSING_ASSEMBLY_SEMANTIC_MAPPING.md), [fresh audit](licensing-complete-assembly/audit_receipt.json), and [historical supersession registry](CURRENT_METRICITY_SUPERSESSION.json). No public release, installation, security change or corpus/original manuscript edit occurred.

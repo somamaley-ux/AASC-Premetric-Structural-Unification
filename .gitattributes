@@ -1,0 +1,5 @@
+*.lean -text
+*.json -text
+*.md -text
+*.py -text
+*.toml -text

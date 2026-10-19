@@ -1,0 +1,5763 @@
+{
+  "status": "passed",
+  "scope": "Full fresh local licensing proof closure, original clock integration and semantic checks",
+  "toolchain": "Lean (version 4.28.0, x86_64-w64-windows-gnu, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b, Release)",
+  "lean_executable_sha256": "6a66c4a5739fa17146b88ac81bab2bca1924806cac321ddad6b96006dde9c691",
+  "mathlib_commit": "8f9d9cff6bd728b17a24e163c9402775d9e6a365",
+  "dependency_project_manifest_sha256": "6399a87d4ecd223f0397955072b2ff0397546352cde6faa3c3d27384afe62716",
+  "public_kernel_commit": "070825fc81bdba13de7faec43233299c6f2d26fb",
+  "fresh_local_builds": [
+    {
+      "module": "AASC.Core.Incidence",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\Incidence.olean",
+      "object_sha256": "c441a1a9df3d8e40aa4c3400be9c647698ef4a80d1a9887d7e84ef1ef030cd8e",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_Incidence.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.03
+    },
+    {
+      "module": "AASC.Core.Kernel",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\Kernel.olean",
+      "object_sha256": "918dc082ac4395072e9c924c30c8c2af2d88e78a2b6067465808cda935280648",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_Kernel.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.09
+    },
+    {
+      "module": "AASC.Core.Reference",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\Reference.olean",
+      "object_sha256": "27b0838ae075f292adf186e085437c94bfc894f6a3a52ee4303ddce0569f9581",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_Reference.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.17
+    },
+    {
+      "module": "AASC.Core.Standing",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\Standing.olean",
+      "object_sha256": "1a97e10226548461ef751158ea273d99f88d49723f4397e86c0eaceaf49b2ab5",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_Standing.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.08
+    },
+    {
+      "module": "AASC.Core.Continuation",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\Continuation.olean",
+      "object_sha256": "a0d0e1b42ccc981706d607f37e1668a757cb7f8118a52320317dd89f47423a8e",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_Continuation.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.09
+    },
+    {
+      "module": "AASC.Core.KernelNecessity",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\KernelNecessity.olean",
+      "object_sha256": "e312fcc7985095df869ca44520d8e22cd43eb97e4def6f9acd96072ecb973b5d",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_KernelNecessity.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.06
+    },
+    {
+      "module": "AASC.Core.EndpointUse",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\EndpointUse.olean",
+      "object_sha256": "123bf8a4ef07236c81a20bd7f788921bc19524e307950587d2b57083c4ca5d64",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_EndpointUse.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.17
+    },
+    {
+      "module": "AASC.Core.SameScope",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\SameScope.olean",
+      "object_sha256": "fec8ecde7a2f2b4e1ac2e5d51de070920718327fc1a1e484a6103531aac3d012",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_SameScope.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.06
+    },
+    {
+      "module": "AASC.Core.Irreversibility",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\Irreversibility.olean",
+      "object_sha256": "d8baa6cb7c47b9ae2a73a344c3df822b566f9ea87cde6fe3fdcbe8f85895221a",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_Irreversibility.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.06
+    },
+    {
+      "module": "AASC.Core.DeterminateObjecthood",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\DeterminateObjecthood.olean",
+      "object_sha256": "a05a67a38ea70fa5369a704fbbea0a8333d48071913781e4d261b7835ad44ddc",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_DeterminateObjecthood.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.12
+    },
+    {
+      "module": "AASC.Core.TargetAdequacy",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\TargetAdequacy.olean",
+      "object_sha256": "69a896f20ba972c95ebea859a244a1d140b07615c81c0a9ea110e693daccc6aa",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_TargetAdequacy.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.16
+    },
+    {
+      "module": "AASC.Core.BoundaryClosure",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\BoundaryClosure.olean",
+      "object_sha256": "89bf191bf217c9e56eff760d9a106f8b9f67bfd1f3a00e38ef7f425679ec1bc7",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_BoundaryClosure.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.25
+    },
+    {
+      "module": "AASC.Core.SameDomainRoutes",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\SameDomainRoutes.olean",
+      "object_sha256": "003486a18ae2cd8b0a965a4273b8e07d235dfc74d923351f4dcdfe0922a0f6e7",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_SameDomainRoutes.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.0
+    },
+    {
+      "module": "AASC.Core.ExhaustionStrength",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\ExhaustionStrength.olean",
+      "object_sha256": "0fb697a628a7a2254af90cc6b53f4fb9625afa6fe1f2bca5b7b2e3b28915470c",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_ExhaustionStrength.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.09
+    },
+    {
+      "module": "AASC.Core.AmetricIdentityBoundary",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\AmetricIdentityBoundary.olean",
+      "object_sha256": "ad11cec4f9be2070ef50954dbfc7f61364cb8fd8a249e1d03924e2c5c9403941",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_AmetricIdentityBoundary.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.02
+    },
+    {
+      "module": "AASC.Core.Exhaustion",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\Exhaustion.olean",
+      "object_sha256": "39ac17d61c887582356924eee2ec7245a3bbf018d94ec323e54152a7ea674e95",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_Exhaustion.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.06
+    },
+    {
+      "module": "AASC.Instances.KernelPaper.Model",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Instances\\KernelPaper\\Model.olean",
+      "object_sha256": "054ad5a347efd5156f50008b2c34df4e4820e582f8e2cfe411ea4f34928590dc",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Instances_KernelPaper_Model.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.17
+    },
+    {
+      "module": "AASC.Instances.KernelPaper.Interaction",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Instances\\KernelPaper\\Interaction.olean",
+      "object_sha256": "7279a06075ee220da5315beeeb696373448f8f2a896187f27e75ac70373b75fc",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Instances_KernelPaper_Interaction.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.17
+    },
+    {
+      "module": "AASC.Instances.KernelPaper.Endpoint",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Instances\\KernelPaper\\Endpoint.olean",
+      "object_sha256": "7b52d81e74d3432f9de1621aa30f9604a0f70f9e874f6897fc33c6829943e2d9",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Instances_KernelPaper_Endpoint.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.09
+    },
+    {
+      "module": "AASC.Instances.KernelPaper.CurrentLocus",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Instances\\KernelPaper\\CurrentLocus.olean",
+      "object_sha256": "4223c1f13f324841fd45c292b53028bcad56fd7c231a3ed55c8e99d50b8dc09c",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Instances_KernelPaper_CurrentLocus.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.05
+    },
+    {
+      "module": "AASC.Instances.KernelPaper.Witness",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Instances\\KernelPaper\\Witness.olean",
+      "object_sha256": "5e93e8d4b216d7b2281861e7cfcc20b239d1ba66aeefe420fa54aa9e590c861a",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Instances_KernelPaper_Witness.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.14
+    },
+    {
+      "module": "AASC.Core.ConstraintResidue",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\ConstraintResidue.olean",
+      "object_sha256": "cf8d8394136b1841e4ea6c6dd256a48fa293e50da52572bf6debd06e48a5da75",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_ConstraintResidue.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.03
+    },
+    {
+      "module": "AASC.Core.ConstraintClosure",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\ConstraintClosure.olean",
+      "object_sha256": "5c8c9f1db34d3f0b5aba174f9d4bd47ddae341f19345877ffb9e2f98d1b55def",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_ConstraintClosure.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.12
+    },
+    {
+      "module": "AASC.Core.RoleOccupancy",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\RoleOccupancy.olean",
+      "object_sha256": "827e6f8b7d8a1a83cff27a1b9d3decbd477f9da5bc4eda02005a27f1570f36af",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_RoleOccupancy.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.19
+    },
+    {
+      "module": "AASC.Core.RoleOccupancyAction",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\RoleOccupancyAction.olean",
+      "object_sha256": "3fddc040a75c5cae80e6a621ceb7cd2a96751f898cb8865c5b40228757053615",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_RoleOccupancyAction.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.22
+    },
+    {
+      "module": "AASC.Core.RoleOccupancyGeneration",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Core\\RoleOccupancyGeneration.olean",
+      "object_sha256": "a9476a93747911d946c9651a0a86d9c1e5935a4259214c55511531ca0b5d539f",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Core_RoleOccupancyGeneration.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.17
+    },
+    {
+      "module": "AASC.Instances.KernelPaper.FixedRole",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Instances\\KernelPaper\\FixedRole.olean",
+      "object_sha256": "21d38fc14f4621b4e91656cae74d45708b6fd790ad7e9d5d26490daf52ce322d",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Instances_KernelPaper_FixedRole.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.14
+    },
+    {
+      "module": "AASC.Instances.KernelPaper.FixedRoleWitness",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Instances\\KernelPaper\\FixedRoleWitness.olean",
+      "object_sha256": "a02bcf37d8059364968e04ba713edf18b4caf6e47bdbaf6590fc8d376ddf4636",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Instances_KernelPaper_FixedRoleWitness.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.11
+    },
+    {
+      "module": "AASC.Instances.KernelPaper.RoleOccupancyClosure",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Instances\\KernelPaper\\RoleOccupancyClosure.olean",
+      "object_sha256": "305b6495375b8ac136eaeace21e76478d47deabec61b7066020a45b812e196e4",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Instances_KernelPaper_RoleOccupancyClosure.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.22
+    },
+    {
+      "module": "AASC.Instances.KernelPaper.Manuscript",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AASC\\Instances\\KernelPaper\\Manuscript.olean",
+      "object_sha256": "0459afcf7a38e87f693efd3ebd2a8fd1608bf0783ce6ed8cdd26e3e9cd2c2cf5",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AASC_Instances_KernelPaper_Manuscript.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.33
+    },
+    {
+      "module": "KernelReference.Foundation",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\KernelReference\\Foundation.olean",
+      "object_sha256": "4cfbb017f200a75e8ea455578bfdb7c82b5cad4a4ac53ce4a856d68c986252a6",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\KernelReference_Foundation.log",
+      "log_sha256": "9fa8d029e2eb1996fcafbb17b51009157cc91ca3f6017703302818386d83105c",
+      "seconds": 2.44
+    },
+    {
+      "module": "KernelReference.IncidenceNecessity",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\KernelReference\\IncidenceNecessity.olean",
+      "object_sha256": "1ae3d6ddae83e502b10d513e324620bc59d53bad681d31c76c2c228d70c54d31",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\KernelReference_IncidenceNecessity.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 5.05
+    },
+    {
+      "module": "KernelReference.NecessityRealization",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\KernelReference\\NecessityRealization.olean",
+      "object_sha256": "d193645d94f7ce2e001eca88add815b305fd2f338798890c0ad554bbef33351c",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\KernelReference_NecessityRealization.log",
+      "log_sha256": "980b401ed42d2400b6f70d572c71c4e47cbb992155952a38196e74b9f9ba65f4",
+      "seconds": 8.97
+    },
+    {
+      "module": "KernelReference.Authorization",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\KernelReference\\Authorization.olean",
+      "object_sha256": "7f66d44769cc7e9326b2639055d945b4877a03ee30a64d2308d6bde57e136177",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\KernelReference_Authorization.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 11.81
+    },
+    {
+      "module": "KernelReference.ObjecthoodNecessity",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\KernelReference\\ObjecthoodNecessity.olean",
+      "object_sha256": "1f30e615f467c5fec398f6bdeb94faafc9f834e767e4cdd60ac36fa0b0f4527d",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\KernelReference_ObjecthoodNecessity.log",
+      "log_sha256": "92605f9a18411a1c3c193c7c89b1af3792c03b9a79cb8977bf9f16f4997c5ec8",
+      "seconds": 11.78
+    },
+    {
+      "module": "KernelReference.DependentConservation",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\KernelReference\\DependentConservation.olean",
+      "object_sha256": "ee27a27eeef58996478d6001a7f81682c2988ac99623575aa8cd64175d94892f",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\KernelReference_DependentConservation.log",
+      "log_sha256": "6b408f2f86c93faf043c07773641a0f8341d111ef02411d527d096de963020df",
+      "seconds": 2.14
+    },
+    {
+      "module": "KernelReference.EqualityPatterns",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\KernelReference\\EqualityPatterns.olean",
+      "object_sha256": "a93a69d75feb99301d8514a0a86c38357d54e4c93516461d095166d9b292a882",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\KernelReference_EqualityPatterns.log",
+      "log_sha256": "7dc26987eb842bf05387c7adcd3ec508f1b444ce983f83ef18ec864b521e2852",
+      "seconds": 11.7
+    },
+    {
+      "module": "AMetricMetricUseRestrictions",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\AMetricMetricUseRestrictions.olean",
+      "object_sha256": "e84d5077a4656bd08ba085ca10b5bdbf42b6cb3c2d171acf86e6f5f2d58ba715",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\AMetricMetricUseRestrictions.log",
+      "log_sha256": "4cf91bd3aca2465a67becbe22203f910d2e6748d5582619b7c29e4e2b8b34db7",
+      "seconds": 20.75
+    },
+    {
+      "module": "MetricityOriginalOrderScope",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\MetricityOriginalOrderScope.olean",
+      "object_sha256": "2b75497e43b1b2def0f54e6f2118a08ef6c52e7316a0bea2082e84bed3e9f84e",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\MetricityOriginalOrderScope.log",
+      "log_sha256": "3d0e4ea930c81cfafb6745f6b125e4e456b3057a34edb882a6cc28d920bf0dbe",
+      "seconds": 21.36
+    },
+    {
+      "module": "KernelReference.ContextualQuotient",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\KernelReference\\ContextualQuotient.olean",
+      "object_sha256": "c1e2d9634ff5acae7c819668c6cf0bea5a57391e1a43f664e3d72201ece2b711",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\KernelReference_ContextualQuotient.log",
+      "log_sha256": "b458ab6c880c84e8fad854b96057dbf1234618f63d8c50ea529974a6fbcf5cfb",
+      "seconds": 8.52
+    },
+    {
+      "module": "MetricityCanonicalLicensingInterface",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\MetricityCanonicalLicensingInterface.olean",
+      "object_sha256": "a10cf4d30f0c8576909faef741fb004f4055d83dc83db3c78b708e0ef0b40220",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\MetricityCanonicalLicensingInterface.log",
+      "log_sha256": "a80a0c11f70c0fc7fba7195ab231032ce2e949ac76130739afc042e73e81c76d",
+      "seconds": 20.14
+    },
+    {
+      "module": "MetricityOriginalUseAssembly",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\MetricityOriginalUseAssembly.olean",
+      "object_sha256": "75804e6d2bd61e55331ee4bbde42518c94c1ac3d98a347373f85fc50e0dcb764",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\MetricityOriginalUseAssembly.log",
+      "log_sha256": "69b40decbe2347b0cef6db0ae1bd657d9b32a5974781e1a54e3ba777c7d96a95",
+      "seconds": 21.25
+    },
+    {
+      "module": "SRNativeCoastingClockSource",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRNativeCoastingClockSource.olean",
+      "object_sha256": "9f45caba771c9448c7bc965c56621894d45691b92951d0ccedca2505c28e65f1",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRNativeCoastingClockSource.log",
+      "log_sha256": "4dd25740a50ccac40bc213f6af4984b85f3546b8f774b3309b15f1819d35fbed",
+      "seconds": 23.36
+    },
+    {
+      "module": "CompletedConeClock",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\CompletedConeClock.olean",
+      "object_sha256": "294e976b681bc45a8b8af94f31e808f55da6f0e664e1efde5c1c177652ec2c64",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\CompletedConeClock.log",
+      "log_sha256": "703aef299df7ed69a202bdc93feec8c1d7dae600de233a531c9e65b717ab8d8e",
+      "seconds": 19.14
+    },
+    {
+      "module": "FiniteRestClockSeparation",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\FiniteRestClockSeparation.olean",
+      "object_sha256": "44bfbfec2c63985011dc0892fb3c0d6bc3895af34c0a9389ecfb0b134509d505",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\FiniteRestClockSeparation.log",
+      "log_sha256": "db052a80fb3f8d6485f2b520333bd02dc14d405ba4fca533dac34db7a31afbad",
+      "seconds": 17.97
+    },
+    {
+      "module": "SourceReachConstruction",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SourceReachConstruction.olean",
+      "object_sha256": "1746d9e9d34aea99199db3e62d73c47c120f12fe24aef2f692b79f12a0b5da67",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SourceReachConstruction.log",
+      "log_sha256": "46f67d06f59b05a1b691b362ca85b134e5f5e90b98bf2181269b747506f9765b",
+      "seconds": 18.98
+    },
+    {
+      "module": "SROccupiedRayReach",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SROccupiedRayReach.olean",
+      "object_sha256": "e18f6aecbfa45668e0e09c21c0272c44f9640018015848ad50d51c3c88559b82",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SROccupiedRayReach.log",
+      "log_sha256": "8ee216de3a555a9c967d27bbf2e353e987c5572f7559e7a5486ddfbedb83ce8a",
+      "seconds": 20.52
+    },
+    {
+      "module": "SRConeClockBody",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRConeClockBody.olean",
+      "object_sha256": "e911e0e080748c6f60080ccaf5086ada7193d613e4ad79493d3bb32661c2afee",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRConeClockBody.log",
+      "log_sha256": "496025d8143fa0455e5c27aec15ba4aacae771e1e2313852e2105afdab89299b",
+      "seconds": 21.97
+    },
+    {
+      "module": "SRBodyCovariancePositive",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRBodyCovariancePositive.olean",
+      "object_sha256": "9486902637acabb59c2b41802d61060ef70d9af708de28cbbe1bd6937b3ff0de",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRBodyCovariancePositive.log",
+      "log_sha256": "df9ef38bbb116d0a341a6c69e39f3bd2ddbf1317aab460f9d4b11a5dc129893c",
+      "seconds": 24.0
+    },
+    {
+      "module": "SRBodyCovarianceInvariant",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRBodyCovarianceInvariant.olean",
+      "object_sha256": "173c4a89413bfa41669c5d80b4e10b3f44b702bb2054b335736c503c4b25985a",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRBodyCovarianceInvariant.log",
+      "log_sha256": "36e090c886af55146885fa3f1cc7996ea13068ad1b25a1eee4893f8b9832ef81",
+      "seconds": 26.38
+    },
+    {
+      "module": "SRIsotropicBodyRadial",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRIsotropicBodyRadial.olean",
+      "object_sha256": "ef239f3115aa25e79e9b49e735d219b85579d11f5092e9118a296fe7af144a6c",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRIsotropicBodyRadial.log",
+      "log_sha256": "c56dd8be0a5f01ddd5d889effe4787af2085a7e0687297e969aebbde6b6d1867",
+      "seconds": 22.17
+    },
+    {
+      "module": "SRSpatialQuadraticConstruction",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRSpatialQuadraticConstruction.olean",
+      "object_sha256": "96b4680d9a079baa9159642b9e559f509a12554fba334e6575b8a75ab6c2c9e9",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRSpatialQuadraticConstruction.log",
+      "log_sha256": "c13c39dfa6efcbd1a16256d75948bd085f7394783d684bbad5fb0606c36008ca",
+      "seconds": 23.92
+    },
+    {
+      "module": "SRSpatialCoordinateIndependence",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRSpatialCoordinateIndependence.olean",
+      "object_sha256": "85e249dad8de72bb9ca2483b09443acd686ed8a4d0209cac857d1400307aae2f",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRSpatialCoordinateIndependence.log",
+      "log_sha256": "e9aac311f639e0895499aa39342fa258d325ea4e50e1f21736bd6b53434706fc",
+      "seconds": 22.2
+    },
+    {
+      "module": "SRLorentzConeReconstruction",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRLorentzConeReconstruction.olean",
+      "object_sha256": "8bfe0cc8926121ac9530b8dbc7528b9f414929badb86f8cd3272a9f1894e9524",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRLorentzConeReconstruction.log",
+      "log_sha256": "66384fa43bb71d83ccc4550987d5efa9aefc725a50476e8b6adabb77e0dd42d2",
+      "seconds": 24.44
+    },
+    {
+      "module": "SRLorentzNondegeneracy",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRLorentzNondegeneracy.olean",
+      "object_sha256": "86d26beaec863c834cbbc33ad6ef71ce527ce65cd8c3dbdc35ab29a3697a482b",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRLorentzNondegeneracy.log",
+      "log_sha256": "f53040cc89a79c62a71b3940cf5c11bb3c4b102ec0bec210a10a2192060acc0c",
+      "seconds": 22.78
+    },
+    {
+      "module": "SRSourceConeLineage",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRSourceConeLineage.olean",
+      "object_sha256": "7a6f893258f575e734e8e0703b28a4ce4bd58a2c92cdc2d0d3a25fe584e1fc96",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRSourceConeLineage.log",
+      "log_sha256": "4c55c75c0180373955323a7fc0aa5f9ae35b325afbb086a295ba45a9e19efe6c",
+      "seconds": 27.72
+    },
+    {
+      "module": "SROccupiedIsotropicRaySource",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SROccupiedIsotropicRaySource.olean",
+      "object_sha256": "0d43ec682726a497b774c6c5f44a293b4bdeb4408178c4465232688a22ed09d6",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SROccupiedIsotropicRaySource.log",
+      "log_sha256": "9ed58448389648e8071b9dcabb1bfe1ce5d5e12c9f54e3c999190ddba3144908",
+      "seconds": 26.05
+    },
+    {
+      "module": "SRRaySourceConstructedForm",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRRaySourceConstructedForm.olean",
+      "object_sha256": "bfa73fc2f6e8e8b75f559e2b1ce306ef8a0ce4201e198a15f6053db33beb2e07",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRRaySourceConstructedForm.log",
+      "log_sha256": "e9a190c16ee65225c5c74e1e7b5c87e3bcaa58d138bf212cdcc82c103a2804a4",
+      "seconds": 24.28
+    },
+    {
+      "module": "SRNativeFiniteReflectionProtocol",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRNativeFiniteReflectionProtocol.olean",
+      "object_sha256": "77f534961a5de13f7d98c3df1a6c45af0a7af29c8713a562a64606b9b78273c9",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRNativeFiniteReflectionProtocol.log",
+      "log_sha256": "b975972ae7ff91a6996933fa161b941c6cd3d25852f385cc57f8a23ddf9bbc26",
+      "seconds": 25.53
+    },
+    {
+      "module": "SRConstructedIntervalCalibration",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRConstructedIntervalCalibration.olean",
+      "object_sha256": "da77be2f7de8cb26ead5fec13da3d07cc2c2858c776a6ab0f08e659cc1d21866",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRConstructedIntervalCalibration.log",
+      "log_sha256": "5c0a32588175ef2d42122d435157ddf4ae1e5b4fa7036514236da1073a5dc2c9",
+      "seconds": 21.41
+    },
+    {
+      "module": "SRNativeClockLicensing",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\SRNativeClockLicensing.olean",
+      "object_sha256": "a650765228d9191a8f70d2a84ba3c3d1c8c4c5901c089cea273afce8ea434ece",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\SRNativeClockLicensing.log",
+      "log_sha256": "e953f69acf5ad5fb63ba58fef7b18678141aed948bbc12794904428ccad87c28",
+      "seconds": 21.88
+    },
+    {
+      "module": "MetricityOriginalClockLicenseReceipt",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\MetricityOriginalClockLicenseReceipt.olean",
+      "object_sha256": "5b5e154508b88b45a713378b2bccfe9214bd79f7feea874bff7ecffdb00f19fa",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\MetricityOriginalClockLicenseReceipt.log",
+      "log_sha256": "d1ef208a47e8c2720d579c87b94e47a558fe36a0357f8257fb6dd89d2af5e688",
+      "seconds": 21.58
+    },
+    {
+      "module": "MetricityOriginalClockAssembly",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\MetricityOriginalClockAssembly.olean",
+      "object_sha256": "ca00e281f5570d2c46d188124cdca85b0b7763d12df6ffd1936823b5323fe24e",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\MetricityOriginalClockAssembly.log",
+      "log_sha256": "4fd63f4c582c8a467b9dae9b6ce57ab6c48d6af8ce13c4b50de9325cbd66056b",
+      "seconds": 22.98
+    },
+    {
+      "module": "MetricityLicensingSemanticChecks",
+      "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\build\\MetricityLicensingSemanticChecks.olean",
+      "object_sha256": "1b0e845d201aa08838b59820beefa5e1be9b5ffce5bfa86c5136157b40a3704f",
+      "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-complete-assembly\\logs\\MetricityLicensingSemanticChecks.log",
+      "log_sha256": "969926dd6194d52600f84d90e5677281113835d93b24f5856b089bbbc33b90d5",
+      "seconds": 21.64
+    }
+  ],
+  "local_import_graph": {
+    "AMetricMetricUseRestrictions": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\AMetricMetricUseRestrictions.lean",
+      "sha256": "165bd92b5b8941aa5e0007df0a9414abdf3a9cb741d2e55f69025f7b5f3ec230",
+      "imports": [
+        "KernelReference.ObjecthoodNecessity",
+        "KernelReference.DependentConservation",
+        "KernelReference.EqualityPatterns",
+        "Mathlib.GroupTheory.GroupAction.Defs",
+        "Mathlib.Tactic"
+      ]
+    },
+    "KernelReference.ObjecthoodNecessity": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\KernelReference\\ObjecthoodNecessity.lean",
+      "sha256": "a04b7d6532a708c9419156b46dc5a3f612b47ca58e062af267f34747a7ba6ceb",
+      "imports": [
+        "KernelReference.IncidenceNecessity",
+        "KernelReference.NecessityRealization",
+        "KernelReference.Authorization"
+      ]
+    },
+    "KernelReference.IncidenceNecessity": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\KernelReference\\IncidenceNecessity.lean",
+      "sha256": "818be60bbc395d1d3f62814692978b01a6afaf427a60a2c03b95b11bd5fb7d00",
+      "imports": [
+        "KernelReference.Foundation",
+        "Mathlib.Logic.ExistsUnique"
+      ]
+    },
+    "KernelReference.Foundation": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\KernelReference\\Foundation.lean",
+      "sha256": "9dd56f579176f0b5f53cc09f9194bfb5bea73989ba740c1d94fe8b853df62571",
+      "imports": [
+        "AASC.Core.DeterminateObjecthood",
+        "AASC.Instances.KernelPaper.Manuscript"
+      ]
+    },
+    "AASC.Core.DeterminateObjecthood": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\DeterminateObjecthood.lean",
+      "sha256": "1fcb4c97cfa807514a4e5b2046d16cdbae972c7162eff438c872ee503c238468",
+      "imports": [
+        "AASC.Core.EndpointUse",
+        "AASC.Core.Irreversibility"
+      ]
+    },
+    "AASC.Core.EndpointUse": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\EndpointUse.lean",
+      "sha256": "eadb58f7af89e621445f15513c82670326267ce3f3de8e5915ad1bb6720339c9",
+      "imports": [
+        "AASC.Core.Continuation",
+        "AASC.Core.KernelNecessity"
+      ]
+    },
+    "AASC.Core.Continuation": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\Continuation.lean",
+      "sha256": "ffe6f87ac0da859258ec14b6dc18b2b5bc9e3202bce19d58a72548bbfa7dc683",
+      "imports": [
+        "AASC.Core.Standing"
+      ]
+    },
+    "AASC.Core.Standing": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\Standing.lean",
+      "sha256": "43826cfeb5a2f89edcc293eb1381668f81abd12bda6058d8af0871d446773a66",
+      "imports": [
+        "AASC.Core.Reference"
+      ]
+    },
+    "AASC.Core.Reference": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\Reference.lean",
+      "sha256": "c355992cc3d6f1bf8b2775a337b5a76191d0592e7146183de3021612fe6e8b82",
+      "imports": [
+        "AASC.Core.Kernel"
+      ]
+    },
+    "AASC.Core.Kernel": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\Kernel.lean",
+      "sha256": "bcb518e7ba58658dbc708740094dd47b8e4fe72efaa825d1853c3d593d780d45",
+      "imports": [
+        "AASC.Core.Incidence"
+      ]
+    },
+    "AASC.Core.Incidence": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\Incidence.lean",
+      "sha256": "5941adead9a0e7cd9c3d9e8361e166c887fdf0ad65cdaadb8206674a2c498ea7",
+      "imports": []
+    },
+    "AASC.Core.KernelNecessity": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\KernelNecessity.lean",
+      "sha256": "b0296353e2e91a31a150345adafb7449c015e19626589aea4fbc25795eefe86d",
+      "imports": [
+        "AASC.Core.Reference"
+      ]
+    },
+    "AASC.Core.Irreversibility": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\Irreversibility.lean",
+      "sha256": "3779c22be2d5f8c3445b27a2fa94347a6d4d55906c651e2be64d55b8544c78fa",
+      "imports": [
+        "AASC.Core.SameScope"
+      ]
+    },
+    "AASC.Core.SameScope": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\SameScope.lean",
+      "sha256": "4affafe11a77ef8643f2434e1589098c5a04dd851b651aba1c3745784e31cfec",
+      "imports": [
+        "AASC.Core.Continuation"
+      ]
+    },
+    "AASC.Instances.KernelPaper.Manuscript": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Instances\\KernelPaper\\Manuscript.lean",
+      "sha256": "fad657fba7f537d38d1a5700e277b2372c4494723029f9954faa4bb9e5de6d89",
+      "imports": [
+        "AASC.Core.TargetAdequacy",
+        "AASC.Core.BoundaryClosure",
+        "AASC.Core.SameDomainRoutes",
+        "AASC.Core.ExhaustionStrength",
+        "AASC.Core.AmetricIdentityBoundary",
+        "AASC.Instances.KernelPaper.Witness",
+        "AASC.Instances.KernelPaper.RoleOccupancyClosure"
+      ]
+    },
+    "AASC.Core.TargetAdequacy": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\TargetAdequacy.lean",
+      "sha256": "a60c74e45394ebcbdfbf6b157da689af9c5778739676dce213282b23908e2c48",
+      "imports": [
+        "AASC.Core.DeterminateObjecthood"
+      ]
+    },
+    "AASC.Core.BoundaryClosure": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\BoundaryClosure.lean",
+      "sha256": "72ea11a8a3ced5fa26e50a29cb8c565d91509efd8b503b4b92b1b9a5e78fbd96",
+      "imports": []
+    },
+    "AASC.Core.SameDomainRoutes": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\SameDomainRoutes.lean",
+      "sha256": "60c6c72e9a526360bf28acc1560243c774f5fc6dbf9f2dce1ae9f3730def6244",
+      "imports": [
+        "AASC.Core.BoundaryClosure"
+      ]
+    },
+    "AASC.Core.ExhaustionStrength": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\ExhaustionStrength.lean",
+      "sha256": "4fc54ecf7313b1f5e75a36187bd1e0d6d87b188a27340737a4af1bf4d99c8ca0",
+      "imports": [
+        "AASC.Core.SameDomainRoutes"
+      ]
+    },
+    "AASC.Core.AmetricIdentityBoundary": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\AmetricIdentityBoundary.lean",
+      "sha256": "95a83b9b9cee824fde45160422e239c8f8623b42ba3660146cd4502722019270",
+      "imports": [
+        "AASC.Core.DeterminateObjecthood"
+      ]
+    },
+    "AASC.Instances.KernelPaper.Witness": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Instances\\KernelPaper\\Witness.lean",
+      "sha256": "097e25b6d335f36e350c7fedc47311d769359a66c91bfb8b3c9029679e59693e",
+      "imports": [
+        "AASC.Instances.KernelPaper.Endpoint",
+        "AASC.Instances.KernelPaper.CurrentLocus"
+      ]
+    },
+    "AASC.Instances.KernelPaper.Endpoint": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Instances\\KernelPaper\\Endpoint.lean",
+      "sha256": "4f3528375208cb762ccccc46860f0da1129f92d5139c8e86316ed58d01e61413",
+      "imports": [
+        "AASC.Instances.KernelPaper.Interaction"
+      ]
+    },
+    "AASC.Instances.KernelPaper.Interaction": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Instances\\KernelPaper\\Interaction.lean",
+      "sha256": "a9a84c26d44466d59589495d3877f612901cbc8a027f5bad5c94ce049ff112a4",
+      "imports": [
+        "AASC.Core.Exhaustion",
+        "AASC.Core.SameScope",
+        "AASC.Instances.KernelPaper.Model"
+      ]
+    },
+    "AASC.Core.Exhaustion": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\Exhaustion.lean",
+      "sha256": "75786024847af3b664b09336d3698439fdd2a93e655e947c4d04101b7f57fab3",
+      "imports": []
+    },
+    "AASC.Instances.KernelPaper.Model": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Instances\\KernelPaper\\Model.lean",
+      "sha256": "9b651dd199e8636a04b5cff011406a83d900d659e1fa34aed06a0f98bdc3f8d1",
+      "imports": [
+        "AASC.Core.Continuation",
+        "AASC.Core.KernelNecessity"
+      ]
+    },
+    "AASC.Instances.KernelPaper.CurrentLocus": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Instances\\KernelPaper\\CurrentLocus.lean",
+      "sha256": "b234caffe8b95541829cdb5c262e71785774866ae61381a9890ade7deff73ece",
+      "imports": [
+        "AASC.Instances.KernelPaper.Interaction"
+      ]
+    },
+    "AASC.Instances.KernelPaper.RoleOccupancyClosure": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Instances\\KernelPaper\\RoleOccupancyClosure.lean",
+      "sha256": "c1e04d7f06e8bd09f699f7075a820f68582711feb504d61a2684ad2eacfefc79",
+      "imports": [
+        "AASC.Core.RoleOccupancyGeneration",
+        "AASC.Instances.KernelPaper.FixedRoleWitness"
+      ]
+    },
+    "AASC.Core.RoleOccupancyGeneration": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\RoleOccupancyGeneration.lean",
+      "sha256": "33ed4ac9756b33dd4a7efec9339b01a262b1855a63c8ec59a9659137bcb74551",
+      "imports": [
+        "AASC.Core.RoleOccupancyAction"
+      ]
+    },
+    "AASC.Core.RoleOccupancyAction": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\RoleOccupancyAction.lean",
+      "sha256": "4b879ea43742efcf31bb3d72a2c6caa4cae7f31166f92cedd41a26ba56730fb9",
+      "imports": [
+        "AASC.Core.RoleOccupancy"
+      ]
+    },
+    "AASC.Core.RoleOccupancy": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\RoleOccupancy.lean",
+      "sha256": "ab50e00eaffd977d753af239fc3340c63626b20539bc5ee1898c99ade0922e21",
+      "imports": [
+        "AASC.Core.ConstraintClosure"
+      ]
+    },
+    "AASC.Core.ConstraintClosure": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\ConstraintClosure.lean",
+      "sha256": "98ae02b9c573558512ee2f3f685de7d7bc8456f7cd3c6969ee1b5ea1a5e676c7",
+      "imports": [
+        "AASC.Core.ConstraintResidue"
+      ]
+    },
+    "AASC.Core.ConstraintResidue": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Core\\ConstraintResidue.lean",
+      "sha256": "44f53e95cb7accf849aa6f489c88d19cbbdadbdde1461d2d8fbd706e60467992",
+      "imports": []
+    },
+    "AASC.Instances.KernelPaper.FixedRoleWitness": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Instances\\KernelPaper\\FixedRoleWitness.lean",
+      "sha256": "46fb529d010a7d91857d9526aa3c64ea54a50bc91dfd83a0e15bc770348142c2",
+      "imports": [
+        "AASC.Instances.KernelPaper.FixedRole"
+      ]
+    },
+    "AASC.Instances.KernelPaper.FixedRole": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\AASC\\Instances\\KernelPaper\\FixedRole.lean",
+      "sha256": "f38bf2cdcd15c527843e34b984d3a2d9c6848e89ad7b98f7d042aa57eb44fda7",
+      "imports": [
+        "AASC.Core.Reference",
+        "AASC.Core.SameScope"
+      ]
+    },
+    "KernelReference.NecessityRealization": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\KernelReference\\NecessityRealization.lean",
+      "sha256": "8e923c7954df02dbc083a1206049e7033803b5e387fff1bd92bbbd1fab5637f3",
+      "imports": [
+        "Mathlib.Logic.Equiv.Defs"
+      ]
+    },
+    "KernelReference.Authorization": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\KernelReference\\Authorization.lean",
+      "sha256": "70ce7a1d4eff02d60d259bd36a055b19dda927d0e8b81178d2b93e54161bba4e",
+      "imports": [
+        "Mathlib.Data.Fintype.Card",
+        "Mathlib.Data.Fintype.Fin",
+        "Mathlib.Logic.Relation",
+        "Mathlib.Order.WellFounded"
+      ]
+    },
+    "KernelReference.DependentConservation": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\KernelReference\\DependentConservation.lean",
+      "sha256": "f37ff06cfbb5810dcc10ea857dec6175b8eaeb371be09ad13a929d8278efb6c0",
+      "imports": [
+        "Init"
+      ]
+    },
+    "KernelReference.EqualityPatterns": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\KernelReference\\EqualityPatterns.lean",
+      "sha256": "93c9cfb5ccfe650943ef5e41bf6c657f3407e9e7951cd94bff85e41f3ade1eec",
+      "imports": [
+        "Mathlib.Logic.Equiv.Fintype",
+        "Mathlib.Data.Set.Finite.Basic",
+        "Mathlib.Data.Set.Finite.Range"
+      ]
+    },
+    "MetricityOriginalUseAssembly": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\MetricityOriginalUseAssembly.lean",
+      "sha256": "25a3c93cfc73c3c3c2db84d1f6cbfc44c333fc8c70679314d351c71e444c1882",
+      "imports": [
+        "AMetricMetricUseRestrictions",
+        "MetricityCanonicalLicensingInterface"
+      ]
+    },
+    "MetricityCanonicalLicensingInterface": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\MetricityCanonicalLicensingInterface.lean",
+      "sha256": "7ad148ebe049b111cd88793ccd186e3ecfa593860017416e573969081c4ec432",
+      "imports": [
+        "MetricityOriginalOrderScope",
+        "KernelReference.ContextualQuotient"
+      ]
+    },
+    "MetricityOriginalOrderScope": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\MetricityOriginalOrderScope.lean",
+      "sha256": "50fc862f78a31f9c788bb13f4ec461d2ed5f104962cc94d9088ce8da20231938",
+      "imports": [
+        "KernelReference.IncidenceNecessity",
+        "Mathlib.Tactic"
+      ]
+    },
+    "KernelReference.ContextualQuotient": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kernel-public\\KernelReference\\ContextualQuotient.lean",
+      "sha256": "030ebd5a72b72e9a4ccf483f2422584414e33cbad95a398c72de656ef0bcc9dc",
+      "imports": [
+        "Mathlib.Logic.Equiv.Defs"
+      ]
+    },
+    "MetricityOriginalClockAssembly": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\MetricityOriginalClockAssembly.lean",
+      "sha256": "9ab22118af67f689ea2758e5717d016876c4e76b996064cb0c303a0578757dd8",
+      "imports": [
+        "MetricityOriginalUseAssembly",
+        "MetricityOriginalClockLicenseReceipt"
+      ]
+    },
+    "MetricityOriginalClockLicenseReceipt": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\MetricityOriginalClockLicenseReceipt.lean",
+      "sha256": "b64175a35e08c43ec19532cd8a69e2655188db590ce7fbd53aff34b763483a86",
+      "imports": [
+        "MetricityCanonicalLicensingInterface",
+        "SRNativeClockLicensing"
+      ]
+    },
+    "SRNativeClockLicensing": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRNativeClockLicensing.lean",
+      "sha256": "8f9a30c350783fa05f3bfd3546b87b00649716745cb9a6b4aab15f2380f7bd6c",
+      "imports": [
+        "SRNativeFiniteReflectionProtocol",
+        "SRConstructedIntervalCalibration"
+      ]
+    },
+    "SRNativeFiniteReflectionProtocol": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRNativeFiniteReflectionProtocol.lean",
+      "sha256": "d26ef43db7bf7c6eaad4232a0d00444d439747f32b02724714c9283de8eac60b",
+      "imports": [
+        "SRNativeCoastingClockSource",
+        "SRRaySourceConstructedForm"
+      ]
+    },
+    "SRNativeCoastingClockSource": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRNativeCoastingClockSource.lean",
+      "sha256": "f9c483f5fc14f216def3d9e17dfcfc0dc8918f30e8d77ac0f2fcc080591092a8",
+      "imports": [
+        "KernelReference.ContextualQuotient",
+        "Mathlib.Analysis.InnerProductSpace.Basic",
+        "Mathlib.Analysis.SpecialFunctions.Sqrt",
+        "Mathlib.Tactic"
+      ]
+    },
+    "SRRaySourceConstructedForm": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRRaySourceConstructedForm.lean",
+      "sha256": "92341bbbbe7dd1d71c33ddbe624448696fa17e76ae2cbaa4886e314c3dbcd178",
+      "imports": [
+        "SROccupiedIsotropicRaySource"
+      ]
+    },
+    "SROccupiedIsotropicRaySource": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SROccupiedIsotropicRaySource.lean",
+      "sha256": "cf38f04231708b828bdc66977a13499c8513b5d2f801faf9cca1f2d60d7b7e60",
+      "imports": [
+        "SROccupiedRayReach",
+        "SRSourceConeLineage",
+        "Mathlib.Analysis.InnerProductSpace.Projection.Reflection",
+        "Mathlib.Analysis.InnerProductSpace.PiL2"
+      ]
+    },
+    "SROccupiedRayReach": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SROccupiedRayReach.lean",
+      "sha256": "0e027ed5a666faa32a1ac580137e23383678da7613642e1116682d9dd2420e1b",
+      "imports": [
+        "SourceReachConstruction",
+        "Mathlib.Analysis.Normed.Module.RCLike.Real",
+        "Mathlib.Tactic"
+      ]
+    },
+    "SourceReachConstruction": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SourceReachConstruction.lean",
+      "sha256": "a3426844c962fc05c71b767f8ad7b666faca6ec0133988e2ee4b7d9560993ade",
+      "imports": [
+        "FiniteRestClockSeparation"
+      ]
+    },
+    "FiniteRestClockSeparation": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\FiniteRestClockSeparation.lean",
+      "sha256": "43f0f92ce84097b3ee1959af43d2ae1ed57f6bb415bcd44593173ff8bf6d68da",
+      "imports": [
+        "CompletedConeClock",
+        "Mathlib.Algebra.BigOperators.Group.Finset.Defs",
+        "Mathlib.Algebra.Module.LinearMap.End"
+      ]
+    },
+    "CompletedConeClock": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\CompletedConeClock.lean",
+      "sha256": "4c3d84f62c84deb0c57d3bc826d86b22d6b0637c5fd72b4ecf38b596e281d5b9",
+      "imports": [
+        "Mathlib.Analysis.Normed.Module.FiniteDimension",
+        "Mathlib.Analysis.Normed.Module.Normalize",
+        "Mathlib.Topology.Order.Compact",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.FieldSimp"
+      ]
+    },
+    "SRSourceConeLineage": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRSourceConeLineage.lean",
+      "sha256": "2c48ba6377401dbf1e20d2383d7fe6b82ac94b4751b59d40ecf9050dbe5d0212",
+      "imports": [
+        "SourceReachConstruction",
+        "SRLorentzNondegeneracy",
+        "KernelReference.ContextualQuotient"
+      ]
+    },
+    "SRLorentzNondegeneracy": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRLorentzNondegeneracy.lean",
+      "sha256": "b11cba2c6677801e0c357622e5501ad6b3fc2e535fcc547cf4d0635617c5c3ab",
+      "imports": [
+        "SRLorentzConeReconstruction"
+      ]
+    },
+    "SRLorentzConeReconstruction": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRLorentzConeReconstruction.lean",
+      "sha256": "2bab3528e4e3d8554ab3726ba2681a3430b4cf9ac5491aad5397e230c273c1a0",
+      "imports": [
+        "SRConeClockBody",
+        "SRSpatialCoordinateIndependence"
+      ]
+    },
+    "SRConeClockBody": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRConeClockBody.lean",
+      "sha256": "9ee2445c044a1e97ac0471be89cdad1a1f16ac0d0c326c14a09ad51fd7878bbc",
+      "imports": [
+        "CompletedConeClock",
+        "Mathlib.Tactic"
+      ]
+    },
+    "SRSpatialCoordinateIndependence": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRSpatialCoordinateIndependence.lean",
+      "sha256": "95d63eb1140b95c1dfdf32480e7807541947551b0edd12cce215652ee3f7ed16",
+      "imports": [
+        "SRSpatialQuadraticConstruction",
+        "Mathlib.Analysis.Normed.Module.FiniteDimension"
+      ]
+    },
+    "SRSpatialQuadraticConstruction": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRSpatialQuadraticConstruction.lean",
+      "sha256": "6c13f1e20b05b713d985d952b1e3caf8f6ae5fedfa2741cc231982c868d50830",
+      "imports": [
+        "SRBodyCovarianceInvariant",
+        "SRIsotropicBodyRadial"
+      ]
+    },
+    "SRBodyCovarianceInvariant": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRBodyCovarianceInvariant.lean",
+      "sha256": "e179383dc481bea168500ef7df16048e86709b3b0b8d2269c72be8750518603e",
+      "imports": [
+        "SRBodyCovariancePositive",
+        "Mathlib.LinearAlgebra.Matrix.ToLin"
+      ]
+    },
+    "SRBodyCovariancePositive": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRBodyCovariancePositive.lean",
+      "sha256": "baf2d0dd3a09fc9d1402fec48898c32fff30f14caebc5fd93e676055dbf1988a",
+      "imports": [
+        "Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar",
+        "Mathlib.MeasureTheory.Function.LocallyIntegrable",
+        "Mathlib.MeasureTheory.Integral.Bochner.Set",
+        "Mathlib.Analysis.Matrix.PosDef",
+        "Mathlib.Tactic"
+      ]
+    },
+    "SRIsotropicBodyRadial": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRIsotropicBodyRadial.lean",
+      "sha256": "ae88bdc4722e0d45d475f8016b24a6f4310d17ae2c3f39225fc4a501c0ed06f0",
+      "imports": [
+        "Mathlib.Analysis.Convex.Gauge",
+        "Mathlib.Analysis.Normed.Module.Convex",
+        "Mathlib.LinearAlgebra.QuadraticForm.Basic",
+        "Mathlib.Analysis.SpecialFunctions.Sqrt",
+        "Mathlib.Tactic"
+      ]
+    },
+    "SRConstructedIntervalCalibration": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\SRConstructedIntervalCalibration.lean",
+      "sha256": "a9e330ba4d171a1d3dc4fda526a7c34afa7daf4660624520a4705fec287af235",
+      "imports": [
+        "Mathlib.Data.Real.Embedding",
+        "Mathlib.Tactic"
+      ]
+    },
+    "MetricityLicensingSemanticChecks": {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\MetricityLicensingSemanticChecks.lean",
+      "sha256": "9b401f4e10058319c1f7069b48a4d4045c9d753007db806790fd99ebf06d805f",
+      "imports": [
+        "MetricityOriginalClockAssembly"
+      ]
+    }
+  },
+  "external_cached_imports": [
+    "Init",
+    "Mathlib.Algebra.BigOperators.Group.Finset.Defs",
+    "Mathlib.Algebra.Module.LinearMap.End",
+    "Mathlib.Analysis.Convex.Gauge",
+    "Mathlib.Analysis.InnerProductSpace.Basic",
+    "Mathlib.Analysis.InnerProductSpace.PiL2",
+    "Mathlib.Analysis.InnerProductSpace.Projection.Reflection",
+    "Mathlib.Analysis.Matrix.PosDef",
+    "Mathlib.Analysis.Normed.Module.Convex",
+    "Mathlib.Analysis.Normed.Module.FiniteDimension",
+    "Mathlib.Analysis.Normed.Module.Normalize",
+    "Mathlib.Analysis.Normed.Module.RCLike.Real",
+    "Mathlib.Analysis.SpecialFunctions.Sqrt",
+    "Mathlib.Data.Fintype.Card",
+    "Mathlib.Data.Fintype.Fin",
+    "Mathlib.Data.Real.Embedding",
+    "Mathlib.Data.Set.Finite.Basic",
+    "Mathlib.Data.Set.Finite.Range",
+    "Mathlib.GroupTheory.GroupAction.Defs",
+    "Mathlib.LinearAlgebra.Matrix.ToLin",
+    "Mathlib.LinearAlgebra.QuadraticForm.Basic",
+    "Mathlib.Logic.Equiv.Defs",
+    "Mathlib.Logic.Equiv.Fintype",
+    "Mathlib.Logic.ExistsUnique",
+    "Mathlib.Logic.Relation",
+    "Mathlib.MeasureTheory.Function.LocallyIntegrable",
+    "Mathlib.MeasureTheory.Integral.Bochner.Set",
+    "Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar",
+    "Mathlib.Order.WellFounded",
+    "Mathlib.Tactic",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Topology.Order.Compact"
+  ],
+  "fresh_mathlib_or_toolchain_build": false,
+  "fresh_local_module_count": 64,
+  "environment_inventory": {
+    "constants": 2606,
+    "theorems": 858
+  },
+  "new_explicit_declaration_reports": 67,
+  "all_exact_axiom_reports": [
+    {
+      "name": "AASC.AmetricIdentityBoundary.determinate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.AmetricIdentityBoundary.nondegenerate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.AmetricIdentityBoundary.objecthood",
+      "axioms": []
+    },
+    {
+      "name": "AASC.AmetricIdentityBoundary.standing",
+      "axioms": []
+    },
+    {
+      "name": "AASC.BooleanClassifier.governanceEquivalent_of_sound_complete",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintAction.accepts_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintAction.compose_act",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintAction.identity_act",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintAction.inverse_act",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintAction.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintAction.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.ConstraintAction.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintAction.occurs_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintAction.oneOrbit_nonempty",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintAction.orbit_refl",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintAction.orbit_symm",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintAction.orbit_trans",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintAction.satisfies_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintProfile.essentialAt_reopens_rival",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintProfile.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintProfile.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.ConstraintProfile.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintSpace.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintSpace.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.ConstraintSpace.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintSpace.residue_implies_candidate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintSpace.residue_nonempty",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ConstraintSpace.residue_nonempty_of_instantiation",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionTable.aligned",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionTable.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionTable.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.DecisionTable.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionTable.unique",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionTable.verdicts_sameDomain",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.DifferenceCode.equivalent.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.DifferenceCode.extendsStanding.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.DifferenceCode.ofNat_ctorIdx",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.DifferenceCode.prepend_sound",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.DifferenceCode.replacesBoundary.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.DifferenceCode.restrictsStanding.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.FalseNegative.brecOn",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.FalsePositive.brecOn",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.HasDecision.brecOn",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.NoFalseNegative.brecOn",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.NoFalseNegative.refute",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.NoFalsePositive.brecOn",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.NoFalsePositive.refute",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.NondegenerateBoundary.failure",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.NondegenerateBoundary.standing",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.boundary_closure",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.classifyDifference.eq_def",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.classifyDifference_complete_of_sameDomain",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.classifyDifference_sound",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.classify_positive_negative_singleton",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.complement_length",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.eq_of_noFalsePositive_noFalseNegative",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.falseNegative_complement_of_hasTrue",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.falsePositive_complement_of_hasFalse",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.fixedDomainExhaustion_allows_negative_endpoint",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.four_profile_exhaustion",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.no_fifth_same_domain_governance_route",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.no_unclassified_same_domain_candidate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.not_all_sameDomain_routes_preserveStanding",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.positive_negative_singleton_classification_sound",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.positive_negative_singleton_falseNegative",
+      "axioms": []
+    },
+    {
+      "name": "AASC.DecisionVector.positive_negative_singleton_sameDomain",
+      "axioms": []
+    },
+    {
+      "name": "AASC.EndpointInterface.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.EndpointInterface.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.EndpointInterface.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.EndpointRedescription.left_inverse",
+      "axioms": []
+    },
+    {
+      "name": "AASC.EndpointRedescription.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.EndpointRedescription.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.EndpointRedescription.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.EndpointRedescription.right_inverse",
+      "axioms": []
+    },
+    {
+      "name": "AASC.EndpointReport.defeated.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.EndpointReport.defeated.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.EndpointReport.defeated.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.EndpointReport.realized.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.EndpointReport.realized.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.EndpointReport.realized.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.Continuation.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.Continuation.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.IncidenceSystem.Continuation.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.ContinuationPath.brecOn.eq",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.ContinuationPath.cons.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.ContinuationPath.cons.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.IncidenceSystem.ContinuationPath.cons.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.ContinuationPath.refl.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.Reference.isIncident",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.Reference.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.Reference.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.IncidenceSystem.Reference.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.StandingStatus.failure.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.StandingStatus.standing.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.StandingStatus.standing.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.IncidenceSystem.StandingStatus.standing.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.admissibleAt_of_reference",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.admissible_or_failure_of_partialReference",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.canonicalKernel_failure_of_nondegenerate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.canonicalKernel_standingAt_of_reference",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.carrier_eq_of_sameScopeRelated",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.determinateNondegenerateObjecthood",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.directedKernelStep_irreversible",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.failure_pulls_back_along_continuation",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.failure_pulls_back_along_path",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.IncidenceSystem.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.no_continuation_from_standing_to_failure",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.not_admissible_iff_failure",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.referenceAt_subsingleton_of_determinate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.reference_eq_of_determinate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.sameScopeRelated_trans_of_determinate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.sharesReference_symm",
+      "axioms": []
+    },
+    {
+      "name": "AASC.IncidenceSystem.sharesReference_trans_of_determinate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.EndpointInstance.active_generated_sameScope",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.EndpointInstance.endpoint",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.EndpointInstance.endpoints_distinct",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.EndpointInstance.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.EndpointInstance.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.EndpointInstance.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.EndpointInstance.transported_reference_agrees",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleClosure.bridge_exhaustive",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleClosure.completeAssignment_nonempty",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleClosure.every_candidate_live",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleClosure.generatedOneAssignmentOrbit",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleClosure.identity_compatible",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleClosure.identity_instantiated",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleClosure.instantiated_covers",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleClosure.kernel_excludes_incompatibility",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleClosure.normalizes_to_identity",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleClosure.occupant_eq_role",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleClosure.oneAssignmentOrbit",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleClosure.oneGeneratedOrbit",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleClosure.orbit_complete",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleOccupancy.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleOccupancy.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleOccupancy.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleOccupancy.no_distinct_shared_role_of_carrierSeparating",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleOccupancy.occupies",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleOccupancy.roleOf_injective_of_carrierSeparating",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleOccupancy.sharesReference_of_sameRole",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleWitness.carrierSeparating",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleWitness.occupants_with_same_role_are_equal",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.FixedRoleWitness.roleOf_injective",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.AdmissibilityStatus.admissible.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.AdmissibilityStatus.failure.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.AdmissibilityStatus.ofNat_ctorIdx",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.ConcreteWitness.adequacyRegime_kernel_roles",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.ConcreteWitness.adequacyRegime_nondegenerate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.ConcreteWitness.adequacyRegime_targetAdequate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.ConcreteWitness.endpoint_and_role_occupancy_closure",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.DerivedKernelRoles.actTimeIrreversible",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.DerivedKernelRoles.admissibleIffStanding",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.DerivedKernelRoles.referenceExistsUnique",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.DerivedKernelRoles.standingFailureDisjoint",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.DerivedKernelRoles.verdictExistsUnique",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.KernelRole.admissibility.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.KernelRole.irreversibility.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.KernelRole.ofNat_ctorIdx",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.KernelRole.reference.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.KernelRole.standing.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.KernelStructure.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.KernelStructure.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.KernelStructure.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.RawStepSequence.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.RawStepSequence.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.RawStepSequence.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.RouteCoordinate.actTime.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.RouteCoordinate.eligibility.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.RouteCoordinate.ofNat_ctorIdx",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.RouteCoordinate.target.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.SameRegimeFaithfulCounterexample.missingRole",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.SameRegimeFaithfulCounterexample.notGovernanceEquivalent",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.SameRegimeFaithfulCounterexample.targetAdequacy",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.StandardFailureMode.governanceEquivalentCollapse.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.StandardFailureMode.illicitImport.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.StandardFailureMode.ofNat_ctorIdx",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.StandardFailureMode.repairCollapse.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.StandardFailureMode.stepStatusLoss.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.StandardFailureMode.targetLoss.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.TargetAdequacyProfile.actTimeFinality",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.TargetAdequacyProfile.sameRegimeFidelity",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.TargetAdequacyProfile.stepEvaluability",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.TargetAdequacyProfile.targetDeterminacy",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.actIdentity_refl",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.admissibility_bivalent",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.admissibility_is_joint_boundary",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.admissibility_requires_standing",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.ametricBoundary_of_nondegenerate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.boundary_closure_dichotomy",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.complete_role_package_has_kernel_roles",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.conservation_of_standing_preservation",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.construction_forces_kernel",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.foundational_candidate_exhaustion",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.governanceEquivalent_refl",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.governanceEquivalent_replacement_has_kernel",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.governanceEquivalent_symm",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.governanceEquivalent_trans",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.irreversibility_necessity",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.mechanization_boundary",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.no_distinct_faithful_interior",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.no_faithful_sameDomain_extension",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.no_independent_faithful_foundational_condition",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.no_self_faithful_counterexample",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.no_standing_without_admissibility",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.no_strict_complete_role_subpackage",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.redescription_preserves_reference_and_standing",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.reference_necessity",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.routeCoordinate_exhaustion",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.same_act_repair_impossible",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.standardFailureMode_exhaustion",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.standing_iff_reuseStable",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.standing_requires_admissibility",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.statusOf_admissible_iff",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.statusOf_failure_iff",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.targetAdequacy",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.targetAdequacy_forces_kernel_roles",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.transport_closure",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Manuscript.unique_admissible_interior",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.ActiveEndpointExhaustion.active_sameScope",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.ActiveEndpointExhaustion.exhausts",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.ActiveEndpointExhaustion.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.ActiveEndpointExhaustion.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.ActiveEndpointExhaustion.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.ActiveEndpointExhaustion.route_for_active",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.ActiveEndpointExhaustion.routes_nonempty_of_active",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.ActiveEndpointExhaustion.transportedReference_eq",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Admission.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Admission.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Admission.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.BoundaryWitness.isFailure",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.BoundaryWitness.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.BoundaryWitness.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.BoundaryWitness.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.GeneratedRoute.current_mem_generatedCurrentPopulation",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.GeneratedRoute.destinationReference_eq",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.GeneratedRoute.destination_active",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.GeneratedRoute.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.GeneratedRoute.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.GeneratedRoute.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Interaction.changesAct",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Interaction.destinationIncident",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Interaction.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Interaction.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Interaction.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Interaction.sameScope",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Interaction.sourceIncident",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.InteractionPath.brecOn.eq",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.InteractionPath.cons.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.InteractionPath.cons.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.InteractionPath.cons.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.InteractionPath.mapReference_value_eq",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.InteractionPath.refl.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.InteractionPath.sameScope",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Path.brecOn.eq",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Path.cons.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Path.cons.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Path.cons.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.Path.refl.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.PositiveInteractionPath.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.PositiveInteractionPath.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.PositiveInteractionPath.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.StandingWitness.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.StandingWitness.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.StandingWitness.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.admitted_instance_has_no_path_to_boundary",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.endpoint",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.no_path_from_standing_to_boundary",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.no_step_from_standing_to_boundary",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.populatedBy_active",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Model.populatedBy_sameScope",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.ConstructionAct.failed.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.ConstructionAct.initial.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.ConstructionAct.ofNat_ctorIdx",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.ConstructionAct.reused.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.FixedReference.ofNat_ctorIdx",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.FixedReference.target.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.FixedScope.domain.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.FixedScope.ofNat_ctorIdx",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.every_active_act_has_generated_route",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.every_active_reference_agrees",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.generatedCurrentPopulation_length",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.initial_current_is_populated",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.interactionRoute_destinations_nodup",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.interaction_endpoint",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.interaction_routes_nonempty",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.kernel_paper_endpoint",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.no_licensed_path_to_failure",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.reusePath_preserves_reference",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.reused_current_is_populated",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.reused_route_reference_agrees",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Instances.KernelPaper.Witness.reverse_step_from_failure_exists",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Kernel.admissibleAt_iff_standingAt",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Kernel.failure_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Kernel.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Kernel.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.Kernel.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Kernel.noContinuation_of_standingToFailure",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Kernel.reference_unique_of_determinate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Kernel.standingToFailure_asymmetric",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Kernel.standing_failure_disjoint",
+      "axioms": []
+    },
+    {
+      "name": "AASC.Kernel.standing_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.canonical_profile_realization",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.classify_eq_iff",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.classify_surjective",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.coordinate_recovery",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.descend_classify",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.equivalent_iff_profile_eq",
+      "axioms": [
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.original_contexts_derive_partial_congruence",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.partial_descent_domain_image",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.partial_output_classes_agree",
+      "axioms": [
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.represented_observation_agrees",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.unique_classifier_isomorphism",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.unique_exact_classifier",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.unique_factorization",
+      "axioms": [
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.unique_partial_descent",
+      "axioms": [
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ContextualQuotient.unique_partial_descent_of_original_contexts",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.DependentConservation.all_profiles_eq_of_same_bearer",
+      "axioms": [
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.DependentConservation.completeOutcome_determinate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.DependentConservation.completeOutcome_none_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.DependentConservation.completeOutcome_some_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.DependentConservation.complete_outcome_conservation",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.DependentConservation.discordance_excludes_joint_incidence",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.DependentConservation.discordant_answer_not_incident",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.DependentConservation.incidence_transport",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.DependentConservation.known_result_excludes_absent_outcome",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.DependentConservation.output_eq_of_same_bearer_query",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.DependentConservation.profile_eq_of_same_bearer",
+      "axioms": [
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.DependentConservation.transportResult_rfl",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.finite_partial_equiv_extends",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.invariant_binary_diagonal_constant",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.invariant_binary_off_diagonal_constant",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.invariant_binary_unique_normal_form",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.invariant_unary_constant",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.invariant_unique_factorization",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.no_invariant_strict_total_order",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.no_permutation_fixed_point",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.partition_realized_iff_block_count",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.partition_realized_iff_embedding",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.pattern_factor_is_invariant",
+      "axioms": [
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.permutation_preserves_pattern",
+      "axioms": [
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.rangeMap_at",
+      "axioms": [
+        "Classical.choice"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.rangeMap_bijective",
+      "axioms": [
+        "Classical.choice"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.EqualityPatterns.samePattern_iff_permutation",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.Joint.loose.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.Joint.ofNat_ctorIdx",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.Joint.secured.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.Support.finger.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.Support.ofNat_ctorIdx",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.Support.unassisted.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.Trial.assisted.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.Trial.first.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.Trial.ofNat_ctorIdx",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.Trial.repaired.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.assisted_carries",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.assisted_changes_conditions",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.assisted_fails_unsupported_use",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.equal_report_does_not_identify_original",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.erasing_trial_identity_loses_required_work",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.failed_trial_occurrence_has_standing",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.failureOnly_boundary",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.failureOnly_no_actual",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.first_fails_original_use",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.negative_report_of_first_is_warranted",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.occurrenceSystem_determinate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.ordinary_failed_trial_and_full_regime_profile",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.positiveOnly_actual",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.positiveOnly_determinate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.positiveOnly_no_failureBoundary",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.positiveOnly_not_legacy_nondegenerate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.repaired_does_not_retain_original",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.repaired_succeeds_new_use",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.success_report_of_first_is_unwarranted",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.success_report_of_repaired_is_warranted",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.Examples.trialRegime_has_both_witnesses",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.ObservationWork.missing_work_excludes_complete_realization",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.ObservationWork.required_distinction_cannot_be_erased",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.OriginalPerformance.changed_conditions_not_retained",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.OriginalPerformance.changed_occurrence_not_retained",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.OriginalPerformance.incident_answers_agree",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.OriginalPerformance.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.OriginalPerformance.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.OriginalPerformance.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.OriginalPerformance.new_success_does_not_replace_original",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.OriginalPerformance.qualification_preserved",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.OriginalPerformance.retainsOriginal_iff_eq",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.actualIncidence_has_canonical_standing",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.actualIncidence_iff_admissible_locus",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.actualIncidence_of_reference",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.actual_reference_qualifies",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.determinate_actual_reference",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.failureBoundary_iff_legacy_nondegenerate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.Foundation.legacy_regime_nondegenerate_iff_both",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.Examples.actual_incidence_survives_false_refusal",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.Examples.arbitrary_ground_cannot_transfer_between_booleans",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.Examples.both_values_incident",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.Examples.multivalued_incidence_has_unique_qualification",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.Examples.particular_ground_can_transfer_without_identity",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.Examples.result_relation_not_single_valued",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.Examples.surplus_reader_does_not_change_actual_incidence",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.Examples.surplus_reader_not_exact",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.Examples.twoOutcomes_no_failed_locus",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.actual_incidence_forces_canonical_work",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.actual_incidence_gives_positive",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.actual_incidence_qualifies",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.assess_false_iff_no_incidence",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.assess_true_iff",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.canonical_answer_false_iff",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.canonical_answer_true_iff",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.canonical_reader_exact",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.canonical_verdict_incident",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.changed_qualification_forces_distinct_original",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.complete_assessment_exists_unique",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.complete_iff_no_omission",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.different_original_has_separating_ground",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.equality_probes_separate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.exact_iff_no_defects",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.identical_original_preserves_incidence",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.identical_original_retains_assessment",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.no_uniform_transfer_to_different_original",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.nonexact_iff_witnessed_defect",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.qualification_excludes_refusal",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.retained_original_record_preserves_assessment",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.retained_original_record_preserves_incidence",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.same_original_cannot_have_contrary_complete_verdicts",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.sound_iff_no_surplus",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.uniform_transfer_iff_identity",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.verdict_incident_iff_canonical",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.IncidenceNecessity.verdict_incident_unique",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.Examples.bad_reader_leaves_original_incidence_actual",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.Examples.constant_answers_do_not_retain_identity",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.Examples.deleting_constant_storage_keeps_all_original_predicates",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.Examples.positive_coverage_does_not_exclude_surplus",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.Examples.redundant_presentations_need_not_be_injective",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.canonical_reader_exact",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.canonical_reader_exact_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.erasure_loses_original_work_iff",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.erasure_of_exact_encoding_has_new_collision",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.exact_iff_no_omission_or_surplus",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.exact_reader_preserves_original_profile",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.exact_readers_agree_on_realized_image",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.exists_exact_reader_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.exists_identity_reader_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.exists_output_point_reader_iff",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.fibre_collision_excludes_exact_reader",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.identity_probes_reindex",
+      "axioms": [
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.identity_profile_preserved_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.identity_reader_supports_every_profile",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.no_exact_reader_iff_fibre_collision",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.not_exact_iff_omission_or_surplus",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.original_identity_supports_every_profile",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.output_point_profile_agrees_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.reconstructed_storage_preserves_exactness",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.unique_original_reconstruction",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.unique_original_reconstruction_iff",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.NecessityRealization.unique_reader_on_realized_image",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ObjecthoodNecessity.canonical_admission_iff_original_qualification",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ObjecthoodNecessity.canonical_standing_iff_original_qualification",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ObjecthoodNecessity.exact_identity_recovers_original_qualification",
+      "axioms": []
+    },
+    {
+      "name": "AASC.KernelReference.ObjecthoodNecessity.finite_authorization_cut_has_original_kernel",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ObjecthoodNecessity.objecthood_necessity_semantic",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.KernelReference.ObjecthoodNecessity.original_incidence_constructs_kernel",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.OfficialDefeatUse.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialDefeatUse.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.OfficialDefeatUse.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialDefeatUse.refutation",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialDefeatUse.reportsDefeat",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialEndpointUse.downstream_nonempty",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialEndpointUse.finality",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialEndpointUse.kernelReferenceUnique",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialEndpointUse.kernelStanding",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialEndpointUse.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialEndpointUse.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.OfficialEndpointUse.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialEndpointUse.noLaterStep",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialEndpointUse.published",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialEndpointUse.reuse_preserves",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialEndpointUse.reusedReport_eq",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialRealizationUse.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialRealizationUse.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.OfficialRealizationUse.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.OfficialRealizationUse.reportsRealization",
+      "axioms": []
+    },
+    {
+      "name": "AASC.PartialReferenceSystem.admissibleAt_iff_exists_result",
+      "axioms": []
+    },
+    {
+      "name": "AASC.PartialReferenceSystem.determinate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.PartialReferenceSystem.determinateNondegenerateEndpointObjecthood",
+      "axioms": []
+    },
+    {
+      "name": "AASC.PartialReferenceSystem.endpointReport_admissibleAndStanding",
+      "axioms": []
+    },
+    {
+      "name": "AASC.PartialReferenceSystem.kernel_nontrivial_iff_exists_none",
+      "axioms": []
+    },
+    {
+      "name": "AASC.PartialReferenceSystem.kernel_referenceUnique",
+      "axioms": []
+    },
+    {
+      "name": "AASC.PartialReferenceSystem.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.PartialReferenceSystem.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.PartialReferenceSystem.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.PartialReferenceSystem.nondegenerate_iff_exists_none",
+      "axioms": []
+    },
+    {
+      "name": "AASC.PartialReferenceSystem.referenceAt_eq_none_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ResidueCertificate.constrained",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ResidueCertificate.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ResidueCertificate.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.ResidueCertificate.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.ResidueCertificate.occurs",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.bridge_left",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.bridge_right",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.candidate_left",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.candidate_right",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.compatible_backward_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.compatible_forward_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.eligible_backward_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.eligible_forward_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.maps_compose",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.maps_identity",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.maps_reverse",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.occurs_backward_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.occurs_forward_iff",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.role_left",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.LawfulTransformation.role_right",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PointwiseConstraint.distinct.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PointwiseConstraint.eligible.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PointwiseConstraint.eligible.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.RoleOccupancy.PointwiseConstraint.eligible.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PointwiseConstraint.occurring.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PointwiseConstraint.occurring.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.RoleOccupancy.PointwiseConstraint.occurring.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.GeneratedPath.brecOn",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.GeneratedPath.symm",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.GeneratedPath.toLawfulTransformation",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.GeneratedPath.trans",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.generatedEquivalent_refl",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.generatedEquivalent_symm",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.generatedEquivalent_trans",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.generated_implies_lawful",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.letterMaps_inverse",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.oneAssignmentOrbit_of_generated",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.PrimitiveSystem.oneGeneratedOrbit_of_normalization",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.completeAssignment_nonempty_of_instantiation",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.complete_exactly_live",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.complete_occupant_injective",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.lawfullyEquivalent_refl",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.lawfullyEquivalent_symm",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.lawfullyEquivalent_trans",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.no_complete_of_no_compatible",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.occupancy_constrained_into_existence",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.occupant_eligible",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.occupant_injective",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.occupant_live",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.Problem.occupant_occurs",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.SignedGenerator.backward.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.SignedGenerator.backward.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.RoleOccupancy.SignedGenerator.backward.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.SignedGenerator.forward.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoleOccupancy.SignedGenerator.forward.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.RoleOccupancy.SignedGenerator.forward.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RouteFamily.empty_not_exhaustive_of_candidate",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RouteFamily.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RouteFamily.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.RouteFamily.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RouteFamily.singleton_exhausts_of_uniform_cover",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.RoutePresentation.metadata_erased",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoutePresentation.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.RoutePresentation.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.RoutePresentation.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.act_left_inverse",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.act_right_inverse",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.destination_preserved",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.preserves_failure",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.preserves_reference",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.preserves_standing",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.source_preserved",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.step_left_inverse",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.step_right_inverse",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.target_preserved",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.Redescription.verdict_preserved",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.admissible_iff_standing",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.fullKernel_of_targetAdequacy",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.no_adequacyViolation_of_sameTarget",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.nondegenerate_targetAdequacy_instantiatesKernel",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.not_actTimeFinalityFailure",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.not_redescriptionFidelityFailure",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.not_stepUnevaluable",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.reference_exists_unique",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.reference_unique",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.repair_is_distinct",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.standing_failure_disjoint",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.verdict_change_forces_distinct_step",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.Regime.verdict_exists_unique",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.StepVerdict.advances.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.StepVerdict.departs.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.StepVerdict.fails.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASC.TargetAdequacy.StepVerdict.ofNat_ctorIdx",
+      "axioms": []
+    },
+    {
+      "name": "AASC.constrained_into_existence",
+      "axioms": []
+    },
+    {
+      "name": "AASC.kernel_exists",
+      "axioms": []
+    },
+    {
+      "name": "AASC.kernel_necessity",
+      "axioms": []
+    },
+    {
+      "name": "AASC.kernel_necessity_of_partialReference",
+      "axioms": []
+    },
+    {
+      "name": "AASC.residueCertificate_iff_residue",
+      "axioms": []
+    },
+    {
+      "name": "AASCAMetricMetricUse.AMetricLicensingDiscipline",
+      "axioms": [
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASCAMetricMetricUse.FibreConstant",
+      "axioms": []
+    },
+    {
+      "name": "AASCAMetricMetricUse.GroundedClosure",
+      "axioms": []
+    },
+    {
+      "name": "AASCAMetricMetricUse.RuleClosed",
+      "axioms": []
+    },
+    {
+      "name": "AASCAMetricMetricUse.constructed_ametric_licensing_discipline",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCAMetricMetricUse.constructed_information_and_grounding_restrictions",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASCAMetricMetricUse.discordant_fibre_excludes_source_only_answer",
+      "axioms": []
+    },
+    {
+      "name": "AASCAMetricMetricUse.eligible_equivariant_output_is_stabilizer_fixed",
+      "axioms": []
+    },
+    {
+      "name": "AASCAMetricMetricUse.empty_eligible_fixed_set_excludes_selector",
+      "axioms": []
+    },
+    {
+      "name": "AASCAMetricMetricUse.grounded_closure_contains_grounds",
+      "axioms": []
+    },
+    {
+      "name": "AASCAMetricMetricUse.grounded_closure_is_rule_closed",
+      "axioms": []
+    },
+    {
+      "name": "AASCAMetricMetricUse.independently_grounded_entrance_is_in_closure",
+      "axioms": []
+    },
+    {
+      "name": "AASCAMetricMetricUse.retained_answer_has_unique_descent_iff",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASCAMetricMetricUse.unseeded_mutual_licenses_are_absent",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricConstruction.FiniteReach.brecOn",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRNativeClockState.mk.inj",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRNativeClockState.mk.injEq",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRNativeClockState.mk.sizeOf_spec",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRNativeClockUse.mk.inj",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRNativeClockUse.mk.injEq",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRNativeClockUse.mk.sizeOf_spec",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRStructuralConeSource.boundaryIsotropy",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRStructuralConeSource.clockPreserved",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRStructuralConeSource.interiorRest",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRStructuralConeSource.mk.inj",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRStructuralConeSource.mk.injEq",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRStructuralConeSource.mk.sizeOf_spec",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRStructuralConeSource.positiveCompletedClock",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRStructuralConeSource.preservesOriginal",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.SRStructuralConeSource.restFixed",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.add_mem_completedReach",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.clock_section_compact",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.clock_section_nonempty",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.finiteReach_iff_original_ledger",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.finite_comparison_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.finite_rest_action_constructs_clock_section",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.increment_map_preserves_completedReach",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.original_mem_completedReach",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.positive_clock_of_finite_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.positive_clock_of_finite_rest_action",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.smul_mem_completedReach",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.source_increments_construct_compact_clock_section",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.srClockSpatialPart.congr_simp",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.srConstructedLorentzQuadratic.congr_simp",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.srRayRestComparison.congr_simp",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.srRaySpatialEquiv.congr_simp",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.srRestMatrix.congr_simp",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_all_original_marked_coasting_records_recovered",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_arbitrary_finite_dimensional_isotropic_body_constructs_unique_form",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_body_comparison_abs_det_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_body_comparison_preserves_lebesgue",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_body_covariance_positive_definite",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_body_has_positive_finite_volume",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_clock_body_closed",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_clock_body_compact",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_clock_body_convex",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_clock_body_zero_interior",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_clock_spatial_part_rest_zero",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_completed_original_reach_convex",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_constructed_covariance_inverse_positive",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_constructed_covariance_inverse_rest_invariant",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_constructed_lorentz_associated_nondegenerate",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_constructed_lorentz_direct_sum_value",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_constructed_lorentz_quadratic_value",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_covariance_bilinear_is_integral",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_covariance_constructor_computes_the_original_ray_spatial_form",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_covariance_inverse_congruence_invariant",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_covariance_is_hermitian",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_covariance_quadratic_is_integral",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_covariance_transforms_under_full_body_comparison",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_every_future_increment_has_original_two_ray_ledger",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_finite_original_reach_convex",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_four_dimensional_ray_source_conditions_are_jointly_inhabited",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_full_body_isotropy_constructs_unique_spatial_quadratic_form",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_full_clock_body_recovers_entire_future_cone",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_full_isotropy_fixes_quadratic_boundary_radius",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_full_ray_source_constructor_computes_lorentz_form_everywhere",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_gauge_normalization_on_full_boundary",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_isotropic_invariant_form_normalizes_to_full_body",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_lorentz_associated_against_calibrated_rest",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_matrix_quadratic_congruence",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_matrix_quadratic_value",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_balanced_reflection_preserves_total_momentum_and_endpoint",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_clock_actual_velocity_subluminal",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_clock_every_finite_declared_redescription_is_safe",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_clock_greatest_original_safe_region_computed",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_clock_hamiltonian_positive",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_clock_hamiltonian_square",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_clock_internal_energy_is_in_same_body_mass",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_clock_original_use_domain_and_answer_preserved",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_clock_reading_rate_positive_bounded",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_clock_redescription_preserves_every_original_marked_record",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_coasting_exact_full_original_state_phase_identity_fibres",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_coasting_flow_composition",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_coasting_flow_zero",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_coasting_source_quotient_surjective",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_coasting_unique_exact_public_kernel_source",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_compensating_ray_has_actual_shared_endpoint",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_every_finite_roundtrip_has_same_source_clock_and_ray_records",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_physical_rest_duration_safe_region_is_nonempty",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_positive_energy_ray_is_original_future_null",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_positive_rest_clock_is_occupied",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_protocol_forward_leg_is_original_ray",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_protocol_return_leg_is_original_ray",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_rest_clock_actual_coasting_record",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_native_rest_clock_has_rate_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_nonzero_linear_query_has_occupied_interior_answer",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_normalized_original_interval_receipt_strictly_preserves_order",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_archimedean_interval_group_constructs_unique_calibrated_duration",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_clock_spatial_decomposition",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_comparison_preserves_full_completed_cone",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_cone_full_isotropy_constructs_unique_spatial_and_lorentz_receipt",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_rational_interval_comparisons_fix_each_real_answer",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_ray_clock_body_is_full_spatial_ball",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_ray_completed_clock_strict",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_ray_completed_reach_exact_full_cone",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_ray_finite_reach_exact_full_cone",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_ray_finite_reach_is_future",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_ray_full_boundary_isotropy",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_ray_role_occupied",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_real_interval_calibration_equals_actual_rest_clock_receipt",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_rest_preserves_constructed_clock_body",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_original_three_spatial_dimensions_give_four_dimensional_carrier",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_positive_form_bound_from_full_unit_ball_inclusion",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_positive_quadratic_form_unique_from_full_unit_ball",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_ray_rest_clock_one",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_ray_rest_comparison_clock",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_ray_rest_comparison_fixes_rest",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_ray_rest_comparison_preserves_original_rays",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_ray_rest_comparison_value",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_ray_rest_is_interior_of_original_completed_reach",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_ray_spatial_kernel_norm",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_ray_spatial_nontrivial",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_ray_spatial_norm_quadratic_value",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_rest_matrix_applies",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_rest_matrix_inverse_identities",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_same_original_interval_order_and_unit_force_same_duration",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_source_constructed_lorentz_nondegenerate",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_source_constructed_metric_unique_injective_public_kernel_descent",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_source_constructs_unique_spatial_lorentz_receipt",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_source_lorentz_recovers_every_original_completed_query",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_source_metric_fibres_are_exact_full_original_cone_profiles",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_source_spatial_positive",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_source_spatial_recovers_full_clock_body",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_spatial_clock_zero",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.sr_spatial_direction_and_radial_amount",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.strict_clock_iff_finite_bound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.weak_clock_extends_to_completedReach",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricConstruction.zero_mem_completedReach",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.ClockOriginalGround",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.ClockOriginalGround.mk.inj",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.ClockOriginalGround.mk.injEq",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.ClockOriginalGround.mk.sizeOf_spec",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.CompleteClockMeaning",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.CompleteClockMeaning.mk.inj",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.CompleteClockMeaning.mk.injEq",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.CompleteClockMeaning.mk.sizeOf_spec",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.clock_license_forces_actual_complete_descriptor_meaning",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.clock_redescription_retains_complete_original_ground",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.occupied_clock_constructs_actual_public_kernel_and_licensed_interior",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.occupied_clock_original_valid_region_is_postfixed",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.occupied_clock_receives_all_five_licensing_properties",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.occupied_interpreted_duration_has_actual_canonical_license",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.originalClockTask",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.original_clock_answer_relation_is_determinate",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.original_clock_valid_record_passes_local_tests",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.sourceClockAnswerIncidence",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.sourceClockGround",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockAssembly.sourceClockMeaning",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockLicenseReceipt.original_occupied_clock_has_canonical_full_family_duration_license",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockLicenseReceipt.original_occupied_clock_has_constructed_complete_receiver_point",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityClockLicenseReceipt.original_occupied_clock_valid_region_is_sound",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityLicensingConstruction.canonical_license_has_original_qualification",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingConstruction.constructed_receipt_preserves_every_original_answer",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingConstruction.constructed_receiver_exactly_presents_canonical_license",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingConstruction.constructed_receiver_is_unique_exact_complete_content_receiver",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASCMetricityLicensingConstruction.every_original_sound_region_is_in_canonical_license",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingConstruction.faithful_original_consumer_supplies_license",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingConstruction.original_prerequisite_placement_and_positive_use_imply_local_boundary",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingConstruction.original_safe_has_qualification",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingConstruction.original_safe_region_is_sound",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingConstruction.original_safe_successor",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingConstruction.original_sound_region_is_safe",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingConstruction.safe_use_preserves_original_edge_and_successor_license",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingSemanticChecks.absentOriginalResult",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingSemanticChecks.boundaryMutationTask",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingSemanticChecks.missingReadinessTask",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingSemanticChecks.missing_required_redescription_cannot_pass_vacuously",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingSemanticChecks.no_license_can_hide_missing_required_redescription",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingSemanticChecks.original_absence_is_retained_as_an_answer_not_failed_search",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingSemanticChecks.positive_local_record_does_not_license_boundary_mutation",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityLicensingSemanticChecks.positive_present_record_does_not_license_unsafe_promised_future",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityLicensingSemanticChecks.unsafeFutureTask",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOrderAudit.DescriptorSector.causal.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOrderAudit.DescriptorSector.constantPresentation.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOrderAudit.DescriptorSector.distance.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOrderAudit.DescriptorSector.dynamics.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOrderAudit.DescriptorSector.observation.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOrderAudit.DescriptorSector.topology.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOrderAudit.discordant_original_fibre_excludes_that_source_only_answer",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOrderAudit.earlier_original_use_refutes_later_first_availability",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOrderAudit.lost_richer_answer_does_not_exclude_retained_duration",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityOrderAudit.nonempty_grounded_safe_uses_do_not_force_a_minimal_interface",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityOrderAudit.original_incidence_supplies_qualification_and_safe_record",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.FiveLicensingConclusions",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.L1_licensed_act_has_original_standing",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.L2_every_required_redescription_is_licensed",
+      "axioms": [
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.L3_original_boundary_work_and_context_are_preserved",
+      "axioms": [
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.L4_every_declared_finite_path_retains_original_warrants",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.L5_licensing_cannot_supply_a_missing_original_incidence",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.L5_retaining_original_subject_precludes_retroactive_repair",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.OriginalMetricTask",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.OriginalMetricTask.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.OriginalMetricTask.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.OriginalMetricTask.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.OriginalReadiness",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.ProfileValue",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.canonicalSafeUses",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.canonical_licensing_contains_every_original_sound_region",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.canonical_original_use_construction_proves_L1_through_L5",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.completeOriginalProfile",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.constructedLicensing",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.declaredOriginalEdge",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.kernel_ametric_canonical_metric_licensing",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.licensed_original_incidence_witness",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.licensing_exact_original_safe_projection",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.originalDescriptorEquivalent",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.originalEdgeTest",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.originalIncidence",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.originalLocalTest",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.originalSafetyOperator",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.original_safe_uses_are_fixed",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.original_safe_uses_are_union_of_all_sound_regions",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.original_safety_operator_monotone",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.original_safety_postfixed_iff_sound",
+      "axioms": []
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.safe_redescription_has_equal_complete_profile",
+      "axioms": [
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "AASCMetricityOriginalAssembly.safe_redescription_has_same_original_ground",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.Examples.failed_required_check_blocks_endpoint",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.Examples.one_authoritative",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.Examples.one_introduces_authority",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.Examples.path_first_need_not_be_global_minimal",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.Examples.positive_grounded_endpoint",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.Examples.two_authoritative",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.Examples.warranted_endpoint_has_cut",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.Examples.zero_not_authoritative",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.Interpretation.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.Interpretation.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.Interpretation.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.RetainedExtension.edge_forward",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.RetainedExtension.injective",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.RetainedExtension.local_iff",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.RetainedExtension.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.RetainedExtension.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.RetainedExtension.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.RetainedExtension.predecessors_complete",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.SupportGraph.acyclic",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.SupportGraph.ancestor_wellFounded",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.SupportGraph.edge_wellFounded",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.SupportGraph.mk.inj",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.SupportGraph.mk.injEq",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.SupportGraph.mk.sizeOf_spec",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.Supported.brecOn",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.exists_minimal_authority_ancestor",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.failed_ancestor_blocks",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.finite_authorization_cut",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.first_authority_on_list",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.governance_free_has_no_warrant",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.local_soundness_global",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.report_from_local_evidence",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.retained_failure_blocks_descendant",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.retained_support_iff",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.supported_ancestor",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.supported_iff",
+      "axioms": []
+    },
+    {
+      "name": "KernelReference.Authorization.supported_iff_all_ancestors",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "KernelReference.Authorization.supported_report_checks",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ]
+    }
+  ],
+  "axiom_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "prior_deliverable_manifests_preserved": [
+    {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\sr_native_provenance_deliverables.json",
+      "sha256": "627a69ad47638e58396b5d5277984cf6dcb07da7a9399c5f51a8040f215ea90c",
+      "entries": 72
+    },
+    {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\sr_driven_action_deliverables.json",
+      "sha256": "8dd428e81528c8a31e570aea2cb3f3023b8f7e64ff99e035de5c1b63046134ba",
+      "entries": 52
+    },
+    {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\order-pass\\deliverables.json",
+      "sha256": "ae398363d9a4c1385b36b2aeb67c41fe276efb82dfbb3129ac9edf5fc871ce0e",
+      "entries": 22
+    },
+    {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\clock-minimality-attempt\\deliverables.json",
+      "sha256": "efae95d81264f01672155214c7d29ff519b1ba0c549d2142162283eba4e5b94d",
+      "entries": 14
+    },
+    {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\ametric-predecessor-check\\deliverables.json",
+      "sha256": "91434f1721521f07b9cdd147a1ec72ab3487540657bcb2a56742e12bb282c148",
+      "entries": 76
+    },
+    {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\licensing-interface-construction\\deliverables.json",
+      "sha256": "0331c6287a06a503298ffd3238526dcd00c88c9ba16f917312d7810ebb72ded2",
+      "entries": 11
+    },
+    {
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\metricity-endpoint-current-review\\deliverables.json",
+      "sha256": "ce64f3795ed76e59aa8f9844eac13d10cce97a407803f468acb3385be45f3014",
+      "entries": 8
+    }
+  ],
+  "prior_local_source_closure_unchanged": 267,
+  "original_stack_and_copies_preserved": 282,
+  "raw_task_fields_assert_licensing_properties": false,
+  "kernel_to_ametric_to_equations_4_7_and_all_L1_L5_encoded": true,
+  "original_qualification_and_complete_semantic_interpretation_inputs_retained": true,
+  "clock_descriptor_actual_meaning_attachment_required_and_checked": true,
+  "extra_physical_placement_requirement_withdrawn": true,
+  "definition_5_2_local_minimum_existence_proved": false,
+  "publication_install_security_or_original_edit": false
+}

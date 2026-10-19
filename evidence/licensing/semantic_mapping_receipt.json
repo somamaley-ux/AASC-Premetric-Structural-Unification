@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "scope": "Exact signature/source mapping and raw task field audit",
+  "raw_task_fields": [
+    {
+      "name": "act",
+      "type": "C \u2192 A"
+    },
+    {
+      "name": "ground",
+      "type": "A \u2192 Origin"
+    },
+    {
+      "name": "descriptor",
+      "type": "C \u2192 M"
+    },
+    {
+      "name": "descriptorMeaning",
+      "type": "M \u2192 Meaning"
+    },
+    {
+      "name": "answers",
+      "type": "(c : C) \u2192 (q : Q) \u2192 V q"
+    },
+    {
+      "name": "qualification",
+      "type": "Origin \u2192 Witness \u2192 Prop"
+    },
+    {
+      "name": "originalAnswer",
+      "type": "(origin : Origin) \u2192 (q : Unit \u2295 Q) \u2192 ProfileValue V Meaning q \u2192 Prop"
+    },
+    {
+      "name": "originalLocal",
+      "type": "C \u2192 Prop"
+    },
+    {
+      "name": "redescription",
+      "type": "A \u2192 A \u2192 Prop"
+    },
+    {
+      "name": "redEdge",
+      "type": "C \u2192 RedTag \u2192 C \u2192 Prop"
+    },
+    {
+      "name": "contEdge",
+      "type": "C \u2192 ContTag \u2192 C \u2192 Prop"
+    },
+    {
+      "name": "redOriginalWarrant",
+      "type": "C \u2192 RedTag \u2192 C \u2192 Prop"
+    },
+    {
+      "name": "contOriginalWarrant",
+      "type": "C \u2192 ContTag \u2192 C \u2192 Prop"
+    },
+    {
+      "name": "context",
+      "type": "Origin \u2192 Context"
+    },
+    {
+      "name": "boundaryWork",
+      "type": "Origin \u2192 Boundary"
+    }
+  ],
+  "no_assumed_licensing_property_or_minimality_fields": true,
+  "source_mapping": [
+    {
+      "source": "Metricity equation4, PDF19",
+      "declaration": "AASCMetricityOriginalAssembly.canonicalSafeUses"
+    },
+    {
+      "source": "Metricity equation5, PDF19",
+      "declaration": "AASCMetricityOriginalAssembly.originalSafetyOperator"
+    },
+    {
+      "source": "Metricity equation6, PDF19",
+      "declaration": "AASCMetricityOriginalAssembly.original_safe_uses_are_fixed"
+    },
+    {
+      "source": "Metricity equation6 greatestness, PDF19",
+      "declaration": "AASCMetricityOriginalAssembly.original_safe_uses_are_union_of_all_sound_regions"
+    },
+    {
+      "source": "Metricity equation7, PDF19",
+      "declaration": "AASCMetricityOriginalAssembly.licensing_exact_original_safe_projection"
+    },
+    {
+      "source": "Metricity6.2 L1, PDF20",
+      "declaration": "AASCMetricityOriginalAssembly.L1_licensed_act_has_original_standing"
+    },
+    {
+      "source": "Metricity6.2 L2, PDF20",
+      "declaration": "AASCMetricityOriginalAssembly.L2_every_required_redescription_is_licensed"
+    },
+    {
+      "source": "Metricity6.2 L3, PDF20-21",
+      "declaration": "AASCMetricityOriginalAssembly.L3_original_boundary_work_and_context_are_preserved"
+    },
+    {
+      "source": "Metricity6.2 L4, PDF21",
+      "declaration": "AASCMetricityOriginalAssembly.L4_every_declared_finite_path_retains_original_warrants"
+    },
+    {
+      "source": "Metricity6.2 L5, PDF21",
+      "declaration": "AASCMetricityOriginalAssembly.L5_licensing_cannot_supply_a_missing_original_incidence"
+    },
+    {
+      "source": "Kernel/AMetric/Metricity assembly",
+      "declaration": "AASCMetricityOriginalAssembly.kernel_ametric_canonical_metric_licensing"
+    },
+    {
+      "source": "Occupied original clock receipt",
+      "declaration": "AASCMetricityClockAssembly.occupied_clock_constructs_actual_public_kernel_and_licensed_interior"
+    },
+    {
+      "source": "Actual descriptor meaning is required",
+      "declaration": "AASCMetricityClockAssembly.clock_license_forces_actual_complete_descriptor_meaning"
+    }
+  ],
+  "source_mapping_note_sha256": "864828564339d8d19fe5b6bf9689d643be2e8d378b09894c2c9d420bebf2a17f",
+  "independent_review_sha256": "4f58bb4f003321080bdda7b7bf880bed1b3a3d92873c14624d93c1d4ba7e5b93",
+  "normalized_original_ground_interpretation_required": true,
+  "partial_answers_and_relational_queries_supported_in_original_result_types": true,
+  "concrete_clock_descriptor_meaning_attached_to_actual_original_contract": true,
+  "current_manuscript_sha256": "4d14912adef3e276bbbe3d52bbf5b5fd57941ca2ff19735385fd41fdc4d3f781",
+  "interface_placement_is_not_a_licensing_role_obligation": true,
+  "local_minimum_existence_is_separate_reserved_statement": true
+}

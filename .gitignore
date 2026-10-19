@@ -1,0 +1,10 @@
+.lake/
+**/.lake/
+build/
+**/build/
+*.olean
+*.ilean
+*.c
+*.o
+__pycache__/
+*.zip

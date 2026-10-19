@@ -1,0 +1,27 @@
+{
+  "source_export_version": "2026.10.19",
+  "upstream_dynamics_delivery_date": "2026-10-18",
+  "licensing_audit_date": "2026-10-15",
+  "full_replay_archive": {
+    "archive_sha256": "608d4913908dd1911c7778be989d6c36c0069def8508d462edecb4812552f76e",
+    "archive_bytes": 2794959803,
+    "archive_members": 112334,
+    "package_manifest_sha256": "e64ba63ff7d63f27dddc5d3160cb750a5401c307af3f78bc4044d7cc83c54c7b",
+    "replay_receipt_sha256": "6ddfc5994d929a42563a6e85d227263fa123d752646fd2da34a88b0121940612",
+    "review_sha256": "89056b89b5810479bec130e0661b79eef20c0ae0ab2ae58ee550aac4282487ed",
+    "delivery_manifest_sha256": "10feabff58df043c1061dec6ca6aef8047ea030d25b26ede1598c9cc94d74255",
+    "audit_repair_manifest_sha256": "4da0c9b5d34334c34f24a903b7764283091bfc2351f0adf5f876b45fcfee2a2a",
+    "audit_repair_driver_sha256": "65d3c4085d1a1bc44924bbc671b52d5f5b257304735e2af18039edede931a9be"
+  },
+  "full_replay_archive_filename": "kernel-downstream-bounded-replay-private-20261018.zip",
+  "archive_in_git": false,
+  "zenodo_release_doi": null,
+  "fresh_export_lean_build": false,
+  "retained_mathlib_pin": "8f9d9cff6bd728b17a24e163c9402775d9e6a365",
+  "retained_lean_version": "4.28.0",
+  "separate_closures": {
+    "dynamics": 786,
+    "licensing": 64,
+    "shared_identical_source_modules": 11
+  }
+}

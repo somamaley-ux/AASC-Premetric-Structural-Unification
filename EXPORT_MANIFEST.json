@@ -1,0 +1,4522 @@
+{
+  "version": "2026.10.19",
+  "mathematical_source_bytes_unchanged": true,
+  "retained_dynamics_modules": 786,
+  "retained_licensing_modules": 64,
+  "shared_module_count": 11,
+  "full_archive_included": false,
+  "new_lean_replay_performed": false,
+  "lake_import_closures_checked": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 61,
+      "sha256": "2e7892d8459b2d97dfade78b25257cd02926eb2f2aeecc4e7d2ecf81a8242984"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 77,
+      "sha256": "eaaca909e48718012bb97036ff29dd59d7443d0f2a81fd1f195c939b73cb03fa"
+    },
+    {
+      "path": "ARTIFACTS.json",
+      "bytes": 1316,
+      "sha256": "3b8755f3a68cb3c1b033c85f259d12a4b7ad50cd290e72dae11a80fb25e32d82"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 521,
+      "sha256": "ce85dfdbcc0a6d4da5df9ef79a71fd339b0fa7aab09dacc9b59eee222bbce64a"
+    },
+    {
+      "path": "dynamics/lakefile.toml",
+      "bytes": 23527,
+      "sha256": "cb2165f4d248a9fe61bce807218fdc03b60e27a3fbfecf393155271722662472"
+    },
+    {
+      "path": "dynamics/lean-toolchain",
+      "bytes": 25,
+      "sha256": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028"
+    },
+    {
+      "path": "dynamics/src/AASC/Core/Continuation.lean",
+      "bytes": 5164,
+      "sha256": "ffe6f87ac0da859258ec14b6dc18b2b5bc9e3202bce19d58a72548bbfa7dc683"
+    },
+    {
+      "path": "dynamics/src/AASC/Core/DeterminateObjecthood.lean",
+      "bytes": 7519,
+      "sha256": "1fcb4c97cfa807514a4e5b2046d16cdbae972c7162eff438c872ee503c238468"
+    },
+    {
+      "path": "dynamics/src/AASC/Core/EndpointUse.lean",
+      "bytes": 7264,
+      "sha256": "eadb58f7af89e621445f15513c82670326267ce3f3de8e5915ad1bb6720339c9"
+    },
+    {
+      "path": "dynamics/src/AASC/Core/Incidence.lean",
+      "bytes": 1614,
+      "sha256": "5941adead9a0e7cd9c3d9e8361e166c887fdf0ad65cdaadb8206674a2c498ea7"
+    },
+    {
+      "path": "dynamics/src/AASC/Core/Irreversibility.lean",
+      "bytes": 1085,
+      "sha256": "3779c22be2d5f8c3445b27a2fa94347a6d4d55906c651e2be64d55b8544c78fa"
+    },
+    {
+      "path": "dynamics/src/AASC/Core/Kernel.lean",
+      "bytes": 3135,
+      "sha256": "bcb518e7ba58658dbc708740094dd47b8e4fe72efaa825d1853c3d593d780d45"
+    },
+    {
+      "path": "dynamics/src/AASC/Core/KernelNecessity.lean",
+      "bytes": 3271,
+      "sha256": "b0296353e2e91a31a150345adafb7449c015e19626589aea4fbc25795eefe86d"
+    },
+    {
+      "path": "dynamics/src/AASC/Core/Reference.lean",
+      "bytes": 4272,
+      "sha256": "c355992cc3d6f1bf8b2775a337b5a76191d0592e7146183de3021612fe6e8b82"
+    },
+    {
+      "path": "dynamics/src/AASC/Core/SameScope.lean",
+      "bytes": 2921,
+      "sha256": "4affafe11a77ef8643f2434e1589098c5a04dd851b651aba1c3745784e31cfec"
+    },
+    {
+      "path": "dynamics/src/AASC/Core/Standing.lean",
+      "bytes": 2069,
+      "sha256": "43826cfeb5a2f89edcc293eb1381668f81abd12bda6058d8af0871d446773a66"
+    },
+    {
+      "path": "dynamics/src/ActualCompactCovariantGradient.lean",
+      "bytes": 1842,
+      "sha256": "36785514e12c9417e4a5092ca66017ba4075ff4d2d71ada6045b98a6d6b97456"
+    },
+    {
+      "path": "dynamics/src/ActualCompactSourceLie.lean",
+      "bytes": 1761,
+      "sha256": "7bfdd77c4bd55c7980a23fcea01cb5947b7e59cf2d66eae98fa47178fdcc86ad"
+    },
+    {
+      "path": "dynamics/src/ActualCoordinateResponseExhaustion.lean",
+      "bytes": 2789,
+      "sha256": "87090ec0a8f390cd131c856addd3a90546f4dc74912bafb5aaccbb502a341ed6"
+    },
+    {
+      "path": "dynamics/src/ActualCurvatureAlgebraicLaws.lean",
+      "bytes": 5688,
+      "sha256": "c9b20463d918d80eb2f0fe10d34a5c3aa14728344ce0de8dfe19325d12ffc6ac"
+    },
+    {
+      "path": "dynamics/src/ActualEinsteinRegularResponse.lean",
+      "bytes": 8416,
+      "sha256": "ff096ab16f57288881efc3bfd7798a416b53e20d630d1bcfebc4edf2191ad366"
+    },
+    {
+      "path": "dynamics/src/ActualMetricHessian.lean",
+      "bytes": 3669,
+      "sha256": "d18ac6ca0fb199e2108df7588e87c8e8bc02b38ef2ee3005665a4ff111a56678"
+    },
+    {
+      "path": "dynamics/src/AdmissibleMetricResponseCore.lean",
+      "bytes": 7051,
+      "sha256": "dd8a9cbbd57caf18aa3b5fb2ae42839be7b8315155b24ffd2462b0e1ecee47db"
+    },
+    {
+      "path": "dynamics/src/AlgebraicCurvatureCoordinates.lean",
+      "bytes": 40088,
+      "sha256": "84049f60f6c1bcc1ba22f0fa417f6556a23a313773dcf16c385ff34420e594e3"
+    },
+    {
+      "path": "dynamics/src/AlgebraicCurvatureLinear.lean",
+      "bytes": 2198,
+      "sha256": "7378d9ca9a35318a189e37c822fc8edf197ef8b4343a452797aadcb2e781301c"
+    },
+    {
+      "path": "dynamics/src/BanachClosedSpanIntegral.lean",
+      "bytes": 1212,
+      "sha256": "5d64ce7288354fa69a84fa792e4fba1a6c483f5ac5ccfcef7746b2c1712acda0"
+    },
+    {
+      "path": "dynamics/src/C2CoordinateCurvatureNaturality.lean",
+      "bytes": 5613,
+      "sha256": "1b75eb15f05d7c2ec4a1f8c44d39d4e330134528c4c2fd0722302a6b29989e75"
+    },
+    {
+      "path": "dynamics/src/C2GeneralConnectionDerivative.lean",
+      "bytes": 3474,
+      "sha256": "e8233831b4f1152adddd91e0d4e1e8a9ae8a1680bcff2468e1617893487a3018"
+    },
+    {
+      "path": "dynamics/src/C2GeneralCurvatureFormula.lean",
+      "bytes": 5462,
+      "sha256": "13803f365a4307c143b6c1ccc3ef0339a535d5d7a6d80d854896ecf41ce612a2"
+    },
+    {
+      "path": "dynamics/src/C2GeneralCurvatureJetCongruence.lean",
+      "bytes": 1915,
+      "sha256": "db3da52e7cf4b201ca741c2dbee01c9ece256ec29867e6edb51bb99b25d140d2"
+    },
+    {
+      "path": "dynamics/src/C2GeneralPointCurvatureNaturality.lean",
+      "bytes": 4771,
+      "sha256": "caa9208a7266dff260253f0c6cd3c2afba052d9d753e0a40933d96ebe12c8da5"
+    },
+    {
+      "path": "dynamics/src/C2LocalSecondJetCalculus.lean",
+      "bytes": 7293,
+      "sha256": "e9efc461d899ea30e828a25d46f974d1e31301898cfc18102c9a735ffe986829"
+    },
+    {
+      "path": "dynamics/src/C2LocalSecondJetComposition.lean",
+      "bytes": 4868,
+      "sha256": "a57d8e3a2f28adacba30cc65a9f5cb04b5e2f31c4f54ca995eedfc3105421bd5"
+    },
+    {
+      "path": "dynamics/src/C2LorentzMetricTransport.lean",
+      "bytes": 7054,
+      "sha256": "5b6157aad138c2fd3a040f9d4a0bbab8048c81f5522ce24447459d95cda7b506"
+    },
+    {
+      "path": "dynamics/src/C2MetricInverseAt.lean",
+      "bytes": 2714,
+      "sha256": "b882f2fa2a330164786f0023bbe23798115d09e8d8402ffef48480634311a5f4"
+    },
+    {
+      "path": "dynamics/src/C2MetricJets.lean",
+      "bytes": 4632,
+      "sha256": "b6c896d3e75531458e75029348222b96343dc9fac434080b766563f3afad22dd"
+    },
+    {
+      "path": "dynamics/src/C2MetricLeviCivita.lean",
+      "bytes": 5162,
+      "sha256": "41d2fd5e24ccf9ef73ced941705fade53914ca7cebad62d679db309af8ffa939"
+    },
+    {
+      "path": "dynamics/src/C2MetricNormalChart.lean",
+      "bytes": 10675,
+      "sha256": "f22cadce72c0bda49b5db98e3c679d5028b55d3bc0d8a85e1c334689f8ee148a"
+    },
+    {
+      "path": "dynamics/src/C2TranslationMetricJets.lean",
+      "bytes": 4257,
+      "sha256": "f425b97547a0b814bbd29cbf9b54880ce43f0790903d1d1f364b776e55844f4f"
+    },
+    {
+      "path": "dynamics/src/C3NormalCurvatureDerivative.lean",
+      "bytes": 6479,
+      "sha256": "9336ee994adae8e138b42c895b3583fe7941a3668bb771d14a61739bc3c3cac3"
+    },
+    {
+      "path": "dynamics/src/ClosureOfEssentiallySelfAdjoint.lean",
+      "bytes": 3422,
+      "sha256": "84a5d8a96994e086c1b072f309d4061abdfc878a499e57419a9878ef9fa4af0f"
+    },
+    {
+      "path": "dynamics/src/CompactMetricSourceRepresentation.lean",
+      "bytes": 5957,
+      "sha256": "de3f431ba731f24a8ffe7d2c9d9530eb11df2fbb40c40e33491d2e0d13812ea0"
+    },
+    {
+      "path": "dynamics/src/CompactMetricTestOperators.lean",
+      "bytes": 5801,
+      "sha256": "0131e4d65a65a9b757865ae7fd84a982341e75a3d37f58f07b14881e4a513447"
+    },
+    {
+      "path": "dynamics/src/CompactSourceWardConstruction.lean",
+      "bytes": 5462,
+      "sha256": "8f259dadd9a9d894702f3650373e5d8a61a31cc8431a15014fd56f7b911d428e"
+    },
+    {
+      "path": "dynamics/src/CompactTestDerivative.lean",
+      "bytes": 3746,
+      "sha256": "3f20bc92f921e7f8d58a615af291a3602ca5fe41a1deff75a8bc16a2a23eda1c"
+    },
+    {
+      "path": "dynamics/src/CompactTestMultiplier.lean",
+      "bytes": 4956,
+      "sha256": "0ed7854e8b394ccf674bc83c91ab40ecd141efb7c443693eb30aa3daaa712474"
+    },
+    {
+      "path": "dynamics/src/ComplexEntireSeriesRigidity.lean",
+      "bytes": 2791,
+      "sha256": "ba0de5e133ffaded836c4542b734e0274458e953243ca9620aa03f011a90e9e0"
+    },
+    {
+      "path": "dynamics/src/ComplexMultilinearPolarization.lean",
+      "bytes": 1006,
+      "sha256": "55506821ebe97987c4da8d74b4b811de3bea2ff12780cf757434d45d2fc1f068"
+    },
+    {
+      "path": "dynamics/src/ContractedBianchiAlgebra.lean",
+      "bytes": 1898,
+      "sha256": "ce6e330489a8d6817ffed7fa6d400b7d296dadfec5ea192e611a48481b22e40d"
+    },
+    {
+      "path": "dynamics/src/CoordinateChartTransition.lean",
+      "bytes": 4253,
+      "sha256": "6fc74d3bf95a596aaa89cb46a4185985b1fbb1c4e992e8caedd039c96ac0ed48"
+    },
+    {
+      "path": "dynamics/src/CoordinateConnectionCurvature.lean",
+      "bytes": 2325,
+      "sha256": "10660069691d8e00552cbad5699863a0f4a77844f48983c6618b061df680d2c7"
+    },
+    {
+      "path": "dynamics/src/CoordinateCovariantDerivative.lean",
+      "bytes": 4211,
+      "sha256": "04dcb4d64b51a1118ec0c6efdc2f5d455f6a8c6fa5f58f0dc7aa9bb8d10a67ee"
+    },
+    {
+      "path": "dynamics/src/CoordinateCovariantDivergence.lean",
+      "bytes": 4991,
+      "sha256": "32a07b6ff3cec3b712faf855da996a29f830888739eb470b6f828469457a0926"
+    },
+    {
+      "path": "dynamics/src/CoordinateLeviCivita.lean",
+      "bytes": 4528,
+      "sha256": "5c2d131efbb2e6bee70eff90f3becf6126cb51f7d54c5bd4a9073990205f57fc"
+    },
+    {
+      "path": "dynamics/src/CoordinateLeviCivitaUniqueness.lean",
+      "bytes": 3175,
+      "sha256": "9e2a7c983c695464752371747b4cd650ad92f7b275756bf1e6de634a7d54bf9a"
+    },
+    {
+      "path": "dynamics/src/CoordinateMetricLieDerivative.lean",
+      "bytes": 4367,
+      "sha256": "41c0eb9e98d1c63acae65d4977be4fdab7b76807ea3b6b17aa1d8bf572956cfa"
+    },
+    {
+      "path": "dynamics/src/CoordinateMetricNaturality.lean",
+      "bytes": 4165,
+      "sha256": "461b656df9273f0e1cb622da4e668d563535eaca8355f7a57e2f45be4c97d327"
+    },
+    {
+      "path": "dynamics/src/CoordinateMetricResponseNormalForm.lean",
+      "bytes": 1159,
+      "sha256": "8245b50963696ef71e0bb5e5546b1b7ecb56d51caa9b31f03482ea7a3ca9f698"
+    },
+    {
+      "path": "dynamics/src/CoordinatePullbackComposition.lean",
+      "bytes": 3724,
+      "sha256": "21610fed0e039a0c6028014e63898c67ff4c3ba2b52733e570bfc3171004f8e5"
+    },
+    {
+      "path": "dynamics/src/CoordinateRicciDerivative.lean",
+      "bytes": 5063,
+      "sha256": "4eeb90e7338a9743597125a5083cd0b9e6270e7c7b3b3524192f4a94c26879e5"
+    },
+    {
+      "path": "dynamics/src/CoordinateVectorSecondJet.lean",
+      "bytes": 3160,
+      "sha256": "8ee4c2ce71a66c56a50aee7168e0d65402ba8d105a17507a082f666ceab4e594"
+    },
+    {
+      "path": "dynamics/src/CrossCorpusDynamics.lean",
+      "bytes": 199,
+      "sha256": "2af7ad16084f5ca0f3f8b917b5303a5afcdab462f0bb787f2d52ee86d10d6ad7"
+    },
+    {
+      "path": "dynamics/src/CubicCoordinateCalculus.lean",
+      "bytes": 3357,
+      "sha256": "c4506846ce814ce53fdac0b0a2f12ef8c1f96d0dc801cc16aff80fc6f51140cd"
+    },
+    {
+      "path": "dynamics/src/CubicCoordinateJacobian.lean",
+      "bytes": 3546,
+      "sha256": "3f3d3af3a265bce51cca897a11dee89160217262d0522cfb2bbf3dcedbd83671"
+    },
+    {
+      "path": "dynamics/src/CubicCoordinateMaps.lean",
+      "bytes": 2821,
+      "sha256": "756c24f72c27996a00bb5acbd8c94ad64f723cdeb3e536ff671775a059635d8c"
+    },
+    {
+      "path": "dynamics/src/CubicGaugeRealization.lean",
+      "bytes": 3834,
+      "sha256": "42ee34be9de4cff64ba586b4e83ed33be07526aa3c79b0ea3461cc5d774ecdef"
+    },
+    {
+      "path": "dynamics/src/CubicJetGauge.lean",
+      "bytes": 4633,
+      "sha256": "7ddb5e7cc63cccb7b9c905776fdaf02f022a15af355b0cd3dc3635431198cd8b"
+    },
+    {
+      "path": "dynamics/src/CubicMetricGradientWitness.lean",
+      "bytes": 5019,
+      "sha256": "3a16d7e9bff17fb5430869d715667a72d559316258239ded3e7aa9191899415b"
+    },
+    {
+      "path": "dynamics/src/CubicMetricPullbackJet.lean",
+      "bytes": 6004,
+      "sha256": "9d94a26ec37a36519499dd0f183e4dd808a29b21ccab891dd1e090622855722f"
+    },
+    {
+      "path": "dynamics/src/CubicWitnessLorentzFrames.lean",
+      "bytes": 3327,
+      "sha256": "27969b251d20077e8923a262448a38ee25644321ae7daa376db51a0454678321"
+    },
+    {
+      "path": "dynamics/src/CurvatureCommutantCertificate.lean",
+      "bytes": 69860,
+      "sha256": "6b235342389b87e422a774bdc9eb5bd3cf96618b398df94e5ead9fbd54177a29"
+    },
+    {
+      "path": "dynamics/src/CurvatureGeneratorActions.lean",
+      "bytes": 892,
+      "sha256": "2c87d427b821debcf7d2d0b66c676ad3d896c3fef1c8f329d27dfcf55120f6ba"
+    },
+    {
+      "path": "dynamics/src/CurvatureGeneratorTransport.lean",
+      "bytes": 1765,
+      "sha256": "44b31b932b84beed9012a033cc69cdd6e2ff0c5f7570b3afef9a6d629a9d5215"
+    },
+    {
+      "path": "dynamics/src/CurvatureGeneratorTransport1.lean",
+      "bytes": 1808,
+      "sha256": "e47dfe24a8d3be8878d739c178cf273c0050d222e70b7f3dab63db8c5c24ce20"
+    },
+    {
+      "path": "dynamics/src/CurvatureGeneratorTransport2.lean",
+      "bytes": 1821,
+      "sha256": "eca9262771ece9bd438bec1757f66edad5001d65970ee13d4456f18223d06ed5"
+    },
+    {
+      "path": "dynamics/src/CurvatureGeneratorTransport3.lean",
+      "bytes": 1821,
+      "sha256": "8926b1186f5e59d0eb525baf3111a72646dbe81893cae069aaa2e7f6dc162535"
+    },
+    {
+      "path": "dynamics/src/CurvatureGeneratorTransport4.lean",
+      "bytes": 1438,
+      "sha256": "578e6c93b67aa0b2554638815fc481e3e63f747212a5f2c96af76b1da5da796f"
+    },
+    {
+      "path": "dynamics/src/CurvatureGeneratorTransport5.lean",
+      "bytes": 1451,
+      "sha256": "54d5a50a1293c22df391d1123dae5e85370fda6537f4f0cefded1d496eefacbd"
+    },
+    {
+      "path": "dynamics/src/CurvatureGeneratorTransport6.lean",
+      "bytes": 1438,
+      "sha256": "53a9c55ebffe36b1688946800620672c37816bb6b78abf9ed4969a6c48f1a6fc"
+    },
+    {
+      "path": "dynamics/src/CurvatureJetFrameNaturality.lean",
+      "bytes": 2008,
+      "sha256": "03247475264911b65c08c609165ac83c39a6def3958b48d7d4369183c22718c1"
+    },
+    {
+      "path": "dynamics/src/CurvatureTensorPullbackLaws.lean",
+      "bytes": 4406,
+      "sha256": "4b6a3715169b62f16df6e4b8984d7beb7033a06265221bbb9e15389131583633"
+    },
+    {
+      "path": "dynamics/src/CurvatureTransportDefinitions.lean",
+      "bytes": 10467,
+      "sha256": "e3740e095f83b0f9a221dae38bfadbfd47daa08045430f9fab72476501a47a5b"
+    },
+    {
+      "path": "dynamics/src/DenseWeakDerivative.lean",
+      "bytes": 1868,
+      "sha256": "17f1ea28fff0f577da98e63516b6fc69d6a4c7158aa7a313e12b0127ce464ceb"
+    },
+    {
+      "path": "dynamics/src/DifferentiableTensorDivergence.lean",
+      "bytes": 3777,
+      "sha256": "62d45030274646f8f5accf8a18d7fa2a66e07cbd783961fdbed80e09696de431"
+    },
+    {
+      "path": "dynamics/src/EHGeometryTransport.lean",
+      "bytes": 10918,
+      "sha256": "823deee381f268ca56a744078840b5439c8e2bcc982278974a93993a5dfa407f"
+    },
+    {
+      "path": "dynamics/src/EinsteinCoefficientStep.lean",
+      "bytes": 3342,
+      "sha256": "0df20597ace141386d6a3d860a4892cbd5230f6131ba34266b26c87e1a793412"
+    },
+    {
+      "path": "dynamics/src/EinsteinOriginalCurvatureResponse.lean",
+      "bytes": 5446,
+      "sha256": "898c45edb24977642fc1efb74bea9f6f7761d15db8dcfed7d2fe4253172a9c91"
+    },
+    {
+      "path": "dynamics/src/FiniteSumTen.lean",
+      "bytes": 345,
+      "sha256": "e50727a1a8a85e5fa88d20ac103f214c6d38e19e046ddfaf636bf284b1c3b985"
+    },
+    {
+      "path": "dynamics/src/FiniteSumTwenty.lean",
+      "bytes": 536,
+      "sha256": "c49685502732224b1b2338bfef17c61cd4cb20962e520dac3fa8a69162335ddc"
+    },
+    {
+      "path": "dynamics/src/FirstMetricResponseLaws.lean",
+      "bytes": 3545,
+      "sha256": "24038d0855dd40f758413d4227f4b7380c72af8717bf627f267538a3425f07bf"
+    },
+    {
+      "path": "dynamics/src/GaussianStrongDerivative.lean",
+      "bytes": 2022,
+      "sha256": "f370b22a757393f6b3a6a6df9fa7dc3364d03361a29e87f6f19860e19647b18b"
+    },
+    {
+      "path": "dynamics/src/GeneralEnvelopeEinsteinClassification.lean",
+      "bytes": 4008,
+      "sha256": "54bcefee5f48f2ad9252abd74f0e655102edaed2e6ab03e6dc0391ff725fa99d"
+    },
+    {
+      "path": "dynamics/src/GeneralFlatChartCurvature.lean",
+      "bytes": 8764,
+      "sha256": "b0e84ebba9c381c30c2e029f594c30df70bf8438cbb9c3e21aed339c202338bd"
+    },
+    {
+      "path": "dynamics/src/GeneralFlatChartSecondJet.lean",
+      "bytes": 5922,
+      "sha256": "9a9354b521a3978530d6a89bcf3e698b87ac04edad451a8cd74fd8fc8515f2f2"
+    },
+    {
+      "path": "dynamics/src/GeneralMetricHessianField.lean",
+      "bytes": 3974,
+      "sha256": "6af30a7fca136feee65c934e4a5fa66a556ca73dd21482f86b2022b2c28407a2"
+    },
+    {
+      "path": "dynamics/src/GeneralMetricNormalizingCurvature.lean",
+      "bytes": 6933,
+      "sha256": "78b847ed912047c290f3e015b04f86b9c5f16602a383b0a75b501fa7d74b8e7e"
+    },
+    {
+      "path": "dynamics/src/GeneralNormalizedChartTransport.lean",
+      "bytes": 9628,
+      "sha256": "a4630a9ac890537d47bb89c4c13017158f170843b0028990b44029bd81adb202"
+    },
+    {
+      "path": "dynamics/src/GeometricCoefficientLock.lean",
+      "bytes": 3083,
+      "sha256": "0f22e06c6c072e88e3ab648c7243508b0ff17cbf7ff7bfee3b33eaf7268963e0"
+    },
+    {
+      "path": "dynamics/src/GeometricMetricResponseExhaustion.lean",
+      "bytes": 4152,
+      "sha256": "b80b5e5052ac06e6665bad474341b0b105bc68a7982209f1ef770a87a0d3fb32"
+    },
+    {
+      "path": "dynamics/src/HessianResponseExhaustion.lean",
+      "bytes": 3826,
+      "sha256": "6a52e866a5b0f0d215fc04ad3d1bed5149ccf4ca1d89a4128f2e8fe54666761d"
+    },
+    {
+      "path": "dynamics/src/HilbertBoundedPair.lean",
+      "bytes": 5940,
+      "sha256": "6f24f9dd7727d43b0a92898323b63dddafaa374891f77967a2a024a98c23b30b"
+    },
+    {
+      "path": "dynamics/src/HilbertBoundedPairCore.lean",
+      "bytes": 1802,
+      "sha256": "b128819594fc496ee0387e2ba179488ca1058e61c20cdc3c1e4280353e6f0fe1"
+    },
+    {
+      "path": "dynamics/src/InnerProductGramSpan.lean",
+      "bytes": 3287,
+      "sha256": "87114624d04f34899e6929aa7450aff23423c0c7d97ca542687c0df94d5d6493"
+    },
+    {
+      "path": "dynamics/src/KernelReference/ContextualQuotient.lean",
+      "bytes": 13878,
+      "sha256": "030ebd5a72b72e9a4ccf483f2422584414e33cbad95a398c72de656ef0bcc9dc"
+    },
+    {
+      "path": "dynamics/src/KGAxisBoostClosedDomain.lean",
+      "bytes": 2226,
+      "sha256": "5bd96a1f7e6f2c5e0643bac641ecf20a01a23a480439e323238c897d38436a62"
+    },
+    {
+      "path": "dynamics/src/KGAxisBoostDifferential.lean",
+      "bytes": 4769,
+      "sha256": "fae6844115ec4f11d47668a9a16484e378e6b573c82ab9b30cf44c40c163b3e5"
+    },
+    {
+      "path": "dynamics/src/KGAxisBoostFieldOperations.lean",
+      "bytes": 5041,
+      "sha256": "f0a3b169bb811f10b8cf401837037b920741e7f84b50a461d49a8f449bae97a9"
+    },
+    {
+      "path": "dynamics/src/KGAxisBoostGeneratorClosure.lean",
+      "bytes": 6479,
+      "sha256": "9312cd93c6fe55123a56daae0364e7d7028bae7d1d89c315588d62dbe31052fa"
+    },
+    {
+      "path": "dynamics/src/KGAxisBoostGroup.lean",
+      "bytes": 3419,
+      "sha256": "cfc8ce75149b5c2f5ec215080c5ff6854d4f8229f644869b1f23ee662effcb36"
+    },
+    {
+      "path": "dynamics/src/KGAxisBoostHilbertDerivative.lean",
+      "bytes": 3371,
+      "sha256": "5c99e710051f248265e534bb83ea8dcb6d256658564e9883d493ab047861350c"
+    },
+    {
+      "path": "dynamics/src/KGAxisBoostSpacetimeFieldCovariance.lean",
+      "bytes": 2547,
+      "sha256": "4949443e1b4ae74071b26b7c6850806dd46f58c24187a1caf5a34d8408642874"
+    },
+    {
+      "path": "dynamics/src/KGAxisBoostStrongContinuity.lean",
+      "bytes": 4210,
+      "sha256": "9d9bf5ec701a37c0ad06abea431393d0ac87b5b5255ab28fd9f2f68e64681dec"
+    },
+    {
+      "path": "dynamics/src/KGAxisBoostTranslationCompatibility.lean",
+      "bytes": 3354,
+      "sha256": "a0744c4852710753c791fdab4277d2497f98a7e58ce24953e79a175bc53fbea6"
+    },
+    {
+      "path": "dynamics/src/KGAxisBoostWeakContinuity.lean",
+      "bytes": 2508,
+      "sha256": "8d4bf13669a9cecace3600ca2756515b6b994a55770b3c06429b5c5ababc5343"
+    },
+    {
+      "path": "dynamics/src/KGBosonicAdjointness.lean",
+      "bytes": 2934,
+      "sha256": "69ffe84f2e365ff2e861bd89b751cb811ae8c0f029da1dcd6563acf904541d93"
+    },
+    {
+      "path": "dynamics/src/KGBosonicAnnihilationCommutation.lean",
+      "bytes": 5170,
+      "sha256": "418a843e2916daea594d35070b6b79f0f5e52de3c5a6767fd0f83125d356070a"
+    },
+    {
+      "path": "dynamics/src/KGBosonicCCR.lean",
+      "bytes": 5034,
+      "sha256": "89bb6e1ac38291ddc4876116d4b3964f33112b50138fc78c29feeb402c484760"
+    },
+    {
+      "path": "dynamics/src/KGBosonicContractionIdentities.lean",
+      "bytes": 2400,
+      "sha256": "58d1de3dc102296a891e27e8a59b21fd13d345632549d00752e2eae7cfcb88bd"
+    },
+    {
+      "path": "dynamics/src/KGBosonicCoreDensity.lean",
+      "bytes": 2599,
+      "sha256": "c48029940f18341f54788d3641593b5092809aacfaacbc8f47936de786bc4704"
+    },
+    {
+      "path": "dynamics/src/KGBosonicCoreEmbedding.lean",
+      "bytes": 2847,
+      "sha256": "4eb1ef21919b0fdc46fae4be71d49fe75bc58b98ba519f4857e093c03f7946ef"
+    },
+    {
+      "path": "dynamics/src/KGBosonicCreationCommutation.lean",
+      "bytes": 3644,
+      "sha256": "20dd317b24e0d71321f7c7cb37d9b319710100fb81b7758a9ab290d5713784fd"
+    },
+    {
+      "path": "dynamics/src/KGBosonicInsertionFormula.lean",
+      "bytes": 2349,
+      "sha256": "ee12139c7758abbcf60430bad28ad0d3af563eb20e83d3e02ec247b71fbd7cce"
+    },
+    {
+      "path": "dynamics/src/KGBosonicMaximalMultiplication.lean",
+      "bytes": 5307,
+      "sha256": "73a9f4eee95aec89685b27befdce1af8a3d046de3f5edfaf60b9469f5afb86e2"
+    },
+    {
+      "path": "dynamics/src/KGBosonicMultiplicationInvariance.lean",
+      "bytes": 2695,
+      "sha256": "e3cc3287f6115a8ec5d0acfe2f23a5ddb57f4116360af5cc37cfe5fdefe44a35"
+    },
+    {
+      "path": "dynamics/src/KGBosonicTranslationDerivative.lean",
+      "bytes": 2059,
+      "sha256": "6a6c2a775dec758b906435dda130a5b67dc961ca1a481ba3cb2976dc7e918a3a"
+    },
+    {
+      "path": "dynamics/src/KGCauchyProjectionCalculus.lean",
+      "bytes": 5936,
+      "sha256": "9593ce03de0662825da2ae5583332fbd94d1859fc7a7cfe9632bb1538e6a7231"
+    },
+    {
+      "path": "dynamics/src/KGCoherentAnalytic.lean",
+      "bytes": 1301,
+      "sha256": "4d3d8a2b2408cfa44d5ad1bd988f5c86415a4c3709156e849caf7d54df2d8064"
+    },
+    {
+      "path": "dynamics/src/KGCoherentContinuity.lean",
+      "bytes": 2595,
+      "sha256": "644eea4f141bdd62e344e08bae705aa280155860024099768b9ea7cd6e472d08"
+    },
+    {
+      "path": "dynamics/src/KGCoherentCoreTruncations.lean",
+      "bytes": 3678,
+      "sha256": "6341be766977731580e88e0c5793e72faac05a0b8651ae0f370af7a3fbdb6aa6"
+    },
+    {
+      "path": "dynamics/src/KGCoherentCreationComponents.lean",
+      "bytes": 3791,
+      "sha256": "2833a2dc4b42539c5175fede786867282756a8d6d5a09b89c5cca0364c8aeaf2"
+    },
+    {
+      "path": "dynamics/src/KGCoherentCreationTangent.lean",
+      "bytes": 3909,
+      "sha256": "14828f48f29f5fbe735eb78a1e77d8953224d2780b2c6cacf5f04fe50403f29f"
+    },
+    {
+      "path": "dynamics/src/KGCoherentFactorialNormalization.lean",
+      "bytes": 1342,
+      "sha256": "a73fe38a3547e01569cf9b1bd2d8f225e0d64643f86d4e5424c4d4a0b04cf6da"
+    },
+    {
+      "path": "dynamics/src/KGCoherentGraphCore.lean",
+      "bytes": 4750,
+      "sha256": "bea687d686ffd1017ff12a0c0ab7acc39870442d239f1b3dea3a56fe25d3de74"
+    },
+    {
+      "path": "dynamics/src/KGCoherentLinearMapExt.lean",
+      "bytes": 843,
+      "sha256": "c6b51dcb41de8a1e1451edab2818f93fcb6e65ff2d48b8b43fce4589138b7384"
+    },
+    {
+      "path": "dynamics/src/KGCoherentOriginalSectors.lean",
+      "bytes": 1690,
+      "sha256": "02dc4eccfaa2895ff9f437b48ab12265da3f6ba9b05fe30f02d5345fe536c90f"
+    },
+    {
+      "path": "dynamics/src/KGCoherentSectorSeparation.lean",
+      "bytes": 2577,
+      "sha256": "63588a1fbfdea5798d24a9244133cca839a95d780cef653f9975c27561d966ce"
+    },
+    {
+      "path": "dynamics/src/KGCoherentTensorPowers.lean",
+      "bytes": 3832,
+      "sha256": "b944d4b02bcf21259d00a4fd4830e911d8f59aa6fda3fea0844e0def8174d2a3"
+    },
+    {
+      "path": "dynamics/src/KGCoherentTotality.lean",
+      "bytes": 2116,
+      "sha256": "55bd990fbb72b81ddc2c081ddbd52e99c0b3de8a79c0236bf9f80086e6ea8154"
+    },
+    {
+      "path": "dynamics/src/KGCoherentVectors.lean",
+      "bytes": 4217,
+      "sha256": "45e9e544bbc6136ac9ed37c554ab265c1968b7fb886c262fbae3a733327838d0"
+    },
+    {
+      "path": "dynamics/src/KGCommutatorCorrelationSupport.lean",
+      "bytes": 3598,
+      "sha256": "b315a8d26d9da6db935fca05cdac28b986ee6b091b66730f7e7269d091669325"
+    },
+    {
+      "path": "dynamics/src/KGCompactIntegralDifferentiation.lean",
+      "bytes": 2851,
+      "sha256": "47affe4280b80382c7e2e8419748872ead7299130d7b0f5597e3f9a31bcb28bc"
+    },
+    {
+      "path": "dynamics/src/KGCompactTestSchwartz.lean",
+      "bytes": 2944,
+      "sha256": "3c4ee481f29fb2b71c2aa19b315b5bc616c37517cdf4d890a1c35c05b263d102"
+    },
+    {
+      "path": "dynamics/src/KGComparisonCoherence.lean",
+      "bytes": 7169,
+      "sha256": "5e61b32c19a7c4acecb49fd430f016ed6ee1f647800cee5707852cdec8a280cc"
+    },
+    {
+      "path": "dynamics/src/KGComparisonGroupoid.lean",
+      "bytes": 4703,
+      "sha256": "180749d7bceeb48c995d8b9ddcdc84f947a6f3e8a1379b7f6266180cfe1d6f88"
+    },
+    {
+      "path": "dynamics/src/KGComparisonMonoidal.lean",
+      "bytes": 3413,
+      "sha256": "ba6ff4ee9a2bf4d68db522b45270bca414fc2b2dde1ba3ac89d9376ddfa8dd18"
+    },
+    {
+      "path": "dynamics/src/KGConcreteCauchyTimeDynamics.lean",
+      "bytes": 4457,
+      "sha256": "a1adf52968860bd3b2b2effec9029165f23c59dbaf1ad79c670ca2403132f22b"
+    },
+    {
+      "path": "dynamics/src/KGConcreteProjectedSolution.lean",
+      "bytes": 7642,
+      "sha256": "797023d3cb78df4b275820c5cfdc968963c4371816db6ae451de1f584c2eed35"
+    },
+    {
+      "path": "dynamics/src/KGConcreteSineFinitePropagation.lean",
+      "bytes": 2629,
+      "sha256": "6500623aab30bdcc7b255e5a0ee7908a7d99efe6e584f85020970160b13b67dc"
+    },
+    {
+      "path": "dynamics/src/KGConcreteSineSecondDerivatives.lean",
+      "bytes": 5573,
+      "sha256": "aaa9964842ecd3b633d9783574c2153d9f4749d63c728b26ec813ea12faa22bd"
+    },
+    {
+      "path": "dynamics/src/KGConditionalContractions.lean",
+      "bytes": 3197,
+      "sha256": "2cb4f51e3b2ec39152603c52e3fd7f954912d0f37755ff018e588d5bfa2a9d5f"
+    },
+    {
+      "path": "dynamics/src/KGConditionalRecordKernel.lean",
+      "bytes": 10484,
+      "sha256": "916af6ec19afd201ec9b24ecb43c5a4ab427209a6baf75a585ea7622b7933269"
+    },
+    {
+      "path": "dynamics/src/KGConeCutoffSupport.lean",
+      "bytes": 3726,
+      "sha256": "5471f47b2793bbcb6b28983de360bb24201b7c4a10c071b1ff212092027f09c5"
+    },
+    {
+      "path": "dynamics/src/KGConstraintEnergyCore.lean",
+      "bytes": 5042,
+      "sha256": "9315dbe5862f254f980bc340a1302c036093784aaefffaf31cf7b3346e0e3f6f"
+    },
+    {
+      "path": "dynamics/src/KGConstraintEnergyFlow.lean",
+      "bytes": 3703,
+      "sha256": "969d324145d0fe0755e85dabcd0afee671f67a18d13de2da5f769ef2434a8e41"
+    },
+    {
+      "path": "dynamics/src/KGConstraintEnergyMultiplier.lean",
+      "bytes": 13501,
+      "sha256": "b91e272a67813d76f0593fae37d75d7a00d3399ac193f3c80db0db4035272e86"
+    },
+    {
+      "path": "dynamics/src/KGConstraintStandingSource.lean",
+      "bytes": 15216,
+      "sha256": "1091decff6973d1ea819c986efe06a3f774e5de5c1d8365e5b30e8b075d0e3b5"
+    },
+    {
+      "path": "dynamics/src/KGCoreBoostGenerator.lean",
+      "bytes": 5220,
+      "sha256": "586bb0f18ee33f1290f0ad81e04a3a0ea17d8e4a850924de148c049ad5b871cb"
+    },
+    {
+      "path": "dynamics/src/KGCoreCCR.lean",
+      "bytes": 3444,
+      "sha256": "378cad757f2da617194ccfe7d99c80e7d80b5dc2ca925caf489a9e9bd41030e3"
+    },
+    {
+      "path": "dynamics/src/KGCoreEnergy.lean",
+      "bytes": 3526,
+      "sha256": "6e1c119ac18bb5221c128ff037a6c515c902757ce0210764124320ae66eb200a"
+    },
+    {
+      "path": "dynamics/src/KGCoreFieldOperations.lean",
+      "bytes": 4966,
+      "sha256": "ccf225347c00f47ad7eb342eddedc4f8567d61da8dc6a2254c39e3046a073e21"
+    },
+    {
+      "path": "dynamics/src/KGCoreSpatialMomentum.lean",
+      "bytes": 4001,
+      "sha256": "a6bf347fda92203167253958f3b7b89e0e90a0fa7e5e38fcf8ddb7f7d75babfc"
+    },
+    {
+      "path": "dynamics/src/KGCoreTopologyRepresentation.lean",
+      "bytes": 3634,
+      "sha256": "dd01cdf4465d4ece14c9178c487e6b477d71458ec061425d0d24222b4f4a084a"
+    },
+    {
+      "path": "dynamics/src/KGCreationSmearingContinuity.lean",
+      "bytes": 3228,
+      "sha256": "49a98fe535c2743090ce8330870ea4399ad798f2d44f0d00e9761d7205944f19"
+    },
+    {
+      "path": "dynamics/src/KGDerivativeWickCutoffIndependence.lean",
+      "bytes": 3491,
+      "sha256": "3d5f33dcee9a3e4b676bae856d6a3859cc991028371e4d084536074c4eb247f6"
+    },
+    {
+      "path": "dynamics/src/KGDerivativeWickLocalDiagonal.lean",
+      "bytes": 2011,
+      "sha256": "db574376099e58dd47e2a2ea0ee7047727de9dd1fe0fb80e5162cdf9495d3a70"
+    },
+    {
+      "path": "dynamics/src/KGDerivativeWickStateLaws.lean",
+      "bytes": 8907,
+      "sha256": "8989beabe6ae792fb41917c15c376b760fba050a387ab5f83e7f73359cc0ddd6"
+    },
+    {
+      "path": "dynamics/src/KGDerivativeWickTestDistribution.lean",
+      "bytes": 4945,
+      "sha256": "b9d4ff5d26a2e6247cbbc5cb1e3c3e5ac7f365eeef41035290ee2e3aef5e4893"
+    },
+    {
+      "path": "dynamics/src/KGDerivativeWickVacuumBaseline.lean",
+      "bytes": 1884,
+      "sha256": "dbf2ecd9e4076cf8d6dcd0f9f426fc5d79892cedc2aa5d87b59153679059bd3a"
+    },
+    {
+      "path": "dynamics/src/KGDiagonalProductDerivative.lean",
+      "bytes": 1853,
+      "sha256": "15a5e12f48c9d2d38641bd632a8870b13b86550fe30aece95a0d1ac386184ab9"
+    },
+    {
+      "path": "dynamics/src/KGEnergyBounds.lean",
+      "bytes": 2278,
+      "sha256": "2349434b0895a1352c1db1c918cbd750316d0c230c758dcb7be3a70f14d6211c"
+    },
+    {
+      "path": "dynamics/src/KGEnergyTemperate.lean",
+      "bytes": 2405,
+      "sha256": "f2c6649e33f36f94d65e4ddbccc6cca173bf4c295f7c20cb4d253b716e7cd50a"
+    },
+    {
+      "path": "dynamics/src/KGEventTranslationContinuity.lean",
+      "bytes": 5273,
+      "sha256": "6e39a060a1ea3116ea88a90a6e5aa1019a17292e5516df5da2f2afd5e5e0f7b7"
+    },
+    {
+      "path": "dynamics/src/KGEventTranslationFieldCovariance.lean",
+      "bytes": 3491,
+      "sha256": "edf6b802a2829e612eda6264e48173b98d1ccdb7a005d04cdbd5cf12c7d71368"
+    },
+    {
+      "path": "dynamics/src/KGEventTranslationFieldOperations.lean",
+      "bytes": 4549,
+      "sha256": "4cfb72e02e828f868b5a5e76ed30f9cc709767fc2cdcf26d687576877609a50f"
+    },
+    {
+      "path": "dynamics/src/KGEventTranslationSchwartz.lean",
+      "bytes": 4569,
+      "sha256": "60bfbb02c15abb47fbbbbd8c5c59238fd8fd151ac8f0a5273f0ef2ecd0ea762b"
+    },
+    {
+      "path": "dynamics/src/KGEventTranslationSupport.lean",
+      "bytes": 2525,
+      "sha256": "378c61558d6cac59549b5baa3791cfa42a8029228afc8b0899412d7193bf8d44"
+    },
+    {
+      "path": "dynamics/src/KGExponentialVacuumDerivative.lean",
+      "bytes": 3337,
+      "sha256": "dec5bfec362c300eb22647f9b2e2b8fa0d33d409154f4f8af9fed79eba452536"
+    },
+    {
+      "path": "dynamics/src/KGExternalNaturality.lean",
+      "bytes": 6643,
+      "sha256": "fcc6ac1b168a4962d42174da6f27dcdf679c08b4169143705af51b5a323297f9"
+    },
+    {
+      "path": "dynamics/src/KGFamilyNondegeneracy.lean",
+      "bytes": 7019,
+      "sha256": "3029cef0216aa89653a9cb93a9594640af44de1574b766aabc922210d238ce6c"
+    },
+    {
+      "path": "dynamics/src/KGFamilyRecordLaws.lean",
+      "bytes": 8636,
+      "sha256": "0158ea70a808c4b0096c7a7f8b96ad17c2824bba183df646f1a67ab8f4b42c62"
+    },
+    {
+      "path": "dynamics/src/KGFamilyStandingDescent.lean",
+      "bytes": 7563,
+      "sha256": "e6b32405cd859be3bb91a62746e6e715de92e6ffcbc69d48b0f6ae126e7f77f3"
+    },
+    {
+      "path": "dynamics/src/KGFieldVacuumTwoPoint.lean",
+      "bytes": 4721,
+      "sha256": "5717c5e20ed50f8fa5f96d22847e150bef407cc3d0e6ce1eabaf91a5175cc643"
+    },
+    {
+      "path": "dynamics/src/KGFiniteParticleCore.lean",
+      "bytes": 3325,
+      "sha256": "1b48049122fdcb766462261db5d27e91d305be0a4b667899cdefd200ab414233"
+    },
+    {
+      "path": "dynamics/src/KGFiniteParticleTopology.lean",
+      "bytes": 2812,
+      "sha256": "6321fcf66d2509b9108744bf916cf82a3475fc7d194ca6eaf5084d54dfe6aac2"
+    },
+    {
+      "path": "dynamics/src/KGFlatEnergyAlgebra.lean",
+      "bytes": 3327,
+      "sha256": "8396a75fd452b784344a6a06cde2a6fef8c8ff0dbed5517ff7b501fd47afdf50"
+    },
+    {
+      "path": "dynamics/src/KGFlatFinitePropagation.lean",
+      "bytes": 5272,
+      "sha256": "89acca549643724f25f32b3185b60133b8fee2bb55d6bcd876dc2c46d5670b77"
+    },
+    {
+      "path": "dynamics/src/KGFlatLocalBalance.lean",
+      "bytes": 2229,
+      "sha256": "9bdf301cbbae9c599ba0cf3d4daae4e56ea7a73266e3de4846360f1746a916bc"
+    },
+    {
+      "path": "dynamics/src/KGFockAdjointInclusions.lean",
+      "bytes": 1591,
+      "sha256": "cdf5dd5ee730131d5e6332cf2745721f9ee0ce01ce28ccb5551a7609f8b2cf55"
+    },
+    {
+      "path": "dynamics/src/KGFockAxisBoostUnitary.lean",
+      "bytes": 6421,
+      "sha256": "4d3c6c51a9cd2ddb818a80d46b267e05bd6e2fec1d7896124d648868586e3c5d"
+    },
+    {
+      "path": "dynamics/src/KGFockBoundedMultipliers.lean",
+      "bytes": 3734,
+      "sha256": "b8eaa1f1dc0d2c2a7d4220c487068ea932471777b0b07f264e9c1f42efa8d07d"
+    },
+    {
+      "path": "dynamics/src/KGFockContractiveSymbols.lean",
+      "bytes": 4328,
+      "sha256": "d37061a1db2ddddde8946c5f531a8b65db951f7c206f226cb5aa05c803458bcc"
+    },
+    {
+      "path": "dynamics/src/KGFockCoreAdjointness.lean",
+      "bytes": 2825,
+      "sha256": "d05e9701f631acd8f0d4471ed214e597ee9f5ce2eff00986acc4486595c94a91"
+    },
+    {
+      "path": "dynamics/src/KGFockCoreDensity.lean",
+      "bytes": 1548,
+      "sha256": "cb00415e4d94565b77aa6968c1cc0027adde0c9d6a82f72e20722994a598d5dd"
+    },
+    {
+      "path": "dynamics/src/KGFockCoreOccupation.lean",
+      "bytes": 2746,
+      "sha256": "d040e4f3dd6ecaa8d6d8c4cad5974e5936eea4650125ab243f18f9de4eac9604"
+    },
+    {
+      "path": "dynamics/src/KGFockCoreSpatialCharges.lean",
+      "bytes": 2820,
+      "sha256": "86a54f0834140979a047daa5f67f7aa5c27b1829a2056bd7bb593c52771af4b2"
+    },
+    {
+      "path": "dynamics/src/KGFockEnergyClosure.lean",
+      "bytes": 2680,
+      "sha256": "ae9041fd2c55f54b5e406a8b28acce23cc90e71eca114da730a0ec9d9097a806"
+    },
+    {
+      "path": "dynamics/src/KGFockExactGenerators.lean",
+      "bytes": 2878,
+      "sha256": "9f3e267d1bbbb859a6fb6fde53d72743c9fe7151b01ab08b92ff6707bdebac2c"
+    },
+    {
+      "path": "dynamics/src/KGFockHilbert.lean",
+      "bytes": 2840,
+      "sha256": "8c6be4b84870360c82052aab964d8819be0f81ea93178c7fce256db2bcde8667"
+    },
+    {
+      "path": "dynamics/src/KGFockMaximalMultiplication.lean",
+      "bytes": 5257,
+      "sha256": "1d8610f13b1f91b4b9de6ce031d8b0d52e81df5188d08bdc6a5b58f098dd84df"
+    },
+    {
+      "path": "dynamics/src/KGFockSpatialMomentumClosure.lean",
+      "bytes": 2878,
+      "sha256": "f962413d611b7f19de0c0c2261f167f94f8af3f23430987d0d16b76d1c8a7e9a"
+    },
+    {
+      "path": "dynamics/src/KGFockSymbolConvergence.lean",
+      "bytes": 2964,
+      "sha256": "18d2e7c0a866430ee4238e2eb24c2de4dc20fb99629c28bb420feee59f2faaf6"
+    },
+    {
+      "path": "dynamics/src/KGFockTranslationContinuity.lean",
+      "bytes": 2565,
+      "sha256": "3f7bac43cdd86eaf1d632b7a53b4509fda9002b5d37dd22c2dd19cc362797e41"
+    },
+    {
+      "path": "dynamics/src/KGFockTranslationDerivative.lean",
+      "bytes": 2417,
+      "sha256": "dfc018bed124e33f9a850b53355c4b570f8f5b2af47286e99a11bb4dd9b14a2a"
+    },
+    {
+      "path": "dynamics/src/KGFockTranslationGroups.lean",
+      "bytes": 5008,
+      "sha256": "f1cfeff2924deaed1195f267c89b55f717b96056bea15abbac51ca643128d616"
+    },
+    {
+      "path": "dynamics/src/KGFockTranslationVacuum.lean",
+      "bytes": 1990,
+      "sha256": "e6335a28b45b84e17185bf1bb3c1e15ab1707ac73f91ff0c9dd299234c31812f"
+    },
+    {
+      "path": "dynamics/src/KGFrameConditionalRecords.lean",
+      "bytes": 22338,
+      "sha256": "b291df3bd154f95041af0a030cad7552822ae45f5b1faf5cc9138150f9b04444"
+    },
+    {
+      "path": "dynamics/src/KGFrameRecordFunctor.lean",
+      "bytes": 12116,
+      "sha256": "fe2fa787dd0ca26097895a3cf3cee519b484b694ce8e05d248e736f6d087af2e"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLocalFieldCovariance.lean",
+      "bytes": 2513,
+      "sha256": "942e3e397c9de2cb1e011e6b6dfc47d7e07c1be8e5ce8725e8f42fa0cd5ee31c"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzCoreAttachment.lean",
+      "bytes": 5083,
+      "sha256": "cafae499195c1a2ab43a8dbd258dbdebf4fbe5c0816240a0c1968edce4edd3fd"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzCreation.lean",
+      "bytes": 1762,
+      "sha256": "a3611a1cef5173b7e1abca2362bc7ff022a4dc9a5c4c35d2a9fd69dd0786ac1f"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzDerivative.lean",
+      "bytes": 2192,
+      "sha256": "578e84b51ebf22b5bf49b189db50fe9a0d5995963347038f278810086be37b6c"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzFieldCovariance.lean",
+      "bytes": 3239,
+      "sha256": "2993f0de893d7b082962e0336643bc5c036fd574dbb2f85c516fbdb082e3cf8f"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzFockUnitary.lean",
+      "bytes": 6675,
+      "sha256": "a1ac84cbb3c18e786997f589b6a63ca907c8e205c738f403547d5d477bc96b56"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzJacobian.lean",
+      "bytes": 6108,
+      "sha256": "375f6db291a0f4998b4f7009dec2e8cf8c0925c9475bd5fb839cf7831c22c5ad"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzMassShell.lean",
+      "bytes": 3838,
+      "sha256": "8328cb82ec777d3ae6e2d31a137cfc2ba13ddcbb7830dcf4782b32396ae3519d"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzMeasure.lean",
+      "bytes": 2828,
+      "sha256": "e97e31113710f1d56cfbe28b2ea39e80926809c637cd25e2406f927b986ea428"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzOneParticleUnitary.lean",
+      "bytes": 1826,
+      "sha256": "533cda98f29acc8a5d6245acc8613945b007d9bbef0538ba877e9c9bd9a6d760"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzOriginalCore.lean",
+      "bytes": 7488,
+      "sha256": "b1772cf6813bcf66f3cde223647276c3b2e4c456c02b4540daf85f41858e90c1"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzSchwartz.lean",
+      "bytes": 2882,
+      "sha256": "4d8252be36305175060f930760c807d2ccef2b07147bc67114dcaa8b6eb60e76"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzSpacetime.lean",
+      "bytes": 5437,
+      "sha256": "5f6d3524a8ff322fce5a1db27f9e774308ad2d4c63246621e0bbd24770c53378"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzStrongContinuity.lean",
+      "bytes": 5375,
+      "sha256": "03dacf0c168b376b40a5601b855bdde1ecc8b482c47f60d4f9c49cf9e5384b8e"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzSupport.lean",
+      "bytes": 2762,
+      "sha256": "70a5fc247b056bdaf4d7794815f1bf76ca90e09d73829836864492e33024101b"
+    },
+    {
+      "path": "dynamics/src/KGGeneralLorentzWeakContinuity.lean",
+      "bytes": 2087,
+      "sha256": "51282a65984e002630cb80c21919153928ee70dd6ec1e5f0abdbcb7faa73f728"
+    },
+    {
+      "path": "dynamics/src/KGGeneralPoincareContinuity.lean",
+      "bytes": 2444,
+      "sha256": "a452b6191f2159b419d636ba5ed647914c0a902a905896955fb15eec8367cce8"
+    },
+    {
+      "path": "dynamics/src/KGGeneralPoincareCovariance.lean",
+      "bytes": 5470,
+      "sha256": "ffbb8fbb9b21b50105dd50871b501e85201ea9b963aaf50ed8400da82b3b6f29"
+    },
+    {
+      "path": "dynamics/src/KGGeneralPoincareLocalCovariance.lean",
+      "bytes": 5367,
+      "sha256": "d6ebb07ea85c8975229d400141cc58b8521f7118e77b09310b002bd9518f66e8"
+    },
+    {
+      "path": "dynamics/src/KGGeneralPoincareRepresentation.lean",
+      "bytes": 5702,
+      "sha256": "6b6e81cbbf0954026d06ad580f699c2668a00025438596d78e2c4c2679c04958"
+    },
+    {
+      "path": "dynamics/src/KGIndependentProductRecords.lean",
+      "bytes": 5875,
+      "sha256": "0c96b8330fde08acd129090ef222bbe7bf80b9858c9f208216fced828ba8f16f"
+    },
+    {
+      "path": "dynamics/src/KGInverseFourierFamilies.lean",
+      "bytes": 3583,
+      "sha256": "bac0a61e8efdf5acea3831cfb301c8033539f89971b2ff1f80f169d325e4d20e"
+    },
+    {
+      "path": "dynamics/src/KGJointFramePrepared.lean",
+      "bytes": 6679,
+      "sha256": "5fe4855ae6f9af44af1b996bb2ebd6b602562649ddcdb75e26885fe5ba90e88d"
+    },
+    {
+      "path": "dynamics/src/KGJointFrameProjections.lean",
+      "bytes": 5544,
+      "sha256": "47a15440891d0d8f8f91878e54addc072702beca8b164cc4866e891daf22cca5"
+    },
+    {
+      "path": "dynamics/src/KGJointFrameReferences.lean",
+      "bytes": 10050,
+      "sha256": "dc76f5da2e9d1b3e380524d3cc63f3e3199a86ae9c29cbdb550cb335904b0b72"
+    },
+    {
+      "path": "dynamics/src/KGJointFrameSource.lean",
+      "bytes": 9578,
+      "sha256": "83b0cbb98a7e92a253c5e9417552efb7f83436f2865940b61501624f966bd59c"
+    },
+    {
+      "path": "dynamics/src/KGJointMomentumCone.lean",
+      "bytes": 3340,
+      "sha256": "f19436b8ef6b29eb4563f5fa10839e54e7b8782d772260a1aa2226b3f6f473be"
+    },
+    {
+      "path": "dynamics/src/KGJointSpectralCountable.lean",
+      "bytes": 4331,
+      "sha256": "4ea3b61b7310384b35c99e6ffd4fd8aa00f06abca12f69f5cabc26788bf6587d"
+    },
+    {
+      "path": "dynamics/src/KGJointSpectralProjections.lean",
+      "bytes": 5304,
+      "sha256": "0a6f8b8fd5bfaaea04775ce8ae41f9bb740cbcb31cca3f549be9d64b723b73b5"
+    },
+    {
+      "path": "dynamics/src/KGJointTranslationSpectralAttachment.lean",
+      "bytes": 3552,
+      "sha256": "e2aff8d160d064a55b443c7b3325cedb299b96b3c809e12329d491573b2577fc"
+    },
+    {
+      "path": "dynamics/src/KGJointZeroSpectrum.lean",
+      "bytes": 2901,
+      "sha256": "d5803dbc7f5265f2533a89d7860347fdad061371a66fff9bc03477b232901370"
+    },
+    {
+      "path": "dynamics/src/KGL2BosonicPolarization.lean",
+      "bytes": 3856,
+      "sha256": "1d6a12d1edf8b20707674877b8f7b79a728abf412ad7cf8d0ada35d3a2588c6f"
+    },
+    {
+      "path": "dynamics/src/KGL2ProductMultilinear.lean",
+      "bytes": 3556,
+      "sha256": "81711fa1f3c7eab8d3e740a5def84e7a018f5d976f6953294d49529a935e7293"
+    },
+    {
+      "path": "dynamics/src/KGL2ProductTotality.lean",
+      "bytes": 6016,
+      "sha256": "0e17591aa69b2beebf8962b280a1cc0811c9b367386fc5d3cdbd0f733ffb9853"
+    },
+    {
+      "path": "dynamics/src/KGL2ProductVectors.lean",
+      "bytes": 4033,
+      "sha256": "7f6c12b868d103f5aca9d29fca54cfb5107358e3acebaafecdde1808a3ba8eab"
+    },
+    {
+      "path": "dynamics/src/KGLocalizedEnergyDecay.lean",
+      "bytes": 6616,
+      "sha256": "f69df38295919564ed91e5265c06ff291cd47127a367f20398937d2fa03fb5d8"
+    },
+    {
+      "path": "dynamics/src/KGLocalizedEnergyIntegration.lean",
+      "bytes": 3893,
+      "sha256": "26ec5c99a7ab4bccec3fc6c256e495293e0d964654b5ee480c68625088436679"
+    },
+    {
+      "path": "dynamics/src/KGLorentzBoostJacobian.lean",
+      "bytes": 4338,
+      "sha256": "4bbe7c4bebfa769af947077a0bac04be58f892e3dd05e33273043f23f58c3b0e"
+    },
+    {
+      "path": "dynamics/src/KGLorentzBoostMeasure.lean",
+      "bytes": 4258,
+      "sha256": "a957ee5eb4240638a6857b900704db09b58731acbae525d39c4569eb800038f0"
+    },
+    {
+      "path": "dynamics/src/KGLorentzBoostSchwartz.lean",
+      "bytes": 3496,
+      "sha256": "a94784d20687bee7fc16085279a6f36b68340e49344fe287ea21ef299d3a7152"
+    },
+    {
+      "path": "dynamics/src/KGLorentzBoostShell.lean",
+      "bytes": 5454,
+      "sha256": "8dc717977f9e57e776ed6fcb1034ebcf6648693052baca6850c9886c7a2b9468"
+    },
+    {
+      "path": "dynamics/src/KGMassShell.lean",
+      "bytes": 3556,
+      "sha256": "99db76d716920482d6b67f8fcd6dda91569abc2dd60c72289e1a744a0c2426c1"
+    },
+    {
+      "path": "dynamics/src/KGMetricActChartReadouts.lean",
+      "bytes": 5109,
+      "sha256": "ce965d6b322e16bad2375ed6ec4de137c355d20e625eab463317aa78c3cecc37"
+    },
+    {
+      "path": "dynamics/src/KGMetricActCharts.lean",
+      "bytes": 5428,
+      "sha256": "759fb04c8df94330dd83fa1982c9a10766065b6f71016a089627f9262212b533"
+    },
+    {
+      "path": "dynamics/src/KGMetricActFieldTransitions.lean",
+      "bytes": 3224,
+      "sha256": "c3b2837ad3d2eb17d5e7a1eb5cc115f9f0708b0744c2c4c8e070dfb537c23cd4"
+    },
+    {
+      "path": "dynamics/src/KGNativeWickMetricResponse.lean",
+      "bytes": 3465,
+      "sha256": "c02ac4dc2308e597a09798d2790ae0ceb209073fa00b8c6a0c08060697536398"
+    },
+    {
+      "path": "dynamics/src/KGNativeWickMetricTests.lean",
+      "bytes": 2697,
+      "sha256": "c6887ba1007cccf81cf7ccc3abb97f692de5b99eb12b58de55061c7b0c024b0b"
+    },
+    {
+      "path": "dynamics/src/KGNativeWickOperationalIncidence.lean",
+      "bytes": 3896,
+      "sha256": "e4d0091b9d5688050c46b25a30f6e312fdd1815ae25cc9641e4911e77be609fa"
+    },
+    {
+      "path": "dynamics/src/KGNativeWickQuadraticExtension.lean",
+      "bytes": 5046,
+      "sha256": "89c35af2dcb5f7cde17fbda20547969c2a3b82abf831c3359c9324e844127492"
+    },
+    {
+      "path": "dynamics/src/KGNativeWickRayOperationalSource.lean",
+      "bytes": 3188,
+      "sha256": "98685e900376e879c47ef65d2755f4d9cc97e0758e4fcf120179af273e4b51cf"
+    },
+    {
+      "path": "dynamics/src/KGNativeWickRaySource.lean",
+      "bytes": 3342,
+      "sha256": "3f963c1bf3cee1c0fa5f6af94a85e90dd6710c3d46c88313d09c94af862b2f2d"
+    },
+    {
+      "path": "dynamics/src/KGNativeWickStateHomogeneity.lean",
+      "bytes": 4850,
+      "sha256": "850c387e0a05e2e4596444f0b7bc805c914782d373c03a464fd558c917378298"
+    },
+    {
+      "path": "dynamics/src/KGNativeWickTensorDensity.lean",
+      "bytes": 3469,
+      "sha256": "72e048de2fb7ad926181cc5d015a759bccb071dd1e20db5de89c390f3362ae6a"
+    },
+    {
+      "path": "dynamics/src/KGNativeWickUniformTestBound.lean",
+      "bytes": 6316,
+      "sha256": "7c37c389149942cb018ba68d2819cb65797b0cafaa720bad0996ef1aaa678bd1"
+    },
+    {
+      "path": "dynamics/src/KGNativeWickUnitRepresentatives.lean",
+      "bytes": 3145,
+      "sha256": "6ced4dc0c4b13c58d8735149e72fe0e6e5038f667f0c8f067fb23d5af4bfd21a"
+    },
+    {
+      "path": "dynamics/src/KGNormalizedShellTimeIntegrals.lean",
+      "bytes": 4046,
+      "sha256": "b60bfd12aac5dd132ccb173d8e7730f32f3b14078bef0d563c634450a9c953fb"
+    },
+    {
+      "path": "dynamics/src/KGNormalOrderedFieldPairs.lean",
+      "bytes": 4625,
+      "sha256": "80704b866b1826c87c32cd55c87842427c033e6ca1e46e12790076bec3b6846a"
+    },
+    {
+      "path": "dynamics/src/KGNRConservativeRecords.lean",
+      "bytes": 18797,
+      "sha256": "b6060cfe3d48178a92a520e1e238fc5e94338ff92ef79e9b4f80596c808bd545"
+    },
+    {
+      "path": "dynamics/src/KGNRDispersion.lean",
+      "bytes": 4381,
+      "sha256": "519b65896c6f51fdc20d4891527d3c819f5293aa58f475ed324f166f2b73daa2"
+    },
+    {
+      "path": "dynamics/src/KGNREuclideanScalar.lean",
+      "bytes": 6243,
+      "sha256": "8d9b984923a936209e3f23662ac70a49d38eb2fc80bf93351adafb2bab279561"
+    },
+    {
+      "path": "dynamics/src/KGNRFreeExactGenerator.lean",
+      "bytes": 2014,
+      "sha256": "7b8ec1656a2419c484b60bf2e2c37a83ae67fcf367eb49d418e38a3dd9948cd0"
+    },
+    {
+      "path": "dynamics/src/KGNRFreeReceivingAssembly.lean",
+      "bytes": 1675,
+      "sha256": "d9a71147bf539e2622476ba80059f3c94829ead7a320a8e8eb608638239ae489"
+    },
+    {
+      "path": "dynamics/src/KGNRFreeSSQ1.lean",
+      "bytes": 10180,
+      "sha256": "89067a1aceca16bb40384070a8fae8af493b78cfeede874dcc7864996ca5fd91"
+    },
+    {
+      "path": "dynamics/src/KGNRFullEnvelope.lean",
+      "bytes": 4508,
+      "sha256": "e5e218b09c8b756d7852663bf6a76c563c2a70a1f6726494240f73449be8a3e2"
+    },
+    {
+      "path": "dynamics/src/KGNRMomentumContraction.lean",
+      "bytes": 6400,
+      "sha256": "9884de2fdbdf2df6dacd0f0cae950ee76a496d64a2bbfe315f440df250980637"
+    },
+    {
+      "path": "dynamics/src/KGNRPhysicalTime.lean",
+      "bytes": 4937,
+      "sha256": "aca39dc67af07b4fba8eaf7d909d8fca476528b48060ea432d0d0bb318741852"
+    },
+    {
+      "path": "dynamics/src/KGNRReceivingBase.lean",
+      "bytes": 2763,
+      "sha256": "1d2c1adfcc7957949b290b34fdd5a62a54311d04fa5534a4cd04e67f009dab27"
+    },
+    {
+      "path": "dynamics/src/KGNRReceivingCertificate.lean",
+      "bytes": 17635,
+      "sha256": "7d3758080b53df7fd06bc12b2eccaef977e756c0a535c2f555ca16c002631753"
+    },
+    {
+      "path": "dynamics/src/KGNRReceivingQuestions.lean",
+      "bytes": 8203,
+      "sha256": "e6b279aaede28430934fdcd54b174d63796118b143efc752b7141aa607f033df"
+    },
+    {
+      "path": "dynamics/src/KGNRScalarDifferential.lean",
+      "bytes": 5904,
+      "sha256": "06ca8ce8dbc7ce4f3546bdaa59bb6e9b4b6c4894261abc9bd06c54c2ad187a4a"
+    },
+    {
+      "path": "dynamics/src/KGNRScalarNontrivial.lean",
+      "bytes": 2959,
+      "sha256": "1a50ecfc6cf71d3e32b6d8d597e0b93094a4d26cca665e4ee5f02cf7cb257190"
+    },
+    {
+      "path": "dynamics/src/KGNRSourceCoreCoordinates.lean",
+      "bytes": 4977,
+      "sha256": "f1828a87e75dbea2120f1908a2865081f17665ff22077a5ba1c3aed6453f27db"
+    },
+    {
+      "path": "dynamics/src/KGNRSourceCoreFlow.lean",
+      "bytes": 13729,
+      "sha256": "2b4936a6835dc8071f314f13202daaf9805791f916e78e25047a42fa17e87fa7"
+    },
+    {
+      "path": "dynamics/src/KGNRSourceKineticCore.lean",
+      "bytes": 7259,
+      "sha256": "894aea0ab985cf34ea0eaf42bfd72c16a0d6426c0d2b0e9b981099b8365a7198"
+    },
+    {
+      "path": "dynamics/src/KGNRSourceRecordTransport.lean",
+      "bytes": 7538,
+      "sha256": "d1f6ed563be28644e77c17ec9c987bd1adef7b6e9a436fdb30015696c53ec51b"
+    },
+    {
+      "path": "dynamics/src/KGOneParticleBoostUnitary.lean",
+      "bytes": 2785,
+      "sha256": "87d9a650ec4821f29d0e3a7121c51e3c9a0490d9a45d95db74b1009f9d19d80b"
+    },
+    {
+      "path": "dynamics/src/KGOneParticleCoreEmbedding.lean",
+      "bytes": 2748,
+      "sha256": "dadeb9a5e844d688293ed003ef26f670ce454822bf048184e928eccb529521c4"
+    },
+    {
+      "path": "dynamics/src/KGOneParticleHilbert.lean",
+      "bytes": 4635,
+      "sha256": "71ca38fa64b033a8cc882c3c6b3460fd5b013b0db3f555e0626a69832ec1627e"
+    },
+    {
+      "path": "dynamics/src/KGOriginalCoreAxisBoost.lean",
+      "bytes": 6679,
+      "sha256": "11646e8d09649335ee8367327293f3c1b3757d1dda06ad754f20bb397c00c7dc"
+    },
+    {
+      "path": "dynamics/src/KGOriginalCoreBoostDerivative.lean",
+      "bytes": 4404,
+      "sha256": "c1e1772e58da110c48a80d1fa7c92140c5642db951ddb6d96df97f2b21d4cdc2"
+    },
+    {
+      "path": "dynamics/src/KGOriginalCoreEventTranslation.lean",
+      "bytes": 7586,
+      "sha256": "4a0f3931b1b3680c3fa2b096ef8b519f611c0e5c3705687e0a5f6d9be3119460"
+    },
+    {
+      "path": "dynamics/src/KGOriginalDerivativeWickAssembly.lean",
+      "bytes": 1878,
+      "sha256": "898c4fc0964bd40c57ae9258c6c97c026842bf2aa414048a74ba0a853617bb9f"
+    },
+    {
+      "path": "dynamics/src/KGOriginalDerivativeWickSmearing.lean",
+      "bytes": 3644,
+      "sha256": "b1218a716d3ff018b8f787a5cc94635bf468d9ac67238dd4b3a3fc46d5c5a2aa"
+    },
+    {
+      "path": "dynamics/src/KGOriginalFieldClosure.lean",
+      "bytes": 4572,
+      "sha256": "82474a3eab1ccdade8810627bddc5267d387df37558c8165e64beb05a71935c0"
+    },
+    {
+      "path": "dynamics/src/KGOriginalFieldGeneratorIdentification.lean",
+      "bytes": 1509,
+      "sha256": "d2b9c38e1d7812886fdc880e67267c48d0f3098788260575c79ed5119d891e63"
+    },
+    {
+      "path": "dynamics/src/KGOriginalInteriorFrame.lean",
+      "bytes": 6339,
+      "sha256": "caef466822c3aba1ba1e2695fe1dc0dee9ce888a1797bde494fe04b2d5d9e448"
+    },
+    {
+      "path": "dynamics/src/KGOriginalInteriorProjections.lean",
+      "bytes": 7758,
+      "sha256": "c7ff82bd71c21085c56558e6860fc7ea40cd23d64bc2e674ac36521717035701"
+    },
+    {
+      "path": "dynamics/src/KGOriginalInteriorReceivers.lean",
+      "bytes": 6008,
+      "sha256": "fc6166ac815adc0cd61a325db19b6caf1a1f3ca570b18ecb365b95958cd637a3"
+    },
+    {
+      "path": "dynamics/src/KGOriginalInteriorReferences.lean",
+      "bytes": 7197,
+      "sha256": "ebdec9d2a8b5fd5c92e66d01cb342acb1424116a317a6274342a40d89b62b2b4"
+    },
+    {
+      "path": "dynamics/src/KGOriginalInteriorRegion.lean",
+      "bytes": 4901,
+      "sha256": "4010a0f5c9d46c738097c9b68b35e668c2b03128e52bb7b9b63c3722ecc85c1b"
+    },
+    {
+      "path": "dynamics/src/KGOriginalLocalFieldAlgebras.lean",
+      "bytes": 3466,
+      "sha256": "af6fa9a564ce02400a19ae0328e0b9a7e10ee2602fbe3958d0723bec7ecca8b7"
+    },
+    {
+      "path": "dynamics/src/KGOriginalLocalWickAssembly.lean",
+      "bytes": 3074,
+      "sha256": "0c654de22522d3ea2f7b6b018a79e3fb78e3d51e1683c6e62f71b42f0481476c"
+    },
+    {
+      "path": "dynamics/src/KGOriginalLocalWickSquare.lean",
+      "bytes": 4808,
+      "sha256": "ddbeab81fd9b7ba1cb9143af45638eae0d0a415184e70e8454cf2943bd8b1b6c"
+    },
+    {
+      "path": "dynamics/src/KGOriginalLocalWickStateLaws.lean",
+      "bytes": 5722,
+      "sha256": "ee893be3234c7fd4b7250071cd815a547d44c03a6495ac9ecd53ad2e0a750454"
+    },
+    {
+      "path": "dynamics/src/KGOriginalMetricActFidelity.lean",
+      "bytes": 3390,
+      "sha256": "1a57f86aefe868bc29982773663be9eb1ddef4b0b949f2c70b1cebae4308c04a"
+    },
+    {
+      "path": "dynamics/src/KGOriginalMultiplierBinding.lean",
+      "bytes": 8127,
+      "sha256": "46175bc0299c24cbccdf5227fc46e14e61e3610df682dce62bb1928ca699047e"
+    },
+    {
+      "path": "dynamics/src/KGOriginalPairAdjointness.lean",
+      "bytes": 1938,
+      "sha256": "30629d809c2be8135833a34c059edd56d87c75dd228b8e6c5e53ecd0ffe7e3de"
+    },
+    {
+      "path": "dynamics/src/KGOriginalPairKernelAssembly.lean",
+      "bytes": 2973,
+      "sha256": "292da1f4097d0503f7f5d09ecce683268ac3fc3c8239963e54f7901d0ff56bdf"
+    },
+    {
+      "path": "dynamics/src/KGOriginalPairPolarization.lean",
+      "bytes": 3303,
+      "sha256": "b8ed81c894715532ae52952e5b8d4b975e53b7b8202e6814e7316e2641fccae1"
+    },
+    {
+      "path": "dynamics/src/KGOriginalQuantumContinuation.lean",
+      "bytes": 13565,
+      "sha256": "e62743916559da9444b1922d4fb85f2f582a32c2ab811b3e12fb6c75d3e33931"
+    },
+    {
+      "path": "dynamics/src/KGOriginalQuantumRecord.lean",
+      "bytes": 6128,
+      "sha256": "a55968b31d55c6e142325f4799e5120e40b09e3cde427d0763a3ac7dd35a0f1b"
+    },
+    {
+      "path": "dynamics/src/KGOriginalRegionalRestriction.lean",
+      "bytes": 6491,
+      "sha256": "21f3143765265152ea4e7f1d3c0d16f45d1a8cdd726eb1c91ec3816e091392d5"
+    },
+    {
+      "path": "dynamics/src/KGOriginalShellCausalSupport.lean",
+      "bytes": 2610,
+      "sha256": "676cb5230ae3ca235fd1efbaf859868771575f3fe5213c46a277b0c424f24b74"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWeylCoreOperator.lean",
+      "bytes": 2542,
+      "sha256": "7a43405b1d03d33a69a1c24ebff9e086b7e404aaab550aae63fc3c42a37b7fa8"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickActionReality.lean",
+      "bytes": 4853,
+      "sha256": "3df5e93aca7f159e728927f7cb4c5d324f38a2ea2b598f34e4c057cf7b49b755"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickActionResponse.lean",
+      "bytes": 2932,
+      "sha256": "d603162d901c30cdc6e652b396d84c11c01867231766d28a57e1ebbe7abd213e"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickActionVariation.lean",
+      "bytes": 5372,
+      "sha256": "3c847d9dfecaa85abaf7e11cbcbac8e64ce4257c5c063695713af6fd08157a78"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickBilocalAttachment.lean",
+      "bytes": 2730,
+      "sha256": "e1cf71302ba53029e24adf3672d55f22da9dadfd19cf2fc1caa2ecd17388dd59"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickBilocalCore.lean",
+      "bytes": 5108,
+      "sha256": "7fa9d695f25704efb94d96332110a91d4b4d45b927c8a8bd0a0f90a43b9a9a4e"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickBilocalHermiticity.lean",
+      "bytes": 4521,
+      "sha256": "bb97b727665f41fe5608ee919cc89d30db14bad1077855932413333659684312"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickBilocalIdentification.lean",
+      "bytes": 4500,
+      "sha256": "f9ae6bf0fa7d1ecc9f04368540abcfed1e99258637541e6554291213cd69f4fd"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickChannels.lean",
+      "bytes": 4369,
+      "sha256": "a5f47babde2b3b49d41394f43bcffa5789cfd964f73277473249030e99308113"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickFlatWard.lean",
+      "bytes": 3509,
+      "sha256": "985fc1ece1788971192be0fc48dd43d716b6edc6dda6e33e90fea250b6a058aa"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickMetricCoefficient.lean",
+      "bytes": 3596,
+      "sha256": "32a8f02191d0aa7cd168061a86018dd6c39d36ebc1b6c0cc6ce28b467dfc3616"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickMixedDerivative.lean",
+      "bytes": 5277,
+      "sha256": "0c922ee7b27427b783beb32c9c36a08697ca7b0f55049e4b584f761296cbf013"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickScalarStress.lean",
+      "bytes": 11060,
+      "sha256": "afd365a6901cd057c8d1f8dc8bd4f164484ec03ed7011bd114833833dc41a95e"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickSesquilinearity.lean",
+      "bytes": 7715,
+      "sha256": "c7f4930635413aef308f21ec7b52319e8a4af3b1b54a9cdcf074179ad068e8b1"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickStressChannels.lean",
+      "bytes": 5920,
+      "sha256": "6ebbf8f702bfa27bc3e2a1f15cd2d00339fea37751e91da68cd255de61b0d96d"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickStressConservation.lean",
+      "bytes": 1760,
+      "sha256": "57a7e6496ab8391d5b1e6c88b1d5707b27cdd1e70a809be7acd82ca71370e119"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickStressHermiticity.lean",
+      "bytes": 5105,
+      "sha256": "9c46261ed40422a3e690e104c05ffbb2b29c47cee23501634558ba2df8ad335f"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickVacuumBaseline.lean",
+      "bytes": 2006,
+      "sha256": "c199590673cd6415df08e6bead52cbabf20253dc3e195c6fcdfad1cee826e6e9"
+    },
+    {
+      "path": "dynamics/src/KGOriginalWickWeakConservation.lean",
+      "bytes": 4420,
+      "sha256": "9817dec607e308684305cfde48b131c31a65a024d7679a5658533630faf17a5e"
+    },
+    {
+      "path": "dynamics/src/KGPairedInteriorFidelity.lean",
+      "bytes": 5914,
+      "sha256": "6ccf1ea34554f08834a62f34cdb2bd7673cf83129695ce40cf06eb7a71507805"
+    },
+    {
+      "path": "dynamics/src/KGParticleAdjointness.lean",
+      "bytes": 3047,
+      "sha256": "3fd08c3697eb564ecce89ac5ccba5193ca97061062fd8e7617d072d70c2aa5ed"
+    },
+    {
+      "path": "dynamics/src/KGParticleMaximalMultiplication.lean",
+      "bytes": 3599,
+      "sha256": "4786a05008b91605f76034c2b24d6ada96768b4f0e9b10c544ee0cbb11fb96ab"
+    },
+    {
+      "path": "dynamics/src/KGParticleMeasureControl.lean",
+      "bytes": 2675,
+      "sha256": "086e7dd7715d0f89ae9be379c8b1bdc7a5bd5ef54af53633f8b4e38391fd90f8"
+    },
+    {
+      "path": "dynamics/src/KGParticleProductTransport.lean",
+      "bytes": 1625,
+      "sha256": "ab4bc23e16e1948a047e8059a71d5eebc083c5538a69548f8ea1fb6de391ee7e"
+    },
+    {
+      "path": "dynamics/src/KGPauliJordanCCRIdentification.lean",
+      "bytes": 3155,
+      "sha256": "b0b178292051ba4cf9f81b51e6127c1cd386b5426bdf283ff2e699a02454a353"
+    },
+    {
+      "path": "dynamics/src/KGPauliJordanNonvacuity.lean",
+      "bytes": 2741,
+      "sha256": "00029b2e2e4cde4047900688b895b8bfd0cd596b2cc7c8b7fbe02013905e4259"
+    },
+    {
+      "path": "dynamics/src/KGPauliJordanShellDistribution.lean",
+      "bytes": 3339,
+      "sha256": "e45ede9dead36221884d089aa115cf5a5ce5e74614b282e434f224bfbb4a1e17"
+    },
+    {
+      "path": "dynamics/src/KGPhaseAERGeometry.lean",
+      "bytes": 10811,
+      "sha256": "1442b4942c62cf5648b610899b3eb79886e38f494c07bfae11f76b21cba41035"
+    },
+    {
+      "path": "dynamics/src/KGPhaseAERHamiltonian.lean",
+      "bytes": 4536,
+      "sha256": "35c7656750443dbd15ffcce06f7aa846edfe890a07c5951024cf300cb99b5314"
+    },
+    {
+      "path": "dynamics/src/KGPhysicalFrequencyMeasure.lean",
+      "bytes": 9282,
+      "sha256": "2cb451e70aba18b8c511c2b06fc72e63f22bd311abf35f046db3f1ea6a51ad90"
+    },
+    {
+      "path": "dynamics/src/KGPhysicalSpatialUnitary.lean",
+      "bytes": 5859,
+      "sha256": "52a97a4080b35590dd3c1610376128194fc6409fd89a317e48e44065c9758f1b"
+    },
+    {
+      "path": "dynamics/src/KGPoincareCoherentCovariance.lean",
+      "bytes": 3587,
+      "sha256": "49fde2f2ae6ea534564aed64cf4bac6e1c2ca7082499910cd1d90e9266138773"
+    },
+    {
+      "path": "dynamics/src/KGPreHilbertCarrier.lean",
+      "bytes": 4551,
+      "sha256": "e4dea0c0fc2b23d59092d3412b9a3a87fa2e64b44b9c0d71c01728dc734064e3"
+    },
+    {
+      "path": "dynamics/src/KGPreHilbertProbability.lean",
+      "bytes": 11293,
+      "sha256": "e02c5975b417118f1887322d5f3e2de4c7fab52e804868c4656bb97a722eb567"
+    },
+    {
+      "path": "dynamics/src/KGPreparedMetricReferences.lean",
+      "bytes": 5519,
+      "sha256": "ee2d7a11473d0b8f08a5b083ffee4f7937cf752179a0d0db3039907ca20fc83e"
+    },
+    {
+      "path": "dynamics/src/KGPreparedMetricUse.lean",
+      "bytes": 7298,
+      "sha256": "157799b43c9854902e48d6b1e72c210791719dcef5a963a94afda9efaedf4e4e"
+    },
+    {
+      "path": "dynamics/src/KGPreparedOriginalSource.lean",
+      "bytes": 4148,
+      "sha256": "c06476ee4c0592099ee9341b384e8d679f45ecdc637d7889ee927381b0400381"
+    },
+    {
+      "path": "dynamics/src/KGProductInsertionBridge.lean",
+      "bytes": 3536,
+      "sha256": "7b743a920503c4f14f19bc6c84f56b1c175447bb0dbedda4e239dc87e2b234e1"
+    },
+    {
+      "path": "dynamics/src/KGProperLorentzGroup.lean",
+      "bytes": 4334,
+      "sha256": "e3ee4ef1cbf0c098d7f54fa327ed70f721889d843f0d3471328af3d1ed3af5e7"
+    },
+    {
+      "path": "dynamics/src/KGProperLorentzTopology.lean",
+      "bytes": 3350,
+      "sha256": "093723347c3bd9dc0b84a8c8f6c2965a22d16006363a0d6da84e236a9df13061"
+    },
+    {
+      "path": "dynamics/src/KGQuantumOrbitDescent.lean",
+      "bytes": 4291,
+      "sha256": "58865b758c19c30368f13a1ee96bf497221e26bd6af000461ebc4b2fdcb5344c"
+    },
+    {
+      "path": "dynamics/src/KGRawQuantumOperations.lean",
+      "bytes": 5252,
+      "sha256": "db11ed9e99ac04eeadd9a2dad5dcf7311b6c85eed1ffa647002edeca76c7ca5f"
+    },
+    {
+      "path": "dynamics/src/KGRawTensorCarrier.lean",
+      "bytes": 2260,
+      "sha256": "d7b64bd672ee251054c438bf926f7d7cabb2ee5eb67fcb1fcb7e6e5c2c826edb"
+    },
+    {
+      "path": "dynamics/src/KGRawTensorCoherence.lean",
+      "bytes": 3058,
+      "sha256": "bd5cafbd87947a2433fd75090d41e015dd839c14d62c0c3cd64f5743bc3c6eeb"
+    },
+    {
+      "path": "dynamics/src/KGRealFieldPoincareWeylCovariance.lean",
+      "bytes": 2736,
+      "sha256": "4136b831ad988e401bc03938cddbccef4e4659d5e9d0bd5ed0b1c3ba43a7c95e"
+    },
+    {
+      "path": "dynamics/src/KGRealFieldWeylGroup.lean",
+      "bytes": 4332,
+      "sha256": "363efd10803f42f5c13053989a20890cae46105f9b714e5ae7a6848bbf17780b"
+    },
+    {
+      "path": "dynamics/src/KGRealizedQuestions.lean",
+      "bytes": 4563,
+      "sha256": "b664efba2e1c263caccd7eb08522848c7a0c9692d5072d4eef525ce0b4a4ae6d"
+    },
+    {
+      "path": "dynamics/src/KGRealSmearingDensity.lean",
+      "bytes": 3136,
+      "sha256": "499e63253292ad8743f2fd7c3b65a0fa51dcf5dc0385f2672a32350afbb1d016"
+    },
+    {
+      "path": "dynamics/src/KGRealSmearingShear.lean",
+      "bytes": 5445,
+      "sha256": "38ddc7537427f75dc8aa66fae8f80bd32537285556dd6f54497b4313be485a69"
+    },
+    {
+      "path": "dynamics/src/KGRealSmearingWeylAlgebra.lean",
+      "bytes": 4079,
+      "sha256": "44bc5521570d6015b6f0c3469f365477d7feb608b822be3ee63f50b2d3c57959"
+    },
+    {
+      "path": "dynamics/src/KGRealSpacetimeLift.lean",
+      "bytes": 4505,
+      "sha256": "725ed08123334dd55967976e9a5116402f1b11912d75eaee20122c23b3aa5aba"
+    },
+    {
+      "path": "dynamics/src/KGReferenceM3Vacuum.lean",
+      "bytes": 1927,
+      "sha256": "0d6195814edf8f0e1a70a32640b4aead581c766560ff93f213c5c80bd8106b82"
+    },
+    {
+      "path": "dynamics/src/KGReferenceVacuumUniqueness.lean",
+      "bytes": 4896,
+      "sha256": "2d7919c828a2d4748f47354b5e30aa816df91a51cf8341f85130a4fc9fc09020"
+    },
+    {
+      "path": "dynamics/src/KGS36FreeComparatorAssembly.lean",
+      "bytes": 1984,
+      "sha256": "2ae99f83a32805ad712a1e708d1094b8bd013917385e5c9b3609da3794ff4396"
+    },
+    {
+      "path": "dynamics/src/KGScalarComparatorFourier.lean",
+      "bytes": 8685,
+      "sha256": "3bdd60469bca14a142d8f088836de60ae586824487dce771d6fe921b784a266c"
+    },
+    {
+      "path": "dynamics/src/KGScalarFreeComparator.lean",
+      "bytes": 3810,
+      "sha256": "4a1af48dbb7742703eccbc4d8d58cbbe2fdf84684433871e06489e99a0a800a7"
+    },
+    {
+      "path": "dynamics/src/KGSchwartzContraction.lean",
+      "bytes": 3415,
+      "sha256": "a478be2889e6dd3092bc6fb8e437e286dd3fcd5a8a52f6f624e68fc0ea6a20ad"
+    },
+    {
+      "path": "dynamics/src/KGSchwartzCoordinates.lean",
+      "bytes": 2176,
+      "sha256": "76062f3ad6eb2d1d3438124ca1f2d77981cffcc2e012c59d113d045f06409813"
+    },
+    {
+      "path": "dynamics/src/KGSchwartzDifferential.lean",
+      "bytes": 3653,
+      "sha256": "52928e087f24063554b6ecbf9b73d5f89a0cf1192fe889751bbbdaf50dd3a9d6"
+    },
+    {
+      "path": "dynamics/src/KGSchwartzEnergyCoefficient.lean",
+      "bytes": 2672,
+      "sha256": "3670e6af85d807c0fa5b405d9c37332d92c1a76758866def7539a915f25e5adc"
+    },
+    {
+      "path": "dynamics/src/KGSchwartzMassShellEquation.lean",
+      "bytes": 3052,
+      "sha256": "0be3cf8c6c5681647a39c8bdb553a8ccafdf76746e73441085ce042769c7be28"
+    },
+    {
+      "path": "dynamics/src/KGSchwartzMomentumCoefficient.lean",
+      "bytes": 3386,
+      "sha256": "66ecf3efde2059895a7e09f8e1be92af2683b12ed210d21c2ac5896cc56649f8"
+    },
+    {
+      "path": "dynamics/src/KGSchwartzSmearingLaws.lean",
+      "bytes": 3799,
+      "sha256": "8e560574194a32e120ab045ddb131a6f7021a8de165fd807284484fc316b9d8e"
+    },
+    {
+      "path": "dynamics/src/KGSchwartzSymmetrization.lean",
+      "bytes": 3190,
+      "sha256": "3da5d8a25d34bfeec6fb78a572b3a0ebe36c1f4a916c8a1d4bc80de18e4d2f0e"
+    },
+    {
+      "path": "dynamics/src/KGSecondQuantizedWeylCovariance.lean",
+      "bytes": 3916,
+      "sha256": "fe51315e0a3dcc0e93c63171272872da32f93d8cb9c6085e6229adf5d817613e"
+    },
+    {
+      "path": "dynamics/src/KGShellToSineIdentity.lean",
+      "bytes": 4245,
+      "sha256": "16446d914f3a17d18cb6bfc4563bdb0531c96e0947b0d4d0d23746dbec1cc07e"
+    },
+    {
+      "path": "dynamics/src/KGSignedShellStress.lean",
+      "bytes": 3885,
+      "sha256": "498db7b7a3314bf67bfd478212542291a547f26a20eda9f026411871154d3bbf"
+    },
+    {
+      "path": "dynamics/src/KGSineCauchyMultiplier.lean",
+      "bytes": 3614,
+      "sha256": "0e8fc3fc769d454c565140c2dbd8a44f5893af1070d004600a53c421754b0a00"
+    },
+    {
+      "path": "dynamics/src/KGSmoothConeCutoff.lean",
+      "bytes": 5438,
+      "sha256": "d6f3b82099ed6f131dbb822a81634162b5685886a50e9a0e46a1082b0a334f57"
+    },
+    {
+      "path": "dynamics/src/KGSourceDualTransport.lean",
+      "bytes": 3406,
+      "sha256": "e505183d7cb9c4bb10f4f9cf81386534cc5ffe08a07709b0097ca6fc14a77fbf"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeAxisBoost.lean",
+      "bytes": 3164,
+      "sha256": "35d34a23babf38ca6428f10dbc618415cd5a7accb37942d33a8b27468f4be07e"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeAxisBoostMeasure.lean",
+      "bytes": 2604,
+      "sha256": "95f683493c86dfd632aaf80e3e740c01cdc665badee7182cb7b7aefb4603c83e"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeEuclideanSplit.lean",
+      "bytes": 2375,
+      "sha256": "3ab12bb39bc32440b0abf3951648a549f76ed92aa32c35b84e144061a6349b21"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeEventTranslationTests.lean",
+      "bytes": 3702,
+      "sha256": "a8bb5cee8fb41c9649454786338a141fd5f994440efec266a3598fbc7c2b02ff"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeFieldAdjoint.lean",
+      "bytes": 1867,
+      "sha256": "6c5f8934dad4eb2150f1a6d27f12b075e2c87a3f437bd9388aaeb1c129233cbc"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeFieldCCR.lean",
+      "bytes": 2605,
+      "sha256": "5c618ff3b0db9fed3c8b90ffde3fad8b2a6f50c4fb9f7bdefaf1f9eafdcc9be7"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeFieldCore.lean",
+      "bytes": 2642,
+      "sha256": "e946fe0d3b35dd03ea5d10d6f6eb382177fb3c16270031c862e58fbb0e0bcd0f"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeFieldEquation.lean",
+      "bytes": 1893,
+      "sha256": "ad68ae171f9b1d45dba53a224a74a3d883596897bf3bb225df61afc7eedf62e8"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeFieldForms.lean",
+      "bytes": 4030,
+      "sha256": "06117dbdc2a0027258e42a49ab2d72f21d0cb9859df5d0e5d6b6ee468f1ad7b5"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeFieldNonvacuity.lean",
+      "bytes": 3287,
+      "sha256": "8988517b1d84befdf3f92adc75947a574c1c1a1a8141a6092a7dd8f49acd2e5a"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimePartialFourierIdentity.lean",
+      "bytes": 3275,
+      "sha256": "9028a6e7c4b9df911d5a42d1f5998d3f4b610df77f428a8727cd14cac758e525"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeSliceCausalGap.lean",
+      "bytes": 3747,
+      "sha256": "25adeab682c78550155e2da128bacfa44cac50eee309a55eb431bc3cd82df03c"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeSmearing.lean",
+      "bytes": 4542,
+      "sha256": "9a7cd44971e403b1f7c1f4c886e0bd459e2f94300232a633bc674a4ca33a4cfa"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeSpatialBessel.lean",
+      "bytes": 3567,
+      "sha256": "6ec88cd6d70fcdeee5fae17d9076c8cdc34753facd5a8eba24d060b8940b9ba3"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeSpatialSlices.lean",
+      "bytes": 2997,
+      "sha256": "c8f9f2c7c966b2da46a6ad5170373832cb94c3f6a40dca4da5704d0b0a3ee52d"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeTranslationCoefficients.lean",
+      "bytes": 3951,
+      "sha256": "76e3da2ba9308a61f51655b79a34f6918801d1411ae309c3a43a8e7ab786e928"
+    },
+    {
+      "path": "dynamics/src/KGSpacetimeTranslationUnitary.lean",
+      "bytes": 5236,
+      "sha256": "938efe11157c1b6078ec41f7b1b867e1814233d5afacb6c8a7bd62c7ead89769"
+    },
+    {
+      "path": "dynamics/src/KGSpatialCauchyDifferential.lean",
+      "bytes": 5855,
+      "sha256": "3c9fe26679e6bcc147a6c943166a447280cbe81e69c2a0560d2b2c6bc9455bbc"
+    },
+    {
+      "path": "dynamics/src/KGSpatialCompositionNaturality.lean",
+      "bytes": 8444,
+      "sha256": "8856905717a1418f9c2943e5f34457e3f6f68bd2046e37ddf1c575c1dec14d8a"
+    },
+    {
+      "path": "dynamics/src/KGSpatialFourierFubiniMajorant.lean",
+      "bytes": 3883,
+      "sha256": "f777199fbb3db3db01e32a70c9b487a5ec89affff2aa3fdd548943c6cbcfbf80"
+    },
+    {
+      "path": "dynamics/src/KGSpatialFourierVolume.lean",
+      "bytes": 2245,
+      "sha256": "0f18fea6ba034096f9b9396df3b9ed83ae092e498e808fef681c0dc0abd1e961"
+    },
+    {
+      "path": "dynamics/src/KGSpatialKineticDomain.lean",
+      "bytes": 9828,
+      "sha256": "c5ea12776934ec176beb08fc4e643498b1929d6b8b22131564498f902eda34a4"
+    },
+    {
+      "path": "dynamics/src/KGSpatialSineFamily.lean",
+      "bytes": 3810,
+      "sha256": "2495c1bfa87bb35ce42372ffbf4f13d0d618c394911393a50d17f1dd04e9423e"
+    },
+    {
+      "path": "dynamics/src/KGSpatialSineInitialVelocity.lean",
+      "bytes": 2745,
+      "sha256": "e47cd566ac9f924a635ecb606bcb75bec9b399b0d97b4f460698f7ad1f570a2a"
+    },
+    {
+      "path": "dynamics/src/KGSpatialSourceComposition.lean",
+      "bytes": 10023,
+      "sha256": "6499eb7807ff5f033b0152c2fa7a5e06aa6d46e456e4d926140e600925123d25"
+    },
+    {
+      "path": "dynamics/src/KGSpatialStandingTransport.lean",
+      "bytes": 11923,
+      "sha256": "574297ebdd20f0471ce395af0e819cd68c87e7141955fb1e3a8d0b927382855d"
+    },
+    {
+      "path": "dynamics/src/KGSpatialWeakLaplacian.lean",
+      "bytes": 8020,
+      "sha256": "310a95264afe16b4d4e5ff475b1eabe9912dad628dec8606afbb67a2fcc26e80"
+    },
+    {
+      "path": "dynamics/src/KGSpectralCauchyFamilies.lean",
+      "bytes": 4929,
+      "sha256": "9dde01ba9307cb34bd86ddd007ac9b0fb810956ddb47372a5e9d0b77184d3aec"
+    },
+    {
+      "path": "dynamics/src/KGStandingComparisonCategory.lean",
+      "bytes": 7357,
+      "sha256": "1cf06f185373a19d7ab6f5fb27c6dbb70d2ff1fe825124262f19ff982fcf8c5b"
+    },
+    {
+      "path": "dynamics/src/KGStandingOperations.lean",
+      "bytes": 11999,
+      "sha256": "25c82a10366a3212387a2917d80d906d9094949eecbe379df898d4d74582c276"
+    },
+    {
+      "path": "dynamics/src/KGTemporalShellCoefficients.lean",
+      "bytes": 4019,
+      "sha256": "66b5dc0a275c518ff00f133c88bad1608f7dc9557c215908a7d0ab64d982e6dd"
+    },
+    {
+      "path": "dynamics/src/KGTensorQuotientTopology.lean",
+      "bytes": 3384,
+      "sha256": "ec758f866745d7fb9d0c4dd42fabfc7468ad5a18f96017cef41d006079ce44a6"
+    },
+    {
+      "path": "dynamics/src/KGUniformSpatialFourierBounds.lean",
+      "bytes": 4431,
+      "sha256": "2904946dbb1fc608a6126e7b613417dafc70802f0261384ab8714a090912b1dd"
+    },
+    {
+      "path": "dynamics/src/KGWeightedMomentumDynamics.lean",
+      "bytes": 8375,
+      "sha256": "28f75169cb44f777238d514ddf0689900ef8bae286cdb6412208d86aa04fb7a3"
+    },
+    {
+      "path": "dynamics/src/KGWeightedMomentumIdentification.lean",
+      "bytes": 9076,
+      "sha256": "c6df4ed6b2401b3c6c03d2bf17be70f3a66d3357f9f48735e1af07dcba21c81c"
+    },
+    {
+      "path": "dynamics/src/KGWeylBoundedOperators.lean",
+      "bytes": 2330,
+      "sha256": "ba433829baaf19644e517179de1194a200080bb83006b53878e6ae1491fc7730"
+    },
+    {
+      "path": "dynamics/src/KGWeylClosedAlgebra.lean",
+      "bytes": 1833,
+      "sha256": "79b58f167252aecb58fc8836e62c71f135f52fcd651f0692b9fc369abd4dc3ac"
+    },
+    {
+      "path": "dynamics/src/KGWeylCoherentCoreGenerator.lean",
+      "bytes": 4167,
+      "sha256": "4869cf067f7c40f52eb48fb9cf27103ca52f5127023babae345a4b40c343351b"
+    },
+    {
+      "path": "dynamics/src/KGWeylCoherentDerivative.lean",
+      "bytes": 3233,
+      "sha256": "2f55dfe4991f852a99f9d3d95f6b3fa91e2fd31c0de2685433bb8fcc602e5802"
+    },
+    {
+      "path": "dynamics/src/KGWeylCoherentKernel.lean",
+      "bytes": 1988,
+      "sha256": "bd1e6d9a34ad25371f6f39562d7716e6cbd0ddef756bbf82a43894041e082119"
+    },
+    {
+      "path": "dynamics/src/KGWeylCoherentSpan.lean",
+      "bytes": 2101,
+      "sha256": "667a7c6d006ba44a66faadb4a634265d5448de6f5bc3d8bcae49bfd2d38e78b8"
+    },
+    {
+      "path": "dynamics/src/KGWeylCommutant.lean",
+      "bytes": 4443,
+      "sha256": "a5926a2db50a8186244f1263abc9ac317922c6486e5018250a0f8c66bcc5d977"
+    },
+    {
+      "path": "dynamics/src/KGWeylContinuity.lean",
+      "bytes": 1992,
+      "sha256": "6d4f3a697dfde437771d7d838ec27ae45ed79640f3934cf661281657f4c15c7c"
+    },
+    {
+      "path": "dynamics/src/KGWeylGeneratorSymmetry.lean",
+      "bytes": 2536,
+      "sha256": "3e05ac667f03fd86334defdf794ccc5ce2dcc868df2a77ab9628f0324b42801e"
+    },
+    {
+      "path": "dynamics/src/KGWeylMaximalGenerator.lean",
+      "bytes": 1727,
+      "sha256": "87b4bc1ce8b1077425e1a8957e5c56768099f530b5d2c82d5e8c17efd554a19a"
+    },
+    {
+      "path": "dynamics/src/KGWeylNonvacuity.lean",
+      "bytes": 2012,
+      "sha256": "bf6c00875e81b6db5eae9e04a552c5214dab9b797f1f5491f9454280e9b94d68"
+    },
+    {
+      "path": "dynamics/src/KGWeylObservableAlgebra.lean",
+      "bytes": 3174,
+      "sha256": "c7844f75f5b514b0324aedd1892bf86c8d99a16bc846b943dd608d0969a5fe60"
+    },
+    {
+      "path": "dynamics/src/KGWeylOneParticleLimits.lean",
+      "bytes": 5694,
+      "sha256": "128d5fc495ed913ddc0ec7dbc6e2015830ffd3dc2e947896b639f8c569f6ef7e"
+    },
+    {
+      "path": "dynamics/src/KGWeylOrbitGenerator.lean",
+      "bytes": 3122,
+      "sha256": "296e23b218d97fc69114f755701b67f2d93db4ff58cc43c9f726a15dbe303897"
+    },
+    {
+      "path": "dynamics/src/KGWeylRelations.lean",
+      "bytes": 3378,
+      "sha256": "d9c018a2f9c09a979bedd564415b13a3e34f4833d0ac21982122fe314320353a"
+    },
+    {
+      "path": "dynamics/src/KGWeylStarAlgebra.lean",
+      "bytes": 1040,
+      "sha256": "62200e5a41870930cc16015ff8eb147b9aa864093f66308cc40345fc71158270"
+    },
+    {
+      "path": "dynamics/src/KGWeylStrongDomain.lean",
+      "bytes": 4201,
+      "sha256": "b9896ee14d3b9a3dbdeb7bbb09d27fe601b0ef2296ae1137540129ffcbaa9c10"
+    },
+    {
+      "path": "dynamics/src/KGWeylVacuumDerivative.lean",
+      "bytes": 3392,
+      "sha256": "f7c9c1a207be98a67ebf97503a8511bc80d44492ea4f42b75404edf1c81f1d5a"
+    },
+    {
+      "path": "dynamics/src/KGWickBilocalIntegrability.lean",
+      "bytes": 3196,
+      "sha256": "843730196718dc0ba8e73489c2761c2c17ace1a741a96aaac3f378b60f53e139"
+    },
+    {
+      "path": "dynamics/src/KGWickBilocalMatrix.lean",
+      "bytes": 5780,
+      "sha256": "f4d3b67f873a4ba9d8c0f6a615e00dc2b5f78c2b83c67ff775583898b5d4dc68"
+    },
+    {
+      "path": "dynamics/src/KGWickCompactAction.lean",
+      "bytes": 4692,
+      "sha256": "8516ac583388783dd4e0fe4b5d7f70dd350c3959f232e092e93e3af443712157"
+    },
+    {
+      "path": "dynamics/src/KGWickCompactSmoothMetricTests.lean",
+      "bytes": 2249,
+      "sha256": "ae8d171ea855faa173ba888e7df121d30757bdf4051c25f5da545b10ae08be0f"
+    },
+    {
+      "path": "dynamics/src/KGWickCoreComponents.lean",
+      "bytes": 2374,
+      "sha256": "d6c6c6c3f8c9069b94d393d044ccde7c45cd4f8bc2c8713b38d7bdfbba470a1d"
+    },
+    {
+      "path": "dynamics/src/KGWickCoreCutoffIndependence.lean",
+      "bytes": 3529,
+      "sha256": "7574ecbf1c8fc07d7650b62c32956ffad04ff75db7b467c194b7ade6e9d7f516"
+    },
+    {
+      "path": "dynamics/src/KGWickCreationPairChannel.lean",
+      "bytes": 3271,
+      "sha256": "525ccc98e707180065246516955dca060526d87f8fac9ad454153dd029bd8039"
+    },
+    {
+      "path": "dynamics/src/KGWickDensityContinuity.lean",
+      "bytes": 3124,
+      "sha256": "81dba555f7d2e58328e3b45a6cd4b2b1680de27cb61e5204907736f8252cbac0"
+    },
+    {
+      "path": "dynamics/src/KGWickDifferentiatedTests.lean",
+      "bytes": 3324,
+      "sha256": "af11134e2f085b73239faed1c8dbe75e90e880b8160a3b42591e122bbac5a958"
+    },
+    {
+      "path": "dynamics/src/KGWickFiniteCoreKernelAttachment.lean",
+      "bytes": 2723,
+      "sha256": "061bdc35dc9796cc80a9f6cf3688dbe4e4f300615a892cfd19c5144635bba932"
+    },
+    {
+      "path": "dynamics/src/KGWickFiniteDerivativeExchange.lean",
+      "bytes": 1286,
+      "sha256": "a8e0b47e834fffb6d2232679bf06ddab6d213ec4969be315982ff07bd8520c4b"
+    },
+    {
+      "path": "dynamics/src/KGWickKernelDistributions.lean",
+      "bytes": 5606,
+      "sha256": "35c7efb71f3e0614afb2627ff03f90cde3ea63cfd1b5b440449afe8d5e3e6371"
+    },
+    {
+      "path": "dynamics/src/KGWickLocalIntegrationByParts.lean",
+      "bytes": 2827,
+      "sha256": "951c730bc11fd36ea13a662fbadd674f00da7d2d29cb3d328f2eeefc6825f4f3"
+    },
+    {
+      "path": "dynamics/src/KGWickLocalMatrix.lean",
+      "bytes": 4288,
+      "sha256": "8e6929a6e2605a1a921570fbea4565d3bec2615c0395dac45384285acefbacbd"
+    },
+    {
+      "path": "dynamics/src/KGWickLocalSectorDerivatives.lean",
+      "bytes": 3900,
+      "sha256": "1501d486927c888fe4c8c746390695b291c1972c2dc36629505fca0bece6df5a"
+    },
+    {
+      "path": "dynamics/src/KGWickLocalSmoothness.lean",
+      "bytes": 4980,
+      "sha256": "84737278ea71af813b80b5a8d7ddf859f324429271fdb315cef741416fb4e4a2"
+    },
+    {
+      "path": "dynamics/src/KGWickLocalStressConservation.lean",
+      "bytes": 4489,
+      "sha256": "03029a60a644a98d0bc9ad380f28c908572cc75b24bc9c324bbccd1bbbb47694"
+    },
+    {
+      "path": "dynamics/src/KGWickMetricAdmissibility.lean",
+      "bytes": 3870,
+      "sha256": "23db4cf3de32fcc794617c72ffc6345cc6f7bd1c54e26504d4f8e2960f16f7d5"
+    },
+    {
+      "path": "dynamics/src/KGWickMetricDensity.lean",
+      "bytes": 2968,
+      "sha256": "2abf92f13d1ccba12b05e269c072c451a50a2d43bf7eb73b4c3a8a86bdc642f6"
+    },
+    {
+      "path": "dynamics/src/KGWickMixedAttachment.lean",
+      "bytes": 4547,
+      "sha256": "fe3bf80ba470f555dd56faa6b3e51e45a67c4e31be5e1f862c39dbef2ba6db12"
+    },
+    {
+      "path": "dynamics/src/KGWickOriginalSectorBilocalAttachment.lean",
+      "bytes": 4843,
+      "sha256": "da0bdde65453b4f79e0df9e97dc43383a0dd9d19ef36fb29aa55a93b5242b1fa"
+    },
+    {
+      "path": "dynamics/src/KGWickSchwartzTestSeparation.lean",
+      "bytes": 2113,
+      "sha256": "31b6a7f312b6cd152d6687fcfbc5b2d164caa2c5c2967b6b00ecf502c686141b"
+    },
+    {
+      "path": "dynamics/src/KGWickSectorAttachment.lean",
+      "bytes": 2796,
+      "sha256": "de1fab615cba7841a253a2acf208142351f13d487d31ddb04b985a467915a4e6"
+    },
+    {
+      "path": "dynamics/src/KGWickSeparateDerivativeKernels.lean",
+      "bytes": 8354,
+      "sha256": "1234b5d69b6546a02331983c726fa6e21187ad0af9738058e7c096b075b5910a"
+    },
+    {
+      "path": "dynamics/src/KGWickStateKernelLaws.lean",
+      "bytes": 4245,
+      "sha256": "ef9d8be7adc8829d016252a40d76d65aad08a87095deeb15c35c2f3a245254e2"
+    },
+    {
+      "path": "dynamics/src/KGWickStateKernels.lean",
+      "bytes": 4976,
+      "sha256": "d46f2fbf928738f47d95bad23b0024759e55bed59de364a822b026eaffea588a"
+    },
+    {
+      "path": "dynamics/src/KGWickStressKernels.lean",
+      "bytes": 3780,
+      "sha256": "dd87eff8ba247243d8ce84d16fb44e2278baeeefc3369967497b2537f749f383"
+    },
+    {
+      "path": "dynamics/src/KGWickStressMetricDistribution.lean",
+      "bytes": 3484,
+      "sha256": "f595bc2f6c7e6cff162159b1fb06f4147f5187f6d6967ffeb394c7d235ab1f2f"
+    },
+    {
+      "path": "dynamics/src/KGWickStressSymbol.lean",
+      "bytes": 2021,
+      "sha256": "12407f7413fd4584392cbbf085a5340709368eaa7178c8a0a616f5371f9a0902"
+    },
+    {
+      "path": "dynamics/src/KGWignerShellNormalization.lean",
+      "bytes": 4237,
+      "sha256": "828d76314057137fb0b2f682531f1743aa5762c8a5fff595162237f792195f9d"
+    },
+    {
+      "path": "dynamics/src/L2BoundedMultiplication.lean",
+      "bytes": 3243,
+      "sha256": "acbade0c17a570582d3774354924df2ac24c83bf822276330f12f4218821c802"
+    },
+    {
+      "path": "dynamics/src/L2BoundedMultiplicationAlgebra.lean",
+      "bytes": 2284,
+      "sha256": "1eddb8982faee1dc8e7c90ec86a4f705bab779afda7d4bf3538cb2f0209b0274"
+    },
+    {
+      "path": "dynamics/src/L2DominatedConvergence.lean",
+      "bytes": 2557,
+      "sha256": "19b4509bd1dec93a789c5722ff817a0770f55bc690e0254ddf7bc0fa07d16eee"
+    },
+    {
+      "path": "dynamics/src/L2GraphCoefficientAlgebra.lean",
+      "bytes": 2107,
+      "sha256": "47b1c37545c363702775353c36fd558da8f91e8faef08dd9bed1a7ebb5c81d49"
+    },
+    {
+      "path": "dynamics/src/L2HilbertSumConvergence.lean",
+      "bytes": 1558,
+      "sha256": "b6500cb72d46f22853fa3c0580cf21e87ef40bf5384eec5d91f8dc216bcdfcf5"
+    },
+    {
+      "path": "dynamics/src/L2HilbertSumDiagonal.lean",
+      "bytes": 2510,
+      "sha256": "89ffe988fcef9391634014256480621fb4c782758557574322cbb06e5c9cf04e"
+    },
+    {
+      "path": "dynamics/src/L2RealMultiplicationClosed.lean",
+      "bytes": 3696,
+      "sha256": "cb8ad08b525e69ad3da60a74cbf4da33d4734e78322168cbab7c61815e59d6fc"
+    },
+    {
+      "path": "dynamics/src/L2RealMultiplicationCoefficients.lean",
+      "bytes": 3478,
+      "sha256": "eba4edcd4192f871d9c3531451937784d1c2db71a14c0ee2f86f2816657a3bfc"
+    },
+    {
+      "path": "dynamics/src/L2RealMultiplicationGraph.lean",
+      "bytes": 2658,
+      "sha256": "edf0f8ad73259b3241892b829b39f28177d7a4e0d3a1b44128fb09b86b3d7f5f"
+    },
+    {
+      "path": "dynamics/src/L2RealMultiplicationSelfAdjoint.lean",
+      "bytes": 1861,
+      "sha256": "53f944b9c00960818266e26c83fc71561c4d6ffb9be9ff0a4309bc5ceef6f9d0"
+    },
+    {
+      "path": "dynamics/src/L2SubspaceRealMultiplication.lean",
+      "bytes": 4045,
+      "sha256": "b408b20e4963aa43ae7f78d44c4d7d4a54c7931b222ade53867d8b8682a5028d"
+    },
+    {
+      "path": "dynamics/src/L2TranslationContinuity.lean",
+      "bytes": 2189,
+      "sha256": "3d92a93e68c1f4d959151d14e7d008776f4dfda51809dcd937c04abf2735eeaf"
+    },
+    {
+      "path": "dynamics/src/L2TranslationDerivative.lean",
+      "bytes": 4567,
+      "sha256": "1b072590213823f2ac4efd1609e2aa8aca106ac10cc49959ad3da413152e32f2"
+    },
+    {
+      "path": "dynamics/src/L2TranslationPhase.lean",
+      "bytes": 3747,
+      "sha256": "372acaf6af9825b3c12faab39d46f3c9a9e585bd8ea54de375c43dab982c7969"
+    },
+    {
+      "path": "dynamics/src/LinearResponseIdentification.lean",
+      "bytes": 4802,
+      "sha256": "6b6d243bbb08737fb3e2e7211cb7b2dfde5f8a57d26e751f9f72b6ddff14fd65"
+    },
+    {
+      "path": "dynamics/src/LocalMetricJetCongruence.lean",
+      "bytes": 2817,
+      "sha256": "e139be8647254e1b0e5f71f3ba0487abe5c3c16c8738b07ee139f71fcb6ff9cf"
+    },
+    {
+      "path": "dynamics/src/LocalSecondJetCalculus.lean",
+      "bytes": 8075,
+      "sha256": "593f7a4fb692a94c3cfd5760666eae244164d28ca65ccdbb8d0f21bee023b140"
+    },
+    {
+      "path": "dynamics/src/LocalSecondJetComposition.lean",
+      "bytes": 4758,
+      "sha256": "e4eb8a84162109f7a6e6fbfd409c121363cafc514c878e91f2352f25fcec5078"
+    },
+    {
+      "path": "dynamics/src/LorentzCoordinateMaps.lean",
+      "bytes": 2847,
+      "sha256": "812bd7b7e9d7e16b8842d1909a27804c88a712cffd65dea8c1504f30ce128e81"
+    },
+    {
+      "path": "dynamics/src/LorentzFrameContractions.lean",
+      "bytes": 6105,
+      "sha256": "bd63b2254cdbbd9f51afafd9274de6979165b37fdb384c377323f8f7617566cc"
+    },
+    {
+      "path": "dynamics/src/LorentzInvariantBaseline.lean",
+      "bytes": 7268,
+      "sha256": "b025ae192448736ce83caeeb1c8ceaf29788b023eff4cc7a2f73828a4371bd31"
+    },
+    {
+      "path": "dynamics/src/LorentzMetricComposition.lean",
+      "bytes": 3586,
+      "sha256": "88b96b0f95569bd87d2892a1732f4c8b6d2fd4cc23d746fe6082956abe5028e6"
+    },
+    {
+      "path": "dynamics/src/LorentzMetricPullbackJet.lean",
+      "bytes": 5152,
+      "sha256": "c80d304677327cbc33661800e8e3641a1375a6d9f9525e0ae35d8052bca58509"
+    },
+    {
+      "path": "dynamics/src/LpMeasureEquivalence.lean",
+      "bytes": 1275,
+      "sha256": "b3490d5c0ff3a9c48fe9f0adacc7c5ed22ab53c64136f4204313c9de6f41cf91"
+    },
+    {
+      "path": "dynamics/src/MetricHessianSpace.lean",
+      "bytes": 4325,
+      "sha256": "c069624d1507bcd55ad0b523e4e1f5853d45331baa18be5c78d95acc2c39fd4b"
+    },
+    {
+      "path": "dynamics/src/MetricJetCurvatureRealization.lean",
+      "bytes": 2273,
+      "sha256": "9b2cfc182b5dcfee0c0909c4a29e6ba8c52016d22289269159878ea300b6f0e8"
+    },
+    {
+      "path": "dynamics/src/MetricNormalCoordinates.lean",
+      "bytes": 4379,
+      "sha256": "d546d4275549dcc871816b7723b2547994fdd5cac18053abb15c99fe0d98256f"
+    },
+    {
+      "path": "dynamics/src/MetricNormalizationTransition.lean",
+      "bytes": 6804,
+      "sha256": "364832d7dd91523c6e9cac9c0de39327c4a0c8762b98874f3832ddc4229fe20f"
+    },
+    {
+      "path": "dynamics/src/MetricPullbackRegularity.lean",
+      "bytes": 2500,
+      "sha256": "8416c4d193f559a74dbf2981b08d6607c65507630113b9144206b92a2897cfe6"
+    },
+    {
+      "path": "dynamics/src/MetricResponseFrameCovariance.lean",
+      "bytes": 1524,
+      "sha256": "dcb7896b3a2e1c6a6fec44127ed2715d8799e5e8b854ab139d2837c4243d660e"
+    },
+    {
+      "path": "dynamics/src/MetricResponseTranslationConstancy.lean",
+      "bytes": 2267,
+      "sha256": "3f23de0e75a2add08f63822cfe465ff3f24b14c54b31a0f2c544c619ce31ab5c"
+    },
+    {
+      "path": "dynamics/src/NativeActionClassicalSource.lean",
+      "bytes": 5966,
+      "sha256": "5aaade2dca3bac10234c10529f114c28d92e2f6effd7a6ef3e14f93ed4ecff88"
+    },
+    {
+      "path": "dynamics/src/NativeActionCurveProtocol.lean",
+      "bytes": 5472,
+      "sha256": "9d53c466c3f06b364b7bfb8cf73b228a35494f5f6274e6f0f2b4a2a8e003ff95"
+    },
+    {
+      "path": "dynamics/src/NativeActionDirectionalDifferential.lean",
+      "bytes": 4120,
+      "sha256": "b3d3c772417f838eb67e2204d64dce7be6e1c89f3e8164ed63f629e2f50ce73a"
+    },
+    {
+      "path": "dynamics/src/NativeActionEinsteinResponse.lean",
+      "bytes": 5580,
+      "sha256": "e017c34987bbfd245993e90c0ab75a3b586c68bcedcee066476ecb450b4685de"
+    },
+    {
+      "path": "dynamics/src/NativeActionMetricTangent.lean",
+      "bytes": 3486,
+      "sha256": "95d7778660bd02e10477d819b22bcdef8d22bf8ddbc0091a586fd186972155e3"
+    },
+    {
+      "path": "dynamics/src/NativeActionSourceAssembly.lean",
+      "bytes": 4059,
+      "sha256": "a063cdc85ba9a259c8fa0e182a44fe62d1c72619a00696a764aced4a76bb7120"
+    },
+    {
+      "path": "dynamics/src/NativeClockActualActionAttachment.lean",
+      "bytes": 5689,
+      "sha256": "2510f511db693d388800ab0fd3f73cb6f412ae6931c2f6d59069677a7ea37e25"
+    },
+    {
+      "path": "dynamics/src/NativeClockDensityContinuity.lean",
+      "bytes": 4620,
+      "sha256": "ba43dbdca8afddeb307a5408e7d3d805340b5ee636d68fbace63ffab5434bb6a"
+    },
+    {
+      "path": "dynamics/src/NativeClockHilbertSourceComponents.lean",
+      "bytes": 5398,
+      "sha256": "9df2d27b64ceabc80c632f92fdd617f663907f3c7d0ae9b6f4115c392fd42f71"
+    },
+    {
+      "path": "dynamics/src/NativeClockLFResponse.lean",
+      "bytes": 6347,
+      "sha256": "cf044e6f6137ffb360d583765b4610c7289c0f0496c2c40618dfd95c2082b00c"
+    },
+    {
+      "path": "dynamics/src/NativeClockMetricActionFirstJet.lean",
+      "bytes": 7162,
+      "sha256": "b6803c34c6d6832064b8f1c930dd713a6e757d4c3e669a3be057c736ba6415e7"
+    },
+    {
+      "path": "dynamics/src/NativeCompactClockIntegral.lean",
+      "bytes": 4845,
+      "sha256": "e7c19a2443480ea0ceebb4a59b2e89bffd34d32e411ddd00092020d0fd68a193"
+    },
+    {
+      "path": "dynamics/src/NativeExteriorMetricFirstCorrection.lean",
+      "bytes": 5336,
+      "sha256": "980e6ac957516740cabbbe23229816caf6bca30fab634970d22bff869835aba9"
+    },
+    {
+      "path": "dynamics/src/NativeFiniteNeumannInverse.lean",
+      "bytes": 5266,
+      "sha256": "01b47e72f71543ac631da245bb4f5b4765a9d78425dc6cec7d5212e73f5d651c"
+    },
+    {
+      "path": "dynamics/src/NativeGeneralActionNoether.lean",
+      "bytes": 8679,
+      "sha256": "228adda2581f007365bd05a5a47b88ec406b4a761aeb3b86f24efdbd3bb0ab60"
+    },
+    {
+      "path": "dynamics/src/NativeGradedDivergenceFirstCoefficient.lean",
+      "bytes": 5742,
+      "sha256": "4f85f6a0f407d9e7d0849c6758efa81d4ff848c8d9769d6133943eb7470a9b9d"
+    },
+    {
+      "path": "dynamics/src/NativeRealClockDensityDerivative.lean",
+      "bytes": 3291,
+      "sha256": "56ee81ee27686a5ecff552772fe0e77be1183d0ee6785f766477c263cc1840ee"
+    },
+    {
+      "path": "dynamics/src/NativeRealClockHilbertDerivative.lean",
+      "bytes": 3649,
+      "sha256": "662b5de1a1ea69a9c7487f214ca5d3120fcee927c322d1a141bc2e2bb51d4076"
+    },
+    {
+      "path": "dynamics/src/NativeRealClockJetAgreement.lean",
+      "bytes": 4446,
+      "sha256": "8ee9f503c6ec709a3c8bbeb2c79ad08d1eb52415997185e83b708e51c925d75f"
+    },
+    {
+      "path": "dynamics/src/NativeRealMetricPathCalculus.lean",
+      "bytes": 3407,
+      "sha256": "b1c17b22e097c1e8c985b932af4dc8f6cd3f991a6a84e46a3470b0791dfcc281"
+    },
+    {
+      "path": "dynamics/src/NativeRegularDensityLF.lean",
+      "bytes": 5811,
+      "sha256": "fe50a93f99fd3946b217725fc9f6f78a1745bd9dd7e378d19cc2df01600b795f"
+    },
+    {
+      "path": "dynamics/src/NativeScalarClockMetricAction.lean",
+      "bytes": 2627,
+      "sha256": "76dc3288ecf26bf44580109d1eb6f73b3fdddb2bf801ae79649259e49de6eab5"
+    },
+    {
+      "path": "dynamics/src/NormalChartComparison.lean",
+      "bytes": 4525,
+      "sha256": "992bf772d0fa8980381fac5f41700f6c3984d64b30cb72030cf3c2e4288258ec"
+    },
+    {
+      "path": "dynamics/src/NormalChartCurvatureReconstruction.lean",
+      "bytes": 3449,
+      "sha256": "83d7af7e447790ae0d6d447d7b5d4616a327e188750159632a539a6f67714125"
+    },
+    {
+      "path": "dynamics/src/NormalChartFrameTransport.lean",
+      "bytes": 4661,
+      "sha256": "d532c463ebcd306d36b4a258a25b0dc8e8160ee4402d2e15d7c5b382e16d9b25"
+    },
+    {
+      "path": "dynamics/src/NormalChartResponseExhaustion.lean",
+      "bytes": 4574,
+      "sha256": "2f8c4e3556c88856a292f270de5ef007c9420349a0681397d83f9e067bdffbbf"
+    },
+    {
+      "path": "dynamics/src/NormalChartSecondJet.lean",
+      "bytes": 5649,
+      "sha256": "de114706499d463555cf610f248d2172f2441991380e0eae7e373056d18677cb"
+    },
+    {
+      "path": "dynamics/src/NormalizedCubicMetricTransport.lean",
+      "bytes": 8316,
+      "sha256": "53dd87cb941624eefa8b2f8b7643ae30c64b23af521ef5548bcc51fd4cee6ef3"
+    },
+    {
+      "path": "dynamics/src/NormalizedLorentzMetricTransport.lean",
+      "bytes": 6877,
+      "sha256": "86da6cbb5a089ae3dc17bcf3ddbd6bbd03239233816bf46a1d9105f469867019"
+    },
+    {
+      "path": "dynamics/src/NormalizedMetricLeviCivita.lean",
+      "bytes": 6670,
+      "sha256": "454f7acbd294c914d48269ddb1351dc53440a50608f561c96cf3210fe16d1fb1"
+    },
+    {
+      "path": "dynamics/src/NormalJetFrameNaturality.lean",
+      "bytes": 3235,
+      "sha256": "46e0a6fabad7afe7803a0a140dd5b73499925c010ca8aa4dfd43443275a56a63"
+    },
+    {
+      "path": "dynamics/src/NormalLeviCivitaCurvature.lean",
+      "bytes": 2918,
+      "sha256": "139c49e1bace8eccf9033ab3b84f79925cc47d3efa5b6a5a3b1fbdaedf560884"
+    },
+    {
+      "path": "dynamics/src/NormalLeviCivitaJet.lean",
+      "bytes": 4263,
+      "sha256": "3990f9c816e495455de233dca922918c95ab813b981ebdd23176ddecc636e7e6"
+    },
+    {
+      "path": "dynamics/src/NormalMetricDerivatives.lean",
+      "bytes": 2347,
+      "sha256": "cb6aa9e97ee9b24ce5b639b58da7e51d6c951f1344305a56fb99b276d12da15c"
+    },
+    {
+      "path": "dynamics/src/NormalMetricInverseDifferentiable.lean",
+      "bytes": 2177,
+      "sha256": "fd6d96e1c76b3e32627b71530f81e66debc7b09c89416a9da7145e5b83d3360d"
+    },
+    {
+      "path": "dynamics/src/NormalMetricInverseJet.lean",
+      "bytes": 2546,
+      "sha256": "718fc695d6e261285dae08eb201b93a4bf80e828ca75ecc51465cecb770c9260"
+    },
+    {
+      "path": "dynamics/src/NormalMetricPolynomial.lean",
+      "bytes": 2951,
+      "sha256": "d50b4211977912004232cd48c1fbdeb183d0fba3a87fe71c00e2cda8b9da4109"
+    },
+    {
+      "path": "dynamics/src/NormalMetricSecondDerivatives.lean",
+      "bytes": 2254,
+      "sha256": "836460d22787ad66105af8d18fc4138732733069c507d421bc20353640039daf"
+    },
+    {
+      "path": "dynamics/src/NormalMetricVolumeDensity.lean",
+      "bytes": 2182,
+      "sha256": "bfd9ea5e7524ffa75612ead1ea4745f42c7959b3e9844a75ab6c6a43fffd5b39"
+    },
+    {
+      "path": "dynamics/src/NormalSourceDensityConversion.lean",
+      "bytes": 4917,
+      "sha256": "ad3622a6c1781890ee58d0d372b6938d482c4e8dcf341f1e51fdb278dce4e227"
+    },
+    {
+      "path": "dynamics/src/ObservableVacuumUniqueness.lean",
+      "bytes": 4203,
+      "sha256": "219b3bc307e6a8567c01b8b8db2a8d990b61680d901f83f404ce3ae9a5bd9ed4"
+    },
+    {
+      "path": "dynamics/src/OperationalMetricSourceAttachment.lean",
+      "bytes": 5263,
+      "sha256": "2bea8551cedb32a38d83dc4a355e5f741af5029802412bdfe622a38e03c4042c"
+    },
+    {
+      "path": "dynamics/src/OperationalSourceWardAssembly.lean",
+      "bytes": 2183,
+      "sha256": "a7a6700a4b7b4238f1ff268deab88f8514d6c1decdad30391044e04b83d4e70c"
+    },
+    {
+      "path": "dynamics/src/OriginalCoordinateCurvatureIdentification.lean",
+      "bytes": 3845,
+      "sha256": "7a861ba0be5cbcde190a09e340d9c122264a6cb5af5486ac36ced494703cbcc0"
+    },
+    {
+      "path": "dynamics/src/OriginalEHActualCurrentDerivative.lean",
+      "bytes": 8419,
+      "sha256": "2f3589854b4ed74396e6129a120e0ece00594ced7dcd01bc8a8b7c13ae010521"
+    },
+    {
+      "path": "dynamics/src/OriginalEHAnalyticTransport.lean",
+      "bytes": 7767,
+      "sha256": "41f1c05fbd163ce505e45437fbc689d011b7c17d35ffe9d2cc95c19b0f0bb905"
+    },
+    {
+      "path": "dynamics/src/OriginalEHBoundaryCurrent.lean",
+      "bytes": 7334,
+      "sha256": "5ab4100bdca9d98b961c14da0f370d986cbd0333b47d02d4b34636e3ab433d9d"
+    },
+    {
+      "path": "dynamics/src/OriginalEHCompactActionDerivative.lean",
+      "bytes": 11310,
+      "sha256": "d5f173772054c963a805b2e673bfb73c06d469c4363097e72a1a28b11a8f538f"
+    },
+    {
+      "path": "dynamics/src/OriginalEHCompactBoundaryIBP.lean",
+      "bytes": 3974,
+      "sha256": "d2b479c1e21f7b9bcb24dba227eee02c07314819cd5f0568e4d95395735500d5"
+    },
+    {
+      "path": "dynamics/src/OriginalEHCompactVariation.lean",
+      "bytes": 5423,
+      "sha256": "81fa0b628c24c3b0aab418025363290fd1e18ff787229eab7f6d19c47fe119ca"
+    },
+    {
+      "path": "dynamics/src/OriginalEHComputedBulkDensity.lean",
+      "bytes": 6612,
+      "sha256": "4ed448274f8635ab3a91426e048ef0acc31e3eba94e0bfe91e78fb793716d262"
+    },
+    {
+      "path": "dynamics/src/OriginalEHConstructedFrameTransport.lean",
+      "bytes": 7008,
+      "sha256": "d3ae8c997bbb64a6b241defa949a06aebf9c4cba7af49dd19749d0adfa0e33c0"
+    },
+    {
+      "path": "dynamics/src/OriginalEHCurvatureVariation.lean",
+      "bytes": 6601,
+      "sha256": "fb098360d21efe90ad25ac83ab294ccd7a3b8a37633ec38da05e76aed103f181"
+    },
+    {
+      "path": "dynamics/src/OriginalEHDensityDecomposition.lean",
+      "bytes": 2067,
+      "sha256": "0f62ec23745ebf3cf35cce4792255007b231b5e8e2ee4463fdcc8daff2a7f2e0"
+    },
+    {
+      "path": "dynamics/src/OriginalEHEulerResponse.lean",
+      "bytes": 7453,
+      "sha256": "87227278b9fe5efc58c69d766536d245ca25c40ab2693563f636203e8d785b92"
+    },
+    {
+      "path": "dynamics/src/OriginalEHGeometricCore.lean",
+      "bytes": 5389,
+      "sha256": "98702973a489b24877b9b97846a7d0ecdb1c22c173ba1d3d53cac8e22ee1d78e"
+    },
+    {
+      "path": "dynamics/src/OriginalEHGeometricNaturality.lean",
+      "bytes": 4315,
+      "sha256": "c1f7d8973c59f56688a61f1bf82471709fe49a8f21f3a273c8b8ca39e17e5f9d"
+    },
+    {
+      "path": "dynamics/src/OriginalEHGeometricTensor.lean",
+      "bytes": 4074,
+      "sha256": "4b1c85e05411070b9b6e85688da4ec9f7deb29d757662307afc63fd6b732ae29"
+    },
+    {
+      "path": "dynamics/src/OriginalEHIntegratedBulkVariation.lean",
+      "bytes": 7355,
+      "sha256": "a41216d31c7c72bbe82a0344a7cc93b440b0a613543fac87063c5ff9d3e81dd9"
+    },
+    {
+      "path": "dynamics/src/OriginalEHIntegratedTransport.lean",
+      "bytes": 6071,
+      "sha256": "16fbcfcaf920a9c269a46addfd5f84fa68d14e43b8938c2b16c732a72395c25a"
+    },
+    {
+      "path": "dynamics/src/OriginalEHInverseMixedVariation.lean",
+      "bytes": 2332,
+      "sha256": "b3467ea8f1b26756e4331bbae078de38bdc36881893d4cb16baebd48a1965957"
+    },
+    {
+      "path": "dynamics/src/OriginalEHInverseSpatialDerivative.lean",
+      "bytes": 3592,
+      "sha256": "105f9304c944a3b3bbc70b37986a43d818102727a3c2e88989e6ab8ce9e6070f"
+    },
+    {
+      "path": "dynamics/src/OriginalEHJetLagrangian.lean",
+      "bytes": 8957,
+      "sha256": "4eee3de7265508ba319346364d61d57d093edeff1ceffab2f902a1be503d0f16"
+    },
+    {
+      "path": "dynamics/src/OriginalEHJointConnection.lean",
+      "bytes": 3645,
+      "sha256": "4c8b9ac2045974c66d34ccee61c3b11cead332674fa977e47200cb525e688330"
+    },
+    {
+      "path": "dynamics/src/OriginalEHJointFrameAttachment.lean",
+      "bytes": 10905,
+      "sha256": "2fb70c25843dbf7d787ce5f9175e52cca95eb91a7d44c4a1d9886cab05397ba7"
+    },
+    {
+      "path": "dynamics/src/OriginalEHLorentzFrameConstruction.lean",
+      "bytes": 1406,
+      "sha256": "2914c954b46be4663e31b446408ac4ac9a133f0dbab38ea189a5843bef11d717"
+    },
+    {
+      "path": "dynamics/src/OriginalEHLorentzNeighborhood.lean",
+      "bytes": 3319,
+      "sha256": "8d205362ea2f8fe4bda1561b6c5a6ff871e74ab0224142de0c353894fb456be6"
+    },
+    {
+      "path": "dynamics/src/OriginalEHMetricActGeometry.lean",
+      "bytes": 5512,
+      "sha256": "dbb081ce7ad56f0dada6b48e7ee81b7d6ae5e5437680a5bea3986879649bd4ca"
+    },
+    {
+      "path": "dynamics/src/OriginalEHMetricContractionAlgebra.lean",
+      "bytes": 2713,
+      "sha256": "0019b01666f54d6c9b6f23b0227cf605ca7d6f042b5062845e6dd83f026771ff"
+    },
+    {
+      "path": "dynamics/src/OriginalEHMetricVariation.lean",
+      "bytes": 6017,
+      "sha256": "9b6d37ff36aaa07fcd0a1f0da073c4fe08f6557d2d8a3e858e65fe8e1e9b88a6"
+    },
+    {
+      "path": "dynamics/src/OriginalEHMixedCalculus.lean",
+      "bytes": 3920,
+      "sha256": "daaa01cc128fcde02a61b4f749c5c85af5a4a03cdd1a239519c29e733508bc98"
+    },
+    {
+      "path": "dynamics/src/OriginalEHOriginalActVariation.lean",
+      "bytes": 7305,
+      "sha256": "387d9f3e3ba055c42f1304daf4ab59070b7c471ab9cffb8bc24bf0b3f020ac11"
+    },
+    {
+      "path": "dynamics/src/OriginalEHPalatiniContractionAlgebra.lean",
+      "bytes": 6425,
+      "sha256": "9ad7acdfe9598d2bf4708f0367220dfea1e1d347a18af6e8ffb75dad49eee73d"
+    },
+    {
+      "path": "dynamics/src/OriginalEHPalatiniDerivativeAlgebra.lean",
+      "bytes": 3074,
+      "sha256": "a55690d5b78636cc059ba871624456d06e2d629a4124a0a2f19a0176590db54d"
+    },
+    {
+      "path": "dynamics/src/OriginalEHPalatiniVariation.lean",
+      "bytes": 3357,
+      "sha256": "56b22de2ae23c5eff46b5c22a6163a8c686c00668619e56988ee3160acf3f38c"
+    },
+    {
+      "path": "dynamics/src/OriginalEHPreparedAttachment.lean",
+      "bytes": 7851,
+      "sha256": "d3c4ff538301fb1a18c165a56e758d4a3a468ab1ec3d47e2cb7e53d841f6f6af"
+    },
+    {
+      "path": "dynamics/src/OriginalEHRicciConnection.lean",
+      "bytes": 2045,
+      "sha256": "9585be13deefebdb48a556730aea05eca3548e54de52d400fe492f84a7f7188a"
+    },
+    {
+      "path": "dynamics/src/OriginalEHRicciSymmetry.lean",
+      "bytes": 4727,
+      "sha256": "9ad75e023ed5e87e57985b6ed27ebe83daf0fabe781d4c0439e57f07dd97d21a"
+    },
+    {
+      "path": "dynamics/src/OriginalEHSignatureFrame.lean",
+      "bytes": 4945,
+      "sha256": "9b7ead8e7bfb894c234c663d6ebb7f18b28fb799bc1c9c0d7e86014fab98f1c9"
+    },
+    {
+      "path": "dynamics/src/OriginalEHSmallRayDomain.lean",
+      "bytes": 8767,
+      "sha256": "d85e02fd379c4a054d9b39b72f948fa58c8da94b55c123f32ddf63e61fb7edcc"
+    },
+    {
+      "path": "dynamics/src/OriginalEHVolumeCompatibility.lean",
+      "bytes": 6919,
+      "sha256": "9b9288417133fd86134f1c592c52f06465d364dbafd86c7878f2b9beee7b720e"
+    },
+    {
+      "path": "dynamics/src/OriginalEinsteinHilbertAction.lean",
+      "bytes": 6138,
+      "sha256": "f7644e399518e41a8a872e3a0bd9b7860ee393b12b7ad9e72faca34f6183b7e6"
+    },
+    {
+      "path": "dynamics/src/OriginalEinsteinHilbertDensity.lean",
+      "bytes": 6944,
+      "sha256": "5ca59d26c2acfc61636c163540bc099c4feadc4d5ab43107c014c1cd44fb84e6"
+    },
+    {
+      "path": "dynamics/src/OriginalPreparedContinuationSeparation.lean",
+      "bytes": 9808,
+      "sha256": "5e7079900d77b914e4545c122122f0ac19558db3a8870d533b7b274045925477"
+    },
+    {
+      "path": "dynamics/src/OriginalPreparedFailureHistory.lean",
+      "bytes": 7534,
+      "sha256": "a40cabb93e907bbf6aa7ff3337b92ce9d3b0c53476bb21c3399466ff2d159591"
+    },
+    {
+      "path": "dynamics/src/OriginalPreparedFieldRestoration.lean",
+      "bytes": 7481,
+      "sha256": "cbd59b0a9ed8cdf8fe2e9b011dff6285664e0ce758ac20ceaada4058516fa13e"
+    },
+    {
+      "path": "dynamics/src/OriginalPreparedHistoryContexts.lean",
+      "bytes": 12012,
+      "sha256": "9c3703468a8cb2e58157907a02821caea60cbeb61658f450f39b024eecc80f4b"
+    },
+    {
+      "path": "dynamics/src/OriginalPreparedHistoryTransport.lean",
+      "bytes": 7618,
+      "sha256": "ed6ac0584c260f34db5805483aebb4b3e16572232e96b00cfa88b87534f639c5"
+    },
+    {
+      "path": "dynamics/src/OriginalPreparedPlannedUseCorrection.lean",
+      "bytes": 6651,
+      "sha256": "6f341cf7e48b1c0e0473182c81282f1f67f05d5531066b3c148ed42625f0bab9"
+    },
+    {
+      "path": "dynamics/src/OriginalPreparedProtocolStep.lean",
+      "bytes": 9110,
+      "sha256": "acf94ae9c2bb681e83ee2f34efb59ddfed26c6e70455948875d89eeedfef4374"
+    },
+    {
+      "path": "dynamics/src/OriginalPreparedRestoration.lean",
+      "bytes": 5933,
+      "sha256": "acee77a26a1f01447878a1909776c3789c198b3f40ebbdbe7ca471d8d67caabf"
+    },
+    {
+      "path": "dynamics/src/OriginalPreparedUseBoundary.lean",
+      "bytes": 4492,
+      "sha256": "4dc05f17d750987475a69d24ddce748363f712675a2ad5fda979ff74a1937aec"
+    },
+    {
+      "path": "dynamics/src/OriginalR2ExecutionRefinement.lean",
+      "bytes": 18155,
+      "sha256": "d98656595cd9823124ee7d9f4fd1d524d25d82ba97e41f8c3bf9e5c2bab4a61d"
+    },
+    {
+      "path": "dynamics/src/OriginalR2LocalUseConsequences.lean",
+      "bytes": 6056,
+      "sha256": "75eb13aae419ca775fc7fe2a02ddf7dfaf9d7982608edffce3cd3fd4afba2377"
+    },
+    {
+      "path": "dynamics/src/OriginalRestrictedEHKernelReceiving.lean",
+      "bytes": 7662,
+      "sha256": "d9804ac7dca712e11f53f3c6299d6baa5f76b1db1218175cbedfb36ee1eaaca3"
+    },
+    {
+      "path": "dynamics/src/OriginalRestrictedEHSource.lean",
+      "bytes": 7950,
+      "sha256": "cf25e14addb7e36ce8a41312cd1f5044a26f04647ae52854bb12ec42e33f6806"
+    },
+    {
+      "path": "dynamics/src/OriginalRestrictedRawExecution.lean",
+      "bytes": 7528,
+      "sha256": "8a22a37963979fae7ff5f43e27ce63a6e380671b2911af401667e52076884e64"
+    },
+    {
+      "path": "dynamics/src/OriginalRestrictedRawSource.lean",
+      "bytes": 6321,
+      "sha256": "ab89f9ffa1f372ea44341c265ade2302dc1d6ae8abd6969ff7d784295bcc1789"
+    },
+    {
+      "path": "dynamics/src/OriginalRestrictedResponseDescent.lean",
+      "bytes": 10563,
+      "sha256": "7437335507a912e9fad29e5fa03ad006438dbe6e6d571d4ad35141ccf1bc8874"
+    },
+    {
+      "path": "dynamics/src/OutputCoordinateAction.lean",
+      "bytes": 684,
+      "sha256": "c8872200d9ff3f7894fad2db4c672d99861b856ded5a5346965072d36c1b9606"
+    },
+    {
+      "path": "dynamics/src/OutputGeneratorTransport.lean",
+      "bytes": 5025,
+      "sha256": "c060917ffa487e2b4755faa848cda08a0ac1fbf049b2c953d41dda9d8f3cad47"
+    },
+    {
+      "path": "dynamics/src/PiSystemBochnerUniqueness.lean",
+      "bytes": 1573,
+      "sha256": "451c59f2b8f09bda3f3acb0c5e42db86f8dec37adfb953f197b277bcc5319230"
+    },
+    {
+      "path": "dynamics/src/PointNormalChartConstruction.lean",
+      "bytes": 6456,
+      "sha256": "d958fe1c41eb96fef3ae807a116cb8661f0c2c1444394aa337179773a379472a"
+    },
+    {
+      "path": "dynamics/src/PointNormalChartTransition.lean",
+      "bytes": 7295,
+      "sha256": "5ad1e3f379f897e1c995f2ceb378c0af21b55af625dca6da2396dbd1710f19ce"
+    },
+    {
+      "path": "dynamics/src/QuadraticCoordinateBasis.lean",
+      "bytes": 1052,
+      "sha256": "9d61b5e4011fbc81552353b71bc75b1af274063aaa889ac7f799d4ff5262ed36"
+    },
+    {
+      "path": "dynamics/src/QuadraticCoordinateCalculus.lean",
+      "bytes": 3357,
+      "sha256": "31c35f4178493dc526953d8bd7b10f4f46a4493f2aaa23de5c98d0bcb81c5145"
+    },
+    {
+      "path": "dynamics/src/QuadraticCoordinateJacobian.lean",
+      "bytes": 2403,
+      "sha256": "5373d3bec3ef12e9036fa3f23e01d20b00f9fc5bf3cca021b2108eb051143a72"
+    },
+    {
+      "path": "dynamics/src/QuadraticCoordinateMaps.lean",
+      "bytes": 4212,
+      "sha256": "cd0336a3cb602178f198218776ae9c54a18a295bd69ae2af1cdfd2f4f5d39d34"
+    },
+    {
+      "path": "dynamics/src/QuadraticMetricPullbackFirst.lean",
+      "bytes": 3681,
+      "sha256": "d1e6c8ebb9232bc8276f12ef05103b9207647fc80c4a8e6204c5fb48e0fdfa04"
+    },
+    {
+      "path": "dynamics/src/QuadraticMetricSecondJet.lean",
+      "bytes": 7412,
+      "sha256": "190c8121e9d54a004ad2fb4acf9c90ff8e03d5e4e7c1231b379014de0dfc4998"
+    },
+    {
+      "path": "dynamics/src/QuadraticNormalCurvatureAlgebra.lean",
+      "bytes": 1933,
+      "sha256": "4335c16e9f8e4e85dcba5732b4bb12e8f2d354003d3b66a6a98c3bec4ed5f63d"
+    },
+    {
+      "path": "dynamics/src/RegisteredOrbitStandingDescent.lean",
+      "bytes": 7023,
+      "sha256": "b15721c248881957b219f341eb2dc09f69288c4092d2a87efbdf1c74560dc0d5"
+    },
+    {
+      "path": "dynamics/src/RegisteredStandingReferences.lean",
+      "bytes": 2646,
+      "sha256": "51d2dbd14a1791da62c1f404b9c0236a3cb8372a41a3ee1107a62637a193e406"
+    },
+    {
+      "path": "dynamics/src/RegularCovariantSourceCurrent.lean",
+      "bytes": 4469,
+      "sha256": "bd737e0eae4739814e3cfce479c4c7a9c8b4227ae2585b92f7b4eb8f289d083c"
+    },
+    {
+      "path": "dynamics/src/RegularLorentzResponseCore.lean",
+      "bytes": 10398,
+      "sha256": "bd197234394cdeece9950b2e6afcb7fec1acccc9e10328d9debb58e1f21d74d0"
+    },
+    {
+      "path": "dynamics/src/RegularSourceTestDerivative.lean",
+      "bytes": 2486,
+      "sha256": "26201b161002358d08b9da3150c02e6920394dd3dfc1aecd12797825ad7e5353"
+    },
+    {
+      "path": "dynamics/src/RegularSourceTestSeparation.lean",
+      "bytes": 5752,
+      "sha256": "255cab79d0c5cf271c7385c2b331600aadbe88520f271fa31da0bfc1355b247e"
+    },
+    {
+      "path": "dynamics/src/RicciSemanticOperators.lean",
+      "bytes": 3434,
+      "sha256": "21261431c92bf45c5b1908c7661d646a8f87841338c54888f89719980f560ef6"
+    },
+    {
+      "path": "dynamics/src/ScalarFieldSourceBalance.lean",
+      "bytes": 3697,
+      "sha256": "643acc041fc2fc23e9434cb7b21a245f028390beddff432b77e21b6d29b310d3"
+    },
+    {
+      "path": "dynamics/src/ScalarFieldSourceCalculus.lean",
+      "bytes": 4515,
+      "sha256": "161e2ffe1401c7f6b8ef8d5becb9a9e2fa164e0d705826adc568bbcb49f7e643"
+    },
+    {
+      "path": "dynamics/src/ScalarFieldStressDerivative.lean",
+      "bytes": 4149,
+      "sha256": "5b30474106fb1d840406a2b9e03394c756c053ed535b5e5c0367ebcc887796c7"
+    },
+    {
+      "path": "dynamics/src/ScalarSecondJetCalculus.lean",
+      "bytes": 1932,
+      "sha256": "dfc1e0d769eef90372f1cc3ea2b5943938ca42903cb68e8e094d7cdb381d6dfe"
+    },
+    {
+      "path": "dynamics/src/ScalarSecondJetLinear.lean",
+      "bytes": 2594,
+      "sha256": "0c8bc29251d2a8e2bf19abd1917e89885818dd62631272d689d40b20735b9f6e"
+    },
+    {
+      "path": "dynamics/src/ScalarSmoothJetRules.lean",
+      "bytes": 2957,
+      "sha256": "c334727245efc8c7fda9acbe476daa66b5af23ff134111b8c02b5f2303b47b07"
+    },
+    {
+      "path": "dynamics/src/ScalarSourceMetricCompatibility.lean",
+      "bytes": 2792,
+      "sha256": "d105f24c7feb5df4f580629ade76ad58eae1e683a86f5119729f9047bba16b62"
+    },
+    {
+      "path": "dynamics/src/SchwartzCompactTestSeparation.lean",
+      "bytes": 2652,
+      "sha256": "f0d095a708f2151ad93c9bbe964343d784e5903b681e57d5169f72bf7326397d"
+    },
+    {
+      "path": "dynamics/src/SchwartzCompactTranslation.lean",
+      "bytes": 5017,
+      "sha256": "1ab19ebdf5db84ec85adbc6b0ec4b17dc75f6e27f5808dc36780824c2f60acab"
+    },
+    {
+      "path": "dynamics/src/SchwartzConjugation.lean",
+      "bytes": 983,
+      "sha256": "6b12663451b737022c1466eabe71ff59f24423d156cf6546d2429c5d23bc741a"
+    },
+    {
+      "path": "dynamics/src/SchwartzConvolutionJets.lean",
+      "bytes": 3905,
+      "sha256": "76e2fbef0bbfa5c0c85da59dff6253d419059918475aa4d674e4a8285d2b320b"
+    },
+    {
+      "path": "dynamics/src/SchwartzCutoffConstruction.lean",
+      "bytes": 5281,
+      "sha256": "2032f0096b1af8d9b049bcf1ce3c12adcca9bbe1fa26292e02c4142bbf23cd75"
+    },
+    {
+      "path": "dynamics/src/SchwartzCutoffConvergence.lean",
+      "bytes": 5884,
+      "sha256": "7b09977bc2a3351fecad4802e80e42043a2ea75aaa20a0bd331185fa19fddae6"
+    },
+    {
+      "path": "dynamics/src/SchwartzFiniteJetBanach.lean",
+      "bytes": 3725,
+      "sha256": "55f7f0763565664162dffe770663253246cb256fe462593b9f7520ef76b89d7e"
+    },
+    {
+      "path": "dynamics/src/SchwartzFiniteJetLocalization.lean",
+      "bytes": 3450,
+      "sha256": "106966bb2384119f6843d2e15fd1cbebfd2c5b9f8345735a610d5687e9ea40aa"
+    },
+    {
+      "path": "dynamics/src/SchwartzFourierConjugation.lean",
+      "bytes": 953,
+      "sha256": "4564a73a4098b5d8f6502960767fb19463076a5d5cf427da08e6a333feecd4dd"
+    },
+    {
+      "path": "dynamics/src/SchwartzJetMollifierApproximation.lean",
+      "bytes": 7343,
+      "sha256": "435f44d2ed4f9bfd01a6db9f7dfc359b99604f708937dcb52a36ea2c3708b28c"
+    },
+    {
+      "path": "dynamics/src/SchwartzJetSpanIntegral.lean",
+      "bytes": 2546,
+      "sha256": "6c4cb8cf97421a2d081dfc64ebfa4f66d5fea220de5e79a546278557a27b1603"
+    },
+    {
+      "path": "dynamics/src/SchwartzJetTranslationContinuity.lean",
+      "bytes": 4484,
+      "sha256": "70292d81540b9311d9429144e10683bbf79e676b00bb2c6f7a43ae2f30004689"
+    },
+    {
+      "path": "dynamics/src/SchwartzPartialDerivative.lean",
+      "bytes": 2743,
+      "sha256": "d609f57799b46b49978a4611d572e5c2e77b5e239225471cf5d918369d474cad"
+    },
+    {
+      "path": "dynamics/src/SchwartzPostcomposition.lean",
+      "bytes": 1298,
+      "sha256": "4162d5014fe88ef4fa5d1aff9746d246dc6f1d6fa647b32e6ccc73547a331df5"
+    },
+    {
+      "path": "dynamics/src/SchwartzProductEstimates.lean",
+      "bytes": 4960,
+      "sha256": "ea9ed48ee12cb8e2c5f736008fba73bf071ec6f08bd205f2549724a4767543b9"
+    },
+    {
+      "path": "dynamics/src/SchwartzPurePairBochner.lean",
+      "bytes": 5305,
+      "sha256": "2564dba3eeb2df91765eed5748288696d03a29ed9e0f429fd3a2c4a2a1ba0f54"
+    },
+    {
+      "path": "dynamics/src/SchwartzPurePairSeparation.lean",
+      "bytes": 8189,
+      "sha256": "de5462ce6fbe34da487b63215fd5ffc6cdec1902cea9ff0a52424631101fdfef"
+    },
+    {
+      "path": "dynamics/src/SchwartzPureProductMollifier.lean",
+      "bytes": 7061,
+      "sha256": "c35bc2c52c809e91877f41592aafbc74f0127fe7980c026f7271c23b53e723e7"
+    },
+    {
+      "path": "dynamics/src/SchwartzTensorInsertion.lean",
+      "bytes": 2291,
+      "sha256": "919d7167b37d2a1e18f4e17da14d5d378151985b2b27a46287ee323ae50d4819"
+    },
+    {
+      "path": "dynamics/src/SchwartzTranslatedJetConvolution.lean",
+      "bytes": 4021,
+      "sha256": "8ece1b387df983fc59bef64e11b620b95e8450cc0ff20400e0408f5afc4a87ed"
+    },
+    {
+      "path": "dynamics/src/SchwartzWeightedIntegral.lean",
+      "bytes": 7450,
+      "sha256": "9285b4708cc69c40cd8baa7bbc0e472e91281dea5167d3d27d9b296fa5c7f992"
+    },
+    {
+      "path": "dynamics/src/SecondJetComposition.lean",
+      "bytes": 3248,
+      "sha256": "de527380c494d2a2bd80230c1be8109dc53246c89975a312296d8e2e25f8ac3c"
+    },
+    {
+      "path": "dynamics/src/SemanticCertificateOrigin.lean",
+      "bytes": 61018,
+      "sha256": "ac29d0ad77df050fe146af96399fb430966b6267ec6f6c4abdfd81e0af8c276e"
+    },
+    {
+      "path": "dynamics/src/SemanticCovarianceEquations.lean",
+      "bytes": 2393,
+      "sha256": "952139505dac113b2d7913967ff6c7e095e03a0fdb9104c9d3a9566eb49cce94"
+    },
+    {
+      "path": "dynamics/src/SemanticCurvatureExhaustion.lean",
+      "bytes": 2600,
+      "sha256": "5c5a935065b0012b38a13385cd5c92861d3868b3d5307b9c8bd48b6b13e6ba27"
+    },
+    {
+      "path": "dynamics/src/SemanticFirstCurvature.lean",
+      "bytes": 4179,
+      "sha256": "4f99f49457e4278d67855fc3f7a228383d6f29db2ae876592036791537166125"
+    },
+    {
+      "path": "dynamics/src/SemanticResponseCoordinates.lean",
+      "bytes": 2045,
+      "sha256": "bdc00f79784695d570370a0f6841998a082033eed22f7d33baab5d4fa3211202"
+    },
+    {
+      "path": "dynamics/src/SmoothMetricInverseAt.lean",
+      "bytes": 2709,
+      "sha256": "069acedf7e27a019aa493749da1ac87bdb00593a3788f45aa84cbbff1f2402b3"
+    },
+    {
+      "path": "dynamics/src/SmoothMetricJetRealization.lean",
+      "bytes": 2272,
+      "sha256": "cc9479272ab6c452b6ab369b1043ac0a7a022bb50e7481e92d1f6bfd962c9793"
+    },
+    {
+      "path": "dynamics/src/StarStableAdjoin.lean",
+      "bytes": 758,
+      "sha256": "590425f7cf758ab20e63ee6152b249cc30018fe5d7917d3e7d7139c8a62ee05e"
+    },
+    {
+      "path": "dynamics/src/SymmetricTensorCoordinates.lean",
+      "bytes": 1670,
+      "sha256": "ee1d8808111393f9f8e22476287c9fe032bbb4fb9592ce8d305266f1462967e2"
+    },
+    {
+      "path": "dynamics/src/TensorMetricContraction.lean",
+      "bytes": 4099,
+      "sha256": "b282ef5234e816b0a3c0912f9906bc15354c5f269440e53cbc7d0741f0f6fdfe"
+    },
+    {
+      "path": "dynamics/src/TensorPullbackComposition.lean",
+      "bytes": 5856,
+      "sha256": "31159efb79f4c3d06d584db94b64f66645fb130bf30bca75333b17bb1f0d9169"
+    },
+    {
+      "path": "dynamics/src/ThirdCoordinateJet.lean",
+      "bytes": 2784,
+      "sha256": "7aa42dc95b120f243f0adceee23438ab2c80f4aac4453c671e27fde429b257aa"
+    },
+    {
+      "path": "dynamics/src/TranslationScalarDerivative.lean",
+      "bytes": 2243,
+      "sha256": "614cc3e64f547ce91a4931d1c446c497ad541316094f18709cdcee5edcc691b4"
+    },
+    {
+      "path": "dynamics/src/UnboundedChargeGeneratorUniqueness.lean",
+      "bytes": 2373,
+      "sha256": "7b3c8b4d0cc9756de96d7ed4e12abb7675e7e8eedd1941d7a8de97d450f2f780"
+    },
+    {
+      "path": "dynamics/src/UnitaryExactGeneratorConverse.lean",
+      "bytes": 2426,
+      "sha256": "e15ef884bd8410bb2d5a67d27c4ef8a20935ff3d9ce5d8a28e0f259b95fcb3b8"
+    },
+    {
+      "path": "dynamics/src/UnitaryGroupDifferential.lean",
+      "bytes": 2021,
+      "sha256": "8646469934426f66197462c82a3b654b7a0774fc9ccfa46416b26c0db60ef192"
+    },
+    {
+      "path": "dynamics/src/UnitaryInvariantCoreAdjoint.lean",
+      "bytes": 4650,
+      "sha256": "cbdda887ef8a95dcb2044573a7567c9d2b47541061f96fafc8688ec6d2de13cb"
+    },
+    {
+      "path": "dynamics/src/UnitaryUnboundedTransport.lean",
+      "bytes": 4904,
+      "sha256": "1950eef716518af784ce0e4e8ae7bc2d064c0f7d6862be1449bf999a40598055"
+    },
+    {
+      "path": "dynamics/src/WickActualElasticSymbol.lean",
+      "bytes": 3033,
+      "sha256": "90dd3be8545ac30f8274b1e78d08cfbcb266f55794eb2c0c112780a8e0d439f8"
+    },
+    {
+      "path": "dynamics/src/WickActualForwardKernel.lean",
+      "bytes": 3138,
+      "sha256": "4354835dfca46fc8cce1e2ca31456b13f0e67fdcda352621d907af6901132a53"
+    },
+    {
+      "path": "dynamics/src/WickAdmittedMetricPaths.lean",
+      "bytes": 4640,
+      "sha256": "85777ce41c0359c7085cfab0f66613ec5f0f750f6ac926c9685a9c2a3a97af4d"
+    },
+    {
+      "path": "dynamics/src/WickCalibratedChargeClosure.lean",
+      "bytes": 4432,
+      "sha256": "3a6764ad2b270285d8e4a4374b5fa86cfe1fa16ce7d58389e9186a6f1cc99246"
+    },
+    {
+      "path": "dynamics/src/WickCalibratedOneParticleCasimir.lean",
+      "bytes": 4038,
+      "sha256": "e58162ee9f939932cfbde2a321af71867487697714e068b5f47e7b0228f739d9"
+    },
+    {
+      "path": "dynamics/src/WickCalibratedSourceRole.lean",
+      "bytes": 5835,
+      "sha256": "a9d6f8542f9bfa88312b0f487f08e6961b68c9c0a120bc27bda63f0670f82951"
+    },
+    {
+      "path": "dynamics/src/WickChargeAmplitudeNormalization.lean",
+      "bytes": 2047,
+      "sha256": "c7c937c30e5ffcd6d1be37730c88beead717823c1a00d9620c715ddfdbfb0ffd"
+    },
+    {
+      "path": "dynamics/src/WickChargeMeasureCoefficient.lean",
+      "bytes": 2814,
+      "sha256": "9a6d55dafc56244795ab19b8446b49de5c7c011ee76222470d0e5c5d2bff3b23"
+    },
+    {
+      "path": "dynamics/src/WickChartAdmittedPathTransport.lean",
+      "bytes": 7963,
+      "sha256": "6af0fdd1325413339be45a2cfc655f0e2072dcbdafac067dca484edb7046100c"
+    },
+    {
+      "path": "dynamics/src/WickCommonRoleEvaluation.lean",
+      "bytes": 12632,
+      "sha256": "6617dada3c9f27b539980ae38e5ec0d9bd5a799821cdfd0e0f5958feeecad146"
+    },
+    {
+      "path": "dynamics/src/WickCompactCurveAction.lean",
+      "bytes": 5065,
+      "sha256": "27c0ab692b1a2b81a37369cc3cf82557114d3bc943ca11d600bb8a983c4a9de9"
+    },
+    {
+      "path": "dynamics/src/WickCompactCurveProtocols.lean",
+      "bytes": 8210,
+      "sha256": "58ec10655b82f8a02e84f4de214c89cffe7597604168ab8a537117a5044069be"
+    },
+    {
+      "path": "dynamics/src/WickCompleteMetricPathCovariance.lean",
+      "bytes": 10212,
+      "sha256": "51bbceaf294650a6e35d2e0bfb135b3dc88014691aa19ab2928ae47bcc430733"
+    },
+    {
+      "path": "dynamics/src/WickCoordinatePartialIntegral.lean",
+      "bytes": 4637,
+      "sha256": "6bab7bc33506069004c123c17fdd5c390898bbfcc617cb2886861751cb8e512e"
+    },
+    {
+      "path": "dynamics/src/WickCoreSeminormSums.lean",
+      "bytes": 6227,
+      "sha256": "68c2b597ce595699c8657b5088d06e45780d6718e963378d3a5ba3d4684fa7ee"
+    },
+    {
+      "path": "dynamics/src/WickCovariantBraKet.lean",
+      "bytes": 3943,
+      "sha256": "8d15774cb2553c4047b24cef11f914ffc5411013fc2adee4786ac32b9fe2f35f"
+    },
+    {
+      "path": "dynamics/src/WickCovariantElasticSource.lean",
+      "bytes": 6116,
+      "sha256": "3178a9c2c5773b195f8ae41ea59d5fd1257a5cd4d6528b7ce2ef067fcb88eea2"
+    },
+    {
+      "path": "dynamics/src/WickCovariantKernelTest.lean",
+      "bytes": 12659,
+      "sha256": "ff9312c2a6141e29754dba7ac985bc1221794f7def83d714ac6ac452df8655ab"
+    },
+    {
+      "path": "dynamics/src/WickCovariantMeasure.lean",
+      "bytes": 3157,
+      "sha256": "f577442407c1068297f375b2a2914c021ced6a73de644c5837cb1eda233a1ac4"
+    },
+    {
+      "path": "dynamics/src/WickCovariantNaturalTest.lean",
+      "bytes": 5343,
+      "sha256": "066cd3c5ced2c98aa322d010e28cb1d03157dacdbeaf37b637baa019896be63d"
+    },
+    {
+      "path": "dynamics/src/WickCovariantRayCoverage.lean",
+      "bytes": 7184,
+      "sha256": "724b37e260973baaf65d7d75c54c8e7d36e89c1f2454776c81f72e2b9934dc90"
+    },
+    {
+      "path": "dynamics/src/WickCovariantRigging.lean",
+      "bytes": 3352,
+      "sha256": "b20145c0b72cf1ce20fd60a709957dccd63b33221a8a9dcbd0676e8acedca5d5"
+    },
+    {
+      "path": "dynamics/src/WickCovariantRoleTransport.lean",
+      "bytes": 11205,
+      "sha256": "5cc5b8bd64fc6bbd03d373f872e8fada6cfaae8788ae65f4fa4ba8e316b923c2"
+    },
+    {
+      "path": "dynamics/src/WickCovariantSourceRigging.lean",
+      "bytes": 8256,
+      "sha256": "40233cd53da6348808d29d2df11103659cf97413b08956907e4f3f3de84b097d"
+    },
+    {
+      "path": "dynamics/src/WickCovariantSourceRoleCoverage.lean",
+      "bytes": 10538,
+      "sha256": "d41604b532fc0cdc6527158103314f674ee3f160623706efa545534565a85fda"
+    },
+    {
+      "path": "dynamics/src/WickCovariantStrongSource.lean",
+      "bytes": 8190,
+      "sha256": "d54b2ba35c067683d371b4e54ae9499a33d6f28763217338153c720e4a97952e"
+    },
+    {
+      "path": "dynamics/src/WickCovariantUnitary.lean",
+      "bytes": 6607,
+      "sha256": "ca6396384c09ec4fb6f06e7407ee767cba9f6e3d238a26db02d9531f2f21457b"
+    },
+    {
+      "path": "dynamics/src/WickCovariantUnitNormalization.lean",
+      "bytes": 2131,
+      "sha256": "89af94753cef3751f48d837cd578e224fe9bf1cb08c1856523200fe136f3f0bb"
+    },
+    {
+      "path": "dynamics/src/WickCurveRaySourceAttachment.lean",
+      "bytes": 3061,
+      "sha256": "0489cc673b1a256c04b8cd0443471b2180f58ae351eda2c98f44ed05df071f86"
+    },
+    {
+      "path": "dynamics/src/WickDeclaredGraphTopology.lean",
+      "bytes": 4032,
+      "sha256": "899d672e19fa585586c066d3f088238ec2406e3e54d452c2fdc241658b56e452"
+    },
+    {
+      "path": "dynamics/src/WickDeclaredSourceFunctional.lean",
+      "bytes": 6998,
+      "sha256": "7e1fe647eed2a74ca0c5f5c4f57ce6b3cf9c882a44bdedeab92510f1d0655f8e"
+    },
+    {
+      "path": "dynamics/src/WickDensityCurveCalculus.lean",
+      "bytes": 3683,
+      "sha256": "9c6035c5e8d778ecd63f2b646f48941056454cdc243ee77b96304e7b9001fabb"
+    },
+    {
+      "path": "dynamics/src/WickDerivativeComponentExpansion.lean",
+      "bytes": 2807,
+      "sha256": "64ce083df450888039e43b19608c34466916d8e8c34921462e0b1f9ec6172d5a"
+    },
+    {
+      "path": "dynamics/src/WickGraphSeminormDomination.lean",
+      "bytes": 4031,
+      "sha256": "99f3a51d1d94b1ac8f1b32e17fc0d61605b9a1cd8616ba7fc075597034a11154"
+    },
+    {
+      "path": "dynamics/src/WickIsolatedCovariantHilbert.lean",
+      "bytes": 6158,
+      "sha256": "f57080aa2ea692fe055b33e4bb3bb5c4b6465d78b036f95b9e9c3d20b336473f"
+    },
+    {
+      "path": "dynamics/src/WickIsolatedMassSector.lean",
+      "bytes": 10011,
+      "sha256": "810ffde0dae462def6da7997b6bda1b5747df1cbdcbe665266970509f990f53f"
+    },
+    {
+      "path": "dynamics/src/WickJointContinuityCriterion.lean",
+      "bytes": 2314,
+      "sha256": "131e8a2334126999e432243b2e4ef810486d5c422b77019bbc4dc8287ce2ccfc"
+    },
+    {
+      "path": "dynamics/src/WickKGOriginalActionProtocols.lean",
+      "bytes": 7474,
+      "sha256": "27f34d79624430d96c1395323b2300c3a4496b3e8ca33279d91dd739d250dc72"
+    },
+    {
+      "path": "dynamics/src/WickKGOriginalActionReality.lean",
+      "bytes": 1746,
+      "sha256": "38573ca4b778272787ad4cd24b7d4636471af34c742ca328be51ead00647b5ab"
+    },
+    {
+      "path": "dynamics/src/WickKGOriginalLFPath.lean",
+      "bytes": 3801,
+      "sha256": "e32dc607498fb9d4121feff17cabd1a6f7f6ba7299ec7b02c83301f65df26058"
+    },
+    {
+      "path": "dynamics/src/WickKGOriginalProtocolTransport.lean",
+      "bytes": 8111,
+      "sha256": "508b87b76f232e1765ab411d0f561a8adf2c44508d6ba40f2f2b8939fa38b9ac"
+    },
+    {
+      "path": "dynamics/src/WickKGOriginalUnitRaySource.lean",
+      "bytes": 3694,
+      "sha256": "3e0f1fb84000bea5c48c18b243c30ae43038aff335d2aa105f4888bac5e8d804"
+    },
+    {
+      "path": "dynamics/src/WickLFAffinePullback.lean",
+      "bytes": 5523,
+      "sha256": "e444572f30bbf3fa91f4d545687e760a0f5239ea917dbb0607feaaa39d94d712"
+    },
+    {
+      "path": "dynamics/src/WickLocalCompactCurveAction.lean",
+      "bytes": 6036,
+      "sha256": "c58c01b1b5b0ce36a8e79d62c24f3444e5140eede0cdc82549bf8c74770124a3"
+    },
+    {
+      "path": "dynamics/src/WickLocalOriginalCurveVariation.lean",
+      "bytes": 5491,
+      "sha256": "7a28dc25ca4e44cc6be5c505db4db98e39017c576174ea630664643d414843af"
+    },
+    {
+      "path": "dynamics/src/WickLorentzBilocalTransport.lean",
+      "bytes": 5520,
+      "sha256": "455c720e3353dc20744046567f6ecf9be2cee3d0baf9e81bccb050420036c4df"
+    },
+    {
+      "path": "dynamics/src/WickLorentzDensityTransport.lean",
+      "bytes": 2681,
+      "sha256": "451d7d5421f7c1296b3220475b92faf7b5328fa357ae5cf5e347eefbd80a6bfa"
+    },
+    {
+      "path": "dynamics/src/WickLorentzDerivativeTransport.lean",
+      "bytes": 3095,
+      "sha256": "f01708c10a1072e2d5bbeba2ce7c94f2a2525ca4a52b3c8b5c327a94f9817608"
+    },
+    {
+      "path": "dynamics/src/WickLorentzMetricCoordinates.lean",
+      "bytes": 1655,
+      "sha256": "410820d9590d5094f60f1df7d748fc0fabcfbf4e30adaff917bc1090b3e1f152"
+    },
+    {
+      "path": "dynamics/src/WickLorentzSchurSignature.lean",
+      "bytes": 4777,
+      "sha256": "69a31ae1181924ad99999e9ae02244c5be1a28fd20b4ceb7c5a5e511fb460f8d"
+    },
+    {
+      "path": "dynamics/src/WickLorentzSignatureDomain.lean",
+      "bytes": 2899,
+      "sha256": "895140fbcf03a951219f34b146c76ce8f06262dd8cc15eb72000f02605debee5"
+    },
+    {
+      "path": "dynamics/src/WickMetricDensityCongruence.lean",
+      "bytes": 2392,
+      "sha256": "f180221c49a7be69aa9e7bbeafa90d1f7fb5f00dabad417c1e25ab8bbaebb195"
+    },
+    {
+      "path": "dynamics/src/WickMetricPathCompleteRecords.lean",
+      "bytes": 5701,
+      "sha256": "c9c23727ae49147595c9af2b59d433e6496a9c6bf8d1c02449048d7e76e6e26b"
+    },
+    {
+      "path": "dynamics/src/WickMetricPathCovariantSourceSquare.lean",
+      "bytes": 9077,
+      "sha256": "523dbb0312437ee4ea6f3afdc9e26e61fcc0feb734502384bc6429fa8631eb9f"
+    },
+    {
+      "path": "dynamics/src/WickMetricPathPushforwardGeometry.lean",
+      "bytes": 5867,
+      "sha256": "9a0856fa07b4f995245dffcea80043728ddfe62968dceadf21ff854bcac994b8"
+    },
+    {
+      "path": "dynamics/src/WickMetricPathSourceIdentification.lean",
+      "bytes": 7474,
+      "sha256": "2397f1e606b67e31ee53afc55a91780cd74c580cc31de1d9ee28bb48e869ace7"
+    },
+    {
+      "path": "dynamics/src/WickNativeAffineMetricLaws.lean",
+      "bytes": 3970,
+      "sha256": "b827145d6b306b8911a84bb93c97d52c1d79a6bdcd037f5183731959f26fa1d4"
+    },
+    {
+      "path": "dynamics/src/WickNativeAffineMetricTests.lean",
+      "bytes": 4535,
+      "sha256": "054fd508a536069aaa54b7ae449723127fd56488c75dd1e997b8f12fef797862"
+    },
+    {
+      "path": "dynamics/src/WickNativeDeclaredSourcePresentation.lean",
+      "bytes": 6969,
+      "sha256": "9d7f4419945d9fdd248024736ee0111ed9a5522c42b12b5778ec3b7489a52abd"
+    },
+    {
+      "path": "dynamics/src/WickNativeDeclaredSourceTransport.lean",
+      "bytes": 7237,
+      "sha256": "016a8af31681040689fb89b1b70df022463e9acb30b54a3521401af8ef1f7847"
+    },
+    {
+      "path": "dynamics/src/WickNativeJointCoreContinuity.lean",
+      "bytes": 2737,
+      "sha256": "8c8be5e77e904f8699938d3a8506a15bf97e938f2b9877adacaa450d5eb61bb8"
+    },
+    {
+      "path": "dynamics/src/WickNativeJointRayContinuity.lean",
+      "bytes": 2306,
+      "sha256": "92bde1e0acfa1930f7e4889994ba089910f5a609a50064395bb5387c192849a6"
+    },
+    {
+      "path": "dynamics/src/WickNativeLFTransport.lean",
+      "bytes": 7591,
+      "sha256": "b25b9fe0eccacaae3814b0071ac31e775f28ba9b8fcdcd85b9806ce71e5f9a96"
+    },
+    {
+      "path": "dynamics/src/WickNativeLFTransportLaws.lean",
+      "bytes": 6233,
+      "sha256": "63048b9d3e30cbeab58725e2578af6dd14d62296290673bec901d7a85540e6df"
+    },
+    {
+      "path": "dynamics/src/WickNativeLieAttachment.lean",
+      "bytes": 5645,
+      "sha256": "5b168269b5d0319204f4e54825912ca3ca40df41752f1907d0925f7d6921dde4"
+    },
+    {
+      "path": "dynamics/src/WickNativeNormalizedSourceAssembly.lean",
+      "bytes": 6642,
+      "sha256": "cc85d33539ba6d99d7f280f35ab99b5ef3e855a4ed351b858767ba3a4b7a968b"
+    },
+    {
+      "path": "dynamics/src/WickNativePresentationGerms.lean",
+      "bytes": 1369,
+      "sha256": "78834af5034f1f9010e5a8db2aaab7472b2401206b1f5a5a18338ff898a7b8ee"
+    },
+    {
+      "path": "dynamics/src/WickNativeResponseSesquilinear.lean",
+      "bytes": 4319,
+      "sha256": "745c71db6363f9bacca58e317fb118ebad5ab87b2effda390fa83e2b11934ec7"
+    },
+    {
+      "path": "dynamics/src/WickNativeSameTensorCharges.lean",
+      "bytes": 3783,
+      "sha256": "5a0d2fe09228a6385c0b1f06638099edba6f368e1db55e11f1550da00c03d836"
+    },
+    {
+      "path": "dynamics/src/WickNativeSourceTensorLedger.lean",
+      "bytes": 5267,
+      "sha256": "1fd5a5436e7c599ed66e180e85535d26509133a0401470cca57986188cb298a9"
+    },
+    {
+      "path": "dynamics/src/WickNativeStrongSourceAttachment.lean",
+      "bytes": 7410,
+      "sha256": "53058c57be57e9760f66276ef5c3a05fb3273bff65ef65b566b69a120e1ceef5"
+    },
+    {
+      "path": "dynamics/src/WickNativeWardConservation.lean",
+      "bytes": 1855,
+      "sha256": "c672097bbfed490b4cedfba1a25301654bc0f567a8479fd23d530d8ed338c6a6"
+    },
+    {
+      "path": "dynamics/src/WickOneParticleChannels.lean",
+      "bytes": 5583,
+      "sha256": "0b30e4c4fee1d048b0f1f0cc0b2902f480f387c3be960b4c99c898466e9913d9"
+    },
+    {
+      "path": "dynamics/src/WickOneParticleElasticIncidence.lean",
+      "bytes": 6064,
+      "sha256": "abac78ea2d69fdef6033fa9f9f20b20bcade89b3a6ca8952bf0f8a5bcecda76b"
+    },
+    {
+      "path": "dynamics/src/WickOneParticleMassGap.lean",
+      "bytes": 4876,
+      "sha256": "8c82dec12402366aaaeedb771da7019ea4670f76ee8e25d255a27e8de3f2ebd9"
+    },
+    {
+      "path": "dynamics/src/WickOneParticlePoincare.lean",
+      "bytes": 8036,
+      "sha256": "2d065aff0a6998f2fa8bf92e5881ae8d914759353b860e17f6af4dc9ba59a3ac"
+    },
+    {
+      "path": "dynamics/src/WickOneParticleSourcePairing.lean",
+      "bytes": 7106,
+      "sha256": "9dcde2c32f47bca9b82a247d0f8b9afa5340d966dea8b167f81565a8af7e8f99"
+    },
+    {
+      "path": "dynamics/src/WickOneParticleSpectral.lean",
+      "bytes": 7386,
+      "sha256": "2e29fff36a389fe169d11e547a1381b9926ff930cb1c76ac997a144e683286f3"
+    },
+    {
+      "path": "dynamics/src/WickOneSectorHilbert.lean",
+      "bytes": 3397,
+      "sha256": "b8a79073c38379a89e845a4cb734c4e62e965733952cd81cde0f515194cb93c8"
+    },
+    {
+      "path": "dynamics/src/WickOperationalKernelUniqueness.lean",
+      "bytes": 5126,
+      "sha256": "fd41ccfaab9d2c68b032eb9ff5e7a3bd2226babe16aece6abd44d9e4873098ff"
+    },
+    {
+      "path": "dynamics/src/WickOperationalMetricKernel.lean",
+      "bytes": 6030,
+      "sha256": "3d85de6a2d4e103417d9277ff10bde4091f14fdf832da8c004490d7715e76f44"
+    },
+    {
+      "path": "dynamics/src/WickOriginalChargeFockIdentification.lean",
+      "bytes": 4001,
+      "sha256": "b2483e99213cd8060138772a2c9f344dab5e043375d379e4fee2e7b0016f1280"
+    },
+    {
+      "path": "dynamics/src/WickOriginalChargeKernels.lean",
+      "bytes": 3424,
+      "sha256": "2ce44b0c0db12d38751a276c0c6b952e2fab7009929f42230cf1ed6b8d7599b9"
+    },
+    {
+      "path": "dynamics/src/WickOriginalCoreControls.lean",
+      "bytes": 10462,
+      "sha256": "752204cdad47bba4e468b1fddf650589227865c62c8e52ce2289a14ed1e8fb15"
+    },
+    {
+      "path": "dynamics/src/WickOriginalCurveVariation.lean",
+      "bytes": 6153,
+      "sha256": "5e3a2df5d473f202bd0a0f6677af99f2ee5247aa0ab87019de412cd5004aa55c"
+    },
+    {
+      "path": "dynamics/src/WickOriginalEnergyActivity.lean",
+      "bytes": 2627,
+      "sha256": "c870a1d3cce73002210681696c48077650686055bf6aff2b543f57acae58b20b"
+    },
+    {
+      "path": "dynamics/src/WickOriginalEventSign.lean",
+      "bytes": 1638,
+      "sha256": "4bea121776ecf2b0c6da28b0907e25c8351ce445eab51496b99d34153a365a46"
+    },
+    {
+      "path": "dynamics/src/WickOriginalFiniteActionDomain.lean",
+      "bytes": 4300,
+      "sha256": "025d9cd454255f433d289d8c7de89c43a393ba72af85de708b619ea2e3dd0104"
+    },
+    {
+      "path": "dynamics/src/WickOriginalFiniteActionGateaux.lean",
+      "bytes": 5111,
+      "sha256": "1c8d5bb3907777f6755fc84b726f99aebf3a8cdd940da937c8b9e69c247c03cc"
+    },
+    {
+      "path": "dynamics/src/WickOriginalFockMomentum.lean",
+      "bytes": 4342,
+      "sha256": "3aea6fc741990b09a597068becb96a32a0567b70ccc29dba5495c27a5502856b"
+    },
+    {
+      "path": "dynamics/src/WickOriginalFourChannelCharge.lean",
+      "bytes": 5488,
+      "sha256": "7bb2d5ae32897b5c9fae12db6202420ddf3efe50ac48ab315b1a7fa89141ff5f"
+    },
+    {
+      "path": "dynamics/src/WickOriginalGraphStrongAttachment.lean",
+      "bytes": 2080,
+      "sha256": "7f9560f4ca940ed7d3cc7544d64c0233589f0476d56e2c37417de1763c1a5200"
+    },
+    {
+      "path": "dynamics/src/WickOriginalLorentzMetricDomain.lean",
+      "bytes": 3938,
+      "sha256": "2051d3973d3d77feadb2d9c2bfb3892b9b9d26cec27b705d902918ae904e1698"
+    },
+    {
+      "path": "dynamics/src/WickOriginalMetricNeighborhood.lean",
+      "bytes": 3965,
+      "sha256": "86a1fe08b3ae7026dfc57d2536f9a7e4dcb855ed4c797075d951a7627e1a7ace"
+    },
+    {
+      "path": "dynamics/src/WickOriginalMetricProjection.lean",
+      "bytes": 2042,
+      "sha256": "d96c1eed2dfd0144873230c08ff6186368500b21fad4d7eaa7e47c793d011917"
+    },
+    {
+      "path": "dynamics/src/WickOriginalRoleLedger.lean",
+      "bytes": 2806,
+      "sha256": "6c6a38e87a130193b4b7f73ea0ad4dc505d0f13d4552a7647e5b555f944edbbb"
+    },
+    {
+      "path": "dynamics/src/WickOriginalSpatialJacobian.lean",
+      "bytes": 1424,
+      "sha256": "3d01e63e1f8052f372532acdb1974cd518cde947212c22742ed45da7e862dfc2"
+    },
+    {
+      "path": "dynamics/src/WickOriginalTranslationSlope.lean",
+      "bytes": 2110,
+      "sha256": "d6523d3ce575025f2bd70a00c9844e2ea799c589f102ea39f1e7a9eb9e4bbdb6"
+    },
+    {
+      "path": "dynamics/src/WickPhysicalMarginalIntegrability.lean",
+      "bytes": 1502,
+      "sha256": "4fa5da575e4a40de17d629c317dce1a7879c0aff10b9f90b873c0356506f3aab"
+    },
+    {
+      "path": "dynamics/src/WickPhysicalMeasureSplit.lean",
+      "bytes": 2880,
+      "sha256": "0bd9b0f7daed1c21e3135f829beed01b4e4243b45b3ce5e2eca998c70f3f5161"
+    },
+    {
+      "path": "dynamics/src/WickPhysicalMixedChargeDiagonal.lean",
+      "bytes": 4556,
+      "sha256": "7ac8989821fd99092d53a39a87d18417b0b83dc1c90f804e48ffe614524bbf0c"
+    },
+    {
+      "path": "dynamics/src/WickPhysicalMixedLocalFormula.lean",
+      "bytes": 5959,
+      "sha256": "8ad21fa5f6f6c96d5f7d7d49be29dd51aeae944e9b2b6a7b82ad69c896c0a9e9"
+    },
+    {
+      "path": "dynamics/src/WickPhysicalPairMarginal.lean",
+      "bytes": 3077,
+      "sha256": "b166a13a754b4afe69e320c31ebd120b45d964ccc80bc22c1c233718a49b11fb"
+    },
+    {
+      "path": "dynamics/src/WickPhysicalPureChargeZero.lean",
+      "bytes": 5405,
+      "sha256": "8d999d6b21ed4996b9e33b2b90323ad39d2bbe8934b14b59fc2d9ed91daab30c"
+    },
+    {
+      "path": "dynamics/src/WickPhysicalPureLocalFormula.lean",
+      "bytes": 7375,
+      "sha256": "e95951ac26c5aa9bb5ef88e7de088f635e38ae45f0f22860d464f23272db61b8"
+    },
+    {
+      "path": "dynamics/src/WickPhysicalPureTemporalKernel.lean",
+      "bytes": 4647,
+      "sha256": "b4150db1a0ccb20a6ca46a1c671ecf30cfbd84fc9e56118b45c4d3dc911fd0fb"
+    },
+    {
+      "path": "dynamics/src/WickPhysicalTemporalKernel.lean",
+      "bytes": 3220,
+      "sha256": "c6dd6c13c22523c2735d50f3f18c58319a3d5113d4919db6216f4681282078b8"
+    },
+    {
+      "path": "dynamics/src/WickPhysicalTwoMixedCharges.lean",
+      "bytes": 5378,
+      "sha256": "489866e05e82bbf886bcb93e7bedfbcefd83efb3700c1d1fb397ce6a1b04d418"
+    },
+    {
+      "path": "dynamics/src/WickPoincareDerivativeTransport.lean",
+      "bytes": 3340,
+      "sha256": "d42c689f038db6d5354bb7b9a3f39847331e1ba07221d619063d25bd3658c4bc"
+    },
+    {
+      "path": "dynamics/src/WickPoincareFiniteAction.lean",
+      "bytes": 4406,
+      "sha256": "acf128f3162190401fd1afe38a06ab003c034fd09140a8ea4ffd412558f55425"
+    },
+    {
+      "path": "dynamics/src/WickPoincareIncidence.lean",
+      "bytes": 3763,
+      "sha256": "16fffc8a71f153e19d5da31e52d6861e022fd4c9e04e811e696b272640619a57"
+    },
+    {
+      "path": "dynamics/src/WickPoincarePairTransport.lean",
+      "bytes": 2900,
+      "sha256": "86ecb7a2898950c822b70441072269e50548686aaf45704b60dd60a925f873d7"
+    },
+    {
+      "path": "dynamics/src/WickPoincareProtocolTransport.lean",
+      "bytes": 5111,
+      "sha256": "1e0598a2ed519db26da792204e9b952472b8880098ab299a33a6f962618e91c2"
+    },
+    {
+      "path": "dynamics/src/WickPoincareRayTransport.lean",
+      "bytes": 7540,
+      "sha256": "a954d70e9d107a2609d1a50737f9cfb9c8d2f9784ee89771eb76abef0681e596"
+    },
+    {
+      "path": "dynamics/src/WickProtocolTransportLaws.lean",
+      "bytes": 4052,
+      "sha256": "ddb9f7339a4df5a5030eafffe17cfd6c0e5abdacb0d48b6a6f5f4c5e563f3914"
+    },
+    {
+      "path": "dynamics/src/WickRoleRayDescent.lean",
+      "bytes": 4782,
+      "sha256": "707833d56e1e4409148c19bcc03131cd69a9f7e40010ca09c98c6f48beda5007"
+    },
+    {
+      "path": "dynamics/src/WickSchwartzJetGraph.lean",
+      "bytes": 3228,
+      "sha256": "eff2d2bc89b73b141917178ab333e970d2ea0c1c5e227a46bcc071e926c69ac9"
+    },
+    {
+      "path": "dynamics/src/WickSchwartzPartialIntegral.lean",
+      "bytes": 4251,
+      "sha256": "5e9972ac5e5e3ce36137f8a4424a367766476890073cbfd2bb12130fab25870f"
+    },
+    {
+      "path": "dynamics/src/WickSchwartzSeminormBounds.lean",
+      "bytes": 5369,
+      "sha256": "42a14b22997cba159329a7684873e4dcbeaaa9d5fc452c7e5d3f083e9cfeb077"
+    },
+    {
+      "path": "dynamics/src/WickSectorJetGraphOperators.lean",
+      "bytes": 6827,
+      "sha256": "e4d24e2288e472715ee70c285da79de279815c1ef61802d7e9f6c89028645b1b"
+    },
+    {
+      "path": "dynamics/src/WickSectorMomentumExpectation.lean",
+      "bytes": 4923,
+      "sha256": "6cd2d82a8ed7937c91f700c411761cf195a8ca27b1843bb88ce0d7a57d6eb171"
+    },
+    {
+      "path": "dynamics/src/WickSourceReceiverFrontend.lean",
+      "bytes": 3087,
+      "sha256": "d43809634f60033e9255f3e4d320b4706317090b637faca8f198bcb20e11f408"
+    },
+    {
+      "path": "dynamics/src/WickSpatialFourierDiagonal.lean",
+      "bytes": 3328,
+      "sha256": "67e73e5842c58a0d898cafb4f1654603c3972a0bc285c0bb6daadbef8e19d467"
+    },
+    {
+      "path": "dynamics/src/WickSpatialTransferDensity.lean",
+      "bytes": 2807,
+      "sha256": "cef52dc7d744b4a74abd03d214465dc5943e2a581e55f6512d82d4ee1a3116f2"
+    },
+    {
+      "path": "dynamics/src/WickStressChargeGeneratorCalibration.lean",
+      "bytes": 3857,
+      "sha256": "31d340b7c7d66c9fb533d4fc78fbff6ac9a46a876ef29247768fb24c12eca95d"
+    },
+    {
+      "path": "dynamics/src/WickStressChargeShell.lean",
+      "bytes": 4190,
+      "sha256": "f1b81142945f232aef47d918ac136c6f82ed6e7ea896cbdd14df466c8960cf4d"
+    },
+    {
+      "path": "dynamics/src/WickStressChargeSymbol.lean",
+      "bytes": 2925,
+      "sha256": "4b1ab3d19b4fda1981765f51533e3855fb2bd8e2adb676a6314f045ffac63e62"
+    },
+    {
+      "path": "dynamics/src/WickStressSectorControls.lean",
+      "bytes": 6065,
+      "sha256": "2743fbcdcc694e0e6324c83ae584cb3b3111c4fd4c8f7eba8e75b1eed92b2c24"
+    },
+    {
+      "path": "dynamics/src/WickStrongCoreControl.lean",
+      "bytes": 5232,
+      "sha256": "29fcaefe7642d3a247ef7d498a2e72661a4630dc3a1f4de4a2c5e328108e1835"
+    },
+    {
+      "path": "dynamics/src/WickStructuredSourceQuotient.lean",
+      "bytes": 6614,
+      "sha256": "9861b382657cb7a0f65ca2c25c4b2a5af91a4292e759be98e96013202c716e41"
+    },
+    {
+      "path": "dynamics/src/WickTranslationBilocalTransport.lean",
+      "bytes": 6322,
+      "sha256": "cf222c71df56e28cd42464d5f10cf5acf556fc4364f9812b76ef70d28edbfe61"
+    },
+    {
+      "path": "dynamics/src/WickTranslationKernelTransport.lean",
+      "bytes": 3374,
+      "sha256": "4f5d4609d969450dd48ff73495988d9630a73b63d3946880f854ec49d3329b0e"
+    },
+    {
+      "path": "dynamics/src/WickTransportedMetricSignature.lean",
+      "bytes": 3481,
+      "sha256": "ae69c3afddb6c593d26dd5e624033df21600303e320c9a1a862797700dcda5aa"
+    },
+    {
+      "path": "dynamics/src/WickWignerWeightSchwartz.lean",
+      "bytes": 1448,
+      "sha256": "daf3dd605d26321df744b54dc41243ca819273df880d7859f8b0a1b7820be149"
+    },
+    {
+      "path": "evidence/dynamics/dependencies.json",
+      "bytes": 32793,
+      "sha256": "b13c1daee2609e67b9bdd3b39d8c4f8c2dfa5e21eebf1a34b5e369c8d7da8ef3"
+    },
+    {
+      "path": "evidence/dynamics/EXACT_AXIOMS.json",
+      "bytes": 8629,
+      "sha256": "aaab0f76702127c5d877f8c560845511732622c9a373f9870d7699d22fbe2767"
+    },
+    {
+      "path": "evidence/dynamics/INDEPENDENT_REVIEW.json",
+      "bytes": 9321,
+      "sha256": "89056b89b5810479bec130e0661b79eef20c0ae0ab2ae58ee550aac4282487ed"
+    },
+    {
+      "path": "evidence/dynamics/original-project-provenance.json",
+      "bytes": 887236,
+      "sha256": "7900242c5b8372c7c2b6cd189a5fbb002e7e5bbea8ebaf74efc052a7b7665759"
+    },
+    {
+      "path": "evidence/dynamics/PROJECT_OBJECT_COMPARISON.json",
+      "bytes": 218928,
+      "sha256": "610b2a1a9ffc8afffce4fd23e7f1c990ad41a8598e7b52ea7ac5d8db8577900b"
+    },
+    {
+      "path": "evidence/dynamics/REPLAY_RECEIPT.json",
+      "bytes": 1303830,
+      "sha256": "6ddfc5994d929a42563a6e85d227263fa123d752646fd2da34a88b0121940612"
+    },
+    {
+      "path": "evidence/dynamics/RESOLVED_IMPORTS.json",
+      "bytes": 1657009,
+      "sha256": "5471e63122cbe1019e4c4d720c52d87d72330fbf320f3410524d6f98224786b5"
+    },
+    {
+      "path": "evidence/dynamics/retained_lake_manifest.json",
+      "bytes": 4084,
+      "sha256": "f421cc45d574c67455a72fcfa0f52d66566c40238ab7fae88f16fd39c8437c54"
+    },
+    {
+      "path": "evidence/endpoints/EXACT_ENDPOINT_ROOTS.json",
+      "bytes": 82804,
+      "sha256": "af6bc64e610fa0b10728eb96ffb8820c411df379f909262dac4ab830a0ee3d26"
+    },
+    {
+      "path": "evidence/endpoints/EXACT_ENDPOINT_STATEMENTS.md",
+      "bytes": 10857,
+      "sha256": "93bf50241b28a40f3859f8257cfcc0543afbddd91b998aa7e1a9827881382f5e"
+    },
+    {
+      "path": "evidence/endpoints/SHARED_KERNEL_DEPENDENCIES.json",
+      "bytes": 29318,
+      "sha256": "4babc8e16391dd7d41000e58724e444c8541c44ebcbf43e2e561abd541579777"
+    },
+    {
+      "path": "evidence/full-archive/FINAL_DELIVERY_BINDINGS.json",
+      "bytes": 1132,
+      "sha256": "c2ce89c1b46ceb6ae76ae5fb55e610676ca0ec677f280333bfb68350ab70eabf"
+    },
+    {
+      "path": "evidence/full-archive/INDEPENDENT_DELIVERY_REVIEW.json",
+      "bytes": 9321,
+      "sha256": "89056b89b5810479bec130e0661b79eef20c0ae0ab2ae58ee550aac4282487ed"
+    },
+    {
+      "path": "evidence/full-archive-audit-repair/BundleInventory.lean",
+      "bytes": 54438,
+      "sha256": "eebd7acf860047039a13304315ee66536a2518feada832831184175061e209e7"
+    },
+    {
+      "path": "evidence/full-archive-audit-repair/EXACT_DIFF.patch",
+      "bytes": 867,
+      "sha256": "6b4255515501ced0808ce02ecfb4518c7883b3c73784538eb0f4526416f7bbf3"
+    },
+    {
+      "path": "evidence/full-archive-audit-repair/manifest.json",
+      "bytes": 1055,
+      "sha256": "4da0c9b5d34334c34f24a903b7764283091bfc2351f0adf5f876b45fcfee2a2a"
+    },
+    {
+      "path": "evidence/full-archive-audit-repair/README.md",
+      "bytes": 1781,
+      "sha256": "5a53395e9be3f06126aa8bf473c25988fc9582770170c59fb57d49081dfd8ed8"
+    },
+    {
+      "path": "evidence/full-archive-audit-repair/replay.py",
+      "bytes": 16081,
+      "sha256": "65d3c4085d1a1bc44924bbc671b52d5f5b257304735e2af18039edede931a9be"
+    },
+    {
+      "path": "evidence/geometric/EXACT_CONSUMERS_AND_DISCHARGES.json",
+      "bytes": 21399,
+      "sha256": "f635cf9e6cc35755be12a22dc416a894a42de676dc9e72deb07d90e543e939dc"
+    },
+    {
+      "path": "evidence/geometric/RECEIVING_HYPOTHESIS_LEDGER.json",
+      "bytes": 3650,
+      "sha256": "c4f43a2128f9a0373fdc49c67e9e3dec427362aca301cc8b4abd8c43b89b2cc0"
+    },
+    {
+      "path": "evidence/geometric/SOURCE_SCOPE_AND_RESULT.md",
+      "bytes": 10624,
+      "sha256": "280387fe32750745ffaf95b1efa4967a5baf2e404fd3160367b97ab48995feef"
+    },
+    {
+      "path": "evidence/licensing/audit_receipt.json",
+      "bytes": 187270,
+      "sha256": "909c09e020e3c58278a154e76cac738d27d27d2cdee46203de9b02a1ab4c6b42"
+    },
+    {
+      "path": "evidence/licensing/CURRENT_METRIC_LICENSING_TARGET_AND_STATUS.md",
+      "bytes": 3891,
+      "sha256": "84ae5f08c81c678f530069fe3c9ec512873ad6cf7a7768d094760e35e18053a9"
+    },
+    {
+      "path": "evidence/licensing/ExactSourceMappingSignatures.lean",
+      "bytes": 1298,
+      "sha256": "2a8e61dab45bda2a783791a894960a55d6e81e57f73c2d489d126fbf044086d1"
+    },
+    {
+      "path": "evidence/licensing/FreshAllProjectAxiomAudit.lean",
+      "bytes": 67713,
+      "sha256": "ff7a28d2b9c6736540b9e0f8f90230b425e46ef51b9b9b33714fc7f40c37a84a"
+    },
+    {
+      "path": "evidence/licensing/FreshEnvironmentInventory.lean",
+      "bytes": 3306,
+      "sha256": "15d4cce67b4608b11ca7909855d006d05651b3530aecc317aecf3dc997a16e21"
+    },
+    {
+      "path": "evidence/licensing/INDEPENDENT_SEMANTIC_REVIEW.md",
+      "bytes": 2657,
+      "sha256": "4f58bb4f003321080bdda7b7bf880bed1b3a3d92873c14624d93c1d4ba7e5b93"
+    },
+    {
+      "path": "evidence/licensing/LICENSING_ASSEMBLY_SEMANTIC_MAPPING.md",
+      "bytes": 13684,
+      "sha256": "864828564339d8d19fe5b6bf9689d643be2e8d378b09894c2c9d420bebf2a17f"
+    },
+    {
+      "path": "evidence/licensing/semantic_mapping_receipt.json",
+      "bytes": 4357,
+      "sha256": "22560ddc750dbe653a5a6bffeb41f7c0e0877ed02ad1c4eeee0c52c0664e2cdf"
+    },
+    {
+      "path": "evidence/scalar/S36_SOURCE_AND_BLOCKER.json",
+      "bytes": 23759,
+      "sha256": "3864fee29b14db8f2834974d4bb3ca75888b6224f81254cfbf206d395e39c1ef"
+    },
+    {
+      "path": "evidence/scalar/SSQ1_EXACT_SOURCE.json",
+      "bytes": 11564,
+      "sha256": "6e3f15d8c3d8328df4c7e50f30c498886349791d4e4edacd20ef0cbaa53ef751"
+    },
+    {
+      "path": "historical-source-only/KGOriginalCorePoissonAttachment.lean",
+      "bytes": 13036,
+      "sha256": "e1de9966a8a92fb60a2498ebab72a323ded6c483f0287e5e5513e725df87c830"
+    },
+    {
+      "path": "historical-source-only/OriginalTotalActionSourceMatching.lean",
+      "bytes": 10956,
+      "sha256": "5baed47bfc61225675de0c7bf61fb7669ff65f62c79b1fb6c5030ee8a9406573"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1069,
+      "sha256": "50209d2818152cd0187879119452948076913e6ac7380647a6f92d10e4050b6c"
+    },
+    {
+      "path": "licensing/lakefile.toml",
+      "bytes": 2390,
+      "sha256": "2a9d2093f54e65fac05e29145b9952cf06cdc6b96086adb9f0556b36419700e5"
+    },
+    {
+      "path": "licensing/lean-toolchain",
+      "bytes": 25,
+      "sha256": "db7bb24b756d745bbde83fe92718b51bd3625dae3701ba0f598d0eedcd3f3028"
+    },
+    {
+      "path": "licensing/src/AASC/Core/AmetricIdentityBoundary.lean",
+      "bytes": 2467,
+      "sha256": "95a83b9b9cee824fde45160422e239c8f8623b42ba3660146cd4502722019270"
+    },
+    {
+      "path": "licensing/src/AASC/Core/BoundaryClosure.lean",
+      "bytes": 14155,
+      "sha256": "72ea11a8a3ced5fa26e50a29cb8c565d91509efd8b503b4b92b1b9a5e78fbd96"
+    },
+    {
+      "path": "licensing/src/AASC/Core/ConstraintClosure.lean",
+      "bytes": 10460,
+      "sha256": "98ae02b9c573558512ee2f3f685de7d7bc8456f7cd3c6969ee1b5ea1a5e676c7"
+    },
+    {
+      "path": "licensing/src/AASC/Core/ConstraintResidue.lean",
+      "bytes": 2685,
+      "sha256": "44f53e95cb7accf849aa6f489c88d19cbbdadbdde1461d2d8fbd706e60467992"
+    },
+    {
+      "path": "licensing/src/AASC/Core/Continuation.lean",
+      "bytes": 5164,
+      "sha256": "ffe6f87ac0da859258ec14b6dc18b2b5bc9e3202bce19d58a72548bbfa7dc683"
+    },
+    {
+      "path": "licensing/src/AASC/Core/DeterminateObjecthood.lean",
+      "bytes": 7519,
+      "sha256": "1fcb4c97cfa807514a4e5b2046d16cdbae972c7162eff438c872ee503c238468"
+    },
+    {
+      "path": "licensing/src/AASC/Core/EndpointUse.lean",
+      "bytes": 7264,
+      "sha256": "eadb58f7af89e621445f15513c82670326267ce3f3de8e5915ad1bb6720339c9"
+    },
+    {
+      "path": "licensing/src/AASC/Core/Exhaustion.lean",
+      "bytes": 1362,
+      "sha256": "75786024847af3b664b09336d3698439fdd2a93e655e947c4d04101b7f57fab3"
+    },
+    {
+      "path": "licensing/src/AASC/Core/ExhaustionStrength.lean",
+      "bytes": 2123,
+      "sha256": "4fc54ecf7313b1f5e75a36187bd1e0d6d87b188a27340737a4af1bf4d99c8ca0"
+    },
+    {
+      "path": "licensing/src/AASC/Core/Incidence.lean",
+      "bytes": 1614,
+      "sha256": "5941adead9a0e7cd9c3d9e8361e166c887fdf0ad65cdaadb8206674a2c498ea7"
+    },
+    {
+      "path": "licensing/src/AASC/Core/Irreversibility.lean",
+      "bytes": 1085,
+      "sha256": "3779c22be2d5f8c3445b27a2fa94347a6d4d55906c651e2be64d55b8544c78fa"
+    },
+    {
+      "path": "licensing/src/AASC/Core/Kernel.lean",
+      "bytes": 3135,
+      "sha256": "bcb518e7ba58658dbc708740094dd47b8e4fe72efaa825d1853c3d593d780d45"
+    },
+    {
+      "path": "licensing/src/AASC/Core/KernelNecessity.lean",
+      "bytes": 3271,
+      "sha256": "b0296353e2e91a31a150345adafb7449c015e19626589aea4fbc25795eefe86d"
+    },
+    {
+      "path": "licensing/src/AASC/Core/Reference.lean",
+      "bytes": 4272,
+      "sha256": "c355992cc3d6f1bf8b2775a337b5a76191d0592e7146183de3021612fe6e8b82"
+    },
+    {
+      "path": "licensing/src/AASC/Core/RoleOccupancy.lean",
+      "bytes": 6026,
+      "sha256": "ab50e00eaffd977d753af239fc3340c63626b20539bc5ee1898c99ade0922e21"
+    },
+    {
+      "path": "licensing/src/AASC/Core/RoleOccupancyAction.lean",
+      "bytes": 13811,
+      "sha256": "4b879ea43742efcf31bb3d72a2c6caa4cae7f31166f92cedd41a26ba56730fb9"
+    },
+    {
+      "path": "licensing/src/AASC/Core/RoleOccupancyGeneration.lean",
+      "bytes": 8452,
+      "sha256": "33ed4ac9756b33dd4a7efec9339b01a262b1855a63c8ec59a9659137bcb74551"
+    },
+    {
+      "path": "licensing/src/AASC/Core/SameDomainRoutes.lean",
+      "bytes": 2260,
+      "sha256": "60c6c72e9a526360bf28acc1560243c774f5fc6dbf9f2dce1ae9f3730def6244"
+    },
+    {
+      "path": "licensing/src/AASC/Core/SameScope.lean",
+      "bytes": 2921,
+      "sha256": "4affafe11a77ef8643f2434e1589098c5a04dd851b651aba1c3745784e31cfec"
+    },
+    {
+      "path": "licensing/src/AASC/Core/Standing.lean",
+      "bytes": 2069,
+      "sha256": "43826cfeb5a2f89edcc293eb1381668f81abd12bda6058d8af0871d446773a66"
+    },
+    {
+      "path": "licensing/src/AASC/Core/TargetAdequacy.lean",
+      "bytes": 11987,
+      "sha256": "a60c74e45394ebcbdfbf6b157da689af9c5778739676dce213282b23908e2c48"
+    },
+    {
+      "path": "licensing/src/AASC/Instances/KernelPaper/CurrentLocus.lean",
+      "bytes": 4606,
+      "sha256": "b234caffe8b95541829cdb5c262e71785774866ae61381a9890ade7deff73ece"
+    },
+    {
+      "path": "licensing/src/AASC/Instances/KernelPaper/Endpoint.lean",
+      "bytes": 3120,
+      "sha256": "4f3528375208cb762ccccc46860f0da1129f92d5139c8e86316ed58d01e61413"
+    },
+    {
+      "path": "licensing/src/AASC/Instances/KernelPaper/FixedRole.lean",
+      "bytes": 3258,
+      "sha256": "f38bf2cdcd15c527843e34b984d3a2d9c6848e89ad7b98f7d042aa57eb44fda7"
+    },
+    {
+      "path": "licensing/src/AASC/Instances/KernelPaper/FixedRoleWitness.lean",
+      "bytes": 1093,
+      "sha256": "46fb529d010a7d91857d9526aa3c64ea54a50bc91dfd83a0e15bc770348142c2"
+    },
+    {
+      "path": "licensing/src/AASC/Instances/KernelPaper/Interaction.lean",
+      "bytes": 10495,
+      "sha256": "a9a84c26d44466d59589495d3877f612901cbc8a027f5bad5c94ce049ff112a4"
+    },
+    {
+      "path": "licensing/src/AASC/Instances/KernelPaper/Manuscript.lean",
+      "bytes": 25775,
+      "sha256": "fad657fba7f537d38d1a5700e277b2372c4494723029f9954faa4bb9e5de6d89"
+    },
+    {
+      "path": "licensing/src/AASC/Instances/KernelPaper/Model.lean",
+      "bytes": 5132,
+      "sha256": "9b651dd199e8636a04b5cff011406a83d900d659e1fa34aed06a0f98bdc3f8d1"
+    },
+    {
+      "path": "licensing/src/AASC/Instances/KernelPaper/RoleOccupancyClosure.lean",
+      "bytes": 4589,
+      "sha256": "c1e04d7f06e8bd09f699f7075a820f68582711feb504d61a2684ad2eacfefc79"
+    },
+    {
+      "path": "licensing/src/AASC/Instances/KernelPaper/Witness.lean",
+      "bytes": 6789,
+      "sha256": "097e25b6d335f36e350c7fedc47311d769359a66c91bfb8b3c9029679e59693e"
+    },
+    {
+      "path": "licensing/src/AMetricMetricUseRestrictions.lean",
+      "bytes": 8794,
+      "sha256": "165bd92b5b8941aa5e0007df0a9414abdf3a9cb741d2e55f69025f7b5f3ec230"
+    },
+    {
+      "path": "licensing/src/CanonicalMetricLicensing.lean",
+      "bytes": 238,
+      "sha256": "d7417d5566eecd7cbbaec4ffa32398fb363c72a12af294f1be80c246e4a79def"
+    },
+    {
+      "path": "licensing/src/CompletedConeClock.lean",
+      "bytes": 5150,
+      "sha256": "4c3d84f62c84deb0c57d3bc826d86b22d6b0637c5fd72b4ecf38b596e281d5b9"
+    },
+    {
+      "path": "licensing/src/FiniteRestClockSeparation.lean",
+      "bytes": 4865,
+      "sha256": "43f0f92ce84097b3ee1959af43d2ae1ed57f6bb415bcd44593173ff8bf6d68da"
+    },
+    {
+      "path": "licensing/src/KernelReference/Authorization.lean",
+      "bytes": 15022,
+      "sha256": "70ce7a1d4eff02d60d259bd36a055b19dda927d0e8b81178d2b93e54161bba4e"
+    },
+    {
+      "path": "licensing/src/KernelReference/ContextualQuotient.lean",
+      "bytes": 13878,
+      "sha256": "030ebd5a72b72e9a4ccf483f2422584414e33cbad95a398c72de656ef0bcc9dc"
+    },
+    {
+      "path": "licensing/src/KernelReference/DependentConservation.lean",
+      "bytes": 6924,
+      "sha256": "f37ff06cfbb5810dcc10ea857dec6175b8eaeb371be09ad13a929d8278efb6c0"
+    },
+    {
+      "path": "licensing/src/KernelReference/EqualityPatterns.lean",
+      "bytes": 11778,
+      "sha256": "93c9cfb5ccfe650943ef5e41bf6c657f3407e9e7951cd94bff85e41f3ade1eec"
+    },
+    {
+      "path": "licensing/src/KernelReference/Foundation.lean",
+      "bytes": 18355,
+      "sha256": "9dd56f579176f0b5f53cc09f9194bfb5bea73989ba740c1d94fe8b853df62571"
+    },
+    {
+      "path": "licensing/src/KernelReference/IncidenceNecessity.lean",
+      "bytes": 16634,
+      "sha256": "818be60bbc395d1d3f62814692978b01a6afaf427a60a2c03b95b11bd5fb7d00"
+    },
+    {
+      "path": "licensing/src/KernelReference/NecessityRealization.lean",
+      "bytes": 23191,
+      "sha256": "8e923c7954df02dbc083a1206049e7033803b5e387fff1bd92bbbd1fab5637f3"
+    },
+    {
+      "path": "licensing/src/KernelReference/ObjecthoodNecessity.lean",
+      "bytes": 8040,
+      "sha256": "a04b7d6532a708c9419156b46dc5a3f612b47ca58e062af267f34747a7ba6ceb"
+    },
+    {
+      "path": "licensing/src/MetricityCanonicalLicensingInterface.lean",
+      "bytes": 10097,
+      "sha256": "7ad148ebe049b111cd88793ccd186e3ecfa593860017416e573969081c4ec432"
+    },
+    {
+      "path": "licensing/src/MetricityLicensingSemanticChecks.lean",
+      "bytes": 4962,
+      "sha256": "9b401f4e10058319c1f7069b48a4d4045c9d753007db806790fd99ebf06d805f"
+    },
+    {
+      "path": "licensing/src/MetricityOriginalClockAssembly.lean",
+      "bytes": 9949,
+      "sha256": "9ab22118af67f689ea2758e5717d016876c4e76b996064cb0c303a0578757dd8"
+    },
+    {
+      "path": "licensing/src/MetricityOriginalClockLicenseReceipt.lean",
+      "bytes": 4161,
+      "sha256": "b64175a35e08c43ec19532cd8a69e2655188db590ce7fbd53aff34b763483a86"
+    },
+    {
+      "path": "licensing/src/MetricityOriginalOrderScope.lean",
+      "bytes": 5943,
+      "sha256": "50fc862f78a31f9c788bb13f4ec461d2ed5f104962cc94d9088ce8da20231938"
+    },
+    {
+      "path": "licensing/src/MetricityOriginalUseAssembly.lean",
+      "bytes": 14588,
+      "sha256": "25a3c93cfc73c3c3c2db84d1f6cbfc44c333fc8c70679314d351c71e444c1882"
+    },
+    {
+      "path": "licensing/src/SourceReachConstruction.lean",
+      "bytes": 8109,
+      "sha256": "a3426844c962fc05c71b767f8ad7b666faca6ec0133988e2ee4b7d9560993ade"
+    },
+    {
+      "path": "licensing/src/SRBodyCovarianceInvariant.lean",
+      "bytes": 7192,
+      "sha256": "e179383dc481bea168500ef7df16048e86709b3b0b8d2269c72be8750518603e"
+    },
+    {
+      "path": "licensing/src/SRBodyCovariancePositive.lean",
+      "bytes": 4766,
+      "sha256": "baf2d0dd3a09fc9d1402fec48898c32fff30f14caebc5fd93e676055dbf1988a"
+    },
+    {
+      "path": "licensing/src/SRConeClockBody.lean",
+      "bytes": 4938,
+      "sha256": "9ee2445c044a1e97ac0471be89cdad1a1f16ac0d0c326c14a09ad51fd7878bbc"
+    },
+    {
+      "path": "licensing/src/SRConstructedIntervalCalibration.lean",
+      "bytes": 3122,
+      "sha256": "a9e330ba4d171a1d3dc4fda526a7c34afa7daf4660624520a4705fec287af235"
+    },
+    {
+      "path": "licensing/src/SRIsotropicBodyRadial.lean",
+      "bytes": 4175,
+      "sha256": "ae88bdc4722e0d45d475f8016b24a6f4310d17ae2c3f39225fc4a501c0ed06f0"
+    },
+    {
+      "path": "licensing/src/SRLorentzConeReconstruction.lean",
+      "bytes": 6958,
+      "sha256": "2bab3528e4e3d8554ab3726ba2681a3430b4cf9ac5491aad5397e230c273c1a0"
+    },
+    {
+      "path": "licensing/src/SRLorentzNondegeneracy.lean",
+      "bytes": 3678,
+      "sha256": "b11cba2c6677801e0c357622e5501ad6b3fc2e535fcc547cf4d0635617c5c3ab"
+    },
+    {
+      "path": "licensing/src/SRNativeClockLicensing.lean",
+      "bytes": 5684,
+      "sha256": "8f9a30c350783fa05f3bfd3546b87b00649716745cb9a6b4aab15f2380f7bd6c"
+    },
+    {
+      "path": "licensing/src/SRNativeCoastingClockSource.lean",
+      "bytes": 7012,
+      "sha256": "f9c483f5fc14f216def3d9e17dfcfc0dc8918f30e8d77ac0f2fcc080591092a8"
+    },
+    {
+      "path": "licensing/src/SRNativeFiniteReflectionProtocol.lean",
+      "bytes": 7002,
+      "sha256": "d26ef43db7bf7c6eaad4232a0d00444d439747f32b02724714c9283de8eac60b"
+    },
+    {
+      "path": "licensing/src/SROccupiedIsotropicRaySource.lean",
+      "bytes": 7087,
+      "sha256": "cf38f04231708b828bdc66977a13499c8513b5d2f801faf9cca1f2d60d7b7e60"
+    },
+    {
+      "path": "licensing/src/SROccupiedRayReach.lean",
+      "bytes": 4799,
+      "sha256": "0e027ed5a666faa32a1ac580137e23383678da7613642e1116682d9dd2420e1b"
+    },
+    {
+      "path": "licensing/src/SRRaySourceConstructedForm.lean",
+      "bytes": 3614,
+      "sha256": "92341bbbbe7dd1d71c33ddbe624448696fa17e76ae2cbaa4886e314c3dbcd178"
+    },
+    {
+      "path": "licensing/src/SRSourceConeLineage.lean",
+      "bytes": 8238,
+      "sha256": "2c48ba6377401dbf1e20d2383d7fe6b82ac94b4751b59d40ecf9050dbe5d0212"
+    },
+    {
+      "path": "licensing/src/SRSpatialCoordinateIndependence.lean",
+      "bytes": 3665,
+      "sha256": "95d63eb1140b95c1dfdf32480e7807541947551b0edd12cce215652ee3f7ed16"
+    },
+    {
+      "path": "licensing/src/SRSpatialQuadraticConstruction.lean",
+      "bytes": 5107,
+      "sha256": "6c13f1e20b05b713d985d952b1e3caf8f6ae5fedfa2741cc231982c868d50830"
+    },
+    {
+      "path": "manifests/dynamics-sources.json",
+      "bytes": 240840,
+      "sha256": "8b16f3863d1c28b854a56f489525179eedf2f1569d71e53383d886abb7d97a6e"
+    },
+    {
+      "path": "manifests/licensing-sources.json",
+      "bytes": 20196,
+      "sha256": "4d40f038ea32b1729c6186717f898b1d98fefb168cf7b7250fbae773c45ba453"
+    },
+    {
+      "path": "manifests/shared-sources.json",
+      "bytes": 428,
+      "sha256": "f8d355120c3a8c2f52324bf20a836525dbb62237b7f93e3c6c58d93ecaa69530"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 702,
+      "sha256": "f0a59afaa9dcfb714bd10202bfa77038d9d7f6f9fa8b71652670319226780e1f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4715,
+      "sha256": "1d2c5dcf551ed11bc7013a9705141ef3f6b0807a9c1f2007df9fd1f6c4df86ba"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 2778,
+      "sha256": "8480e6dfaed4708dde2829d9f16378375993cdf0c5b43d4b373ee0f56ed673cc"
+    },
+    {
+      "path": "scripts/verify_export.py",
+      "bytes": 1186,
+      "sha256": "240db6f6f759460d9692852c2eac68fb3fbb422b16cbe26ccfc088d3d64a7234"
+    },
+    {
+      "path": "TRUST.md",
+      "bytes": 1819,
+      "sha256": "feb88f4b400559f58ed06b67ab071154e872b0dcff823edf1b9709e33eb788b7"
+    }
+  ]
+}

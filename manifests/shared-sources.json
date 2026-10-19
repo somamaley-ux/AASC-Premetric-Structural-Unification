@@ -1,0 +1,17 @@
+{
+  "modules": [
+    "AASC.Core.Continuation",
+    "AASC.Core.DeterminateObjecthood",
+    "AASC.Core.EndpointUse",
+    "AASC.Core.Incidence",
+    "AASC.Core.Irreversibility",
+    "AASC.Core.Kernel",
+    "AASC.Core.KernelNecessity",
+    "AASC.Core.Reference",
+    "AASC.Core.SameScope",
+    "AASC.Core.Standing",
+    "KernelReference.ContextualQuotient"
+  ],
+  "identical_source_bytes": true,
+  "separate_proof_closures": true
+}

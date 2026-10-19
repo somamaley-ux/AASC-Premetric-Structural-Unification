@@ -1,0 +1,13 @@
+name = "CanonicalMetricLicensing"
+version = "0.1.0"
+defaultTargets = ["CanonicalMetricLicensing"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "8f9d9cff6bd728b17a24e163c9402775d9e6a365"
+
+[[lean_lib]]
+name = "CanonicalMetricLicensing"
+srcDir = "src"
+roots = ["CanonicalMetricLicensing", "AMetricMetricUseRestrictions", "KernelReference.ObjecthoodNecessity", "KernelReference.IncidenceNecessity", "KernelReference.Foundation", "AASC.Core.DeterminateObjecthood", "AASC.Core.EndpointUse", "AASC.Core.Continuation", "AASC.Core.Standing", "AASC.Core.Reference", "AASC.Core.Kernel", "AASC.Core.Incidence", "AASC.Core.KernelNecessity", "AASC.Core.Irreversibility", "AASC.Core.SameScope", "AASC.Instances.KernelPaper.Manuscript", "AASC.Core.TargetAdequacy", "AASC.Core.BoundaryClosure", "AASC.Core.SameDomainRoutes", "AASC.Core.ExhaustionStrength", "AASC.Core.AmetricIdentityBoundary", "AASC.Instances.KernelPaper.Witness", "AASC.Instances.KernelPaper.Endpoint", "AASC.Instances.KernelPaper.Interaction", "AASC.Core.Exhaustion", "AASC.Instances.KernelPaper.Model", "AASC.Instances.KernelPaper.CurrentLocus", "AASC.Instances.KernelPaper.RoleOccupancyClosure", "AASC.Core.RoleOccupancyGeneration", "AASC.Core.RoleOccupancyAction", "AASC.Core.RoleOccupancy", "AASC.Core.ConstraintClosure", "AASC.Core.ConstraintResidue", "AASC.Instances.KernelPaper.FixedRoleWitness", "AASC.Instances.KernelPaper.FixedRole", "KernelReference.NecessityRealization", "KernelReference.Authorization", "KernelReference.DependentConservation", "KernelReference.EqualityPatterns", "MetricityOriginalUseAssembly", "MetricityCanonicalLicensingInterface", "MetricityOriginalOrderScope", "KernelReference.ContextualQuotient", "MetricityOriginalClockAssembly", "MetricityOriginalClockLicenseReceipt", "SRNativeClockLicensing", "SRNativeFiniteReflectionProtocol", "SRNativeCoastingClockSource", "SRRaySourceConstructedForm", "SROccupiedIsotropicRaySource", "SROccupiedRayReach", "SourceReachConstruction", "FiniteRestClockSeparation", "CompletedConeClock", "SRSourceConeLineage", "SRLorentzNondegeneracy", "SRLorentzConeReconstruction", "SRConeClockBody", "SRSpatialCoordinateIndependence", "SRSpatialQuadraticConstruction", "SRBodyCovarianceInvariant", "SRBodyCovariancePositive", "SRIsotropicBodyRadial", "SRConstructedIntervalCalibration", "MetricityLicensingSemanticChecks"]

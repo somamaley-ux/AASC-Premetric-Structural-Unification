@@ -1,0 +1,365 @@
+[
+  {
+    "axioms": [],
+    "module": "AASC.Core.KernelNecessity",
+    "name": "AASC.kernel_necessity"
+  },
+  {
+    "axioms": [],
+    "module": "AASC.Core.KernelNecessity",
+    "name": "AASC.kernel_necessity_of_partialReference"
+  },
+  {
+    "axioms": [],
+    "module": "AASC.Core.DeterminateObjecthood",
+    "name": "AASC.IncidenceSystem.determinateNondegenerateObjecthood"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "module": "KernelReference.ContextualQuotient",
+    "name": "AASC.KernelReference.ContextualQuotient.classify_eq_iff"
+  },
+  {
+    "axioms": [
+      "Quot.sound"
+    ],
+    "module": "KernelReference.ContextualQuotient",
+    "name": "AASC.KernelReference.ContextualQuotient.unique_factorization"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGMassShell",
+    "name": "AASCKleinGordon.Parameters"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGFamilyNondegeneracy",
+    "name": "AASCKleinGordon.W9.RawRegisteredOrbit.objecthood_of_execution_failure"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGFamilyNondegeneracy",
+    "name": "AASCKleinGordon.kg_family_kernel_objecthood"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGConstraintStandingSource",
+    "name": "AASCKleinGordon.KGSpecificRawQP"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGConstraintStandingSource",
+    "name": "AASCKleinGordon.KGSpecificStandingSource"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGConstraintStandingSource",
+    "name": "AASCKleinGordon.kg_specific_raw_to_standing_source"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGConstraintStandingSource",
+    "name": "AASCKleinGordon.kg_constraint_first_standing_source"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGPreparedOriginalSource",
+    "name": "AASCKleinGordon.kg_prepared_original_source_ledger_exact"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGPreparedOriginalSource",
+    "name": "AASCKleinGordon.kg_prepared_original_all_first_tests"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalRestrictedResponseDescent",
+    "name": "AASCKleinGordon.restricted_original_response_comparison_exact"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalRestrictedResponseDescent",
+    "name": "AASCKleinGordon.restricted_original_response_receive_bijective"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalRestrictedResponseDescent",
+    "name": "AASCKleinGordon.restricted_original_response_continuation_square"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalEHMetricActGeometry",
+    "name": "AASCKleinGordon.original_eh_act_metric_frame"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalEHMetricActGeometry",
+    "name": "AASCKleinGordon.original_eh_act_metric_lorentz"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalRestrictedEHSource",
+    "name": "AASCKleinGordon.restricted_eh_prepared_coverage"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalRestrictedEHSource",
+    "name": "AASCKleinGordon.restricted_eh_actual_derivative"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalRestrictedEHSource",
+    "name": "AASCKleinGordon.restricted_eh_original_failure_retained"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalRestrictedEHKernelReceiving",
+    "name": "AASCKleinGordon.restricted_eh_raw_kernel_coverage"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalRestrictedEHKernelReceiving",
+    "name": "AASCKleinGordon.restricted_eh_kernel_same_metric_representation"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalRestrictedEHKernelReceiving",
+    "name": "AASCKleinGordon.restricted_original_eh_kernel_einstein_receiving"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "EinsteinOriginalCurvatureResponse",
+    "name": "AASCSemanticExhaustion.original_curvature_general_response_has_unique_einstein_form"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalEHGeometricCore",
+    "name": "AASCSemanticExhaustion.eh_original_geometric_response_regular_core"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalEHGeometricCore",
+    "name": "AASCSemanticExhaustion.eh_original_geometric_general_closure"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "OriginalEHGeometricCore",
+    "name": "AASCSemanticExhaustion.eh_original_geometric_full_envelope_active"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGNRFreeReceivingAssembly",
+    "name": "AASCKleinGordon.kg_nr_free_receiving_ssq1"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGNRFreeReceivingAssembly",
+    "name": "AASCKleinGordon.kg_nr_free_receiving_exact_graph"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGNRReceivingCertificate",
+    "name": "AASCKleinGordon.KGNRReceivingQS"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGNRReceivingCertificate",
+    "name": "AASCKleinGordon.kg_nr_receiving_qs_constructed"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGNRFreeSSQ1",
+    "name": "AASCKleinGordon.KGScalarSSQ1Witness"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGNRFreeSSQ1",
+    "name": "AASCKleinGordon.SameScopeQuantumSpatial1"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGScalarFreeComparator",
+    "name": "AASCKleinGordon.KGScalarFreeComparator"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGScalarComparatorFourier",
+    "name": "AASCKleinGordon.KGFreeAnchoredDispersionAt"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGScalarComparatorFourier",
+    "name": "AASCKleinGordon.KGFreeInertialDispersion"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGScalarComparatorFourier",
+    "name": "AASCKleinGordon.kg_free_calibrated_comparator_eq"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGScalarComparatorFourier",
+    "name": "AASCKleinGordon.kg_nr_free_comparator_inertial_dispersion"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGS36FreeComparatorAssembly",
+    "name": "AASCKleinGordon.kg_source_free_s36_comparator_endpoint"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "module": "KGS36FreeComparatorAssembly",
+    "name": "AASCKleinGordon.kg_calibrated_free_comparator_exact_generator"
+  }
+]
