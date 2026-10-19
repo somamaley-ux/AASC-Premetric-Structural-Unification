@@ -1,0 +1,32 @@
+{
+  "module": "KGLicensedEHReceiver",
+  "returncode": 0,
+  "source_sha256": "4d639893f6dad51323498b3f1e3c6dd48de94bfcf6f12be9bb957ba9d5404034",
+  "object_sha256": "ae95c6f6d2d01f26490a63359eb67936092fb677fadb69c01bd1b78df58e6dac",
+  "expected_object_sha256": "ae95c6f6d2d01f26490a63359eb67936092fb677fadb69c01bd1b78df58e6dac",
+  "object_byte_identical": true,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "lint_warning_count": 0,
+  "error_diagnostics": false,
+  "seconds": 21.891,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\KGLicensedEHReceiver.olean",
+    "KGLicensedEHReceiver.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "KGCanonicalMetricLicensing",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\KGCanonicalMetricLicensing.olean",
+      "sha256": "9d31453ba3549796afe28601286e89c03f74649cba8b650b2aad0581727b29f0"
+    },
+    {
+      "module": "OriginalRestrictedEHKernelReceiving",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\cache\\OriginalRestrictedEHKernelReceiving.olean",
+      "sha256": "a6998007e815a2400289a09c4c1c9ec7ca21ef850d2dd295bcf873670bbbfaaf"
+    }
+  ]
+}

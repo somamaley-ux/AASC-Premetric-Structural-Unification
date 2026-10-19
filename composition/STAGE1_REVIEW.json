@@ -1,0 +1,64 @@
+{
+  "outcome": "accepted_bounded_scope",
+  "scope": "Stage 1 only: actual restricted KG/EH current metric-use and complete reporting task, instantiated in the existing canonical licensing assembly.",
+  "reviewed_at_utc": "2026-10-19T04:44:01.641815+00:00",
+  "audit_receipt_sha256": "2dd349cdc232d624ac9351e5047d67171760c9b5a17e301892af17dc13ed43fb",
+  "input_sha256": {
+    "src/KGOriginalMetricUseSemantics.lean": "9fd9e3fcf8551972befacfc3627e04874d445ccef8d4bf7b1bc83aeea3fee291",
+    "src/KGCanonicalMetricLicensing.lean": "3da9033e5543b8e3ae37746214d5595626937b79b01ffa710c7c2249c1a51d3c",
+    "build/KGOriginalMetricUseSemantics.olean": "dd68367bd90b3cbd2ff584277da77674ab9eb1f01bc8844308d3a1d1583b8f32",
+    "build/KGCanonicalMetricLicensing.olean": "9d31453ba3549796afe28601286e89c03f74649cba8b650b2aad0581727b29f0",
+    "logs/KGOriginalMetricUseSemantics.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/KGCanonicalMetricLicensing.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "receipts/KGOriginalMetricUseSemantics.json": "b6e9ba69cad65642a3f3b383981aea6c1a8e07623daa0ffb7d6da69fbe4a2d2e",
+    "receipts/KGCanonicalMetricLicensing.json": "c3444c219ceb50488fde1ecea2b6beddce7068791e6c0b065eae995becaeba72",
+    "src/Stage1LicensingAudit.lean": "24b67cc596ec098d4854597cceef2e80c9b82c1b63a5372847f848ed194a458b",
+    "build/Stage1LicensingAudit.olean": "a7bed195b2d0cf63f5e3bf1a1f84ea9c13cbb7dddf10a98fc2af6a78ac87d73a",
+    "logs/Stage1LicensingAudit.log": "45a1dea1d5278bb80a4f8dbd7063381473bed2dd436fe0fd1e09f76313eea996",
+    "receipts/Stage1LicensingAudit.json": "2dd349cdc232d624ac9351e5047d67171760c9b5a17e301892af17dc13ed43fb",
+    "STAGE1_SPEC.md": "71e8f9fa2f3f3c87fdef5d1ca197ec0f99c27e143f45ec4c88e7829cc9d991fb",
+    "DEPENDENCIES.json": "b00c804be28f637ce6e8b6132e4122a3631daf7411be9700703253eb56ec2e53",
+    "compile_stage.py": "66d795b8d3ac967752821447bc2b845576b52353f641fa8c19972cf0841aed7f"
+  },
+  "blockers": [],
+  "checked_evidence": {
+    "mathematical_modules": 2,
+    "explicit_named_theorems": 16,
+    "compiled_selected_declarations_including_private_generated": 75,
+    "independent_official_collectAxioms_public_reports": 65,
+    "public_reports_by_module": {
+      "KGOriginalMetricUseSemantics": 35,
+      "KGCanonicalMetricLicensing": 30
+    },
+    "axiom_union": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "all_explicit_source_roots_present_in_exact_public_reports": true,
+    "selected_declaration_scan": "Inspected compiled audit source: rejects selected axioms, opaque/unsafe declarations and type/value sorry, before excluding private/internal details from public root reporting.",
+    "production_diagnostics": "Both mathematical build logs empty; audit log contains only 65 declaration reports and the two exact counts.",
+    "bindings": "Independently rehashed three receipt source/frozen-source/object/log triplets, installed copies, exact compiler commands, direct import hashes and first-resolved paths.",
+    "baseline": "Independently rehashed all 839 copied baseline sources and objects against DEPENDENCIES.json and checked their first-resolved paths; both pinned prior receipt hashes remain unchanged.",
+    "lean_executable_sha256": "6a66c4a5739fa17146b88ac81bab2bca1924806cac321ddad6b96006dde9c691",
+    "review_execution": "Ordinary file/hash inspection only; no compiler, audit, replay or supplied helper execution."
+  },
+  "substantive_findings": [
+    "RawMetricUseReadout is computed from the actual raw runner, original Option answers/failures and first failure, selected admitted operand, actual metric, finite EH action and every actual directional action readout. It does not receive a licensing or endpoint agreement field.",
+    "The all-finite-context ground is computed without RestrictedOriginalResponse or the coarser EH source-profile quotient. It intentionally retains the earlier independently justified preparation quotient as semantic data; it is not a claim that all component data are unquotiented raw vectors.",
+    "Exact profile equality is proved equivalent to the independently existing RestrictedRawProgramSame relation. Redescription preserves that ground; actual append changes the current state and satisfies run, context-reindexing and first-failure-retention warrants instead of an erroneous state-invariance requirement.",
+    "Qualification has an actual raw witness, original current admitted operand and registered successful self-comparison. Local EH admission is separately derived from the original compact neighborhood and kappa nonzero.",
+    "The nonempty all-history postfixed region is justified for the current admitted metric-use/reporting contract. Rejected operations remain represented and negative; this license does not assert that every attempted operation succeeds.",
+    "The fixed descriptor contains actual parameters/action/profile/comparison/continuation functions, not Einstein or Schrodinger conclusions. The final theorem genuinely invokes kernel_ametric_canonical_metric_licensing on the constructed task.",
+    "This is a concrete downstream receiving instance of the constraint-first canonical machinery. It does not infer the complete premetric constraint architecture from coisotropy, a metric or later physical output."
+  ],
+  "limitations": [
+    "Stage 1 acceptance does not accept the later EH receiver adapter, scalar licensing task or a composed connected endpoint; those require their own actual maps, domain restrictions and audited proofs.",
+    "The history language is exactly the retained observe/vary/frame grammar and its finite contexts. Frame is the accepted pulled-back redescription; scalar NR time evolution is not silently an EH append operation.",
+    "The fixed contract context and full-profile boundaryWork are the stated bounded task data. This does not identify every corpus R2 burden, boundary, standing, lawful joint process or original candidate, and adds no such coverage claim.",
+    "L5 is the generic non-override result for the task qualification incidence. It must not be restated as absence of qualification for a history merely because an underlying attempted execution failed; the separate original failure coordinates provide that negative report.",
+    "The canonical assembly licenses the supplied actual action/use contract; this theorem alone does not select the EH action or free scalar branch from bare Kernel premises, establish metric uniqueness, matter matching or a coupled spacetime solution.",
+    "Cached accepted local and external dependency binaries are reused. No new dependency source-to-binary rebuild, full-stage replay, public release or full-project completion is accepted."
+  ],
+  "endpoint_gates_closed": []
+}

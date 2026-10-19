@@ -1,60 +1,104 @@
 # Reproduction and source identity
 
-The accepted dynamics source closure consists of 786 modules, and the separate
-canonical licensing closure consists of 64 modules. The source manifests bind
-each exported file to its retained audited bytes. The verification script checks
-those identities and the 11 shared modules without installing anything or
-invoking Lean. It also verifies the repository export manifest.
+The public source union contains 839 distinct baseline modules (786 dynamics
+and 64 licensing, with 11 identical shared modules), ten composition production
+modules and four composition audit modules. Mathematical source bytes and
+retained evidence are preserved. The prior export manifest is retained exactly
+at `manifests/export-before-composition.json`.
 
-## Ordinary source build
+## Public source checks
 
-Both independent Lake projects declare Lean 4.28.0 and mathlib revision
-`8f9d9cff6bd728b17a24e163c9402775d9e6a365`. Their local source closures include
-the Kernel modules actually used, rather than substituting a newer public
-Kernel checkout. With an already configured Lean/Lake environment and compatible
-mathlib dependencies, build the two projects separately:
+With Python 3.11 or later, from the repository root:
 
 ```console
-cd dynamics
-lake build
+python scripts/verify_export.py
+python scripts/replay_composition.py --check-only
 ```
+
+These read-only checks verify repository file identities, the two original
+source closures, the composition's exact copied evidence, the 839-module source
+union, all direct import names and the 49-field proof assignment inventory.
+They do not invoke Lean, fetch dependencies or establish a fresh compilation.
+
+## Composition replay with relocated inputs
+
+`composition/EXPORT_BINDINGS.json` binds repository-relative source paths to
+accepted source/object hashes, direct imports and the external object boundary.
+The public runner takes explicit paths to an already existing Lean executable,
+baseline cache and ordered library roots. It never downloads or installs them.
 
 ```console
-cd licensing
-lake build
+python scripts/replay_composition.py --lean PATH_TO_LEAN --baseline-cache PATH_TO_839_OBJECT_CACHE --library-root FIRST_LIBRARY_ROOT --library-root NEXT_LIBRARY_ROOT --preflight
+python scripts/replay_composition.py --lean PATH_TO_LEAN --baseline-cache PATH_TO_839_OBJECT_CACHE --library-root FIRST_LIBRARY_ROOT --library-root NEXT_LIBRARY_ROOT --output NEW_NONEXISTENT_DIRECTORY
 ```
 
-Lake may obtain dependencies if they are not already available. Such an ordinary
-build is distinct from the retained offline replay and its imported-object audit.
-No new Lake build, dependency fetch or installation was performed to prepare
-this source export. The added Lake configurations and import-only entry points
-are not themselves part of the historical audit.
+Supply all external library roots in their declared namespace resolution order.
+The retained order is aesop, batteries, importGraph, LeanSearchClient, mathlib,
+NonDegenerateConstructionAndKernelOfAdmissibility, plausible, proofwidgets, Qq,
+then the Lean runtime library. The public binding manifest identifies the
+original root index for each external import. The runner checks actual
+namespace-first resolution and hashes; a similarly named different object is
+rejected. The input compiler hash is
+`6a66c4a5739fa17146b88ac81bab2bca1924806cac321ddad6b96006dde9c691`.
 
-## Exact retained Windows replay
+The default compilation reuses 839 verified baseline objects, freshly rebuilds
+the ten production modules and all four audits, checks object byte identity,
+audit report counts/axioms, the seven required proof dependencies and final
+input/output identities. Outputs and an explicit receipt go only to the new
+directory. Choose a location outside the sealed sources.
 
-The separately retained complete archive supplies its sealed package, copied
-Lean/library binaries and `audit-repair/` alongside `package/`. From that full
-archive's `audit-repair/` folder, using an existing Python 3.11 or later:
+`--full-local` rebuilds the 839 baseline sources too, in dependency order, while
+reusing the same compiler/library binaries. This mode has not been executed
+for the public export. Strict object identity is bound to the retained Windows
+runtime. Source relocation is distinct from a verified cross-platform build.
+
+## Executed exported-source relocation replay
+
+The public `scripts/replay_composition.py` was executed against the repository-relative source index, the existing pinned compiler/library roots and the 839-object baseline cache, with a new output directory outside the repository. Its exact command arguments, import resolutions, per-module hashes and counts are retained in [the packaging replay receipt](composition/packaging-replay/REPLAY_RECEIPT.json) and companion logs/receipts.
+
+All ten production modules and all four audits were freshly compiled. All fourteen objects were byte-identical to the accepted originals. The audits reproduced 252 compiled declaration checks, 230 public axiom reports, the seven required actual proof dependencies and 66,526 root-reachable constants. There were no errors and sixteen expected unused-proof-binder warnings. All 839 baseline objects and 183 external direct-import objects were hash-verified and reused; no baseline, compiler or external library rebuild was performed. This is a successful relocation of the source package within the existing Windows workspace, not an independent clean-machine or cross-platform build.
+
+## Retained verification evidence
+
+The original four composition stages audited 252 declarations, including
+private/generated declarations, with 230 exact public axiom reports. The
+retained successor replay in `composition/replay-001/REPLAY_RECEIPT.json`
+rebuilt ten new production modules and one connected audit, all eleven objects
+byte-identical, with sixteen disclosed unused-proof-binder warnings and no
+errors. It reused 839 hash-verified baseline objects and Lean/library binaries.
+Its reported 443.431 seconds covers the replay phase, excluding initial input
+verification/copying; it is not an end-to-end baseline/bootstrap timing.
+
+The unchanged `composition/replay_connected.py` and original receipts retain
+absolute historical paths. They document that workspace execution and expect
+its private cache/baseline sources/frozen attempts. They are not silently
+relocated executable commands or a self-contained runtime distribution.
+`COPY_PROVENANCE.json` lists the retained exact files and the compiled objects
+omitted from Git. The original private-status statements are dated evidence;
+they do not describe the availability of the newly published sources.
+
+## Original baseline source builds and full archive
+
+The original `dynamics/` and `licensing/` Lake projects retain Lean 4.28.0 and
+mathlib revision `8f9d9cff6bd728b17a24e163c9402775d9e6a365`. With an already
+configured compatible environment they may be built separately with
+`lake build` in each directory. Lake may fetch dependencies. No new Lake
+dependency resolution, download, install or compiler/library bootstrap was
+performed to prepare this export. Those two packaging entry points predate
+the new composition and remain distinct from its public replay runner.
+
+The separate original 2.79 GB archive contains the 786-module dynamics replay
+package, copied runtime/libraries and corrected `audit-repair/replay.py`.
+From that archive's `audit-repair/`, its retained commands are:
 
 ```console
 python -B -X utf8 replay.py --check
 python -B -X utf8 -u replay.py --run --work-dir C:\short\new-replay --jobs 2
 ```
 
-Choose a new, nonexistent work directory outside the sealed package. The
-corrected driver supersedes the original package README's command. The copies
-in `evidence/full-archive-audit-repair/` document that exact procedure but cannot
-run without the full archive's sealed package and dependencies. The archive was
-not unpacked or rebuilt while preparing this repository.
-
-The retained execution rebuilt all 786 local project modules, then corrected an
-inventory parser error and revalidated all source/object/import/log records.
-The original failed source and log remain preserved in the full artifact.
-The correction renamed an audit-local identifier; mathematical sources and
-imports were unchanged. The original audit driver did not pass. The receipt's
-507.588-second duration describes the resumed phase, not an end-to-end build.
-
-Original absolute paths in the unchanged provenance and audit records are
-historical locations. The relative source manifests are the repository's
-operational source index. Raw receipt hashes remain tied to the original
-artifact, and are not represented as hashes of a newly executed GitHub build.
+The copies under `evidence/full-archive-audit-repair/` require that full private
+archive. It does not contain a newly assembled portable runtime bundle of the
+composition. The original failed inventory-parser attempt remains preserved;
+the correction changed an audit-local identifier, leaving mathematical sources
+and imports unchanged. Its 507.588-second receipt describes the resumed phase.
+The archive was not unpacked, republished or rebuilt for this update.

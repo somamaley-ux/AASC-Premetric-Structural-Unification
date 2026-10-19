@@ -1,0 +1,34 @@
+{
+  "module": "Stage1LicensingAudit",
+  "source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\src\\Stage1LicensingAudit.lean",
+  "source_sha256": "24b67cc596ec098d4854597cceef2e80c9b82c1b63a5372847f848ed194a458b",
+  "frozen_source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\Stage1LicensingAudit\\001\\Stage1LicensingAudit.lean",
+  "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\Stage1LicensingAudit\\001\\Stage1LicensingAudit.olean",
+  "object_sha256": "a7bed195b2d0cf63f5e3bf1a1f84ea9c13cbb7dddf10a98fc2af6a78ac87d73a",
+  "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\Stage1LicensingAudit\\001\\Stage1LicensingAudit.log",
+  "log_sha256": "45a1dea1d5278bb80a4f8dbd7063381473bed2dd436fe0fd1e09f76313eea996",
+  "returncode": 0,
+  "seconds": 155.408,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\Stage1LicensingAudit\\001\\Stage1LicensingAudit.olean",
+    "Stage1LicensingAudit.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "KGCanonicalMetricLicensing",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\build\\KGCanonicalMetricLicensing.olean",
+      "sha256": "9d31453ba3549796afe28601286e89c03f74649cba8b650b2aad0581727b29f0"
+    },
+    {
+      "module": "Lean",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\lib\\lean\\Lean.olean",
+      "sha256": "11922eb6b028b8cdbe3c12b0af107e371a39f2431477455e6fd7f4f73cd5a47f"
+    }
+  ],
+  "dependency_objects_reused": true,
+  "prior_receipts_unchanged": true
+}

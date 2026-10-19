@@ -1,0 +1,68 @@
+{
+  "outcome": "accepted_bounded_scope",
+  "scope": "Stage 3 scalar task and receiver only: canonical licensing for the declared invariant-core NR task family and actual maps to retained original records, full spatial flow, operator graph/domain and calibrated comparator.",
+  "reviewed_at_utc": "2026-10-19T04:57:12.737323+00:00",
+  "audit_receipt_sha256": "5fe63bad24442f920fb1a1dba764158f1f8e4f51612ec47675aaa694b1184abf",
+  "input_sha256": {
+    "STAGE1_ACCEPTED.json": "434f7ae8f1465562139ca4bb1abd9eeaa0d42dbfc22b509f7f5b7499622bb284",
+    "STAGE1_REVIEW.json": "6f7128e0985e40a7cbe4458dfa11cefe7681804912906a4c75bfb7d3e637c5db",
+    "STAGE2_EH_REVIEW.json": "b1a770fa83439b77677936cd70ab86bb5d3558a79d9a7872aa4a10138b7e3255",
+    "DEPENDENCIES.json": "b00c804be28f637ce6e8b6132e4122a3631daf7411be9700703253eb56ec2e53",
+    "compile_stage.py": "66d795b8d3ac967752821447bc2b845576b52353f641fa8c19972cf0841aed7f",
+    "src/KGCanonicalScalarLicensing.lean": "0fc9544b5e1ab1e36796b6236725dfca0d918ff77b20abf0a6dca2a5be2da55b",
+    "build/KGCanonicalScalarLicensing.olean": "9778a80449c0ef775ff78afb914b317f5f1d82365f0d85a88a6ce2b29b0df866",
+    "logs/KGCanonicalScalarLicensing.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "receipts/KGCanonicalScalarLicensing.json": "ef7b4d444c0740e5f61661027ce1c232cebe356714e1c602785e7fb598ec0ec3",
+    "src/KGLicensedScalarReceiver.lean": "1a8c2d70390c07e1025e00a07bdf8320c4b2d7f504c2fed221c81409f8a72bb9",
+    "build/KGLicensedScalarReceiver.olean": "2b434ef09d9a5e71d5b8f75f642d4a752706d352bfcb80d15ecb4dafa4c8fd21",
+    "logs/KGLicensedScalarReceiver.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "receipts/KGLicensedScalarReceiver.json": "1e8503e0408981667b18c2d05f0747f3e0b1b0b9759cf624900ccb633161c0a4",
+    "src/Stage3ScalarAudit.lean": "7fec66b4aa64d9cd6ccf9db1c2e311099648b1c9dd8901960d20d3e19e0552e5",
+    "build/Stage3ScalarAudit.olean": "3121a26b262f562e5755779751b1decf222f24cc04f09e862d3787546bfcd425",
+    "logs/Stage3ScalarAudit.log": "61d1bb0b97f66979f8a19441ea4639b6df2657545979facdf28a1c395ba41846",
+    "receipts/Stage3ScalarAudit.json": "5fe63bad24442f920fb1a1dba764158f1f8e4f51612ec47675aaa694b1184abf"
+  },
+  "blockers": [],
+  "checked_evidence": {
+    "mathematical_modules": 2,
+    "explicit_named_theorems": 25,
+    "explicit_source_roots": 49,
+    "compiled_selected_declarations_including_private_generated": 80,
+    "independent_official_public_collectAxioms_reports": 70,
+    "public_reports_by_module": {
+      "KGCanonicalScalarLicensing": 37,
+      "KGLicensedScalarReceiver": 33
+    },
+    "axiom_union": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "source_root_coverage": "Every one of the 49 explicit theorem/definition/abbreviation/structure roots appears exactly once under its defining module in the 70-root official report set.",
+    "audit_policy": "Inspected Stage3ScalarAudit: all selected declarations including private/generated reject axiom/opaque/unsafe and type/value sorry; official collectAxioms independently audits each public non-internal root.",
+    "bindings": "Independently checked all three receipt source/frozen-source/object/log triplets, installed copies, exact compiler commands and direct import first-resolution paths/hashes; prior Stage 1 and EH review input bindings remain unchanged.",
+    "diagnostics": "Both mathematical production logs are empty. The audit log contains only declaration reports and exact count lines; no warning, error, PANIC or sorryAx.",
+    "dependency_policy": "Accepted pinned cached dependencies reused; no compiler, audit, replay or supplied helper was executed by this reviewer."
+  },
+  "substantive_findings": [
+    "For every fixed KGNRObject A, the original task uses actual nonzero invariant-core preparations, all registered execution and ledger questions with every real NR time offset, nonzero-scalar redescription and the actual NR unitary core flow.",
+    "Qualification is a witnessed original profile plus successful self-comparison after the actual isometric embedding into the existing original KG family. The separate local test uses the constructed receiving incidence, not an assumed license or dynamics certificate.",
+    "The postfixed region retains all declared time edges and scalar redescriptions. Its continuation warrant proves actual question reindexing, finite-word first-failure transport and the full spatial ray-evolution square using the accepted concrete flow.",
+    "The descriptor contains concrete parameters, original preparation embedding, complete output/reference functions, continuation, spatial projection and actual graph/domain/flow data. No desired law is supplied as a proof field. Graph/flow receipts identify this fixed descriptor data, while exact-generator, weak-graph and calibrated-comparator statements use retained proved analytic results.",
+    "The canonical receiver retains the actual preparation and descriptor. Presentation coverage and ray coverage are proved; original complete records and registered Option references are recovered through the actual source embedding.",
+    "Comparison is limited to the declared compatible KGNRArrow lifts. Regional query extension and finite tensor product source squares are proved on their actual maps, without claiming that arbitrary old arrows commute with NR time evolution.",
+    "The weak Laplacian graph, exact generator and calibrated comparator are attached to the actual operator read through the licensed descriptor. Calibration remains an explicit premise for other comparators.",
+    "The construction is derived using the Kernel and downstream Kernel-faithful machinery in the constraint-first direction. It does not infer a complete premetric architecture from phase geometry or choose a free Hamiltonian from structural admissibility alone."
+  ],
+  "limitations": [
+    "This review does not accept KGCommonLicensedPreparation, KGCommonLicensedEvolution, KGLicensedScalarEndpoint or any composed final root; their separate successful audit and exact bindings remain required.",
+    "licensed_scalar_state_coverage covers PhysicalRay(KGNRCarrier A), not every vector or ray in the completed spatial family Hilbert space. The full projection/flow square is asserted on its declared core image.",
+    "The scalar first-failure law concerns a finite word of registered questions and its time-reindexed evaluation. It is not a theorem that an append-only historical failed occurrence disappears or is repaired.",
+    "The timed repertoire is the accepted conservative NR question extension; it is not literal closure of all old extraction syntax, all corpus processes or arbitrary comparison arrows under NR pullback.",
+    "Finite algebraic tensor families and the stated compatible maps are retained; no completed tensor/full-Fock reduction or unrestricted all-model source coverage is established.",
+    "The fixed free operator, continuum carrier and physical constants are supplied by the retained concrete branch. Canonical licensing does not independently select them, establish general paper-level SSQ1 equivalence/exhaustion, or remove comparator calibration.",
+    "The separate scalar and EH tasks have not been identified as one complete interior or mutually commuting dynamics; no backreaction, quantum metric selection or coupled field solution follows.",
+    "No fresh dependency source-to-binary rebuild, full-stage replay, public release or whole-project completion is accepted."
+  ],
+  "endpoint_gates_closed": []
+}

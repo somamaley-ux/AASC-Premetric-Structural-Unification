@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "baseline_modules": 839,
+  "baseline_source_and_object_copies_and_originals_unchanged": true,
+  "stage1_sealed_files_unchanged": true,
+  "prior_receipts_unchanged": true,
+  "public_export_manifest_files_verified": 902,
+  "public_export_manifest_sha256": "255e4c9d13b5c107eb5edb9cfabc6224ba55a220f26dd0abc677f319fa49d8dd",
+  "public_export_files_unchanged": true,
+  "git_head_or_status_reverified": false,
+  "git_qualification": "Content identity checked against the retained export manifest; no new Git command or repository mutation."
+}

@@ -1,0 +1,278 @@
+[
+  {
+    "field": "receipt_current_metric_use_constructs_kernel_and_canonical_license",
+    "module": "KGCanonicalMetricLicensing",
+    "theorem": "current_metric_use_constructs_kernel_and_canonical_license",
+    "extra": ""
+  },
+  {
+    "field": "receipt_receiver_has_actual_canonical_license",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "receiver_has_actual_canonical_license",
+    "extra": ""
+  },
+  {
+    "field": "receipt_present_licensed_history_surjective",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "present_licensed_history_surjective",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_readout_square",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "licensed_readout_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_response_coverage",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "licensed_response_coverage",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_source_profile_coverage",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "licensed_source_profile_coverage",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_response_continuation_square",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "licensed_response_continuation_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_readout_continuation_square",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "licensed_readout_continuation_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_metric_square",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "licensed_metric_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_action_square",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "licensed_action_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_directional_action_square",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "licensed_directional_action_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_original_answer_square",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "licensed_original_answer_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_original_first_failure_square",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "licensed_original_first_failure_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_eh_source_is_original_directional_action",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "licensed_eh_source_is_original_directional_action",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_eh_same_metric_representation",
+    "module": "KGLicensedEHReceiver",
+    "theorem": "licensed_eh_same_metric_representation",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_original_failure_square",
+    "module": "KGLicensedEHFailure",
+    "theorem": "licensed_original_failure_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_rejected_metric_request_stays_failed",
+    "module": "KGLicensedEHFailure",
+    "theorem": "licensed_rejected_metric_request_stays_failed",
+    "extra": ""
+  },
+  {
+    "field": "receipt_scalar_use_constructs_kernel_and_canonical_license",
+    "module": "KGCanonicalScalarLicensing",
+    "theorem": "scalar_use_constructs_kernel_and_canonical_license",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_every_original_scalar_has_canonical_license",
+    "module": "KGCanonicalScalarLicensing",
+    "theorem": "every_original_scalar_has_canonical_license",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_present_licensed_scalar_surjective",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "present_licensed_scalar_surjective",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_meaning_exact",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_meaning_exact",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_state_coverage",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_state_coverage",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_old_reference_square",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_old_reference_square",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_old_complete_record",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_old_complete_record",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_continuation_reference",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_continuation_reference",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_continuation_first_failure",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_continuation_first_failure",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_full_continuation_square",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_full_continuation_square",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_comparison_reference",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_comparison_reference",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_region_reference",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_region_reference",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_tensor_original_square",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_tensor_original_square",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_domain_graph_receipt",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_domain_graph_receipt",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_full_flow_receipt",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_full_flow_receipt",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_exact_generator",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_exact_generator",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_complete_weak_graph",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_complete_weak_graph",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_calibrated_comparator",
+    "module": "KGLicensedScalarReceiver",
+    "theorem": "licensed_scalar_calibrated_comparator",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_free_ssq1",
+    "module": "KGLicensedScalarEndpoint",
+    "theorem": "licensed_scalar_free_ssq1",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_reference_dispersion",
+    "module": "KGLicensedScalarEndpoint",
+    "theorem": "licensed_scalar_reference_dispersion",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_zero_potential_full_domain",
+    "module": "KGLicensedScalarEndpoint",
+    "theorem": "licensed_scalar_zero_potential_full_domain",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_licensed_scalar_ssq1_comparator",
+    "module": "KGLicensedScalarEndpoint",
+    "theorem": "licensed_scalar_ssq1_comparator",
+    "extra": "(A : KGNRObject a)"
+  },
+  {
+    "field": "receipt_common_original_preparation_square",
+    "module": "KGCommonLicensedPreparation",
+    "theorem": "common_original_preparation_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_common_original_metric_operand_square",
+    "module": "KGCommonLicensedPreparation",
+    "theorem": "common_original_metric_operand_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_common_original_metric_source_record_square",
+    "module": "KGCommonLicensedPreparation",
+    "theorem": "common_original_metric_source_record_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_common_original_registered_reference_square",
+    "module": "KGCommonLicensedPreparation",
+    "theorem": "common_original_registered_reference_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_licensed_scalar_evolved_original_preparation",
+    "module": "KGCommonLicensedEvolution",
+    "theorem": "licensed_scalar_evolved_original_preparation",
+    "extra": ""
+  },
+  {
+    "field": "receipt_common_evolved_original_preparation_square",
+    "module": "KGCommonLicensedEvolution",
+    "theorem": "common_evolved_original_preparation_square",
+    "extra": ""
+  },
+  {
+    "field": "receipt_common_preparation_covers_declared_core",
+    "module": "KGCommonLicensedEvolution",
+    "theorem": "common_preparation_covers_declared_core",
+    "extra": ""
+  }
+]

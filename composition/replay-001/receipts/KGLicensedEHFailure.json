@@ -1,0 +1,29 @@
+{
+  "module": "KGLicensedEHFailure",
+  "returncode": 0,
+  "source_sha256": "3a975002981fe54ae3fbbbf542909abfc42aa6cc24d8dcf458264f62cf24404e",
+  "object_sha256": "c04a98a9c8afffe9b5968289ddb00f917dd0e5d8eb92a0655dbcbf704a271921",
+  "expected_object_sha256": "c04a98a9c8afffe9b5968289ddb00f917dd0e5d8eb92a0655dbcbf704a271921",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "object_byte_identical": true,
+  "seconds": 21.612,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\replay-001\\build\\KGLicensedEHFailure.olean",
+    "KGLicensedEHFailure.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "KGLicensedEHReceiver",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\replay-001\\build\\KGLicensedEHReceiver.olean",
+      "sha256": "ae95c6f6d2d01f26490a63359eb67936092fb677fadb69c01bd1b78df58e6dac"
+    }
+  ],
+  "error_diagnostics": false,
+  "lint_warning_count": 0,
+  "expected_lint_warning_count": 0,
+  "warnings_match_expected": true
+}

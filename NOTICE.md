@@ -1,7 +1,8 @@
 # Source and dependency notices
 
 The exported mathematical sources retain their original bytes and any embedded
-notices. `dynamics/` and `licensing/` are separate audited source closures.
+notices. `dynamics/` and `licensing/` retain their separate baseline audits;
+`composition/` supplies the subsequently audited connecting proof and receivers.
 The original Kernel provenance is recorded in the retained manifests and source
 records; no later public Kernel edition replaces those bytes.
 

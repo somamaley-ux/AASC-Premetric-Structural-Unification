@@ -1,0 +1,29 @@
+{
+  "module": "KGCommonLicensedEvolution",
+  "source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\src\\KGCommonLicensedEvolution.lean",
+  "source_sha256": "2fa8f01b908c99d4a45faf997f8fb1ed637c4c01dec57c301f2076614a6be062",
+  "frozen_source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\KGCommonLicensedEvolution\\002\\KGCommonLicensedEvolution.lean",
+  "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\KGCommonLicensedEvolution\\002\\KGCommonLicensedEvolution.olean",
+  "object_sha256": "4d44c443ff3e172386854399fc62da23dce2f1a85899d08b0796cef82810f000",
+  "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\KGCommonLicensedEvolution\\002\\KGCommonLicensedEvolution.log",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "returncode": 0,
+  "seconds": 23.377,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\KGCommonLicensedEvolution\\002\\KGCommonLicensedEvolution.olean",
+    "KGCommonLicensedEvolution.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "KGCommonLicensedPreparation",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\build\\KGCommonLicensedPreparation.olean",
+      "sha256": "cc06d7fb474c591cc97dfd723da618e6a0ab028d86cd283f9a14638bf0064ae8"
+    }
+  ],
+  "dependency_objects_reused": true,
+  "prior_receipts_unchanged": true
+}

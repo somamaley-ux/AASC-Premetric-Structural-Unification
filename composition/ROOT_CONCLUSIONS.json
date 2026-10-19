@@ -1,0 +1,394 @@
+{
+  "root": "AASCKleinGordon.CanonicalLicensing.kernel_faithful_canonical_licensing_to_eh_and_free_schrodinger",
+  "source": "composition/src/KernelFaithfulLicensedEndpoints.lean",
+  "source_sha256": "191f4e2cf9aee99667587feca217e1a0947faece14e4e1bfaeb42883f0146cd4",
+  "field_count": 49,
+  "conclusions": [
+    {
+      "field": "constraint_first_source",
+      "declared_type": "constraint_first_source : KGSpecificStandingSource a s Ω",
+      "proof_assignment": "constraint_first_source := kg_constraint_first_standing_source a s Ω",
+      "source_line": 24
+    },
+    {
+      "field": "current_free_receiving",
+      "declared_type": "current_free_receiving : KGNRReceivingQS a s Ω",
+      "proof_assignment": "current_free_receiving := kg_nr_receiving_qs_constructed a s Ω",
+      "source_line": 25
+    },
+    {
+      "field": "geometric_einstein_receiving",
+      "declared_type": "geometric_einstein_receiving : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0),\n    (∃! ac : ℝ × ℝ, ac.1 ≠ 0 ∧\n      CoordinateEinsteinResponseForm (originalEHGeometricResponse κ Λ) ac.1 ac.2)",
+      "proof_assignment": "geometric_einstein_receiving κ Λ coupling :=\n    (restricted_original_eh_kernel_einstein_receiving a s Ω κ Λ coupling).2",
+      "source_line": 26
+    },
+    {
+      "field": "receipt_current_metric_use_constructs_kernel_and_canonical_license",
+      "declared_type": "receipt_current_metric_use_constructs_kernel_and_canonical_license : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0),\n    let D := originalMetricTask a s Ω κ Λ\n    AASC.Instances.KernelPaper.Manuscript.DerivedKernelRoles\n      (ObjecthoodNecessity.canonicalRegime (originalIncidence D)) ∧\n    AASCAMetricMetricUse.AMetricLicensingDiscipline ∧\n    FiveLicensingConclusions D ∧\n    (∀ h, constructedLicensing D h (originalMetricUseMeaning a s Ω κ Λ))",
+      "proof_assignment": "receipt_current_metric_use_constructs_kernel_and_canonical_license := current_metric_use_constructs_kernel_and_canonical_license a s Ω",
+      "source_line": 30,
+      "proved_in_module": "KGCanonicalMetricLicensing",
+      "proved_by": "current_metric_use_constructs_kernel_and_canonical_license"
+    },
+    {
+      "field": "receipt_receiver_has_actual_canonical_license",
+      "declared_type": "receipt_receiver_has_actual_canonical_license : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedMetricReceiver a s Ω κ Λ),\n    constructedLicensing (originalMetricTask a s Ω κ Λ) (licensedHistory a s Ω r)\n      (originalMetricUseMeaning a s Ω κ Λ)",
+      "proof_assignment": "receipt_receiver_has_actual_canonical_license := receiver_has_actual_canonical_license a s Ω",
+      "source_line": 38,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "receiver_has_actual_canonical_license"
+    },
+    {
+      "field": "receipt_present_licensed_history_surjective",
+      "declared_type": "receipt_present_licensed_history_surjective : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0),\n    Function.Surjective (presentLicensedHistory a s Ω κ Λ coupling)",
+      "proof_assignment": "receipt_present_licensed_history_surjective := present_licensed_history_surjective a s Ω",
+      "source_line": 43,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "present_licensed_history_surjective"
+    },
+    {
+      "field": "receipt_licensed_readout_square",
+      "declared_type": "receipt_licensed_readout_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedMetricReceiver a s Ω κ Λ) (ops : List (PreparedHistoryOperation a Ω)),\n    licensedReadout a s Ω r ops = rawMetricUseProfile a s Ω κ Λ (licensedHistory a s Ω r) ops",
+      "proof_assignment": "receipt_licensed_readout_square := licensed_readout_square a s Ω",
+      "source_line": 46,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "licensed_readout_square"
+    },
+    {
+      "field": "receipt_licensed_response_coverage",
+      "declared_type": "receipt_licensed_response_coverage : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0),\n    Function.Surjective (licensedEHResponse a s Ω (κ := κ) (Λ := Λ))",
+      "proof_assignment": "receipt_licensed_response_coverage := licensed_response_coverage a s Ω",
+      "source_line": 50,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "licensed_response_coverage"
+    },
+    {
+      "field": "receipt_licensed_source_profile_coverage",
+      "declared_type": "receipt_licensed_source_profile_coverage : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0),\n    Function.Surjective (licensedEHSourceProfile a s Ω (κ := κ) (Λ := Λ))",
+      "proof_assignment": "receipt_licensed_source_profile_coverage := licensed_source_profile_coverage a s Ω",
+      "source_line": 53,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "licensed_source_profile_coverage"
+    },
+    {
+      "field": "receipt_licensed_response_continuation_square",
+      "declared_type": "receipt_licensed_response_continuation_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (ops : List (PreparedHistoryOperation a Ω)) (r : LicensedMetricReceiver a s Ω κ Λ),\n    licensedEHResponse a s Ω (licensedContinue a s Ω κ Λ coupling ops r) =\n      restrictedOriginalResponseContinue a s Ω ops (licensedEHResponse a s Ω r)",
+      "proof_assignment": "receipt_licensed_response_continuation_square := licensed_response_continuation_square a s Ω",
+      "source_line": 56,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "licensed_response_continuation_square"
+    },
+    {
+      "field": "receipt_licensed_readout_continuation_square",
+      "declared_type": "receipt_licensed_readout_continuation_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (first second : List (PreparedHistoryOperation a Ω)) (r : LicensedMetricReceiver a s Ω κ Λ),\n    licensedReadout a s Ω (licensedContinue a s Ω κ Λ coupling first r) second =\n      licensedReadout a s Ω r (first ++ second)",
+      "proof_assignment": "receipt_licensed_readout_continuation_square := licensed_readout_continuation_square a s Ω",
+      "source_line": 61,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "licensed_readout_continuation_square"
+    },
+    {
+      "field": "receipt_licensed_metric_square",
+      "declared_type": "receipt_licensed_metric_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedMetricReceiver a s Ω κ Λ),\n    (licensedReadout a s Ω r []).metric = restrictedEHMetric a s Ω (licensedEHResponse a s Ω r)",
+      "proof_assignment": "receipt_licensed_metric_square := licensed_metric_square a s Ω",
+      "source_line": 66,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "licensed_metric_square"
+    },
+    {
+      "field": "receipt_licensed_action_square",
+      "declared_type": "receipt_licensed_action_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedMetricReceiver a s Ω κ Λ),\n    (licensedReadout a s Ω r []).finiteAction =\n      originalEHRelativeAction κ Λ wickNativeFlatMetric (restrictedEHAct a s Ω (licensedEHResponse a s Ω r)).val",
+      "proof_assignment": "receipt_licensed_action_square := licensed_action_square a s Ω",
+      "source_line": 70,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "licensed_action_square"
+    },
+    {
+      "field": "receipt_licensed_directional_action_square",
+      "declared_type": "receipt_licensed_directional_action_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedMetricReceiver a s Ω κ Λ) (K : MetricSourceProbe Ω),\n    (licensedReadout a s Ω r []).directionalAction K =\n      restrictedEHObserve a s Ω κ Λ (licensedEHResponse a s Ω r) K",
+      "proof_assignment": "receipt_licensed_directional_action_square := licensed_directional_action_square a s Ω",
+      "source_line": 75,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "licensed_directional_action_square"
+    },
+    {
+      "field": "receipt_licensed_original_answer_square",
+      "declared_type": "receipt_licensed_original_answer_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedMetricReceiver a s Ω κ Λ) (q : PreparedQuestion a Ω),\n    (licensedReadout a s Ω r []).answer q =\n      preparedHistoryReference a s Ω (restrictedOriginalResponseReceive a s Ω (licensedEHResponse a s Ω r)) q",
+      "proof_assignment": "receipt_licensed_original_answer_square := licensed_original_answer_square a s Ω",
+      "source_line": 80,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "licensed_original_answer_square"
+    },
+    {
+      "field": "receipt_licensed_original_first_failure_square",
+      "declared_type": "receipt_licensed_original_first_failure_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedMetricReceiver a s Ω κ Λ),\n    (licensedReadout a s Ω r []).firstFailure =\n      preparedHistoryReadFirstFailure a s Ω\n        (restrictedOriginalResponseReceive a s Ω (licensedEHResponse a s Ω r))",
+      "proof_assignment": "receipt_licensed_original_first_failure_square := licensed_original_first_failure_square a s Ω",
+      "source_line": 85,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "licensed_original_first_failure_square"
+    },
+    {
+      "field": "receipt_licensed_eh_source_is_original_directional_action",
+      "declared_type": "receipt_licensed_eh_source_is_original_directional_action : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedMetricReceiver a s Ω κ Λ) (K : MetricSourceProbe Ω),\n    (1 / 2 : ℝ) * metricSourcePairing\n      (restrictedEHKernelSource a s Ω κ Λ coupling (licensedEHSourceProfile a s Ω r)) K =\n        (licensedReadout a s Ω r []).directionalAction K",
+      "proof_assignment": "receipt_licensed_eh_source_is_original_directional_action := licensed_eh_source_is_original_directional_action a s Ω",
+      "source_line": 91,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "licensed_eh_source_is_original_directional_action"
+    },
+    {
+      "field": "receipt_licensed_eh_same_metric_representation",
+      "declared_type": "receipt_licensed_eh_same_metric_representation : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedMetricReceiver a s Ω κ Λ) (i : Fin 10) (φ : ScalarSourceProbe Ω),\n    restrictedEHKernelSource a s Ω κ Λ coupling (licensedEHSourceProfile a s Ω r) i φ =\n      ∫ p, sourceDensityCoordinates (raisedSourceTensorDensity (licensedReadout a s Ω r []).metric\n        (originalEHGeometricResponse κ Λ (licensedReadout a s Ω r []).metric)) i p * φ p",
+      "proof_assignment": "receipt_licensed_eh_same_metric_representation := licensed_eh_same_metric_representation a s Ω",
+      "source_line": 97,
+      "proved_in_module": "KGLicensedEHReceiver",
+      "proved_by": "licensed_eh_same_metric_representation"
+    },
+    {
+      "field": "receipt_licensed_original_failure_square",
+      "declared_type": "receipt_licensed_original_failure_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedMetricReceiver a s Ω κ Λ) (q : PreparedQuestion a Ω),\n    (licensedReadout a s Ω r []).failure q =\n      preparedEventFailure a s Ω\n        ⟨restrictedEHPrepared a s Ω (licensedEHResponse a s Ω r), q⟩",
+      "proof_assignment": "receipt_licensed_original_failure_square := licensed_original_failure_square a s Ω",
+      "source_line": 103,
+      "proved_in_module": "KGLicensedEHFailure",
+      "proved_by": "licensed_original_failure_square"
+    },
+    {
+      "field": "receipt_licensed_rejected_metric_request_stays_failed",
+      "declared_type": "receipt_licensed_rejected_metric_request_stays_failed : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedMetricReceiver a s Ω κ Λ) (H : MetricSourceProbe Ω)\n    (rejected : H ∉ wickOriginalMetricNeighborhood Ω),\n    (licensedReadout a s Ω r []).failure (preparedFiniteRequest a Ω H) =\n      some KGExecutionFailure.originalMetricRejection",
+      "proof_assignment": "receipt_licensed_rejected_metric_request_stays_failed := licensed_rejected_metric_request_stays_failed a s Ω",
+      "source_line": 109,
+      "proved_in_module": "KGLicensedEHFailure",
+      "proved_by": "licensed_rejected_metric_request_stays_failed"
+    },
+    {
+      "field": "receipt_scalar_use_constructs_kernel_and_canonical_license",
+      "declared_type": "receipt_scalar_use_constructs_kernel_and_canonical_license : ∀ (A : KGNRObject a),\n    let D := originalScalarTask a s Ω A\n    AASC.Instances.KernelPaper.Manuscript.DerivedKernelRoles\n      (ObjecthoodNecessity.canonicalRegime (originalIncidence D)) ∧\n    AASCAMetricMetricUse.AMetricLicensingDiscipline ∧ FiveLicensingConclusions D ∧\n    (∀ x, constructedLicensing D x (originalScalarUseMeaning a s Ω A))",
+      "proof_assignment": "receipt_scalar_use_constructs_kernel_and_canonical_license := scalar_use_constructs_kernel_and_canonical_license a s Ω",
+      "source_line": 115,
+      "proved_in_module": "KGCanonicalScalarLicensing",
+      "proved_by": "scalar_use_constructs_kernel_and_canonical_license"
+    },
+    {
+      "field": "receipt_every_original_scalar_has_canonical_license",
+      "declared_type": "receipt_every_original_scalar_has_canonical_license : ∀ (A : KGNRObject a) (x : PureVector (KGNRCarrier A)),\n    constructedLicensing (originalScalarTask a s Ω A) x (originalScalarUseMeaning a s Ω A)",
+      "proof_assignment": "receipt_every_original_scalar_has_canonical_license := every_original_scalar_has_canonical_license a s Ω",
+      "source_line": 122,
+      "proved_in_module": "KGCanonicalScalarLicensing",
+      "proved_by": "every_original_scalar_has_canonical_license"
+    },
+    {
+      "field": "receipt_present_licensed_scalar_surjective",
+      "declared_type": "receipt_present_licensed_scalar_surjective : ∀ (A : KGNRObject a),\n    Function.Surjective (presentLicensedScalar a s Ω A)",
+      "proof_assignment": "receipt_present_licensed_scalar_surjective := present_licensed_scalar_surjective a s Ω",
+      "source_line": 125,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "present_licensed_scalar_surjective"
+    },
+    {
+      "field": "receipt_licensed_scalar_meaning_exact",
+      "declared_type": "receipt_licensed_scalar_meaning_exact : ∀ (A : KGNRObject a) (r : LicensedScalarReceiver a s Ω A),\n    licensedScalarMeaning a s Ω A r = originalScalarUseMeaning a s Ω A",
+      "proof_assignment": "receipt_licensed_scalar_meaning_exact := licensed_scalar_meaning_exact a s Ω",
+      "source_line": 128,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_meaning_exact"
+    },
+    {
+      "field": "receipt_licensed_scalar_state_coverage",
+      "declared_type": "receipt_licensed_scalar_state_coverage : ∀ (A : KGNRObject a),\n    Function.Surjective (licensedScalarState a s Ω A)",
+      "proof_assignment": "receipt_licensed_scalar_state_coverage := licensed_scalar_state_coverage a s Ω",
+      "source_line": 131,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_state_coverage"
+    },
+    {
+      "field": "receipt_licensed_scalar_old_reference_square",
+      "declared_type": "receipt_licensed_scalar_old_reference_square : ∀ (A : KGNRObject a) (r : LicensedScalarReceiver a s Ω A)\n    (q : RegisteredQuestion (KGFamilyQuestion a Ω A.raw)),\n    licensedScalarReference a s Ω A r (mapRegisteredQuestion kgNROldQuestion q) =\n      (kgRawRegisteredOrbit a s Ω A.raw).references.referenceAt (licensedScalarOriginalPure a s Ω A r) q",
+      "proof_assignment": "receipt_licensed_scalar_old_reference_square := licensed_scalar_old_reference_square a s Ω",
+      "source_line": 134,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_old_reference_square"
+    },
+    {
+      "field": "receipt_licensed_scalar_old_complete_record",
+      "declared_type": "receipt_licensed_scalar_old_complete_record : ∀ (A : KGNRObject a) (r : LicensedScalarReceiver a s Ω A)\n    (q : KGFamilyQuestion a Ω A.raw),\n    licensedScalarOutput a s Ω A r (kgNROldQuestion q) =\n      kgFamilyOutput a s Ω A.raw (licensedScalarOriginalPure a s Ω A r) q",
+      "proof_assignment": "receipt_licensed_scalar_old_complete_record := licensed_scalar_old_complete_record a s Ω",
+      "source_line": 139,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_old_complete_record"
+    },
+    {
+      "field": "receipt_licensed_scalar_continuation_reference",
+      "declared_type": "receipt_licensed_scalar_continuation_reference : ∀ (A : KGNRObject a) (t : ℝ) (r : LicensedScalarReceiver a s Ω A)\n    (q : ScalarUseQuestion a Ω A),\n    licensedScalarReference a s Ω A (licensedScalarContinue a s Ω A t r) q =\n      licensedScalarReference a s Ω A r (mapRegisteredQuestion (kgNRQuestionAdvance t) q)",
+      "proof_assignment": "receipt_licensed_scalar_continuation_reference := licensed_scalar_continuation_reference a s Ω",
+      "source_line": 144,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_continuation_reference"
+    },
+    {
+      "field": "receipt_licensed_scalar_continuation_first_failure",
+      "declared_type": "receipt_licensed_scalar_continuation_first_failure : ∀ (A : KGNRObject a) (t : ℝ) (r : LicensedScalarReceiver a s Ω A)\n    (word : List (KGNRReceivingQuestion a Ω A.shape)),\n    kgFirstFailure (licensedScalarOutput a s Ω A r) (word.map (kgNRQuestionAdvance t)) =\n      kgFirstFailure (licensedScalarOutput a s Ω A (licensedScalarContinue a s Ω A t r)) word",
+      "proof_assignment": "receipt_licensed_scalar_continuation_first_failure := licensed_scalar_continuation_first_failure a s Ω",
+      "source_line": 149,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_continuation_first_failure"
+    },
+    {
+      "field": "receipt_licensed_scalar_full_continuation_square",
+      "declared_type": "receipt_licensed_scalar_full_continuation_square : ∀ (A : KGNRObject a) (t : ℝ) (r : LicensedScalarReceiver a s Ω A),\n    licensedScalarFullState a s Ω A (licensedScalarContinue a s Ω A t r) =\n      unitaryRayMap (kgNRFullFamilyFlow a t A.shape) (licensedScalarFullState a s Ω A r)",
+      "proof_assignment": "receipt_licensed_scalar_full_continuation_square := licensed_scalar_full_continuation_square a s Ω",
+      "source_line": 154,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_full_continuation_square"
+    },
+    {
+      "field": "receipt_licensed_scalar_comparison_reference",
+      "declared_type": "receipt_licensed_scalar_comparison_reference : ∀ (A : KGNRObject a) {B : KGNRObject a} (f : A ⟶ B)\n    (r : LicensedScalarReceiver a s Ω A) (q : ScalarUseQuestion a Ω B),\n    licensedScalarReference a s Ω A r (mapRegisteredQuestion (kgNRQuestionPullback f.lift) q) =\n      licensedScalarReference a s Ω B (licensedScalarComparison a s Ω A f r) q",
+      "proof_assignment": "receipt_licensed_scalar_comparison_reference := licensed_scalar_comparison_reference a s Ω",
+      "source_line": 158,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_comparison_reference"
+    },
+    {
+      "field": "receipt_licensed_scalar_region_reference",
+      "declared_type": "receipt_licensed_scalar_region_reference : ∀ (A : KGNRObject a) {V : Opens CoordinatePoint} (h : Ω ≤ V)\n    (r : LicensedScalarReceiver a s Ω A) (q : ScalarUseQuestion a Ω A),\n    licensedScalarReference a s V A (licensedScalarRegion a s Ω A h r)\n      (mapRegisteredQuestion (kgNRQuestionExtend h) q) = licensedScalarReference a s Ω A r q",
+      "proof_assignment": "receipt_licensed_scalar_region_reference := licensed_scalar_region_reference a s Ω",
+      "source_line": 163,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_region_reference"
+    },
+    {
+      "field": "receipt_licensed_scalar_tensor_original_square",
+      "declared_type": "receipt_licensed_scalar_tensor_original_square : ∀ (A : KGNRObject a) (B : KGNRObject a)\n    (r : LicensedScalarReceiver a s Ω A) (t : LicensedScalarReceiver a s Ω B),\n    licensedScalarOriginalPure a s Ω (kgNRTensor A B) (licensedScalarTensor a s Ω A B r t) =\n      kgRawTensor (licensedScalarOriginalPure a s Ω A r) (licensedScalarOriginalPure a s Ω B t)",
+      "proof_assignment": "receipt_licensed_scalar_tensor_original_square := licensed_scalar_tensor_original_square a s Ω",
+      "source_line": 168,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_tensor_original_square"
+    },
+    {
+      "field": "receipt_licensed_scalar_domain_graph_receipt",
+      "declared_type": "receipt_licensed_scalar_domain_graph_receipt : ∀ (A : KGNRObject a) (r : LicensedScalarReceiver a s Ω A),\n    (↑(licensedScalarHamiltonian a s Ω A r).domain : Set KGNRSpatialHilbert) =\n      (licensedScalarMeaning a s Ω A r).fullKineticDomain ∧\n    (↑(licensedScalarHamiltonian a s Ω A r).graph : Set (KGNRSpatialHilbert × KGNRSpatialHilbert)) =\n      (licensedScalarMeaning a s Ω A r).fullKineticGraph",
+      "proof_assignment": "receipt_licensed_scalar_domain_graph_receipt := licensed_scalar_domain_graph_receipt a s Ω",
+      "source_line": 173,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_domain_graph_receipt"
+    },
+    {
+      "field": "receipt_licensed_scalar_full_flow_receipt",
+      "declared_type": "receipt_licensed_scalar_full_flow_receipt : ∀ (A : KGNRObject a) (r : LicensedScalarReceiver a s Ω A)\n    (t : ℝ) (f : KGNRSpatialHilbert),\n    licensedScalarFullFlow a s Ω A r t f = (licensedScalarMeaning a s Ω A r).fullScalarEvolution t f",
+      "proof_assignment": "receipt_licensed_scalar_full_flow_receipt := licensed_scalar_full_flow_receipt a s Ω",
+      "source_line": 179,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_full_flow_receipt"
+    },
+    {
+      "field": "receipt_licensed_scalar_exact_generator",
+      "declared_type": "receipt_licensed_scalar_exact_generator : ∀ (A : KGNRObject a) (r : LicensedScalarReceiver a s Ω A),\n    GlobalCharge.ExactGenerator (Translation.coefficient (licensedScalarMeaning a s Ω A r).parameters.hbar)\n      (licensedScalarFullFlow a s Ω A r) (licensedScalarHamiltonian a s Ω A r)",
+      "proof_assignment": "receipt_licensed_scalar_exact_generator := licensed_scalar_exact_generator a s Ω",
+      "source_line": 183,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_exact_generator"
+    },
+    {
+      "field": "receipt_licensed_scalar_complete_weak_graph",
+      "declared_type": "receipt_licensed_scalar_complete_weak_graph : ∀ (A : KGNRObject a) (r : LicensedScalarReceiver a s Ω A)\n    (f g : KGNRSpatialHilbert),\n    (f, g) ∈ (licensedScalarHamiltonian a s Ω A r).graph ↔\n      ∀ test : 𝓢(KGSpatialSpace, ℂ), (g : KGSpatialDistribution) test =\n        (f : KGSpatialDistribution) (kgNRSpatialTestResponse a test)",
+      "proof_assignment": "receipt_licensed_scalar_complete_weak_graph := licensed_scalar_complete_weak_graph a s Ω",
+      "source_line": 187,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_complete_weak_graph"
+    },
+    {
+      "field": "receipt_licensed_scalar_calibrated_comparator",
+      "declared_type": "receipt_licensed_scalar_calibrated_comparator : ∀ (A : KGNRObject a) (r : LicensedScalarReceiver a s Ω A)\n    {H : LinearPMap ℂ KGNRSpatialHilbert KGNRSpatialHilbert} (C : KGScalarFreeComparator H)\n    (calibration : KGFreeAnchoredDispersionAt a C),\n    H = licensedScalarHamiltonian a s Ω A r",
+      "proof_assignment": "receipt_licensed_scalar_calibrated_comparator := licensed_scalar_calibrated_comparator a s Ω",
+      "source_line": 193,
+      "proved_in_module": "KGLicensedScalarReceiver",
+      "proved_by": "licensed_scalar_calibrated_comparator"
+    },
+    {
+      "field": "receipt_licensed_scalar_free_ssq1",
+      "declared_type": "receipt_licensed_scalar_free_ssq1 : ∀ (A : KGNRObject a) (r : LicensedScalarReceiver a s Ω A),\n    SameScopeQuantumSpatial1 (licensedScalarMeaning a s Ω A r).parameters\n      (licensedScalarHamiltonian a s Ω A r) (0 : KGSpatialSpace → ℝ)",
+      "proof_assignment": "receipt_licensed_scalar_free_ssq1 := licensed_scalar_free_ssq1 a s Ω",
+      "source_line": 198,
+      "proved_in_module": "KGLicensedScalarEndpoint",
+      "proved_by": "licensed_scalar_free_ssq1"
+    },
+    {
+      "field": "receipt_licensed_scalar_reference_dispersion",
+      "declared_type": "receipt_licensed_scalar_reference_dispersion : ∀ (A : KGNRObject a) (r : LicensedScalarReceiver a s Ω A),\n    ∀ ξ, kgScalarPrincipalFourierSymbol\n      (kgNRFreeComparator (licensedScalarMeaning a s Ω A r).parameters).data ξ =\n        ((licensedScalarMeaning a s Ω A r).referenceDispersion ξ : ℂ)",
+      "proof_assignment": "receipt_licensed_scalar_reference_dispersion := licensed_scalar_reference_dispersion a s Ω",
+      "source_line": 202,
+      "proved_in_module": "KGLicensedScalarEndpoint",
+      "proved_by": "licensed_scalar_reference_dispersion"
+    },
+    {
+      "field": "receipt_licensed_scalar_zero_potential_full_domain",
+      "declared_type": "receipt_licensed_scalar_zero_potential_full_domain : ∀ (A : KGNRObject a) (r : LicensedScalarReceiver a s Ω A),\n    (∀ f : KGNRSpatialHilbert,\n      f ∈ (kgNRPotentialOperator (0 : KGSpatialSpace → ℝ)).domain) ∧\n    kgNRPrincipalCoefficient (licensedScalarMeaning a s Ω A r).parameters =\n      -(a.hbar ^ 2 / (2 * a.mass)) ∧\n    kgNRPrincipalCoefficient (licensedScalarMeaning a s Ω A r).parameters < 0",
+      "proof_assignment": "receipt_licensed_scalar_zero_potential_full_domain := licensed_scalar_zero_potential_full_domain a s Ω",
+      "source_line": 207,
+      "proved_in_module": "KGLicensedScalarEndpoint",
+      "proved_by": "licensed_scalar_zero_potential_full_domain"
+    },
+    {
+      "field": "receipt_licensed_scalar_ssq1_comparator",
+      "declared_type": "receipt_licensed_scalar_ssq1_comparator : ∀ (A : KGNRObject a) (r : LicensedScalarReceiver a s Ω A)\n    {H : LinearPMap ℂ KGNRSpatialHilbert KGNRSpatialHilbert}\n    (W : KGScalarSSQ1Witness a H (0 : KGSpatialSpace → ℝ))\n    (dispersion : KGFreeInertialDispersion a (kgScalarFreeComparatorOfSSQ1 a W)),\n    H = licensedScalarHamiltonian a s Ω A r",
+      "proof_assignment": "receipt_licensed_scalar_ssq1_comparator := licensed_scalar_ssq1_comparator a s Ω",
+      "source_line": 214,
+      "proved_in_module": "KGLicensedScalarEndpoint",
+      "proved_by": "licensed_scalar_ssq1_comparator"
+    },
+    {
+      "field": "receipt_common_original_preparation_square",
+      "declared_type": "receipt_common_original_preparation_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedScalarReceiver a s Ω (scalarBaseObject a))\n    (H : {H : MetricSourceProbe Ω // H ∈ wickOriginalMetricNeighborhood Ω}),\n    kgPreparedQuantum s Ω (wickOriginalMetricNeighborhood Ω) (kgOriginalObject a)\n      (restrictedEHPrepared a s Ω (licensedEHResponse a s Ω (scalarToLicensedMetric a s Ω κ Λ coupling r H))) =\n      rayMap _ (licensedScalarOriginalPure a s Ω (scalarBaseObject a) r)",
+      "proof_assignment": "receipt_common_original_preparation_square := common_original_preparation_square a s Ω",
+      "source_line": 220,
+      "proved_in_module": "KGCommonLicensedPreparation",
+      "proved_by": "common_original_preparation_square"
+    },
+    {
+      "field": "receipt_common_original_metric_operand_square",
+      "declared_type": "receipt_common_original_metric_operand_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedScalarReceiver a s Ω (scalarBaseObject a))\n    (H : {H : MetricSourceProbe Ω // H ∈ wickOriginalMetricNeighborhood Ω}),\n    restrictedEHMetric a s Ω (licensedEHResponse a s Ω (scalarToLicensedMetric a s Ω κ Λ coupling r H)) =\n      originalEHActMetric H.val",
+      "proof_assignment": "receipt_common_original_metric_operand_square := common_original_metric_operand_square a s Ω",
+      "source_line": 227,
+      "proved_in_module": "KGCommonLicensedPreparation",
+      "proved_by": "common_original_metric_operand_square"
+    },
+    {
+      "field": "receipt_common_original_metric_source_record_square",
+      "declared_type": "receipt_common_original_metric_source_record_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedScalarReceiver a s Ω (scalarBaseObject a))\n    (H : {H : MetricSourceProbe Ω // H ∈ wickOriginalMetricNeighborhood Ω})\n    (q : KGFamilyQuestion a Ω (kgOriginalObject a)),\n    kgPreparedCompleteRecord s Ω (wickOriginalMetricNeighborhood Ω) (kgOriginalObject a)\n      (restrictedEHPrepared a s Ω (licensedEHResponse a s Ω\n        (scalarToLicensedMetric a s Ω κ Λ coupling r H))) (kgFamilyQuestionInChart q) =\n      licensedScalarOutput a s Ω (scalarBaseObject a) r (kgNROldQuestion q)",
+      "proof_assignment": "receipt_common_original_metric_source_record_square := common_original_metric_source_record_square a s Ω",
+      "source_line": 233,
+      "proved_in_module": "KGCommonLicensedPreparation",
+      "proved_by": "common_original_metric_source_record_square"
+    },
+    {
+      "field": "receipt_common_original_registered_reference_square",
+      "declared_type": "receipt_common_original_registered_reference_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (r : LicensedScalarReceiver a s Ω (scalarBaseObject a))\n    (H : {H : MetricSourceProbe Ω // H ∈ wickOriginalMetricNeighborhood Ω})\n    (q : RegisteredQuestion (KGFamilyQuestion a Ω (kgOriginalObject a))),\n    (licensedReadout a s Ω (scalarToLicensedMetric a s Ω κ Λ coupling r H) []).answer\n      (.inr (mapRegisteredQuestion kgFamilyQuestionInChart q)) =\n      (licensedScalarReference a s Ω (scalarBaseObject a) r (mapRegisteredQuestion kgNROldQuestion q)).map Sum.inr",
+      "proof_assignment": "receipt_common_original_registered_reference_square := common_original_registered_reference_square a s Ω",
+      "source_line": 242,
+      "proved_in_module": "KGCommonLicensedPreparation",
+      "proved_by": "common_original_registered_reference_square"
+    },
+    {
+      "field": "receipt_licensed_scalar_evolved_original_preparation",
+      "declared_type": "receipt_licensed_scalar_evolved_original_preparation : ∀ (t : ℝ)\n    (r : LicensedScalarReceiver a s Ω (scalarBaseObject a)),\n    licensedScalarOriginalPure a s Ω (scalarBaseObject a)\n      (licensedScalarContinue a s Ω (scalarBaseObject a) t r) =\n      kgNRSpatialOriginalPreparation a t (licensedScalarPure a s Ω (scalarBaseObject a) r)",
+      "proof_assignment": "receipt_licensed_scalar_evolved_original_preparation := licensed_scalar_evolved_original_preparation a s Ω",
+      "source_line": 250,
+      "proved_in_module": "KGCommonLicensedEvolution",
+      "proved_by": "licensed_scalar_evolved_original_preparation"
+    },
+    {
+      "field": "receipt_common_evolved_original_preparation_square",
+      "declared_type": "receipt_common_evolved_original_preparation_square : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (t : ℝ) (r : LicensedScalarReceiver a s Ω (scalarBaseObject a))\n    (H : {H : MetricSourceProbe Ω // H ∈ wickOriginalMetricNeighborhood Ω}),\n    kgPreparedQuantum s Ω (wickOriginalMetricNeighborhood Ω) (kgOriginalObject a)\n      (restrictedEHPrepared a s Ω (licensedEHResponse a s Ω\n        (scalarToLicensedMetric a s Ω κ Λ coupling\n          (licensedScalarContinue a s Ω (scalarBaseObject a) t r) H))) =\n      rayMap _ (kgNRSpatialOriginalPreparation a t\n        (licensedScalarPure a s Ω (scalarBaseObject a) r))",
+      "proof_assignment": "receipt_common_evolved_original_preparation_square := common_evolved_original_preparation_square a s Ω",
+      "source_line": 256,
+      "proved_in_module": "KGCommonLicensedEvolution",
+      "proved_by": "common_evolved_original_preparation_square"
+    },
+    {
+      "field": "receipt_common_preparation_covers_declared_core",
+      "declared_type": "receipt_common_preparation_covers_declared_core : ∀ (κ Λ : ℝ) (coupling : κ ≠ 0)\n    (x : PureVector (kgOriginalSpatialCore a))\n    (H : {H : MetricSourceProbe Ω // H ∈ wickOriginalMetricNeighborhood Ω}),\n    ∃ r : LicensedScalarReceiver a s Ω (scalarBaseObject a),\n      licensedScalarPure a s Ω (scalarBaseObject a) r = x ∧\n      kgPreparedQuantum s Ω (wickOriginalMetricNeighborhood Ω) (kgOriginalObject a)\n        (restrictedEHPrepared a s Ω (licensedEHResponse a s Ω\n          (scalarToLicensedMetric a s Ω κ Λ coupling r H))) =\n        rayMap _ (kgPureIsometryMap (kgSpatialCoreOriginalEmbedding a) x)",
+      "proof_assignment": "receipt_common_preparation_covers_declared_core := common_preparation_covers_declared_core a s Ω",
+      "source_line": 266,
+      "proved_in_module": "KGCommonLicensedEvolution",
+      "proved_by": "common_preparation_covers_declared_core"
+    }
+  ]
+}

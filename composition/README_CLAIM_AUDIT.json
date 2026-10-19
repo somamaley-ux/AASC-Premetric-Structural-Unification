@@ -1,0 +1,115 @@
+{
+  "scope": "Editorial claim-to-field audit against exact Lean source and accepted compiled stage/replay records; this is not a separately mechanized proof of English prose or an independent reviewer report.",
+  "readme_sha256": "cddc0809f06085c67cf694bdcc5e1e53159306f0ca928993182e5262f951f43d",
+  "root_source_sha256": "191f4e2cf9aee99667587feca217e1a0947faece14e4e1bfaeb42883f0146cd4",
+  "all_49_fields_have_proof_assignments": true,
+  "all_49_fields_covered_by_claim_bindings": true,
+  "claims": [
+    {
+      "claim": "Premetric structural composition through actual canonical licensing to both dynamics endpoints",
+      "fields": [
+        "constraint_first_source",
+        "current_free_receiving",
+        "geometric_einstein_receiving",
+        "receipt_current_metric_use_constructs_kernel_and_canonical_license",
+        "receipt_scalar_use_constructs_kernel_and_canonical_license",
+        "receipt_common_original_preparation_square",
+        "receipt_common_original_metric_operand_square",
+        "receipt_common_original_metric_source_record_square",
+        "receipt_common_original_registered_reference_square",
+        "receipt_licensed_scalar_evolved_original_preparation",
+        "receipt_common_evolved_original_preparation_square",
+        "receipt_common_preparation_covers_declared_core"
+      ],
+      "conditions": "Constraint-first source, concrete downstream constructions, declared Parameters, source parameter and region; licensing is non-generative."
+    },
+    {
+      "claim": "EH licensed presentations, receiver/source coverage and metric/action/readout/failure/continuation preservation",
+      "fields": [
+        "receipt_current_metric_use_constructs_kernel_and_canonical_license",
+        "receipt_receiver_has_actual_canonical_license",
+        "receipt_present_licensed_history_surjective",
+        "receipt_licensed_readout_square",
+        "receipt_licensed_response_coverage",
+        "receipt_licensed_source_profile_coverage",
+        "receipt_licensed_response_continuation_square",
+        "receipt_licensed_readout_continuation_square",
+        "receipt_licensed_metric_square",
+        "receipt_licensed_action_square",
+        "receipt_licensed_directional_action_square",
+        "receipt_licensed_original_answer_square",
+        "receipt_licensed_original_first_failure_square",
+        "receipt_licensed_eh_source_is_original_directional_action",
+        "receipt_licensed_eh_same_metric_representation",
+        "receipt_licensed_original_failure_square",
+        "receipt_licensed_rejected_metric_request_stays_failed"
+      ],
+      "conditions": "Real kappa and Lambda, kappa nonzero, the retained restricted EH action and admitted compact metric neighborhood; no source-quotient metric/continuation descent."
+    },
+    {
+      "claim": "Licensed free scalar receiving, graph/domain, exact generator, free SSQ1 and calibrated comparator",
+      "fields": [
+        "receipt_scalar_use_constructs_kernel_and_canonical_license",
+        "receipt_every_original_scalar_has_canonical_license",
+        "receipt_present_licensed_scalar_surjective",
+        "receipt_licensed_scalar_meaning_exact",
+        "receipt_licensed_scalar_state_coverage",
+        "receipt_licensed_scalar_old_reference_square",
+        "receipt_licensed_scalar_old_complete_record",
+        "receipt_licensed_scalar_continuation_reference",
+        "receipt_licensed_scalar_continuation_first_failure",
+        "receipt_licensed_scalar_full_continuation_square",
+        "receipt_licensed_scalar_comparison_reference",
+        "receipt_licensed_scalar_region_reference",
+        "receipt_licensed_scalar_tensor_original_square",
+        "receipt_licensed_scalar_domain_graph_receipt",
+        "receipt_licensed_scalar_full_flow_receipt",
+        "receipt_licensed_scalar_exact_generator",
+        "receipt_licensed_scalar_complete_weak_graph",
+        "receipt_licensed_scalar_calibrated_comparator",
+        "receipt_licensed_scalar_free_ssq1",
+        "receipt_licensed_scalar_reference_dispersion",
+        "receipt_licensed_scalar_zero_potential_full_domain",
+        "receipt_licensed_scalar_ssq1_comparator"
+      ],
+      "conditions": "Free branch, declared KGNRObject core rays; full spatial graph/domain distinct from state coverage; comparator class and inertial calibration retained."
+    },
+    {
+      "claim": "Common original core preparation, metric operand, complete records, Option references and evolved preparations",
+      "fields": [
+        "receipt_common_original_preparation_square",
+        "receipt_common_original_metric_operand_square",
+        "receipt_common_original_metric_source_record_square",
+        "receipt_common_original_registered_reference_square",
+        "receipt_licensed_scalar_evolved_original_preparation",
+        "receipt_common_evolved_original_preparation_square",
+        "receipt_common_preparation_covers_declared_core"
+      ],
+      "conditions": "Invariant one-particle core, independently admitted metric operand, empty initial EH history; scalar time evolution remains distinct from EH history append."
+    }
+  ],
+  "scope_records": [
+    "composition/COMPOSITION_SCOPE.md",
+    "composition/STAGE4_CONNECTED_REVIEW.json"
+  ],
+  "preserved_limits": [
+    "positive mass/speed/hbar and fixed dimensions/carriers/KG/free/EH constructions",
+    "kappa nonzero and original bounded metric neighborhood",
+    "EH geometric action derivative, no independent matter or coupled field-solution identification",
+    "invariant-core/common-preparation coverage, not all Fock preparations or all EH histories",
+    "complete finite comparator class and explicit dispersion calibration",
+    "continuum carriers distinct from the separately proved KG nonrelativistic limit",
+    "no preferred metric/projection, universal interface-order minimum, interior identification or quantum-gravity solution"
+  ],
+  "audit_counts": {
+    "compiled_declarations": 252,
+    "public_axiom_reports": 230,
+    "root_proof_reachable_constants": 66526,
+    "required_actual_proof_dependencies": 7
+  },
+  "standard_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ]
+}

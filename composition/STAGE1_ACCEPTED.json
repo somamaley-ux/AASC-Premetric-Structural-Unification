@@ -1,0 +1,25 @@
+{
+  "status": "accepted_bounded_stage1_only",
+  "review_sha256": "6f7128e0985e40a7cbe4458dfa11cefe7681804912906a4c75bfb7d3e637c5db",
+  "files": {
+    "src/KGOriginalMetricUseSemantics.lean": "9fd9e3fcf8551972befacfc3627e04874d445ccef8d4bf7b1bc83aeea3fee291",
+    "src/KGCanonicalMetricLicensing.lean": "3da9033e5543b8e3ae37746214d5595626937b79b01ffa710c7c2249c1a51d3c",
+    "build/KGOriginalMetricUseSemantics.olean": "dd68367bd90b3cbd2ff584277da77674ab9eb1f01bc8844308d3a1d1583b8f32",
+    "build/KGCanonicalMetricLicensing.olean": "9d31453ba3549796afe28601286e89c03f74649cba8b650b2aad0581727b29f0",
+    "logs/KGOriginalMetricUseSemantics.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/KGCanonicalMetricLicensing.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "receipts/KGOriginalMetricUseSemantics.json": "b6e9ba69cad65642a3f3b383981aea6c1a8e07623daa0ffb7d6da69fbe4a2d2e",
+    "receipts/KGCanonicalMetricLicensing.json": "c3444c219ceb50488fde1ecea2b6beddce7068791e6c0b065eae995becaeba72",
+    "src/Stage1LicensingAudit.lean": "24b67cc596ec098d4854597cceef2e80c9b82c1b63a5372847f848ed194a458b",
+    "build/Stage1LicensingAudit.olean": "a7bed195b2d0cf63f5e3bf1a1f84ea9c13cbb7dddf10a98fc2af6a78ac87d73a",
+    "logs/Stage1LicensingAudit.log": "45a1dea1d5278bb80a4f8dbd7063381473bed2dd436fe0fd1e09f76313eea996",
+    "receipts/Stage1LicensingAudit.json": "2dd349cdc232d624ac9351e5047d67171760c9b5a17e301892af17dc13ed43fb",
+    "STAGE1_SPEC.md": "71e8f9fa2f3f3c87fdef5d1ca197ec0f99c27e143f45ec4c88e7829cc9d991fb",
+    "DEPENDENCIES.json": "b00c804be28f637ce6e8b6132e4122a3631daf7411be9700703253eb56ec2e53",
+    "compile_stage.py": "66d795b8d3ac967752821447bc2b845576b52353f641fa8c19972cf0841aed7f"
+  },
+  "compiled_declarations": 75,
+  "official_public_axiom_reports": 65,
+  "connected_endpoint_complete": false,
+  "public_snapshot_modified": false
+}

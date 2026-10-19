@@ -1,0 +1,34 @@
+{
+  "module": "Stage3ScalarAudit",
+  "source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\src\\Stage3ScalarAudit.lean",
+  "source_sha256": "7fec66b4aa64d9cd6ccf9db1c2e311099648b1c9dd8901960d20d3e19e0552e5",
+  "frozen_source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\Stage3ScalarAudit\\001\\Stage3ScalarAudit.lean",
+  "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\Stage3ScalarAudit\\001\\Stage3ScalarAudit.olean",
+  "object_sha256": "3121a26b262f562e5755779751b1decf222f24cc04f09e862d3787546bfcd425",
+  "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\Stage3ScalarAudit\\001\\Stage3ScalarAudit.log",
+  "log_sha256": "61d1bb0b97f66979f8a19441ea4639b6df2657545979facdf28a1c395ba41846",
+  "returncode": 0,
+  "seconds": 213.221,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\Stage3ScalarAudit\\001\\Stage3ScalarAudit.olean",
+    "Stage3ScalarAudit.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "KGLicensedScalarReceiver",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\build\\KGLicensedScalarReceiver.olean",
+      "sha256": "2b434ef09d9a5e71d5b8f75f642d4a752706d352bfcb80d15ecb4dafa4c8fd21"
+    },
+    {
+      "module": "Lean",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\lib\\lean\\Lean.olean",
+      "sha256": "11922eb6b028b8cdbe3c12b0af107e371a39f2431477455e6fd7f4f73cd5a47f"
+    }
+  ],
+  "dependency_objects_reused": true,
+  "prior_receipts_unchanged": true
+}

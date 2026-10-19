@@ -1,0 +1,32 @@
+{
+  "module": "KGLicensedScalarReceiver",
+  "returncode": 0,
+  "source_sha256": "1a8c2d70390c07e1025e00a07bdf8320c4b2d7f504c2fed221c81409f8a72bb9",
+  "object_sha256": "2b434ef09d9a5e71d5b8f75f642d4a752706d352bfcb80d15ecb4dafa4c8fd21",
+  "expected_object_sha256": "2b434ef09d9a5e71d5b8f75f642d4a752706d352bfcb80d15ecb4dafa4c8fd21",
+  "object_byte_identical": true,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "lint_warning_count": 0,
+  "error_diagnostics": false,
+  "seconds": 22.281,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\KGLicensedScalarReceiver.olean",
+    "KGLicensedScalarReceiver.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "KGCanonicalScalarLicensing",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\KGCanonicalScalarLicensing.olean",
+      "sha256": "9778a80449c0ef775ff78afb914b317f5f1d82365f0d85a88a6ce2b29b0df866"
+    },
+    {
+      "module": "KGNRFreeReceivingAssembly",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\cache\\KGNRFreeReceivingAssembly.olean",
+      "sha256": "baa84b41be54e168ea79ec0749f8b7bbc2ac35a2cac8e4ddfc0b32945d0eaaac"
+    }
+  ]
+}

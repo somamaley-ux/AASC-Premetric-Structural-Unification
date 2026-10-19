@@ -1,0 +1,32 @@
+{
+  "module": "Stage4ConnectedAudit",
+  "returncode": 0,
+  "source_sha256": "2ad3a69e94114baaa48d89807ff2550c9378fc5f7f27a15dcb97306cd4365f23",
+  "object_sha256": "2d09c382dd7ad398bf78751ad4bf115c2eee4232a808fc8f64eb73f8d058245b",
+  "expected_object_sha256": "2d09c382dd7ad398bf78751ad4bf115c2eee4232a808fc8f64eb73f8d058245b",
+  "object_byte_identical": true,
+  "log_sha256": "2979fc4a9b30384e5b311fa702f607e57fc3d8e8e547dd220c87ff3c7bd07cb7",
+  "lint_warning_count": 0,
+  "error_diagnostics": false,
+  "seconds": 221.997,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\Stage4ConnectedAudit.olean",
+    "Stage4ConnectedAudit.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "KernelFaithfulLicensedEndpoints",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\KernelFaithfulLicensedEndpoints.olean",
+      "sha256": "668e8973baf7960052bc8b2d7ed0be49d558a1d7808f2963c4f2dd74a54ac02f"
+    },
+    {
+      "module": "Lean",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\lib\\lean\\Lean.olean",
+      "sha256": "11922eb6b028b8cdbe3c12b0af107e371a39f2431477455e6fd7f4f73cd5a47f"
+    }
+  ]
+}

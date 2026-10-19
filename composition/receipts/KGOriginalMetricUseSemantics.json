@@ -1,0 +1,34 @@
+{
+  "module": "KGOriginalMetricUseSemantics",
+  "source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\src\\KGOriginalMetricUseSemantics.lean",
+  "source_sha256": "9fd9e3fcf8551972befacfc3627e04874d445ccef8d4bf7b1bc83aeea3fee291",
+  "frozen_source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\KGOriginalMetricUseSemantics\\003\\KGOriginalMetricUseSemantics.lean",
+  "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\KGOriginalMetricUseSemantics\\003\\KGOriginalMetricUseSemantics.olean",
+  "object_sha256": "dd68367bd90b3cbd2ff584277da77674ab9eb1f01bc8844308d3a1d1583b8f32",
+  "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\KGOriginalMetricUseSemantics\\003\\KGOriginalMetricUseSemantics.log",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "returncode": 0,
+  "seconds": 20.621,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\KGOriginalMetricUseSemantics\\003\\KGOriginalMetricUseSemantics.olean",
+    "KGOriginalMetricUseSemantics.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "OriginalRestrictedEHSource",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\cache\\OriginalRestrictedEHSource.olean",
+      "sha256": "8d367fc729abfa2946026cea43d13e9df9e774f73bee2e7e99c5774dddaf2642"
+    },
+    {
+      "module": "MetricityOriginalUseAssembly",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\cache\\MetricityOriginalUseAssembly.olean",
+      "sha256": "75804e6d2bd61e55331ee4bbde42518c94c1ac3d98a347373f85fc50e0dcb764"
+    }
+  ],
+  "dependency_objects_reused": true,
+  "prior_receipts_unchanged": true
+}

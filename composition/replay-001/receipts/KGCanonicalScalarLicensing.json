@@ -1,0 +1,44 @@
+{
+  "module": "KGCanonicalScalarLicensing",
+  "returncode": 0,
+  "source_sha256": "0fc9544b5e1ab1e36796b6236725dfca0d918ff77b20abf0a6dca2a5be2da55b",
+  "object_sha256": "9778a80449c0ef775ff78afb914b317f5f1d82365f0d85a88a6ce2b29b0df866",
+  "expected_object_sha256": "9778a80449c0ef775ff78afb914b317f5f1d82365f0d85a88a6ce2b29b0df866",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "object_byte_identical": true,
+  "seconds": 21.834,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\replay-001\\build\\KGCanonicalScalarLicensing.olean",
+    "KGCanonicalScalarLicensing.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "KGCanonicalMetricLicensing",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\replay-001\\build\\KGCanonicalMetricLicensing.olean",
+      "sha256": "9d31453ba3549796afe28601286e89c03f74649cba8b650b2aad0581727b29f0"
+    },
+    {
+      "module": "KGNRReceivingCertificate",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\cache\\KGNRReceivingCertificate.olean",
+      "sha256": "e4612104c9f5dcb0fb34e01e53e45d611e95e785dd09a09b9ab2b89fb2cda39a"
+    },
+    {
+      "module": "KGScalarComparatorFourier",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\cache\\KGScalarComparatorFourier.olean",
+      "sha256": "a7d63d231edb40398a45c80d1e33084fbf707fd1a1a50c2d280341c79360886c"
+    },
+    {
+      "module": "KGNRFreeExactGenerator",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\cache\\KGNRFreeExactGenerator.olean",
+      "sha256": "bbcde86bb2a48aca0d52100a30f91550e686a2cc1db9049fa3bd2380f96024e6"
+    }
+  ],
+  "error_diagnostics": false,
+  "lint_warning_count": 0,
+  "expected_lint_warning_count": 0,
+  "warnings_match_expected": true
+}

@@ -1,0 +1,32 @@
+{
+  "module": "Stage2EHAudit",
+  "returncode": 0,
+  "source_sha256": "5ec456b46449a78616aec0698e5309fb5fcedecb73eae96cdda3b734f1f05836",
+  "object_sha256": "656e19d58277b066db81a58d845ea201283bc5ca08138c0c1bba3b2388bb670a",
+  "expected_object_sha256": "656e19d58277b066db81a58d845ea201283bc5ca08138c0c1bba3b2388bb670a",
+  "object_byte_identical": true,
+  "log_sha256": "ae5731bb722ce0149fd7875f60d891044dd6ce185efe7306db619b1600e037e1",
+  "lint_warning_count": 0,
+  "error_diagnostics": false,
+  "seconds": 116.659,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\Stage2EHAudit.olean",
+    "Stage2EHAudit.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "KGLicensedEHFailure",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\KGLicensedEHFailure.olean",
+      "sha256": "c04a98a9c8afffe9b5968289ddb00f917dd0e5d8eb92a0655dbcbf704a271921"
+    },
+    {
+      "module": "Lean",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\lib\\lean\\Lean.olean",
+      "sha256": "11922eb6b028b8cdbe3c12b0af107e371a39f2431477455e6fd7f4f73cd5a47f"
+    }
+  ]
+}

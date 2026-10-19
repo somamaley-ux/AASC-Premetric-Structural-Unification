@@ -1,88 +1,74 @@
-# AASC Premetric Structural Unification
+# Premetric Structural Unification: Einstein-Form and Free-Scalar Schrödinger Dynamics
 
-**Amos Jay Maley · source export dated 19 October 2026**
+**Amos Jay Maley — machine-checked Lean 4 composition**
 
-Pre-metric structural unification and downstream Einstein and Schrödinger dynamics emergence.
+This repository contains a machine-checked Lean 4 composition deriving **Einstein-form first-response dynamics and calibrated free-scalar Schrödinger dynamics within the AASC Kernel and downstream Kernel-faithful machinery**, through canonical licensing with proved receiver maps, coverage, and shared original preparations.
 
-This repository contains the Lean sources and selected verification evidence for
-the cross-corpus formalization described in *Premetric Structural Unification:
-From the AASC Kernel to Einstein-Form and Free-Scalar Dynamics*. It preserves two
-separately audited proof closures:
+The unification is structural and premetric: constraint-first Kernel architecture and downstream source-preserving constructions support both receiving branches, and canonical licensing governs their faithful original-use descriptions. The physical structures and analytic hypotheses are supplied by those concrete downstream constructions; licensing does not manufacture them. The result connects the actual canonical licensing assembly to both dynamics endpoints by proved maps and common-source squares.
 
-| Project | Local source modules | Checked result |
+## The composed proof
+
+The public root is in [KernelFaithfulLicensedEndpoints.lean](composition/src/KernelFaithfulLicensedEndpoints.lean):
+
+```lean
+AASCKleinGordon.CanonicalLicensing.
+  kernel_faithful_canonical_licensing_to_eh_and_free_schrodinger
+    (a : Parameters) (s : ℝ) (Ω : Opens CoordinatePoint) :
+    KernelFaithfulLicensedEndpoints a s Ω
+```
+
+Its **49 fields are proved conclusions**. Its outer arguments are the declared positive physical parameters, real source parameter, and open coordinate region. No desired endpoint certificate, license, or unverified semantic bridge is passed into the root.
+
+The proof uses the actual canonical Kernel/AMetric/licensing assembly on two constructed original-use tasks. It proves canonical receiver presentations and their stated coverage, then maps those receivers into the retained EH response/source profiles and scalar receiving description. The common map takes a preparation in the invariant original one-particle core together with an independently admitted metric operand. It preserves the quantum preparation, metric operand, complete original records, registered Option-reference answers, and the stated evolved preparation squares.
+
+This is a composed proof with connecting maps, rather than an inference from shared imports. The compiled proof-value audit reaches 66,526 constants and checks seven actual dependencies spanning the constraint-first source, canonical licensing, EH receiving, scalar generator and calibrated comparator, and common reference/evolution maps. [The 49 conclusions](composition/ROOT_CONCLUSIONS.json) and [README claim audit](composition/README_CLAIM_AUDIT.json) link the description to the exact source fields.
+
+| Proved component | Content retained through the maps |
+| --- | --- |
+| Canonical licensing | Actual Kernel roles, AMetric discipline, five licensing conclusions, nonempty safe regions, and licensed presentations of the stated tasks. |
+| EH receiving | Coverage of retained restricted histories, responses and source profiles; same receiver metric, finite action, directional action, original answers, failures and continuation. |
+| Einstein-form endpoint | The action-derived geometric source has its same-current-metric representation and unique active Einstein-form coefficients under the proved analytic hypotheses. |
+| Free-scalar Schrödinger endpoint | The constructed free Hamiltonian, exact generator, full weak graph/domain, free SSQ1 witness, and actual reference dispersion; calibrated equality for comparators in the declared class. |
+| Common original source | Every declared core preparation and admitted metric operand has a licensed presentation with the stated preparation, record, reference and evolution squares. |
+
+## Declared assumptions and extent
+
+`Parameters` supplies positive mass, speed and ℏ. The construction fixes four spacetime and three spatial coordinates, continuum carriers, the declared KG/free branch, and the original Einstein–Hilbert relative action. These choices are explicit downstream data; their values, dimensionality, carriers and action are not selected from bare objecthood alone.
+
+The EH branch uses compact smooth metric-source operands in the original neighborhood with each bounded matrix entry's norm less than 1/16. Its regular Lorentz metric is constructed from the fixed flat Lorentz metric. The receipts retain real κ and Λ with **κ ≠ 0**. The represented source is the geometric action's own first derivative. Coefficient uniqueness applies to that constructed response; it does not select a preferred metric or unique global spacetime. Independently supplied matter matching and an interacting Einstein–scalar solution are additional questions.
+
+The scalar branch is **free**. The exact operator graph/domain is a full spatial Hilbert-space statement, while licensed state coverage and the shared original preparation map concern the declared invariant core. Equality for an arbitrary comparator retains the complete finite scalar differential comparator class and explicit dispersion calibration; the actual reference dispersion is proved. No all-potentials theorem, unrestricted operator exhaustion, general paper-level SSQ1 equivalence, or coverage of every Fock preparation is claimed.
+
+The common source map starts with empty EH histories and preserves its declared core preparations, including the stated evolved original preparations. It does not cover every EH history. EH observe/vary/frame history append and scalar NR time evolution retain distinct meanings; they are not identified as joint metric evolution. The proof establishes structural unification through these receivers and connecting maps, not identification of two complete physical interiors or an interior quantum-gravity theory. It adds no preferred projection or universal metric-interface minimum.
+
+The receiving descriptions are constructed directly on declared continuum carriers, so this construction needs no unproved discretization-to-continuum reconstruction. The separately proved **KG nonrelativistic rest-subtracted limit remains in the analytic chain**. These are distinct statements; no universal continuum-limit solution follows.
+
+## Sources, audits and replay
+
+| Source component | Modules | Audit scope |
 | --- | ---: | --- |
-| `dynamics/` | 786 | Bounded EH metric-source receiving with Einstein-form response classification, and separate calibrated free-scalar receiving. |
-| `licensing/` | 64 | Canonical Kernel/AMetric/Lmetric safe-use licensing and its original-clock application. |
+| `dynamics/` | 786 | Retained dynamics closure, with its original 42-root fresh audit. |
+| `licensing/` | 64 | Retained canonical licensing closure. |
+| Shared baseline | 11 identical modules | The union of the two baseline closures has 839 distinct modules. |
+| `composition/src/` | 10 production modules + 4 audit modules | The new connecting proof and stage audits. |
 
-The closures share 11 byte-identical source modules, including the ten
-`AASC.Core` modules. They are kept as separate projects. The dynamics closure
-does not import the canonical licensing assembly; no composed theorem between
-that assembly and both dynamics endpoints is asserted.
+The four stage audits inspect **252 compiled declarations**, including generated/private declarations, with **230 exact public axiom reports**. They reject new axioms, opaque/unsafe declarations and sorry terms in their selected declarations. The root's transitive axiom set is `propext`, `Classical.choice`, and `Quot.sound`.
 
-## Mathematical endpoint
+The [retained successor replay](composition/replay-001/REPLAY_RECEIPT.json) freshly rebuilt the ten new production modules and the connected audit. All eleven objects matched the reviewed originals byte for byte, with no errors and sixteen disclosed unused-proof-binder warnings. That run **reused 839 hash-verified baseline dependency objects** and pinned Lean/library binaries; it did not freshly rebuild those 839 modules or bootstrap the compiler/libraries. The exact original [handoff](composition/FINAL_HANDOFF.md), reviews, receipts, logs and workspace replay driver remain unchanged as dated evidence of the private verification phase. Their original private/public-status wording describes that earlier phase; this repository now distributes the composed sources.
 
-The bounded geometric consumer
-`original_curvature_general_response_has_unique_einstein_form` has six premises,
-all discharged for the actual action-derived EH response. The root
-`restricted_original_eh_kernel_einstein_receiving` connects admitted H+tK action
-derivatives, retained response equivalence and canonical Kernel source profiles
-to same-current-metric source representation and Einstein-form coefficient
-classification. It fixes real kappa and Lambda with kappa nonzero. The response
-represents the geometric action's own source, not an independently supplied
-matter tensor.
+The [exported-source relocation replay](composition/packaging-replay/REPLAY_RECEIPT.json) additionally rebuilt the ten production modules and all four audits from the public repository sources. All fourteen objects matched the accepted objects byte for byte; the fresh audits reproduced 252 declaration checks, 230 public axiom reports and the seven required proof dependencies, with no errors and sixteen expected lint warnings. It reused the same 839 verified baseline objects, 183 verified external direct-import objects and pinned compiler. This checks the relocated source package in the existing Windows workspace; it is not an independent clean-machine or full-baseline rebuild.
 
-The roots `kg_nr_free_receiving_ssq1`, `kg_nr_free_receiving_exact_graph` and
-`kg_source_free_s36_comparator_endpoint` provide the constructed free scalar
-receiver, exact generator, complete weak graph/domain and calibrated comparison.
-An arbitrary comparator still requires the complete finite scalar differential
-class and dispersion calibration. The actual reference dispersion is proved.
-Both branches connect to the same constructed KG standing source.
-
-Structural emergence denotes downstream derivation within the stated Kernel-governed constructions; no temporal genesis or unproved coarse-graining limit is asserted.
-
-Common Kernel governance and standing-source origin do not identify branch
-quotients or complete interiors. No unrestricted candidate exhaustion, general
-paper-level SSQ1 equivalence, all-potentials theorem, preferred projection,
-unique spacetime solution or interacting Einstein-scalar solution is claimed.
-Optional matter matching requires correct normalization and total stationarity.
-Lmetric licensing is neutral among faithful projections.
-
-## Inspect and verify
-
-`manifests/` records every accepted local source's exact SHA256, module name and
-direct imports. The accepted source bytes are unchanged. Run the read-only check:
+Run the public source and import checks without Lean or downloads:
 
 ```console
 python scripts/verify_export.py
+python scripts/replay_composition.py --check-only
 ```
 
-The exact 44-entry endpoint ledger and selected statements are in
-`evidence/endpoints/`. Only 42 entries are in the fresh dynamics root audit;
-the two optional declarations in `historical-source-only/` are historical
-source evidence and are outside both project entry points.
+[Reproduction instructions](REPRODUCIBILITY.md) describe the repository-relative replay path, the required separately supplied binaries/cache, and the precise executed checks. [Verification boundaries](TRUST.md) distinguish retained audits, packaging replay, source identity and a clean independent build. The original 44-entry dynamics endpoint ledger remains in `evidence/endpoints/`; its two optional historical declarations remain outside the original fresh 42-root audit and the new composition root.
 
-See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the source-build and retained
-replay distinctions, and [TRUST.md](TRUST.md) for the verification boundary.
-This source export adds import-only Lake entry points. They are packaging
-conveniences, not new audited mathematical roots. The retained audit precedes
-these Lake wrappers; a fresh Lake build of this export is not claimed here.
+## Citation and separate artifacts
 
-## Electronic formal artifact and citation
+Use [CITATION.cff](CITATION.cff) and the exact repository commit. The 2,794,959,803-byte private replay archive remains separate, with its original bindings in [ARTIFACTS.json](ARTIFACTS.json); it is neither uploaded here nor a portable runtime release of this composition. The manuscript is maintained separately. No new DOI or Zenodo release is asserted.
 
-The full Windows replay bundle is a separate artifact:
-`kernel-downstream-bounded-replay-private-20261018.zip` (2,794,959,803 bytes).
-Its archive SHA256 is
-`608d4913908dd1911c7778be989d6c36c0069def8508d462edecb4812552f76e`.
-The exact bindings are in [ARTIFACTS.json](ARTIFACTS.json). The archive includes
-runtime/library binaries, build/import records and the corrected replay driver;
-those large binary dependencies are not stored in this Git repository.
-
-This repository is the public source export, not a byte-identical replacement
-for the full replay archive. A Zenodo release and DOI are separate subsequent
-release steps. No DOI is asserted here. Use `CITATION.cff` and the exact commit
-when referring to this source snapshot. The capstone manuscript is maintained
-separately; it is not published by this source push.
-
-## License
-
-The repository uses the MIT license selected at creation. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md). External dependencies retain their own licenses.
+The repository retains its MIT [LICENSE](LICENSE) under Amos Jay Maley. [NOTICE.md](NOTICE.md) preserves the source/dependency notices; external dependencies retain their own licenses.

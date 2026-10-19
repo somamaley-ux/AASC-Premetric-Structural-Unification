@@ -1,0 +1,27 @@
+{
+  "module": "KGCommonLicensedEvolution",
+  "returncode": 0,
+  "source_sha256": "2fa8f01b908c99d4a45faf997f8fb1ed637c4c01dec57c301f2076614a6be062",
+  "object_sha256": "4d44c443ff3e172386854399fc62da23dce2f1a85899d08b0796cef82810f000",
+  "expected_object_sha256": "4d44c443ff3e172386854399fc62da23dce2f1a85899d08b0796cef82810f000",
+  "object_byte_identical": true,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "lint_warning_count": 0,
+  "error_diagnostics": false,
+  "seconds": 24.634,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\KGCommonLicensedEvolution.olean",
+    "KGCommonLicensedEvolution.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "KGCommonLicensedPreparation",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\KGCommonLicensedPreparation.olean",
+      "sha256": "cc06d7fb474c591cc97dfd723da618e6a0ab028d86cd283f9a14638bf0064ae8"
+    }
+  ]
+}

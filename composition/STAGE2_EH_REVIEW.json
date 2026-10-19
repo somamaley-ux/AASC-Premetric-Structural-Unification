@@ -1,0 +1,64 @@
+{
+  "outcome": "accepted_bounded_scope",
+  "scope": "Stage 2 EH adapter only: actual canonical current metric-use receiver to retained complete EH response and geometric action-source profile.",
+  "reviewed_at_utc": "2026-10-19T04:52:49.134251+00:00",
+  "audit_receipt_sha256": "e6af6b9712f5abed7a5aa2bc53570aecc264af518d7af608c44e3c24cd1e6230",
+  "input_sha256": {
+    "STAGE1_ACCEPTED.json": "434f7ae8f1465562139ca4bb1abd9eeaa0d42dbfc22b509f7f5b7499622bb284",
+    "STAGE1_REVIEW.json": "6f7128e0985e40a7cbe4458dfa11cefe7681804912906a4c75bfb7d3e637c5db",
+    "STAGE1_SPEC.md": "71e8f9fa2f3f3c87fdef5d1ca197ec0f99c27e143f45ec4c88e7829cc9d991fb",
+    "DEPENDENCIES.json": "b00c804be28f637ce6e8b6132e4122a3631daf7411be9700703253eb56ec2e53",
+    "compile_stage.py": "66d795b8d3ac967752821447bc2b845576b52353f641fa8c19972cf0841aed7f",
+    "src/KGLicensedEHReceiver.lean": "4d639893f6dad51323498b3f1e3c6dd48de94bfcf6f12be9bb957ba9d5404034",
+    "build/KGLicensedEHReceiver.olean": "ae95c6f6d2d01f26490a63359eb67936092fb677fadb69c01bd1b78df58e6dac",
+    "logs/KGLicensedEHReceiver.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "receipts/KGLicensedEHReceiver.json": "ced7b97a0412b3f7008e026b980ac35f7f58f1877bfa7664f7b62dec5765c4eb",
+    "src/KGLicensedEHFailure.lean": "3a975002981fe54ae3fbbbf542909abfc42aa6cc24d8dcf458264f62cf24404e",
+    "build/KGLicensedEHFailure.olean": "c04a98a9c8afffe9b5968289ddb00f917dd0e5d8eb92a0655dbcbf704a271921",
+    "logs/KGLicensedEHFailure.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "receipts/KGLicensedEHFailure.json": "7ebf89618e5cb97c466832553efcc01e8569027c7d0126bc9d5762522f98248f",
+    "src/Stage2EHAudit.lean": "5ec456b46449a78616aec0698e5309fb5fcedecb73eae96cdda3b734f1f05836",
+    "build/Stage2EHAudit.olean": "656e19d58277b066db81a58d845ea201283bc5ca08138c0c1bba3b2388bb670a",
+    "logs/Stage2EHAudit.log": "ae5731bb722ce0149fd7875f60d891044dd6ce185efe7306db619b1600e037e1",
+    "receipts/Stage2EHAudit.json": "e6af6b9712f5abed7a5aa2bc53570aecc264af518d7af608c44e3c24cd1e6230"
+  },
+  "blockers": [],
+  "checked_evidence": {
+    "mathematical_modules": 2,
+    "explicit_named_theorems": 19,
+    "compiled_selected_declarations_including_private_generated": 27,
+    "independent_official_public_collectAxioms_reports": 26,
+    "public_reports_by_module": {
+      "KGLicensedEHReceiver": 24,
+      "KGLicensedEHFailure": 2
+    },
+    "axiom_union": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "source_root_coverage": "All 26 explicit theorem/definition/abbreviation roots occur exactly once in the official report set under their defining modules.",
+    "audit_policy": "Inspected Stage2EHAudit: selected declarations including private/generated are checked for forbidden axiom/opaque/unsafe and type/value sorry; official collectAxioms independently visits every selected non-private/non-internal root.",
+    "production_diagnostics": "Both mathematical logs empty; audit log consists only of the 26 official reports and exact declaration/report counts.",
+    "bindings": "Independently checked all three receipt source/frozen-source/object/log triplets, installed object/log copies, exact commands and direct import first-resolution paths and hashes; rechecked every Stage 1 seal member and its independent review hash.",
+    "dependencies": "Reused the independently checked Stage 1 DEPENDENCIES.json boundary and accepted cached baselines; did not repeat a full unchanged-corpus pass or compile anything.",
+    "review_execution": "Ordinary file/hash inspection only; no compiler, audit, replay or supplied helper execution."
+  },
+  "substantive_findings": [
+    "LicensedMetricReceiver is the actual CanonicalLicensingReceiver of the accepted concrete task. Its complete observation retains the original raw history; licensedHistory is recovered from that retained act rather than chosen by an unproved representative or desired EH agreement.",
+    "Every raw history has an actual canonical presentation; every receiver has such a presentation. Surjectivity onto the independently existing RestrictedOriginalResponse and RestrictedEHKernelProfile is proved through original quotient representatives and the retained raw-profile coverage theorem.",
+    "The metric, finite EH action, directional derivative, every original Option answer, every current failure and first recorded failure agree with the original computed source/readout. The source half-pairing uses the actual derivative and the accepted one-half convention.",
+    "The all-test source representation uses the same metric obtained from the full receiver and the action-derived originalEHGeometricResponse at that metric. No independent geometric response, matching identity or field equation is supplied.",
+    "Continuation is actual original append on the retained history. The complete response and context-indexed readout continuation squares are proved; no unchanged-current-metric or source-profile continuation claim is smuggled in.",
+    "licensed_rejected_metric_request_stays_failed explicitly preserves originalMetricRejection for every operand outside the old neighborhood. The broader analytic EH domain does not override this original guard."
+  ],
+  "limitations": [
+    "This acceptance concerns the EH receiver adapter. It does not yet accept a scalar licensing task, common-source map or final connected endpoint.",
+    "The canonical receiver retains more information than the coarse EH source-profile quotient. Metric, original answers, failure histories and continuation are not claimed to descend through that coarse quotient or to be recoverable from the geometric source alone.",
+    "The represented source is the geometric EH action first-variation distribution, not CSP-C matter T. No total-action matter matching, background interaction or coupled field solution is established by these adapters.",
+    "Coverage is exactly the retained restricted prepared-history response/profile family. It is not every abstract original candidate, full R2/gravity role, burden, boundary, AER process or complete original standing correspondence.",
+    "The canonical licensing-to-response maps preserve a fixed, already constructed EH branch. They do not select the EH action or its constants from bare Kernel premises, and they introduce no new metric minimum or unique spacetime-solution claim.",
+    "Cached dependencies are reused. No fresh dependency source-to-binary rebuild, public release or whole-project completion is accepted."
+  ],
+  "endpoint_gates_closed": []
+}

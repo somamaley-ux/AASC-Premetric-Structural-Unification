@@ -1,0 +1,29 @@
+{
+  "module": "KGLicensedEHFailure",
+  "source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\src\\KGLicensedEHFailure.lean",
+  "source_sha256": "3a975002981fe54ae3fbbbf542909abfc42aa6cc24d8dcf458264f62cf24404e",
+  "frozen_source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\KGLicensedEHFailure\\002\\KGLicensedEHFailure.lean",
+  "object": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\KGLicensedEHFailure\\002\\KGLicensedEHFailure.olean",
+  "object_sha256": "c04a98a9c8afffe9b5968289ddb00f917dd0e5d8eb92a0655dbcbf704a271921",
+  "log": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\KGLicensedEHFailure\\002\\KGLicensedEHFailure.log",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "returncode": 0,
+  "seconds": 24.561,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\attempts\\KGLicensedEHFailure\\002\\KGLicensedEHFailure.olean",
+    "KGLicensedEHFailure.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "KGLicensedEHReceiver",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\build\\KGLicensedEHReceiver.olean",
+      "sha256": "ae95c6f6d2d01f26490a63359eb67936092fb677fadb69c01bd1b78df58e6dac"
+    }
+  ],
+  "dependency_objects_reused": true,
+  "prior_receipts_unchanged": true
+}

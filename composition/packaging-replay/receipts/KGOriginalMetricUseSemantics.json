@@ -1,0 +1,32 @@
+{
+  "module": "KGOriginalMetricUseSemantics",
+  "returncode": 0,
+  "source_sha256": "9fd9e3fcf8551972befacfc3627e04874d445ccef8d4bf7b1bc83aeea3fee291",
+  "object_sha256": "dd68367bd90b3cbd2ff584277da77674ab9eb1f01bc8844308d3a1d1583b8f32",
+  "expected_object_sha256": "dd68367bd90b3cbd2ff584277da77674ab9eb1f01bc8844308d3a1d1583b8f32",
+  "object_byte_identical": true,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "lint_warning_count": 0,
+  "error_diagnostics": false,
+  "seconds": 21.98,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\KGOriginalMetricUseSemantics.olean",
+    "KGOriginalMetricUseSemantics.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "OriginalRestrictedEHSource",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\cache\\OriginalRestrictedEHSource.olean",
+      "sha256": "8d367fc729abfa2946026cea43d13e9df9e774f73bee2e7e99c5774dddaf2642"
+    },
+    {
+      "module": "MetricityOriginalUseAssembly",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\cache\\MetricityOriginalUseAssembly.olean",
+      "sha256": "75804e6d2bd61e55331ee4bbde42518c94c1ac3d98a347373f85fc50e0dcb764"
+    }
+  ]
+}

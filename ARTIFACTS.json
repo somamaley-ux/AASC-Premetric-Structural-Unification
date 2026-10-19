@@ -1,5 +1,5 @@
 {
-  "source_export_version": "2026.10.19",
+  "source_export_version": "2026.10.19-composed",
   "upstream_dynamics_delivery_date": "2026-10-18",
   "licensing_audit_date": "2026-10-15",
   "full_replay_archive": {
@@ -16,12 +16,43 @@
   "full_replay_archive_filename": "kernel-downstream-bounded-replay-private-20261018.zip",
   "archive_in_git": false,
   "zenodo_release_doi": null,
-  "fresh_export_lean_build": false,
   "retained_mathlib_pin": "8f9d9cff6bd728b17a24e163c9402775d9e6a365",
   "retained_lean_version": "4.28.0",
   "separate_closures": {
     "dynamics": 786,
     "licensing": 64,
     "shared_identical_source_modules": 11
+  },
+  "fresh_export_baseline_rebuild": false,
+  "composition": {
+    "root": "AASCKleinGordon.CanonicalLicensing.kernel_faithful_canonical_licensing_to_eh_and_free_schrodinger",
+    "baseline_distinct_modules": 839,
+    "production_modules": 10,
+    "audit_source_modules": 4,
+    "proved_conclusion_fields": 49,
+    "retained_compiled_declarations": 252,
+    "retained_public_axiom_reports": 230,
+    "sealed_handoff_sha256": "3b7b31e5255e0ecb14772864c9b172c4c522eab2318de37b958ed9fe185ad28f",
+    "retained_successor_replay": "composition/replay-001/REPLAY_RECEIPT.json",
+    "retained_successor_rebuilt_production": 10,
+    "retained_successor_rebuilt_audits": 1,
+    "retained_successor_reused_baseline_objects": 839,
+    "portable_self_contained_runtime_archive_in_git": false,
+    "exported_source_relocation_replay": {
+      "receipt": "composition/packaging-replay/REPLAY_RECEIPT.json",
+      "receipt_sha256": "5073182c51c029f863071b4ca792255f526097214c637005616c520ab2ff50e4",
+      "production_rebuilt": 10,
+      "audits_rebuilt": 4,
+      "baseline_objects_reused": 839,
+      "baseline_rebuilt": 0,
+      "compiled_declarations": 252,
+      "public_axiom_reports": 230,
+      "all_14_objects_byte_identical": true,
+      "errors": 0,
+      "lint_warnings": 16,
+      "compiler_and_library_binaries_reused": true,
+      "independent_clean_machine_build": false,
+      "full_local_839_mode_executed": false
+    }
   }
 }

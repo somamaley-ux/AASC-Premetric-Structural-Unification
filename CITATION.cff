@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "Please cite this source artifact and the exact repository revision used."
 type: software
-title: "AASC Premetric Structural Unification: Cross-Corpus Lean Formalization"
+title: "AASC Premetric Structural Unification: Einstein-Form and Free-Scalar Schrödinger Dynamics"
 authors:
   - family-names: Maley
     given-names: Amos Jay
-version: "2026.10.19"
+version: "2026.10.19-composed"
 date-released: "2026-10-19"
 repository-code: "https://github.com/somamaley-ux/AASC-Premetric-Structural-Unification"
 keywords:

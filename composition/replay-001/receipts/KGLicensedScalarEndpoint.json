@@ -1,0 +1,34 @@
+{
+  "module": "KGLicensedScalarEndpoint",
+  "returncode": 0,
+  "source_sha256": "c1fad67dbf8d0652ab16df5439be01fa9c3cf153826c85cb66cfe9383c3170da",
+  "object_sha256": "f2c20f3db3489a0838a12dd7f501e5adad98c4d9aa2de1c15cc73c5ce6949d42",
+  "expected_object_sha256": "f2c20f3db3489a0838a12dd7f501e5adad98c4d9aa2de1c15cc73c5ce6949d42",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "object_byte_identical": true,
+  "seconds": 21.578,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\replay-001\\build\\KGLicensedScalarEndpoint.olean",
+    "KGLicensedScalarEndpoint.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "KGLicensedScalarReceiver",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\replay-001\\build\\KGLicensedScalarReceiver.olean",
+      "sha256": "2b434ef09d9a5e71d5b8f75f642d4a752706d352bfcb80d15ecb4dafa4c8fd21"
+    },
+    {
+      "module": "KGS36FreeComparatorAssembly",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\physical-work\\connected-canonical-licensing-20261019\\cache\\KGS36FreeComparatorAssembly.olean",
+      "sha256": "af34d104080ef21dbaf538328656ee35455feb0ee4a25be7174dd54dfa91db77"
+    }
+  ],
+  "error_diagnostics": false,
+  "lint_warning_count": 0,
+  "expected_lint_warning_count": 0,
+  "warnings_match_expected": true
+}

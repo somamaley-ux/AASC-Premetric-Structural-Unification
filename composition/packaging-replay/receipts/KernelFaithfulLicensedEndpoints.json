@@ -1,0 +1,32 @@
+{
+  "module": "KernelFaithfulLicensedEndpoints",
+  "returncode": 0,
+  "source_sha256": "191f4e2cf9aee99667587feca217e1a0947faece14e4e1bfaeb42883f0146cd4",
+  "object_sha256": "668e8973baf7960052bc8b2d7ed0be49d558a1d7808f2963c4f2dd74a54ac02f",
+  "expected_object_sha256": "668e8973baf7960052bc8b2d7ed0be49d558a1d7808f2963c4f2dd74a54ac02f",
+  "object_byte_identical": true,
+  "log_sha256": "7430dc3ea45bbd1b19603ff79a08db3d3ce921e0a7c70831420db034736182af",
+  "lint_warning_count": 16,
+  "error_diagnostics": false,
+  "seconds": 24.901,
+  "command": [
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-15\\task\\kr1\\bundle\\vendor\\toolchain\\bin\\lean.exe",
+    "-j",
+    "2",
+    "-o",
+    "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\KernelFaithfulLicensedEndpoints.olean",
+    "KernelFaithfulLicensedEndpoints.lean"
+  ],
+  "direct_imports": [
+    {
+      "module": "KGCommonLicensedEvolution",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\KGCommonLicensedEvolution.olean",
+      "sha256": "4d44c443ff3e172386854399fc62da23dce2f1a85899d08b0796cef82810f000"
+    },
+    {
+      "module": "KGLicensedScalarEndpoint",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-19\\task-3\\composition-export-replay-001\\build\\KGLicensedScalarEndpoint.olean",
+      "sha256": "f2c20f3db3489a0838a12dd7f501e5adad98c4d9aa2de1c15cc73c5ce6949d42"
+    }
+  ]
+}
